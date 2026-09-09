@@ -23,6 +23,7 @@
     "test:economics-engine": "node --test tests/economics-engine.test.mjs",
     "test:enrichment-adapter": "node --test tests/vehicle-enrichment-adapter.test.mjs",
     "registry:assist": "node scripts/registry-assistant.mjs",
+    "registry:export": "node scripts/export-registry-public.mjs",
     "registry:bridge": "node scripts/registry-bridge.mjs",
     "prototype:contract": "node prototypes/offer-contract/tui.mjs",
     "prototype:cost": "node prototypes/cost-engine/tui.mjs",
