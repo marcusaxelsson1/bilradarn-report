@@ -1,0 +1,63 @@
+{
+  "offerId": "wayke:233784a2-1893-4b4a-9dfd-2a833f5d66b2",
+  "checkedAt": "2026-09-07T19:20:00.000Z",
+  "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/t-roc/T-Roc_modellbroschyr_aug2021.pdf",
+  "notes": "Officiell Volkswagen Sverige-broschyr verifierar modell/drivlina och WLTP-data. Annonsens registreringsnummer används inte för att anta registerdata; personlig försäkringspremie, serviceoffert, exakt däckdimension och reparationspris kräver VIN/servicebok/verkstadsoffert.",
+  "vehicle": {
+    "title": "Volkswagen T-Roc",
+    "variant": "1.5 TSI DSG, 150hk, 2021 7 växlar",
+    "modelYear": 2021,
+    "mileageMil": 8500,
+    "registrationNumber": "RGF86B",
+    "manufacturerFacts": {
+      "engine": { "value": "1.5 TSI 150 ACT, 4-cylindrar", "status": "verified", "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/t-roc/T-Roc_modellbroschyr_aug2021.pdf" },
+      "transmission": { "value": "7-växlad DSG", "status": "verified", "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/t-roc/T-Roc_modellbroschyr_aug2021.pdf" },
+      "co2WltpGKm": { "value": "142–144", "status": "verified", "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/t-roc/T-Roc_modellbroschyr_aug2021.pdf" },
+      "consumptionWltpL100Km": { "value": "6.2–6.3", "status": "verified", "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/t-roc/T-Roc_modellbroschyr_aug2021.pdf" }
+    }
+  },
+  "service": {
+    "interval": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "VW hänvisar serviceintervall till bilens digitala/instruktionsbok och VIN; ingen modellgenerell intervallsiffra verifierad här." },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Kräver aktuell servicehistorik och mätarställning." },
+    "operations": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Motor-/växellådsspecifik åtgärdslista kräver VIN." },
+    "priceAuthorized": { "amountSek": 15500, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "36-månaders schablon, inte en verifierad VW-offert; exakt pris saknas." },
+    "priceIndependent": { "amountSek": 11000, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "36-månaders schablon; ingen offert eller fast modellpris publicerat." },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Momsstatus kan endast verifieras på konkret offert." },
+    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Beror på serviceplan och servicehistorik." }
+  },
+  "insurance": {
+    "annualPremiumRange": { "amountSek": 9600, "status": "estimated", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Ingen generell premie kan verifieras; modellvärde 800 kr/mån för kalkyl, personlig offert krävs." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "If anger personbil tills bilen är 10 år." },
+    "machineDamageMaxMileage": { "value": "12 000 mil (halv/hel); 15 000 mil (Stor)", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "If anger att självrisken beror på ålder och körsträcka; belopp kräver valt försäkringspaket." },
+    "coveredComponents": { "value": ["motor", "motorns kylsystem", "bränslesystem", "styrväxel", "kraftöverföring", "säkerhetssystem"], "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tax": {
+    "annualTax": { "amountSek": 1174, "status": "estimated", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/", "note": "Annonsens 1 174 kr/år behålls som kalkylvärde. Transportstyrelsen kräver registrerat CO2-värde och första trafikdatum för exakt skatt; broschyrens 142–144 g/km är endast typdata." },
+    "calculationRule": { "value": "Grundbelopp och CO2-komponent; malus kan gälla första tre åren", "status": "verified", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/" }
+  },
+  "tyres": {
+    "dimension": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga-en-vw/tillbehor/dack-och-falg/vinterdack.html", "note": "VW anger att rätt dimension ska väljas via verkstad/VIN; broschyren fastställer inte bilens konkreta hjuluppsättning." },
+    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga-en-vw/tillbehor/dack-och-falg/vinterdack.html" },
+    "completeSetPrice": { "amountSek": 14500, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Schablon för komplett vinterhjulspaket; exakt pris kräver dimension, index och fälgval." },
+    "mountingPrice": { "amountSek": 1200, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Ingen fast offert verifierad." },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga-en-vw/tillbehor/dack-och-falg/vinterdack.html", "note": "Beror på däckmodell, ålder, mönsterdjup och körning." },
+    "valueAtMonth36": { "amountSek": 4000, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Försiktig restvärdesschablon, inte marknadspris." }
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Tillverkaren publicerar inte en lista över frekvensfel för just detta exemplar; oberoende felstatistik skulle inte vara primärkälla." },
+    "partsPrice": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Delpris kräver identifierad del och offert." },
+    "laborPriceAuthorized": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Timpris/reparation kräver konkret verkstadsoffert." },
+    "laborPriceIndependent": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Timpris/reparation kräver konkret verkstadsoffert." },
+    "threeYearReserve": { "amountSek": 17000, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Försiktig budgetreserv, inte förväntad eller verifierad reparationskostnad." }
+  },
+  "costs": {
+    "service": { "amountSek": 15500, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "36-månaders schablon; ingen offert." },
+    "insurance": { "amountSek": 28800, "status": "estimated", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "800 kr/mån schablon; personlig premie saknas." },
+    "tax": { "amountSek": 3522, "status": "estimated", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/", "note": "Annonsens årsskatt × 3; registerkontroll återstår." },
+    "winter": { "amountSek": 14500, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Komplett vinterhjulspaket, dimension ej verifierad." },
+    "tyres": { "amountSek": 4000, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Slitage-/bytesreserv, ej offert." },
+    "repair": { "amountSek": 17000, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Treårig reparationsreserv, inte säker utgift." }
+  }
+}

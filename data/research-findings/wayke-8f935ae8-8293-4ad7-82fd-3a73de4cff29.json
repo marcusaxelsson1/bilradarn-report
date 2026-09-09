@@ -1,0 +1,50 @@
+{
+  "offerId": "wayke:8f935ae8-8293-4ad7-82fd-3a73de4cff29",
+  "checkedAt": "2026-09-07T21:30:00+02:00",
+  "vehicle": {
+    "title": "Peugeot 3008",
+    "variant": "1.2 GT Leasebar Drag Kamera Döda-vinkel var",
+    "modelYear": 2023,
+    "mileageMil": 5995,
+    "registrationNumber": "NEM59A"
+  },
+  "notes": "Primärkällor verifierar att Peugeot 3008 med 1.2 PureTech 130 EAT8 har 225/55 R18 102 V i en officiell teknisk specifikation, samt att Peugeot Sverige erbjuder märkesservice/serviceavtal och fastpris på vissa åtgärder. Exakt servicehistorik, nästa servicetillfälle, offert för ordinarie service, försäkringspremie/självrisk, däckpris och aktuell fordonsskatt kan inte fastställas från annonsen eller de publika källorna. PureTech-villkor dokumenterar en möjlig oljeförbrukningsrelaterad åtgärd för vissa motorer producerade februari 2018–februari 2023; detta är inte VIN-verifierat för bilen.",
+  "service": {
+    "interval": { "value": "1 år eller 12 500 miles (ca 2 012 mil) för bensin-personbilar enligt Peugeots officiella serviceinformation; svensk variant/VIN bör bekräftas i MyPeugeot eller servicebok.", "status": "verified", "sourceUrl": "https://www.peugeot.co.uk/models/new-peugeot-3008/hybrid.html" },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/servicetjanster/service-och-underhall/instruktionsbocker.html", "note": "Kräver senast utförda service och aktuell serviceindikering." },
+    "operations": { "value": "Peugeot beskriver serviceavtal som underhåll enligt Peugeots föreskrifter med originaldelar och Peugeotutbildade tekniker; exakt åtgärdslista för denna bil är inte offentlig i källan.", "status": "partially_verified", "sourceUrl": "https://www.peugeot.se/servicetjanster/assistans-garanti/serviceavtal.html" },
+    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/servicetjanster/erbjudanden/fastpris.html", "note": "Sidan visar priser för särskilda paket/åtgärder, inte en verifierad ordinarie serviceoffert för denna bil." },
+    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/servicetjanster/erbjudanden/fastpris.html" },
+    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/servicetjanster/assistans-garanti/serviceavtal.html", "note": "Ingen variant- och VIN-verifierad 36-månaders storservice hittad." }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premie kräver individuell offert." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helf försäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Självrisk framgår av vald försäkring/offert och är inte fastställd." },
+    "coveredComponents": { "value": "If anger exempelvis motor, motorns kylsystem, bränslesystem, styrväxel, kraftöverföring, krockkuddesystem och vissa elektronikkomponenter; full omfattning styrs av villkor.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tyres": {
+    "dimension": { "value": "225/55 R18 102 V (officiell Peugeot 3008 1.2 PureTech 130 EAT8-specifikation; svensk GT-bil bör verifieras mot CoC/däckmärkning).", "status": "verified", "sourceUrl": "https://business.peugeot.co.uk/content/dam/peugeot/uk/b2b/buy/price---spec/pdfs/3008-suv-price-spec-guide.pdf" },
+    "loadIndex": { "value": "102", "status": "verified", "sourceUrl": "https://business.peugeot.co.uk/content/dam/peugeot/uk/b2b/buy/price---spec/pdfs/3008-suv-price-spec-guide.pdf" },
+    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen verifierad offert för exakt dimension och komplett set." },
+    "mountingPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/" },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Kräver fysisk mätning av däcken." },
+    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen prognos utan inköpspris, mönsterdjup och körprofil." }
+  },
+  "repairs": {
+    "commonFailures": { "value": "Peugeots PureTech-villkor beskriver oljeförbrukning kopplad till oljeseparator på vissa 1.2 PureTech turbomotorer (Euro 6.2 och senare), för motorer producerade februari 2018–februari 2023. Applicering på aktuell bil kräver VIN/produktionsdatum.", "status": "partially_verified", "sourceUrl": "https://www.peugeot.co.uk/content/dam/peugeot/uk/b2c/owners/customer-care/2025-02-11_PureTech-Terms-and-Conditions_UK_Aug-2025.pdf" },
+    "partsPrice": { "value": null, "status": "unknown" },
+    "laborPriceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/servicetjanster/erbjudanden/fastpris.html" },
+    "laborPriceIndependent": { "value": null, "status": "unknown" },
+    "threeYearReserve": { "value": null, "status": "estimated", "note": "Kräver separat riskmodell; inget exakt belopp anges." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://fordon-fu-regnr.transportstyrelsen.se/",
+    "note": "Transportstyrelsens e-tjänst visar skatteuppgifter efter registreringsnummer; beloppet kunde inte verifieras i publik sökträff utan interaktiv fordonsuppgift."
+  }
+}

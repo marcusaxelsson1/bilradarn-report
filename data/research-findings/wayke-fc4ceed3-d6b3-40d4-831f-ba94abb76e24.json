@@ -1,0 +1,50 @@
+{
+  "offerId": "wayke:fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
+  "checkedAt": "2026-09-07T21:02:00+02:00",
+  "vehicle": {
+    "title": "Nissan Qashqai",
+    "variant": "1.3 Tekna2 360° Navi 0.56l/mil Kamera Skinn",
+    "modelYear": 2021,
+    "mileageMil": 8606,
+    "registrationNumber": "BBT03N"
+  },
+  "notes": "Primärkällor verifierar att Qashqai 1.3 DIG-T 160 DCT fanns i Tekna-utförande och att Tekna hade 19-tumshjul. Exakt svensk servicehistorik, däckbelastningsindex, priser, premie, självrisk och fordonsskatt kan inte fastställas utan servicebok, offert eller Transportstyrelsens fordonsuppgift. Inga exakta prisbelopp har uppskattats.",
+  "service": {
+    "interval": { "value": "12 månader eller 30 000 km för Nissan Qashqai 1.3 DIG-T 140/158, det som inträffar först (officiell Nissan-serviceplan). Applicering på denna 2021-bil bör bekräftas med VIN/servicebok.", "status": "verified", "sourceUrl": "https://www.nissan.rs/vlasnistvo/nissan-usluge/ugovor-o-odrzavanju.html" },
+    "nextDue": { "value": "Inte fastställbart från annonsens modellår och mätarställning; kräver datum och miltal för senast utförda service.", "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html" },
+    "operations": { "value": "Nissan anger att exakt serviceplan och åtgärdsinnehåll varierar med modell, ålder och körsträcka; variantens utförda åtgärder saknar verifierad servicebok.", "status": "partially_verified", "sourceUrl": "https://www.nissan.rs/vlasnistvo/nissan-usluge/ugovor-o-odrzavanju.html" },
+    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html" },
+    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html" },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html" },
+    "largeServiceAfter36Months": { "value": "Ingen offentlig, variant- och svenskprisverifierad 36-månaders storserviceoffert hittad.", "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html" }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premie är individuell och kräver offert." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helf försäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "coveredComponents": { "value": "Exempel enligt If: motor, motorns kylsystem, bränslesystem, kraftöverföring, styrväxel, krockkuddesystem och vissa elektronikkomponenter; full omfattning styrs av villkor.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tyres": {
+    "dimension": { "value": "19-tumshjul på Qashqai Tekna; exakt däckdimension för aktuell svensk Tekna2-annons kan inte säkert fastställas från primärkällan.", "status": "partially_verified", "sourceUrl": "https://www.nissan.co.uk/content/dam/Nissan/gb/brochures/corporatesales/NMGB10385%20%E2%80%93%20Fleet%20Range%20Guide%20P4%20Artwork%20Corporate%2011.pdf" },
+    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://www.nissan.co.uk/tyre-label.html" },
+    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/" },
+    "mountingPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/" },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.nissan.co.uk/tyre-label.html", "note": "Kräver fysisk mätning av däcken." },
+    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen prognos utan inköpspris, mönsterdjup och körprofil." }
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "note": "Ingen variantunik primärkälla med felfrekvenser hittad." },
+    "partsPrice": { "value": null, "status": "unknown" },
+    "laborPriceAuthorized": { "value": null, "status": "unknown" },
+    "laborPriceIndependent": { "value": null, "status": "unknown" },
+    "threeYearReserve": { "value": null, "status": "estimated", "note": "Kräver separat riskmodell; inget exakt belopp anges." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordons-agaruppgift/sok-fordons-och-agaruppgifter/",
+    "note": "Transportstyrelsen anger att aktuell skatt hämtas via fordonsuppgiftssökning med registreringsnummer; beloppet kunde inte verifieras i den publika källan."
+  }
+}

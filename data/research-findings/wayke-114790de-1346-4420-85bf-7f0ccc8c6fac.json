@@ -1,0 +1,59 @@
+{
+  "offerId": "wayke:114790de-1346-4420-85bf-7f0ccc8c6fac",
+  "checkedAt": "2026-09-07T21:30:00+02:00",
+  "vehicle": {
+    "title": "Peugeot 3008",
+    "variant": "1.2 PT 130hk GT | El-baklucka | Drag | Vhjul | Nyservad",
+    "modelYear": 2023,
+    "mileageMil": 2790,
+    "registrationNumber": "RAN67M"
+  },
+  "sourceUrl": "https://www.wayke.se/objekt/114790de-1346-4420-85bf-7f0ccc8c6fac",
+  "notes": "Primärkällor verifierar 1.2 PureTech 130 EAT8 och tillgängliga 3008-däckdimensioner, men inte just detta exemplars servicebok, förstaregistreringsdatum, CO2-värde, däckvariant/skick eller verkstads-/försäkringsoffert. Inga exakta priser har hittats eller påståtts.",
+  "service": {
+    "interval": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Peugeots svenska servicesida kräver modell/VIN eller servicebok för bilspecifikt intervall; inget exemplarsspecifikt intervall kunde verifieras." },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Kräver datum och miltal från senaste service eller VIN-uppslag." },
+    "operations": { "value": "Motorolja/oljefilter och kontrollpunkter enligt bilens Peugeot-serviceplan", "status": "estimated", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Exakta åtgärder för aktuell ålder/miltal måste bekräftas i servicebok/VIN-plan." },
+    "priceAuthorized": { "value": null, "status": "estimated", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Ingen offentlig svensk fast prislista för just denna variant; verkstadsoffert krävs." },
+    "priceIndependent": { "value": null, "status": "estimated", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Lokal oberoende verkstadsoffert krävs." },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
+    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Ingen variant- och VIN-verifierad storserviceplan eller pris publicerad." }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "estimated", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premie beror på förare, ort, omfattning och skadehistorik; personlig offert krävs." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil (halv-/helförsäkring); 15 000 mil (Stor bilförsäkring)", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Självrisk styrs av valt bolag, produkt, bilens ålder och miltal." },
+    "coveredComponents": { "value": "Exempel enligt If: motor, motorns kylsystem, bränslesystem, kraftöverföring, styrväxel, krockkuddesystem och vissa elektronikkomponenter; full omfattning styrs av villkoren.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": true
+  },
+  "tyres": {
+    "dimension": { "value": "225/55 R18 102V eller 205/55 R19 97V förekommer för 1.2 PureTech 130; GT-exemplarets faktiska dimension måste kontrolleras mot däcksida/CoC.", "status": "partially_verified", "sourceUrl": "https://www.peugeot.co.uk/content/dam/peugeot/uk/b2c/buy/price-and-spec-guides/pdfs/3008-suv-price-spec-guide.pdf" },
+    "loadIndex": { "value": "102 (18 tum) eller 97 (19 tum), beroende på hjulalternativ", "status": "partially_verified", "sourceUrl": "https://www.peugeot.co.uk/content/dam/peugeot/uk/b2c/buy/price-and-spec-guides/pdfs/3008-suv-price-spec-guide.pdf" },
+    "completeSetPrice": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Pris kräver verifierad dimension, fabrikat och belastningsindex." },
+    "mountingPrice": { "value": null, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Lokalt verkstadspris/offert krävs." },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/", "note": "Återstående livslängd kräver fysisk mätning och däckålder." },
+    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Beror på skick, körsträcka och marknad; ingen primär fast värdering." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
+    "note": "Exakt skatt kräver RAN67M:s registrerade CO2-värde och förstaregistreringsdatum. För bensinbil tagen i trafik 1 juni 2022 eller senare anger Transportstyrelsen 360 kr grundbelopp samt 107 kr/g över 75–125 g/km och 132 kr/g över 125 g/km; malus gäller i tre år."
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Ingen tillförlitlig, variantunik primärkälla med felfrekvenser hittad." },
+    "partsPrice": { "value": null, "status": "estimated", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Del och specifik reparation saknas; ingen exakt prisuppgift." },
+    "laborPriceAuthorized": { "value": null, "status": "estimated", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Auktoriserad verkstadsoffert krävs." },
+    "laborPriceIndependent": { "value": null, "status": "estimated", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Lokal oberoende verkstadsoffert krävs." },
+    "threeYearReserve": { "value": null, "status": "estimated", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Ingen exakt reserv kan styrkas utan historik, skick och offerter." }
+  },
+  "costs": {
+    "service": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad." },
+    "insurance": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Personlig premie krävs." },
+    "tax": { "amountSek": 0, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/", "note": "CO2- och registeruppgift saknas." },
+    "winter": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Dimension och offert saknas." },
+    "tyres": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Montering/slitage kan inte verifieras." },
+    "repair": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Ingen modellstatistik eller offert." }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "offerId": "wayke:60011c2f-3cc2-4af1-85b7-7814596ecd20",
+  "checkedAt": "2026-09-07T20:20:00.000Z",
+  "sourceUrl": "https://www.wayke.se/objekt/60011c2f-3cc2-4af1-85b7-7814596ecd20",
+  "notes": "CUPRA:s svenska modellbroschyr bekräftar Leon Sportstourer 1.5 TSI e-TSI 150 hk DSG-7 och däck 225/40 R18. CUPRA-manualen beskriver service via fast/flexibel indikator. Erbjudandets servicehistorik, registrerade CO2-värde, lastindex och aktuella offerter är inte offentligt verifierade.",
+  "costs": {
+    "service": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf", "note": "Tillverkaren beskriver serviceintervall/åtgärder men publicerar ingen modell- och verkstadsunik offert här."},
+    "insurance": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Premie och självrisk kräver personlig offert; inget exakt belopp antas."},
+    "tax": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/", "note": "Transportstyrelsen kräver registrerat CO2-värde för säker beräkning; RZR01A och CO2-värdet har inte verifierats i e-tjänsten."},
+    "winter": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Dimensionen är verifierad, men komplett vinterhjulspaket och aktuell offert saknas."},
+    "tyres": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Montering, slitage och värde efter 36 månader kräver däckens skick och aktuell offert."},
+    "repair": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier", "note": "Ingen auktoritativ modell- och bilspecifik felkostnad eller reservpris har publicerats."}
+  },
+  "service": {
+    "interval": {"value": "Fast oljeservice 5 000–15 000 km/1 år beroende på PR-nummer, eller flexibel service enligt bilens serviceindikator", "status": "verified", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf"},
+    "nextDue": {"value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf"},
+    "operations": {"value": "Olja/oljefilter och inspektion enligt serviceindikator; bromsvätska och tändstift vid tillämpligt intervall", "status": "verified", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf"},
+    "priceAuthorized": {"value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/"},
+    "priceIndependent": {"value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/"},
+    "priceIncludesVat": {"value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/"},
+    "largeServiceAfter36Months": {"value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf"}
+  },
+  "insurance": {
+    "annualPremiumRange": {"value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "machineDamageMaxAge": {"value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "machineDamageMaxMileage": {"value": "12 000 mil halv/hel; 15 000 mil Stor", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "deductible": {"value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "coveredComponents": {"value": ["motor", "elektronik", "bränslesystem", "styrväxel", "bromsservo"], "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "personalQuoteRequired": {"value": true, "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"}
+  },
+  "tyres": {
+    "dimension": {"value": "225/40 R18", "status": "verified", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/broschyr/CUPRA-Leon-modellbroschyr.pdf"},
+    "loadIndex": {"value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/broschyr/CUPRA-Leon-modellbroschyr.pdf"},
+    "completeSetPrice": {"value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/"},
+    "mountingPrice": {"value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/"},
+    "treadLife": {"value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/"},
+    "valueAtMonth36": {"value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/"}
+  },
+  "repairs": {
+    "commonFailures": {"value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier"},
+    "partsPrice": {"value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier"},
+    "laborPriceAuthorized": {"value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier"},
+    "laborPriceIndependent": {"value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier"},
+    "threeYearReserve": {"value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier"}
+  }
+}

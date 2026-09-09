@@ -1,0 +1,58 @@
+{
+  "offerId": "wayke:d73735d3-df42-46d4-80c7-6d521486baa1",
+  "checkedAt": "2026-09-07T19:05:00+02:00",
+  "sourceUrl": "https://www.wayke.se/objekt/d73735d3-df42-46d4-80c7-6d521486baa1",
+  "notes": "Första pending-erbjudandet i kön. Registreringsnummer ZGZ12W och mätarställning 4534 mil är hämtade ur kön; exakt servicehistorik, försäkringspremie, skatt och däckkonfiguration kräver kontroll mot bilens avtal/Transportstyrelsens fordonsregister.",
+  "vehicle": {
+    "title": "Škoda Octavia",
+    "variant": "1.0 TSI eTEC DSG 110 HK Style | Nav | Drag mm",
+    "registrationNumber": "ZGZ12W",
+    "modelYear": 2021,
+    "mileageMil": 4534
+  },
+  "service": {
+    "interval": { "value": "flexibel oljeservice 30 000 km eller 2 år (det som inträffar först); exakt intervall styrs av bilens manual/fordonsdata", "status": "verified", "sourceUrl": "https://www.skoda-auto.com/emobility/emobility-faq-electric-cars" },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.skoda-auto.com/services/ice-maintenance", "note": "Kräver servicehistorik eller avläsning i bilen/MyŠkoda." },
+    "operations": { "value": "tillverkarstyrd inspektion samt olje- och filterservice; exakt åtgärdslista beror på bilens serviceplan", "status": "verified", "sourceUrl": "https://www.skoda-auto.com/services/ice-maintenance" },
+    "priceAuthorized": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.skoda.se/service-och-din-bil", "note": "Ingen publik, fordons-/servicehistorikspecifik offert verifierad." },
+    "priceIndependent": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.skoda.se/service-och-din-bil", "note": "Ingen publik, fordons-/servicehistorikspecifik offert verifierad." },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.skoda.se/service-och-din-bil" },
+    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.skoda-auto.com/services/ice-maintenance", "note": "Beror på bilens individuella serviceplan och användning." }
+  },
+  "insurance": {
+    "annualPremiumRange": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Personlig premie kräver förare, ort, omfattning och skadehistorik." },
+    "machineDamageMaxAge": { "value": "10 år för halv-/helförsäkring; 10 år för Stor bilförsäkring enligt Ifs sida", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil (halv-/helförsäkring); 15 000 mil (Stor bilförsäkring)", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring", "note": "Självrisk varierar med produkt, bilens ålder och körsträcka." },
+    "coveredComponents": { "value": "maskin- och elektronikkomponenter enligt valt försäkringsvillkor", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+    "note": "Exakt skatt kräver registrerade CO2-värdet och första trafikdatum för ZGZ12W. För bensinbil av fordonsår 2018+ gäller grundbelopp och CO2-komponent; malus kan gälla de tre första åren.",
+    "calculationSourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/"
+  },
+  "tyres": {
+    "dimension": { "value": "205/60 R16 92V (specificerad för 1.0 TSI e-TEC i tekniska data; Style-bilens faktiska hjul kan avvika)", "status": "verified", "sourceUrl": "https://cdn.skoda-storyboard.com/2020/11/TD-OCTAVIA-en.pdf" },
+    "loadIndex": { "value": "92", "status": "verified", "sourceUrl": "https://cdn.skoda-storyboard.com/2020/11/TD-OCTAVIA-en.pdf" },
+    "completeSetPrice": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen exakt offert utan bekräftad dimension, fabrikat och säsong." },
+    "mountingPrice": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Verkstadspris varierar med anläggning och hjulstorlek." },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/Fordon/Fordonsregler/Dack/" },
+    "valueAtMonth36": { "amountSek": null, "status": "unknown", "note": "Kan inte värderas utan inköpspris, mönsterdjup och faktisk användning." }
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "note": "Ingen tillverkarspecifik felstatistik eller återkallelse som styrker en vanlig modell-/motorfailure identifierad i primärkällorna." },
+    "partsPrice": { "amountSek": null, "status": "unknown", "note": "Exakt del och variant saknas." },
+    "laborPriceAuthorized": { "amountSek": null, "status": "unknown", "note": "Ingen publik verkstadsoffert verifierad." },
+    "laborPriceIndependent": { "amountSek": null, "status": "unknown", "note": "Ingen publik verkstadsoffert verifierad." },
+    "threeYearReserve": { "amountSek": null, "status": "unknown", "note": "Ingen pålitlig primär pris-/felfrekvensdata; bör sättas först efter inspektion och servicehistorik." }
+  },
+  "costs": {
+    "service": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.skoda-auto.com/services/ice-maintenance", "note": "Serviceintervall verifierat, pris saknas." },
+    "insurance": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Maskinskadegränser verifierade; personlig premie saknas." },
+    "tax": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/", "note": "Registreringsdata/CO2 behövs för exakt belopp." },
+    "tyres": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Dimension 205/60 R16 92V verifierad på modellnivå; exakt pris saknas." }
+  }
+}

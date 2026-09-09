@@ -1,0 +1,50 @@
+{
+  "offerId": "wayke:a8afb359-cd68-4bb3-a577-3cb7541099db",
+  "checkedAt": "2026-09-07T21:00:26+02:00",
+  "vehicle": {
+    "title": "Škoda Octavia Kombi",
+    "variant": "Skoda 1.0 TSI e-TEC Style Värmare Dragkrok Carplay",
+    "modelYear": 2021,
+    "mileageMil": 8734,
+    "registrationNumber": "GWR58Y"
+  },
+  "notes": "Primärkällor verifierar Octavia 1.0 TSI e-TEC-drivlina, serviceprinciper och 205/60 R16 som Octavia IV-hjulalternativ. Annonsens servicehistorik, exakt däckmontering, individuell försäkringspremie/självrisk, verkstadspriser och exakt fordonsskatt kan inte verifieras utan servicebok/offert/fordonsregister. Inga exakta prisbelopp har uppfunnits.",
+  "service": {
+    "interval": { "value": "Motoroljeservice senast 15 000 km eller 12 månader (variabel indikator kan medge längre intervall); inspektion senast 30 000 km eller 24 månader.", "status": "verified", "sourceUrl": "https://www.skoda.dk/service/garanti-og-serviceintervaller" },
+    "nextDue": { "value": "Efter 87 340 km är nästa kilometermässiga tröskel normalt 90 000 km för oljeservice/inspektion, men faktiskt datum och typ styrs av bilens serviceindikator och servicebok.", "status": "estimated", "sourceUrl": "https://www.skoda.dk/service/garanti-og-serviceintervaller" },
+    "operations": { "value": "Inspektion omfattar enligt Škoda bl.a. systemdiagnos samt kontroller av chassi, stötdämpare, drivaxlar, bromsar, olja/oljefilter, luftfilter, tändstift och bromsvätska enligt respektive intervall; utförda åtgärder för detta exemplar är inte verifierade.", "status": "partially_verified", "sourceUrl": "https://www.skoda.at/service-und-zubehoer/service/reparatur-wartung/inspektionen" },
+    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.skoda.se/service-och-underhall" },
+    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.skoda.se/service-och-underhall" },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.skoda.se/service-och-underhall" },
+    "largeServiceAfter36Months": { "value": "Ingen separat 36-månaders storservice eller variantunik kostnad publicerad i de kontrollerade tillverkarkällorna.", "status": "unknown", "sourceUrl": "https://www.skoda.se/service-och-underhall" }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premie är individuell och kräver offert." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helforsäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Självrisk beror på bilens ålder, körsträcka och vald försäkring." },
+    "coveredComponents": { "value": "Exempel på täckta personbilskomponenter: motor och motorns kylsystem, bränslesystem, styrväxel, kraftöverföring, krockkuddesystem och färddator.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tyres": {
+    "dimension": { "value": "205/60 R16 (Octavia IV; kontrollera bilens registreringsbevis/etikett för Style-exemplaret)", "status": "verified", "sourceUrl": "https://catalog.skoda-auto.com/eu/de/leichtmetallrad-velorum-16-octavia-iv/p/5E3071496AA8Z8" },
+    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://catalog.skoda-auto.com/eu/de/leichtmetallrad-velorum-16-octavia-iv/p/5E3071496AA8Z8" },
+    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen variant- och datumverifierad offert." },
+    "mountingPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/" },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Kvarvarande livslängd kräver mätning av aktuella däck." },
+    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Kan inte beräknas utan däcktyp, inköpspris och slitageantagande." }
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "note": "Ingen primär tillverkarkälla med variantunika felfrekvenser hittad." },
+    "partsPrice": { "value": null, "status": "unknown" },
+    "laborPriceAuthorized": { "value": null, "status": "unknown" },
+    "laborPriceIndependent": { "value": null, "status": "unknown" },
+    "threeYearReserve": { "value": null, "status": "estimated", "note": "Kräver separat, explicit risk- och kostnadsantagande; inget exakt belopp anges." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+    "note": "Transportstyrelsen anger att exakt skatt hämtas via Fordonsuppgifter med registreringsnummer; skatten beräknas för personbilar efter CO2 vid blandad körning och malus kan gälla de första tre åren."
+  }
+}

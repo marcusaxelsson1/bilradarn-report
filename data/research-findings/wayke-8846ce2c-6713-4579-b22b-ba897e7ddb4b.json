@@ -1,0 +1,167 @@
+{
+  "offerId": "wayke:8846ce2c-6713-4579-b22b-ba897e7ddb4b",
+  "checkedAt": "2026-09-07T21:25:00+02:00",
+  "sourceUrl": "https://www.wayke.se/objekt/8846ce2c-6713-4579-b22b-ba897e7ddb4b",
+  "vehicle": {
+    "title": "Nissan Qashqai",
+    "variant": "1.3 DIG-T DCT /360 Kamera /",
+    "modelYear": 2021,
+    "mileageMil": 8800,
+    "registrationNumber": "CGH45E"
+  },
+  "notes": "Nissans J12-underhållstabell och svenska specifikationsdata verifierar modellens serviceintervall och referensdimension. Annonsens faktiska servicehistorik, första trafikdatum, registrerade CO2-värde, däckindex/skick och individuella verkstads- och försäkringspriser kräver servicebok, fordonsregister eller offert. Inga exakta priser har hittats eller uppfunnits.",
+  "service": {
+    "interval": {
+      "value": "15 000 km eller 12 månader, det som inträffar först (Nissan Qashqai J12 1.3L)",
+      "status": "verified",
+      "sourceUrl": "https://www.nissan.co.za/content/dam/Nissan/za/Maintenance/New-Qashqai-Maintenance-Schedule.pdf"
+    },
+    "nextDue": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.nissan.co.za/content/dam/Nissan/za/Maintenance/New-Qashqai-Maintenance-Schedule.pdf",
+      "note": "Kan inte fastställas från modellår och mätarställning; kräver senaste service, första trafikdatum och bilens serviceindikering."
+    },
+    "operations": {
+      "value": "Återkommande inspektioner och byten enligt tabellen, bland annat motorolja/oljefilter samt kontroller av bromsar, hjulupphängning, styrning, avgassystem och filter enligt respektive intervall.",
+      "status": "partially_verified",
+      "sourceUrl": "https://www.nissan.co.za/content/dam/Nissan/za/Maintenance/New-Qashqai-Maintenance-Schedule.pdf"
+    },
+    "priceAuthorized": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.nissan.se/aga/service.html",
+      "note": "Ingen fordons- och åtgärdsspecifik svensk offert publicerad."
+    },
+    "priceIndependent": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.nissan.se/aga/service.html",
+      "note": "Lokal verkstadsoffert krävs."
+    },
+    "priceIncludesVat": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.nissan.se/aga/service.html"
+    },
+    "largeServiceAfter36Months": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.nissan.se/aga/service.html",
+      "note": "Ingen separat storservice eller 36-månaderskostnad kan verifieras utan bilens individuella serviceplan."
+    }
+  },
+  "insurance": {
+    "annualPremiumRange": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
+      "note": "Premien är individuell och kräver personlig offert."
+    },
+    "machineDamageMaxAge": {
+      "value": "10 år",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "machineDamageMaxMileage": {
+      "value": "12 000 mil för halv-/helförsäkring; 15 000 mil för Stor bilförsäkring",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "deductible": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
+      "note": "Självrisk varierar med försäkringsprodukt, bilens ålder/miltal och avtalsvillkor."
+    },
+    "coveredComponents": {
+      "value": "If anger bland annat motor, kylsystem, bränslesystem, kraftöverföring, styrväxel och utvalda elektronik-/säkerhetssystem; full omfattning styrs av villkoren.",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "personalQuoteRequired": {
+      "value": true,
+      "status": "verified",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+    }
+  },
+  "tyres": {
+    "dimension": {
+      "value": "215/65 R17 (Qashqai standardreferens; faktisk dimension för CGH45E måste bekräftas)",
+      "status": "partially_verified",
+      "sourceUrl": "https://www.nissan.se/fordon/fordon-utbud/qashqai/priser-specifikationer.html"
+    },
+    "loadIndex": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.nissan.se/fordon/fordon-utbud/qashqai/priser-specifikationer.html",
+      "note": "Belastningsindex framgår inte entydigt för annonsens exemplar; kontrollera CoC, registreringsbevis eller däcksida."
+    },
+    "completeSetPrice": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Ingen dimensions- och datumverifierad offert."
+    },
+    "mountingPrice": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/",
+      "note": "Lokalt verkstadspris krävs."
+    },
+    "treadLife": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/",
+      "note": "Mönsterdjup, ålder och skick måste mätas på de faktiska däcken."
+    },
+    "valueAtMonth36": {
+      "amountSek": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Kan inte prognostiseras utan faktiskt inköpspris, fabrikat, ålder och slitage."
+    }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
+    "note": "Transportstyrelsen kräver registrerat CO2-värde och första trafikdatum för säker beräkning. För bensinbilar är grundbeloppet 360 kr och malus kan gälla i tre år, men CGH45E:s registervärden har inte verifierats här."
+  },
+  "repairs": {
+    "commonFailures": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.nissan.se/aga/service.html",
+      "note": "Ingen primär Nissan-källa med variantunik felfrekvens identifierad."
+    },
+    "partsPrice": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.nissan.se/aga/service.html",
+      "note": "Kräver identifierad komponent och offert."
+    },
+    "laborPriceAuthorized": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.nissan.se/aga/service.html"
+    },
+    "laborPriceIndependent": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/"
+    },
+    "threeYearReserve": {
+      "amountSek": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.nissan.se/aga/service.html",
+      "note": "Ingen exakt reserv kan styrkas utan dokumenterade felrisker, skick och offerter."
+    }
+  },
+  "costs": {
+    "service": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Intervall verifierat; pris saknas." },
+    "insurance": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Villkorsgränser verifierade; personlig premie saknas." },
+    "tax": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/", "note": "Registeruppgift/CO2 behövs." },
+    "tyres": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Referensdimension finns; offert saknas." }
+  }
+}

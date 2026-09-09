@@ -1,0 +1,161 @@
+{
+  "offerId": "wayke:35121016-1fae-49fc-82f2-6594356855bd",
+  "checkedAt": "2026-09-07T21:10:00+02:00",
+  "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
+  "vehicle": {
+    "title": "Peugeot 3008",
+    "variant": "GT 130 hk *V-HJUL/Backkamera/Navi*",
+    "modelYear": 2023,
+    "mileageMil": 4816,
+    "registrationNumber": "ZTD16B"
+  },
+  "notes": "Peugeots officiella handbook/servicebox beskriver underhållsindikatorn men ger inte en offentlig, fordonsunik nästa service utan första trafikdatum, VIN och servicehistorik. Exakt skatt kräver Transportstyrelsens fordonsuppslag. Annonsen och de kontrollerade källorna ger inte verifierad faktisk däckdimension, mönsterdjup eller verkstadspris; inga exakta prisbelopp har uppfunnits.",
+  "service": {
+    "interval": {
+      "value": "Följ bilens serviceindikator och Maintenance and Warranty Guide; exakt intervall för denna 1.2 PureTech 130/EAT8-konfiguration är inte offentligt verifierbart utan VIN/marknadsspecifik serviceplan.",
+      "status": "partially_verified",
+      "sourceUrl": "https://public.servicebox.peugeot.com/APddb/modeles/3008.p6/eGuide_p64_ed01-24_dag/pdfs/9999_9999_527_en-GB.pdf"
+    },
+    "nextDue": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://public.servicebox.peugeot.com/APddb/modeles/3008.p6/eGuide_p64_ed01-24_dag/pdfs/9999_9999_527_en-GB.pdf",
+      "note": "Kräver bilens serviceindikering, första trafikdatum och dokumenterad servicehistorik."
+    },
+    "operations": {
+      "value": "Serviceåtgärder ska följa serviceindikatorn och Maintenance and Warranty Guide; instruktionsboken hänvisar arbete till Peugeot-återförsäljare eller kvalificerad verkstad.",
+      "status": "partially_verified",
+      "sourceUrl": "https://public.servicebox.peugeot.com/APddb/modeles/3008.p6/eGuide_p64_ed01-24_dag/pdfs/9999_9999_527_en-GB.pdf"
+    },
+    "priceAuthorized": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html",
+      "note": "Peugeot publicerar ingen fordonsunik offert på den kontrollerade sidan; kräver lokal offert."
+    },
+    "priceIndependent": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/",
+      "note": "Kräver vald verkstad och aktuell offert."
+    },
+    "priceIncludesVat": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"
+    },
+    "largeServiceAfter36Months": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html",
+      "note": "Ingen separat 36-månaderskostnad kan verifieras utan serviceplan, bilens datum och offert."
+    }
+  },
+  "insurance": {
+    "annualPremiumRange": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
+      "note": "Premien är individuell och kräver personlig offert (bland annat förare, ort, körsträcka och omfattning)."
+    },
+    "machineDamageMaxAge": {
+      "value": "10 år",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "machineDamageMaxMileage": {
+      "value": "12 000 mil för halv-/helforsäkring; 15 000 mil för Stor bilförsäkring",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "deductible": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
+      "note": "Självrisk beror på försäkringsomfattning, bilens ålder och körsträcka; exakt belopp kräver offert/villkor."
+    },
+    "coveredComponents": {
+      "value": "If anger bland annat motor, motorns kylsystem, bränslesystem, styrväxel, kraftöverföring, krockkuddesystem och farthållare/färddator som komponenter i maskin- och elektronikskyddet.",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "personalQuoteRequired": {
+      "value": true,
+      "status": "verified",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+    }
+  },
+  "tyres": {
+    "dimension": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://public.servicebox.peugeot.com/APddb/modeles/3008.p6/eGuide_p64_ed01-24_dag/pdfs/9999_9999_527_en-GB.pdf",
+      "note": "Handbooken är modell-/utrustningsberoende; faktisk dimension måste verifieras mot registreringsbevis, VIN eller däcksida."
+    },
+    "loadIndex": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Kan inte fastställas utan verifierad dimension och bilens godkända axeldata."
+    },
+    "completeSetPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Ingen fordons- och dimensionsverifierad prisoffert sparad."
+    },
+    "mountingPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/",
+      "note": "Kräver vald verkstad och aktuell offert."
+    },
+    "treadLife": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordons-agaruppgift/sok-fordons-och-agaruppgifter/",
+      "note": "Kvarvarande mönsterdjup kräver fysisk mätning; Transportstyrelsens register ersätter inte sådan kontroll."
+    },
+    "valueAtMonth36": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Kan inte värderas utan inköpspris, ålder, dimension och framtida slitage."
+    }
+  },
+  "repairs": {
+    "commonFailures": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://public.servicebox.peugeot.com/APddb/modeles/3008.p6/eGuide_p64_ed01-24_dag/pdfs/9999_9999_527_en-GB.pdf",
+      "note": "Ingen primär Peugeot-källa med variantunika felfrekvenser identifierad."
+    },
+    "partsPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html",
+      "note": "Kräver identifierad komponent och offert."
+    },
+    "laborPriceAuthorized": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"
+    },
+    "laborPriceIndependent": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/"
+    },
+    "threeYearReserve": {
+      "value": null,
+      "status": "estimated",
+      "note": "Ingen exakt reserv anges utan dokumenterade felrisker, skick, servicehistorik och offerter."
+    }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+    "note": "Transportstyrelsen anger att exakt skatt hämtas via Fordonsuppgifter och beror på registrerat CO2-värde; inget registerresultat är tillgängligt i denna kontroll."
+  }
+}

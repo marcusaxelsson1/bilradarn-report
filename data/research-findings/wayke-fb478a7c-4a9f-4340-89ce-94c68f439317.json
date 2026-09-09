@@ -1,0 +1,50 @@
+{
+  "offerId": "wayke:fb478a7c-4a9f-4340-89ce-94c68f439317",
+  "checkedAt": "2026-09-07T21:18:00+02:00",
+  "vehicle": {
+    "title": "Peugeot 3008",
+    "variant": "1.2 PureTech 130/ EAT/Allure /",
+    "modelYear": 2021,
+    "mileageMil": 9200,
+    "registrationNumber": "JMB39N"
+  },
+  "notes": "Officiella Peugeot/Stellantis-källor bekräftar 3008 1.2 PureTech-motorprogram, att serviceintervall/pris måste fastställas med VIN eller återförsäljare, samt en särskild policy för tidigare PureTech 1.2-motorer med överdriven oljeförbrukning och förtida kamremsnedbrytning. Svensk skatt, premie, exakt däckbelastningsindex och offertpriser kan inte verifieras från annonsen.",
+  "service": {
+    "interval": { "value": "15 000 km eller 12 månader (det som inträffar först) är officiellt angivet av Peugeot Australia för 3008 MY24 1.2 Turbo; 2021-bilens svenska VIN-plan bör bekräftas separat.", "status": "partially_verified", "sourceUrl": "https://service.peugeot.com.au/peugeotau/cps/peugeot/20170728v1.jsp?isVinLookup=true" },
+    "nextDue": { "value": "Kan inte fastställas utan datum och mätarställning för senast utförda service samt VIN/servicebok.", "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
+    "operations": { "value": "Peugeot beskriver standardiserade serviceoperationer men kräver modell/VIN för exakt plan. För 1.2 PureTech bör olja/filter och motorrelaterade kontroller följas enligt VIN-plan; ingen svensk servicebok finns i underlaget.", "status": "partially_verified", "sourceUrl": "https://service.peugeot.com.au/peugeotau/cps/peugeot/20170728v1.jsp?isVinLookup=true" },
+    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://service.peugeot.com.au/peugeotau/cps/peugeot/20170728v1.jsp?isVinLookup=true", "note": "Peugeot anger att pris hämtas via VIN/återförsäljare; ingen svensk offert." },
+    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
+    "largeServiceAfter36Months": { "value": "Ingen variant- och svenskprisverifierad 36-månaders storserviceoffert. Peugeot uppger att standardprisprogrammet gäller definierade serviceintervall och att tilläggsarbeten kan tillkomma.", "status": "unknown", "sourceUrl": "https://service.peugeot.com.au/peugeotau/cps/peugeot/20170728v1.jsp?isVinLookup=true" }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Individuell premie kräver offert." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helf försäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "If anger att självrisken beror på bilens ålder och körsträcka och måste hämtas från aktuell försäkring." },
+    "coveredComponents": { "value": "Exempel för personbil: motor och motorns kylsystem, bränslesystem, styrväxel, kraftöverföring, krockkuddesystem samt vissa elektronikkomponenter; full omfattning styrs av försäkringsvillkoren.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tyres": {
+    "dimension": { "value": "225/55 R18 102 V anges av Peugeot för 3008 med 18-tumshjul; aktuell Allure-bils exakta hjulvariant bör verifieras mot VIN/registreringsuppgift.", "status": "partially_verified", "sourceUrl": "https://www.peugeot.co.uk/content/dam/peugeot/uk/b2c/buy/price-and-spec-guides/pdfs/3008-suv-price-spec-guide.pdf" },
+    "loadIndex": { "value": "102 (från den officiella 225/55 R18 102 V-specifikationen ovan)", "status": "partially_verified", "sourceUrl": "https://www.peugeot.co.uk/content/dam/peugeot/uk/b2c/buy/price-and-spec-guides/pdfs/3008-suv-price-spec-guide.pdf" },
+    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Pris varierar med fabrikat, säsong och lager; ingen exakt offert fastställd." },
+    "mountingPrice": { "value": "Från 249 kr för däckbyte enligt Mekonomen; regnummerbokning krävs för bilspecifikt pris.", "status": "verified", "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte" },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte", "note": "Kräver fysisk mönsterdjupsmätning och körprofil." },
+    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen prognos utan inköpspris, mönsterdjup och körprofil." }
+  },
+  "repairs": {
+    "commonFailures": { "value": "Stellantis identifierar för tidigare generationer av PureTech 1.0/1.2-motorer överdriven oljeförbrukning och förtida nedbrytning av kamrem som reparationsorsaker; detta är en tillverkarspecificerad riskfråga, inte en frekvensprognos för just bilen.", "status": "verified", "sourceUrl": "https://www.stellantis.com/en/contacts/puretech-compensation-platform" },
+    "partsPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.stellantis.com/en/contacts/puretech-compensation-platform" },
+    "laborPriceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
+    "laborPriceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/" },
+    "threeYearReserve": { "value": null, "status": "estimated", "note": "Kräver separat riskmodell; inget exakt belopp anges." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://fordon-fu-regnr.transportstyrelsen.se/",
+    "note": "Transportstyrelsens e-tjänst visar skatteuppgifter efter registreringsnummer, men beloppet kunde inte hämtas i denna källkontroll."
+  }
+}

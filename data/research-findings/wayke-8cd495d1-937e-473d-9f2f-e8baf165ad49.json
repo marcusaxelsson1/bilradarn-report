@@ -1,0 +1,51 @@
+{
+  "offerId": "wayke:8cd495d1-937e-473d-9f2f-e8baf165ad49",
+  "checkedAt": "2026-09-07T20:45:00+02:00",
+  "sourceUrl": "https://www.wayke.se/objekt/8cd495d1-937e-473d-9f2f-e8baf165ad49",
+  "vehicle": {
+    "title": "Kia Ceed Sportswagon",
+    "variant": "SW 1.5 160hk GT-Line Kamera Rattvärme CarPlay",
+    "modelYear": 2022,
+    "mileageMil": 6760,
+    "registrationNumber": "LND91H"
+  },
+  "notes": "Kias officiella källor verifierar Ceed/Ceed SW bensinserviceintervall och GT-Line 17-tums däckdimension. Personlig försäkringspremie, nästa servicedatum, belastningsindex, däckens skick/pris, exakt skatt och verkstads-/reservdelspriser kräver servicebok, fordonsregister eller offert. Inga exakta prisbelopp har uppfunnits.",
+  "service": {
+    "interval": { "value": "1 500 mil eller 12 månader, det som inträffar först", "status": "verified", "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/" },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/", "note": "Första trafikdatum och servicehistorik saknas." },
+    "operations": { "value": "Kia Originalservice omfattar åtgärder och kontrollpunkter som varierar efter bilens ålder och miltal; Kia anger att verkstaden går igenom vad som ska bytas eller åtgärdas.", "status": "partially_verified", "sourceUrl": "https://www.kia.com/se/aga/kias-servicelofte/service-promise/" },
+    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceavtal/", "note": "Ingen variant- och exemplarverifierad offentlig prisoffert." },
+    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceavtal/", "note": "Kräver lokal oberoende verkstadsoffert." },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceavtal/" },
+    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.kia.com/se/aga/kias-servicelofte/service-promise/", "note": "Ingen separat 36-månaders storservice publicerad för just detta exemplar." }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premien är individuell och kräver offert." },
+    "machineDamageMaxAge": { "value": "10 år (exempel: If; bolagsvillkor varierar)", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helforsäkring; 15 000 mil för Stor bilförsäkring (exempel: If)", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Självrisk varierar med bolag, försäkringsnivå och villkor." },
+    "coveredComponents": { "value": "Exempel hos If: motor, kylsystem, bränslesystem, styrväxel, kraftöverföring och utvalda elektronik-/säkerhetssystem enligt villkor.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tyres": {
+    "dimension": { "value": "225/45 R17 (GT-Line; kontrollera bilens däckmärkning)", "status": "verified", "sourceUrl": "https://press.kia.com/content/dam/kiapress/FR/Communiques_de_presse_fr/2020/maj-ceed/fiche-technique-janv-2020-CEED-CEED-SW-MY20.PDF" },
+    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://press.kia.com/content/dam/kiapress/FR/Communiques_de_presse_fr/2020/maj-ceed/fiche-technique-janv-2020-CEED-CEED-SW-MY20.PDF", "note": "Belastningsindex för det aktuella exemplaret framgår inte av källan." },
+    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen dimension-, fabrikat- och datumverifierad offert." },
+    "mountingPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Lokalt verkstadspris krävs." },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.kia.com/se/aga/kias-servicelofte/service-promise/", "note": "Återstående livslängd kräver mätning av aktuella däck." },
+    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Beror på däckens ålder, slitage och marknad; ingen primär fast värdering." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+    "note": "Transportstyrelsen anger att personbil från fordonsår 2006 beskattas efter CO2 och att malus kan gälla i tre år. Exakt belopp kräver registrerat CO2-värde och första trafikdatum för LND91H i vägtrafikregistret."
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "note": "Ingen primärkälla med variantunika felfrekvenser hittad." },
+    "partsPrice": { "value": null, "status": "unknown", "note": "Kräver VIN-/delmatchad offert." },
+    "laborPriceAuthorized": { "value": null, "status": "unknown", "note": "Ingen offentlig variantmatchad Kia-taxa." },
+    "laborPriceIndependent": { "value": null, "status": "unknown", "note": "Ingen offentlig oberoende verkstadsoffert." },
+    "threeYearReserve": { "value": null, "status": "estimated", "note": "Planeringsreserv lämnas obelagd eftersom den inte kan härledas från primärkälla utan att hitta på belopp." }
+  }
+}

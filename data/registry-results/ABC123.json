@@ -1,0 +1,21 @@
+{
+  "registrationNumber": "ABC123",
+  "firstTrafficDate": null,
+  "modelYear": null,
+  "co2Gkm": null,
+  "annualTaxSek": null,
+  "previousOwners": null,
+  "inspection": {
+    "lastDate": null,
+    "validUntil": null,
+    "status": "unknown"
+  },
+  "technical": {},
+  "rawText": "Fordonsuppgifter\n- sök med registreringsnummer\nSäkerhetskontroll\n\nEtt oväntat fel har uppstått, försök igen.\n\nRegistreringsnummer\n\nDu kan även ange personlig skylt.\nOm webbplatsen\nKontakta oss\n­",
+  "evidence": {
+    "status": "partially_verified",
+    "sourceUrl": "https://fordon-fu-regnr.transportstyrelsen.se/UppgifterAnnatFordon/",
+    "checkedAt": "2026-09-08T15:27:28.671Z",
+    "note": "Synlig sida bekräftad av användaren; fält utan entydig etikett lämnas tomma."
+  }
+}

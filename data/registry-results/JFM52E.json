@@ -1,0 +1,21 @@
+{
+  "registrationNumber": "JFM52E",
+  "firstTrafficDate": null,
+  "modelYear": null,
+  "co2Gkm": null,
+  "annualTaxSek": null,
+  "previousOwners": null,
+  "inspection": {
+    "lastDate": null,
+    "validUntil": null,
+    "status": "unknown"
+  },
+  "technical": {},
+  "rawText": "Fordonsuppgifter för JFM52E\nSammanfattning\n\n(2*)Registreringsnummer\nJFM52E\n\nFabrikat \nCUPRA\n\nHandelsbeteckning \nCUPRA LEON SP\n\nFordonsstatus \nAvställd (2026-06-01)\n\nFärg\nVit\n\nFordonsår \n2023\n\nFordonet tillverkat \n2023-05-09\n\nFordonsslag\nPersonbil\n\n(8*)Besiktas senast\n2026-08-31\n\nAnvändningsförbud \nNej\n\n*numrering enligt harmoniserade unionskoder i 2014/45/EU bilaga II\n\nÄgare/brukare \nFordonsidentitet\nStatus\nBesiktning\nSkatt och avgifter\nTekniska data\nRelaterade e-tjänster\nSläpvagnskalkylator \nVisar om fordonet får dra en specifik släpvagn eller husvagn.\nAlla e-tjänster inom vägtrafik \nListar alla e-tjänster inom fordon, körkort och yrkestrafik.\nOm webbplatsen\nKontakta oss\n­",
+  "evidence": {
+    "status": "partially_verified",
+    "sourceUrl": "https://fordon-fu-regnr.transportstyrelsen.se/UppgifterAnnatFordon/",
+    "checkedAt": "2026-09-08T15:27:52.793Z",
+    "note": "Synlig sida bekräftad av användaren; fält utan entydig etikett lämnas tomma."
+  }
+}

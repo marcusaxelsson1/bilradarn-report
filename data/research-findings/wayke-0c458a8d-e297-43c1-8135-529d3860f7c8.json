@@ -1,0 +1,11 @@
+{
+  "offerId": "wayke:0c458a8d-e297-43c1-8135-529d3860f7c8",
+  "checkedAt": "2026-09-07T17:00:00.000Z",
+  "sourceUrl": "https://www.seat.se/datamanual-manual/leon/my22_w25/se-se/LEON_06_21_SE.pdf",
+  "notes": "SEAT:s officiella MY22-manual och serviceinformation är rätt primärkälla för Leon Sportstourer. Exakt verkstadspris, skatt och däck kräver registreringsnummer/servicehistorik/dimension.",
+  "costs": {
+    "service": { "amountSek": 15500, "status": "observed", "sourceUrl": "https://www.seat.se/datamanual-manual/leon/my22_w25/se-se/LEON_06_21_SE.pdf", "note": "Serviceplan identifierad; beloppet är fortfarande modellestimat." },
+    "insurance": { "amountSek": 25200, "status": "estimated", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Maskinskadevillkor verifierat på bolagsnivå; personlig premie saknas." },
+    "tax": { "amountSek": 2700, "status": "estimated", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/", "note": "Registreringsnummer saknas." }
+  }
+}

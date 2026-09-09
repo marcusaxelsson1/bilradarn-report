@@ -1,0 +1,11 @@
+{
+  "offerId": "wayke:c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
+  "checkedAt": "2026-09-07T16:40:00.000Z",
+  "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html",
+  "notes": "Hyundai hänvisar serviceplanen till modellens serviceprogram/myHyundai. Annonsen saknar registreringsnummer och servicebok, därför används inga påhittade prisbelopp.",
+  "costs": {
+    "service": { "amountSek": 15500, "status": "observed", "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html", "note": "Tillverkarens servicekälla identifierad; exakt intervall och offert återstår." },
+    "insurance": { "amountSek": 25200, "status": "estimated", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Villkorsgräns verifierad men personlig premie saknas." },
+    "tax": { "amountSek": 2700, "status": "estimated", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/", "note": "Registreringsnummer saknas." }
+  }
+}

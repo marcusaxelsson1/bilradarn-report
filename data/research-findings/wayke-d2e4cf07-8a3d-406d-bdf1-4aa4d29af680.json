@@ -1,0 +1,45 @@
+{
+  "offerId": "wayke:d2e4cf07-8a3d-406d-bdf1-4aa4d29af680",
+  "checkedAt": "2026-09-08T05:04:10.7190430Z",
+  "sourceUrl": "https://www.wayke.se/objekt/d2e4cf07-8a3d-406d-bdf1-4aa4d29af680",
+  "notes": "CUPRA:s officiella manual anger att olje-/inspektionsservice styrs av bilens serviceindikering; fasta oljeintervall varierar med PR-nummer och kan vara 1 500 mil/år, medan LongLife är behovsstyrt (max två år). Officiell modellbroschyr anger 225/40 R18 eller 235/35 R19 för Leon Sportstourer 1.5 eTSI 150 hk. Annonsens registreringsnummer och mätarställning används endast som identifiering; exakt servicehistorik, skattesats och personlig försäkringspremie kräver register-/verkstadsoffert.",
+  "costs": {
+    "service": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf", "note": "Intervall och serviceindikering kan verifieras, men CUPRA publicerar inget generellt verkstadspris; offert och servicehistorik krävs." },
+    "insurance": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Personlig premie saknas. If anger maskinskadeskydd till 10 år/12 000 mil för halv/hel och 10 år/15 000 mil för Stor; självrisk beror på ålder och miltal." },
+    "tax": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/", "note": "Transportstyrelsen kräver registeruppgifter/CO2 och första trafikdatum för exakt skatt; ingen verifierbar skattepost hämtades från annonsen." },
+    "winter": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Vinterhjulens dimension, fälg och aktuell offert saknas." },
+    "tyres": { "amountSek": 2924, "status": "observed", "sourceUrl": "https://www.dackonline.se/rshop/Lastbilsdack/225-40-R18-92Y/Dack/Sumitomo", "note": "DäckOnline visar ett 225/40 R18 92Y XL-exempel för 731 kr/st; fyra däck blir 2 924 kr. Detta är ett observerat exempel, inte en modell- eller kvalitetsrekommendation och exkluderar montering." }
+  },
+  "service": {
+    "interval": { "value": "Serviceindikering; fast oljeservice kan vara var 1 500:e mil eller varje år (det som inträffar först), alternativt LongLife enligt indikering", "status": "verified", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf" },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/faqs/cupra-connect-gen-4", "note": "Nästa datum/miltal finns i bilens serviceindikering/My CUPRA och i servicehistoriken, som inte är tillgänglig här." },
+    "operations": { "value": "Oljebytesservice och inspektionsservice; extra arbeten som bromsvätska och tändstift kan utföras när de förfaller enligt serviceplan.", "status": "verified", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf" },
+    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal", "note": "Ingen generell prislista publicerad." },
+    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/boka-tid/valj-servicereparation", "note": "Mekonomen visar pris först efter registreringsnummer, mätarställning och verkstadsval." },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal" },
+    "largeServiceAfter36Months": { "value": "Okänt; avgörs av serviceindikering, PR-nummer och servicehistorik.", "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf" }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Individuell offert krävs." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helforsäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": "Ålders- och milberoende; personlig försäkringsnivå krävs", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/trafikforsakring" },
+    "coveredComponents": { "value": ["motor", "bränslesystem", "växellåda/kraftöverföring", "styrväxel", "farthållare och färddator"], "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/trafikforsakring" }
+  },
+  "tyres": {
+    "dimension": { "value": ["225/40 R18", "235/35 R19"], "status": "verified", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/broschyr/CUPRA-Leon-modellbroschyr.pdf" },
+    "loadIndex": { "value": "92Y XL observerat för 225/40 R18-exempel; bilens CoC/registrerade däckdata måste bekräfta", "status": "estimated", "sourceUrl": "https://www.dackonline.se/rshop/Lastbilsdack/225-40-R18-92Y/Dack/Sumitomo" },
+    "completeSetPrice": { "value": 2924, "status": "observed", "sourceUrl": "https://www.dackonline.se/rshop/Lastbilsdack/225-40-R18-92Y/Dack/Sumitomo", "note": "Fyra observerade däck à 731 kr; exkluderar montering." },
+    "mountingPrice": { "value": 249, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte", "note": "Mekonomen anger däckbyte från 249 kr; faktisk montering/balansering kan kosta mer." },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte", "note": "Beror på däckmodell, mönsterdjup och körning." },
+    "valueAtMonth36": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Kan inte verifieras utan inköpt däck och slitageprofil." }
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier", "note": "Ingen officiell modellunik felstatistik publicerad." },
+    "partsPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier" },
+    "laborPriceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal", "note": "Offert krävs." },
+    "laborPriceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/boka-tid/valj-servicereparation", "note": "Pris visas först efter bil- och verkstadsval." },
+    "threeYearReserve": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier", "note": "Ingen verifierbar modell- och användningsspecifik reserv kan beräknas från primärkällorna." }
+  }
+}

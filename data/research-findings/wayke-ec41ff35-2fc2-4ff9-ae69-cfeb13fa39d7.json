@@ -1,0 +1,59 @@
+{
+  "offerId": "wayke:ec41ff35-2fc2-4ff9-ae69-cfeb13fa39d7",
+  "checkedAt": "2026-09-07T19:37:45.2674401Z",
+  "vehicle": {
+    "title": "CUPRA Leon Sportstourer",
+    "variant": "1.5/Adp farthållare/Backkamera//Drag/",
+    "modelYear": 2023,
+    "mileageMil": 6275,
+    "registrationNumber": "KJT16Z"
+  },
+  "sourceUrl": "https://www.wayke.se/objekt/ec41ff35-2fc2-4ff9-ae69-cfeb13fa39d7",
+  "notes": "CUPRA:s svenska serviceavtal anger fri service i 36 månader/3000 mil för bilar ordertecknade från 1 mars 2023. Den officiella Leon-manualen anger fast oljeintervall 5 000–15 000 km/1 år beroende på PR-nummer eller flexibelt intervall enligt serviceindikering; inspektion enligt indikering. CUPRA:s modellbroschyr anger 225/40 R18 för 1.5 TSI e-TSI Sportstourer. Exakt servicehistorik, nästa förfallodatum, registrerad CO2/skatt, personpremie, belastningsindex, däckskick och verkstadspriser kräver exemplarsspecifika uppgifter.",
+  "service": {
+    "interval": { "value": "Fast oljeintervall: 5 000, 7 500, 10 000 eller 15 000 km/1 år beroende på PR-nummer; flexibelt intervall enligt serviceindikering. Inspektion enligt serviceindikering.", "status": "verified", "sourceUrl": "https://www.cupraofficial.co.uk/datamanual-manual/manuals/cupra/en-uk/CUPRA_LEON_06_23_EN.pdf", "note": "Manualen anger att fast service gäller det som infaller först och att flexibel service styrs av bilens indikering." },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.co.uk/datamanual-manual/manuals/cupra/en-uk/CUPRA_LEON_06_23_EN.pdf", "note": "Kräver aktuell serviceindikering/digital servicehistorik och VIN." },
+    "operations": { "value": "Olje-/oljefiltersservice och inspektion enligt indikator; ytterligare arbete som bromsvätska och tändstift kan utföras när respektive intervall infaller.", "status": "verified", "sourceUrl": "https://www.cupraofficial.co.uk/datamanual-manual/manuals/cupra/en-uk/CUPRA_LEON_06_23_EN.pdf" },
+    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal", "note": "Svensk offert för just bilen/serviceomfattningen publiceras inte i källan." },
+    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/aga/service", "note": "Lokal oberoende verkstadsoffert krävs." },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal", "note": "Ingen prisoffert att kontrollera mot moms." },
+    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.co.uk/datamanual-manual/manuals/cupra/en-uk/CUPRA_LEON_06_23_EN.pdf", "note": "Ingen variant- och VIN-verifierad storservicepunkt efter 36 månader hittad." }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premie beror på förare, ort, körsträcka, omfattning och skadehistorik; personlig offert krävs." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helförsäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/globalassets/se/dokument/privat/motorforsakring-villkor.pdf", "note": "Självrisk styrs av valt försäkringsbrev/villkor." },
+    "coveredComponents": { "value": "If anger bland annat motor och motorns kylsystem, bränslesystem, kraftöverföring, styrväxel och vissa elektronikkomponenter; full omfattning följer villkoren.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tyres": {
+    "dimension": { "value": "225/40 R18", "status": "verified", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/broschyr/CUPRA-Leon-modellbroschyr.pdf", "note": "Modellbroschyren anger dimensionen för 1.5 TSI e-TSI Sportstourer; exemplarisk däcksida/CoC bör bekräftas." },
+    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/broschyr/CUPRA-Leon-modellbroschyr.pdf", "note": "Belastningsindex framgår inte av den använda broschyren." },
+    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Kräver aktuell dimension/index, fabrikat och offert; inget exakt pris påstås." },
+    "mountingPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Lokal verkstadsoffert krävs." },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/", "note": "Återstående livslängd kräver fysisk mätning och däckålder." },
+    "valueAtMonth36": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Beror på skick, dimension, körsträcka och marknad." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+    "note": "Exakt KJT16Z-skatt kräver registrerat CO2-värde och första trafikdatum. Transportstyrelsen anger att skatten baseras på registrerad CO2 vid blandad körning och att malus gäller tre år; modellvärde ersätter inte registeruppgiften."
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/aga/service", "note": "Ingen tillförlitlig, variantunik primärkälla med felfrekvenser hittad." },
+    "partsPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier", "note": "Ingen specifik reparation eller del är definierad; exakt pris kan därför inte verifieras." },
+    "laborPriceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/aga/service", "note": "Auktoriserad verkstadsoffert krävs." },
+    "laborPriceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/aga/service", "note": "Lokal oberoende verkstadsoffert krävs." },
+    "threeYearReserve": { "value": null, "status": "estimated", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier", "note": "Ingen numerisk reserv anges eftersom servicehistorik, skick och reparationsbehov saknas." }
+  },
+  "costs": {
+    "service": { "amountSek": 0, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal", "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad." },
+    "insurance": { "amountSek": 0, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Personlig premie krävs." },
+    "tax": { "amountSek": 0, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/", "note": "Registrerat CO2-värde och trafikdatum saknas." },
+    "winter": { "amountSek": 0, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen aktuell komplett vinterhjulsoffert." },
+    "tyres": { "amountSek": 0, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Montering och slitage kräver offert/mätning." },
+    "repair": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.cupraofficial.se/aga/service", "note": "Ingen specifik reparation eller numerisk reserv kan verifieras." }
+  }
+}

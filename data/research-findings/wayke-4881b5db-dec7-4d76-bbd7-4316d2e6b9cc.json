@@ -1,0 +1,62 @@
+{
+  "offerId": "wayke:4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
+  "checkedAt": "2026-09-07T19:35:00.000Z",
+  "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
+  "notes": "Peugeot 3008 1.2 GT (2023, 4 440 mil). Officiell Peugeot/Stellantis-dokumentation verifierar drivlina, däckdata och PureTech-relaterad support. Exakt skatt, servicehistorik, offertpriser och exemplarens faktiska däck kräver register/VIN/servicebok.",
+  "vehicle": {
+    "title": "Peugeot 3008",
+    "variant": "1.2 GT Cockpit Kamera CarPlay MOMS",
+    "modelYear": 2023,
+    "mileageMil": 4440,
+    "registrationNumber": "JAH85F",
+    "manufacturerFacts": {
+      "engine": { "value": "1.2L PureTech 130 EAT8 S&S, bensin, 131 hk", "status": "verified", "sourceUrl": "https://www.media.stellantis.com/uploads/uk/model-pricelist/peugeot3008pricespecapr23-6455a65377d74.pdf" },
+      "co2WltpGKm": { "value": 146, "status": "verified", "sourceUrl": "https://www.media.stellantis.com/uploads/uk/model-pricelist/peugeot3008pricespecapr23-6455a65377d74.pdf", "note": "UK-spec GT 1.2 EAT8; svensk registrerad bil kan avvika." },
+      "tyreExample": { "value": "225/55 R18 102 V (3PMSF) på 18-tumshjul", "status": "verified", "sourceUrl": "https://device.report/m/9560f3fe0e86d7517fd148ab4e190673a82c370322dbc58b3565f971edd61d89", "note": "Exempel från 2023.75 GT-spec; VIN behövs för att fastställa exemplar." }
+    }
+  },
+  "service": {
+    "interval": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Peugeot publicerar inte en modelloberoende intervallsiffra på sidan; kontrollera VIN/digital servicebok." },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Kräver aktuell servicehistorik och mätarställning." },
+    "operations": { "value": "Service enligt VIN-specifik tillverkarplan; kontroll av kamrem är relevant för PureTech", "status": "estimated", "sourceUrl": "https://www.peugeot.se/servicetjanster/assistans-garanti/serviceavtal.html" },
+    "priceAuthorized": { "amountSek": 15500, "status": "estimated", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "36-månaders schablon, ingen verifierad verkstadsoffert." },
+    "priceIndependent": { "amountSek": 11000, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Schablon, ingen modell- eller verkstadsoffert." },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Momsstatus kräver konkret offert." },
+    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/servicetjanster/assistans-garanti/serviceavtal.html", "note": "Kamremsbyte/övriga större åtgärder beror på VIN och serviceplan." }
+  },
+  "insurance": {
+    "annualPremiumRange": { "amountSek": 9600, "status": "estimated", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Ingen generell premie kan verifieras; personlig offert krävs." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil (halv/hel); 15 000 mil (Stor)", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/globalassets/se/dokument/privat/peugeot-villkor-maj-2025.pdf", "note": "Beror på valt försäkringspaket, bilens ålder och körsträcka." },
+    "coveredComponents": { "value": ["motor", "motorns kylsystem", "bränslesystem", "kraftöverföring", "styrväxel", "säkerhetssystem"], "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tax": {
+    "annualTax": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/", "note": "JAH85F/CO2-värde och första trafikdatum måste slås upp i vägtrafikregistret; 146 g/km är endast UK typdata." },
+    "calculationRule": { "value": "För bensinbil tagen i trafik från 1 juni 2022: 360 kr grundbelopp + 107 kr/g över 75 till 125 g/km och 132 kr/g över 125; malus i tre år", "status": "verified", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/" }
+  },
+  "tyres": {
+    "dimension": { "value": "225/55 R18 (typisk GT-spec; verifiera mot VIN/däcksidovägg)", "status": "estimated", "sourceUrl": "https://device.report/m/9560f3fe0e86d7517fd148ab4e190673a82c370322dbc58b3565f971edd61d89" },
+    "loadIndex": { "value": "102 V", "status": "estimated", "sourceUrl": "https://device.report/m/9560f3fe0e86d7517fd148ab4e190673a82c370322dbc58b3565f971edd61d89" },
+    "completeSetPrice": { "amountSek": 14500, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Schablon för komplett vinterhjulspaket; ingen konkret dimension/offert." },
+    "mountingPrice": { "amountSek": 1200, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Ingen fast offert verifierad." },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Beror på däckmodell, ålder, mönsterdjup och körning." },
+    "valueAtMonth36": { "amountSek": 4000, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Försiktig restvärdesschablon, inte marknadspris." }
+  },
+  "repairs": {
+    "commonFailures": { "value": ["för tidig nedbrytning av kamrem", "onormal oljeförbrukning"], "status": "verified", "sourceUrl": "https://www.stellantis.com/en/contacts/puretech-compensation-platform", "note": "Stellantis anger dessa som orsaker till sitt särskilda PureTech-program; kontrollera motorvariant/villkor för just bilen." },
+    "partsPrice": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Kräver identifierad del och offert." },
+    "laborPriceAuthorized": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Kräver konkret auktoriserad verkstadsoffert." },
+    "laborPriceIndependent": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Kräver konkret verkstadsoffert." },
+    "threeYearReserve": { "amountSek": 17000, "status": "estimated", "sourceUrl": "https://www.stellantis.com/en/contacts/puretech-compensation-platform", "note": "Budgetreserv, inte prognostiserad eller verifierad reparationskostnad." }
+  },
+  "costs": {
+    "service": { "amountSek": 15500, "status": "estimated", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "36-månaders schablon." },
+    "insurance": { "amountSek": 28800, "status": "estimated", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "800 kr/mån schablon; personlig premie saknas." },
+    "tax": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/", "note": "Registeruppslag krävs." },
+    "winter": { "amountSek": 14500, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Komplett vinterhjulspaket." },
+    "tyres": { "amountSek": 4000, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Slitage-/bytesreserv." },
+    "repair": { "amountSek": 17000, "status": "estimated", "sourceUrl": "https://www.stellantis.com/en/contacts/puretech-compensation-platform", "note": "Treårig reparationsreserv." }
+  }
+}

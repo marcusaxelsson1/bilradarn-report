@@ -1,0 +1,59 @@
+{
+  "offerId": "wayke:9dbfc015-5da0-47f6-96e7-d02abb19433b",
+  "checkedAt": "2026-09-07T17:40:00.000Z",
+  "vehicle": {
+    "title": "Volkswagen T-Roc",
+    "variant": "1.5 TSI 150 DSG/Pluspkt/elbaklucka/tonade rutor",
+    "modelYear": 2021,
+    "mileageMil": 9871,
+    "registrationNumber": "NRX13F"
+  },
+  "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
+  "notes": "Volkswagens svenska modellbroschyr från augusti 2021 verifierar 1.5 TSI 150 hk med DSG7, Pluspaket och WLTP CO2 144 g/km för automat. Exakt servicehistorik, däckdimension/skick, personlig försäkringspremie och NRX13F:s registrerade CO2/förstaregistreringsdatum kräver exemplarsspecifika uppgifter. Inga exakta verkstads- eller däckpriser har påståtts.",
+  "service": {
+    "interval": { "value": "Fast service: oljeservice efter 1 år/15 000 km; inspektion första gången efter 2 år/30 000 km och därefter årligen/30 000 km. Flexibel oljeservice styrs av bilens serviceindikering, senast efter 2 år.", "status": "verified", "sourceUrl": "https://www.volkswagen.co.uk/idhub/content/dam/onehub_pkw/importers/gb/downloads/brochures/used-cars/t-roc/vw-troc-brochure-october-2017.pdf", "note": "VW:s T-Roc-serviceplan anger dessa fasta och flexibla intervall; aktuell bils valda serviceprogram måste verifieras i digital servicebok/VIN." },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://volkswagen.erwin-store.com/erwin/performDspVehicleSearch.do", "note": "Nästa förfallodatum kräver VIN och registrerad servicehistorik." },
+    "operations": { "value": "Oljeservice samt inspektionskontroller enligt Volkswagen serviceplan; separata intervall kan gälla t.ex. bromsvätska och tändstift.", "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Exakta åtgärder för detta exemplar och miltal måste bekräftas i servicebok/VIN-plan." },
+    "priceAuthorized": { "value": null, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Svensk fast prislista för just variant och serviceomfattning hittades inte; auktoriserad offert krävs." },
+    "priceIndependent": { "value": null, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Lokal oberoende verkstadsoffert krävs." },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://volkswagen.erwin-store.com/erwin/performDspVehicleSearch.do", "note": "Ingen variant- och VIN-verifierad storservicepunkt/pris publicerad." }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "estimated", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premien beror på förare, ort, körsträcka, omfattning och skadehistorik; personlig offert krävs." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helförsäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/globalassets/se/dokument/privat/motorforsakring-villkor.pdf", "note": "Maskin/elektroniksjälvrisk varierar enligt valt försäkringsbrev och villkor." },
+    "coveredComponents": { "value": "If anger bl.a. motor och motorns kylsystem, bränslesystem, kraftöverföring, styrväxel, krockkuddesystem och vissa elektronikkomponenter; full omfattning styrs av villkoren.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": true
+  },
+  "tyres": {
+    "dimension": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/t-roc/T-Roc_modellbroschyr_aug2021.pdf", "note": "Broschyren verifierar 17-tums hjul i Pluspaketet men inte däckets exakta bredd/profil eller lastindex för detta exemplar; kontrollera däcksida/CoC." },
+    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/t-roc/T-Roc_modellbroschyr_aug2021.pdf", "note": "Kräver faktisk dimension och CoC/registrerade tekniska data." },
+    "completeSetPrice": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Pris kan inte verifieras utan dimension, fabrikat, belastningsindex och säsong." },
+    "mountingPrice": { "value": null, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Lokalt verkstadspris/offert krävs." },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/", "note": "Återstående livslängd kräver fysisk mätning och däckålder." },
+    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Beror på dimension, skick, körsträcka och marknad." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+    "note": "Exakt NRX13F-skatt kräver registrerat CO2-värde och första trafikdatum via Transportstyrelsens fordonsuppgiftstjänst. VW:s broschyr anger modellvärde 144 g/km WLTP för 1.5 TSI automat, men detta ersätter inte registeruppgiften."
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Ingen tillförlitlig, variantunik primärkälla med felfrekvenser hittad." },
+    "partsPrice": { "value": null, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Del och specifik reparation saknas; ingen exakt prisuppgift." },
+    "laborPriceAuthorized": { "value": null, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Auktoriserad verkstadsoffert krävs." },
+    "laborPriceIndependent": { "value": null, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Lokal oberoende verkstadsoffert krävs." },
+    "threeYearReserve": { "value": null, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Ingen exakt reserv kan styrkas utan servicehistorik, skick och offerter." }
+  },
+  "costs": {
+    "service": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad." },
+    "insurance": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Personlig premie krävs." },
+    "tax": { "amountSek": 0, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/", "note": "Registeruppgift saknas." },
+    "winter": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Dimension och offert saknas." },
+    "tyres": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Montering/slitage och dimension kan inte verifieras." },
+    "repair": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Ingen modellstatistik eller offert." }
+  }
+}

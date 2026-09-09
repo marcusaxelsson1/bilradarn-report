@@ -1,0 +1,4067 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-09T16:02:33.943Z",
+  "horizonMonths": 36,
+  "annualMileageMil": 1500,
+  "tasks": [
+    {
+      "id": "wayke:18fcedc0-c05b-4c04-b02d-119efea02ff9",
+      "title": "SEAT Leon",
+      "variant": "1.0 eTSI Automat Style, Carplay, PDC Rattvärme",
+      "registrationNumber": "PMB74G",
+      "modelYear": 2022,
+      "mileageMil": 3453,
+      "sourceUrl": "https://www.wayke.se/objekt/18fcedc0-c05b-4c04-b02d-119efea02ff9",
+      "enrichmentRequest": {
+        "offerId": "wayke:18fcedc0-c05b-4c04-b02d-119efea02ff9",
+        "registrationNumber": "PMB74G",
+        "vin": "VSSZZZKLZNR042156",
+        "sourceUrl": "https://www.wayke.se/objekt/18fcedc0-c05b-4c04-b02d-119efea02ff9",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": null,
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera SEAT Leon 1.0 eTSI Automat Style, Carplay, PDC Rattvärme (2022, 3453 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
+      "title": "Hyundai i30 Kombi",
+      "variant": "1,0T 120hk Automat MHEV Drag Essential B-Kamera Apple Carplay",
+      "registrationNumber": "FNW06P",
+      "modelYear": 2021,
+      "mileageMil": 7501,
+      "sourceUrl": "https://www.wayke.se/objekt/c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
+      "enrichmentRequest": {
+        "offerId": "wayke:c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
+        "registrationNumber": "FNW06P",
+        "vin": "TMAH381BGMJ093907",
+        "sourceUrl": "https://www.wayke.se/objekt/c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.hyundai.com/se/sv/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Hyundai i30 Kombi 1,0T 120hk Automat MHEV Drag Essential B-Kamera Apple Carplay (2021, 7501 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
+      "title": "Kia Ceed Sportswagon",
+      "variant": "1.5 T-GDI DCT 160hk/Advance/Drag/backkamera/S+V-Hj",
+      "registrationNumber": "TXA380",
+      "modelYear": 2021,
+      "mileageMil": 4798,
+      "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
+      "enrichmentRequest": {
+        "offerId": "wayke:5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
+        "registrationNumber": "TXA380",
+        "vin": "U5YH5815GML086247",
+        "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.kia.com/se/aga/service-oversikt/",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Kia Ceed Sportswagon 1.5 T-GDI DCT 160hk/Advance/Drag/backkamera/S+V-Hj (2021, 4798 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:0c458a8d-e297-43c1-8135-529d3860f7c8",
+      "title": "SEAT Leon Sportstourer",
+      "variant": "ST Style Drag Värmare Kamera Rattvärme Cockpit",
+      "registrationNumber": "UCE38F",
+      "modelYear": 2021,
+      "mileageMil": 7044,
+      "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
+      "enrichmentRequest": {
+        "offerId": "wayke:0c458a8d-e297-43c1-8135-529d3860f7c8",
+        "registrationNumber": "UCE38F",
+        "vin": "VSSZZZKLZMR082366",
+        "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": null,
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera SEAT Leon Sportstourer ST Style Drag Värmare Kamera Rattvärme Cockpit (2021, 7044 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:7d409560-5a88-4d2f-8a4c-87470a63f5d6",
+      "title": "Ford Focus Active Kombi",
+      "variant": "1.0 EcoBoost 125hk SelectShift Edition",
+      "registrationNumber": "FKL86D",
+      "modelYear": 2022,
+      "mileageMil": 7090,
+      "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
+      "enrichmentRequest": {
+        "offerId": "wayke:7d409560-5a88-4d2f-8a4c-87470a63f5d6",
+        "registrationNumber": "FKL86D",
+        "vin": "WF0PXXGCHPMC69425",
+        "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.ford.se/service",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Ford Focus Active Kombi 1.0 EcoBoost 125hk SelectShift Edition (2022, 7090 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
+      "title": "Volkswagen Golf Sportscombi",
+      "variant": "1.5 eTSI Cockpit Värmare Apple CarPlay",
+      "registrationNumber": "ZBR52C",
+      "modelYear": 2021,
+      "mileageMil": 4841,
+      "sourceUrl": "https://www.wayke.se/objekt/a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
+      "enrichmentRequest": {
+        "offerId": "wayke:a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
+        "registrationNumber": "ZBR52C",
+        "vin": "WVWZZZCDZMW806466",
+        "sourceUrl": "https://www.wayke.se/objekt/a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Volkswagen Golf Sportscombi 1.5 eTSI Cockpit Värmare Apple CarPlay (2021, 4841 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:fa01452b-4ff5-43b2-910b-6dd397b09343",
+      "title": "Nissan Qashqai",
+      "variant": "1.3 DIG-T DCT (160hk)   Acenta | Automat |",
+      "registrationNumber": "XBU08Y",
+      "modelYear": 2021,
+      "mileageMil": 5914,
+      "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
+      "enrichmentRequest": {
+        "offerId": "wayke:fa01452b-4ff5-43b2-910b-6dd397b09343",
+        "registrationNumber": "XBU08Y",
+        "vin": "SJNFFAJ11U2942109",
+        "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.nissan.se/aga/service.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Nissan Qashqai 1.3 DIG-T DCT (160hk)   Acenta | Automat | (2021, 5914 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:b27fdcad-e911-437d-8b49-f3fd2469e225",
+      "title": "Kia Ceed Sportswagon",
+      "variant": "1.5 T-GDI",
+      "registrationNumber": "SKH47M",
+      "modelYear": 2022,
+      "mileageMil": 2750,
+      "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
+      "enrichmentRequest": {
+        "offerId": "wayke:b27fdcad-e911-437d-8b49-f3fd2469e225",
+        "registrationNumber": "SKH47M",
+        "vin": "U5YH5815GNL123537",
+        "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.kia.com/se/aga/service-oversikt/",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Kia Ceed Sportswagon 1.5 T-GDI (2022, 2750 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
+      "title": "Dacia Duster",
+      "variant": "PhII 4x2 TCe 150 Journey A, Backkamera, Automat, Sensorer",
+      "registrationNumber": "KCD10G",
+      "modelYear": 2023,
+      "mileageMil": 4099,
+      "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
+      "enrichmentRequest": {
+        "offerId": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
+        "registrationNumber": "KCD10G",
+        "vin": "VF1HJD20270290285",
+        "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": null,
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Dacia Duster PhII 4x2 TCe 150 Journey A, Backkamera, Automat, Sensorer (2023, 4099 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:c9fdeb16-0d54-4140-961b-43568350b470",
+      "title": "Dacia Duster",
+      "variant": "PhII 4x2 TCe 150 Journey A",
+      "registrationNumber": "UYA08F",
+      "modelYear": 2023,
+      "mileageMil": 4764,
+      "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
+      "enrichmentRequest": {
+        "offerId": "wayke:c9fdeb16-0d54-4140-961b-43568350b470",
+        "registrationNumber": "UYA08F",
+        "vin": "VF1HJD20869988488",
+        "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": null,
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Dacia Duster PhII 4x2 TCe 150 Journey A (2023, 4764 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:8cd495d1-937e-473d-9f2f-e8baf165ad49",
+      "title": "Kia Ceed Sportswagon",
+      "variant": "SW 1.5 160hk GT-Line Kamera Rattvärme CarPlay",
+      "registrationNumber": "LND91H",
+      "modelYear": 2022,
+      "mileageMil": 6760,
+      "sourceUrl": "https://www.wayke.se/objekt/8cd495d1-937e-473d-9f2f-e8baf165ad49",
+      "enrichmentRequest": {
+        "offerId": "wayke:8cd495d1-937e-473d-9f2f-e8baf165ad49",
+        "registrationNumber": "LND91H",
+        "vin": "U5YH7815GNL110563",
+        "sourceUrl": "https://www.wayke.se/objekt/8cd495d1-937e-473d-9f2f-e8baf165ad49",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.kia.com/se/aga/service-oversikt/",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Kia Ceed Sportswagon SW 1.5 160hk GT-Line Kamera Rattvärme CarPlay (2022, 6760 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
+      "title": "Dacia Duster",
+      "variant": "PhII 4x2 TCe 150 Express A",
+      "registrationNumber": "DEG34J",
+      "modelYear": 2023,
+      "mileageMil": 6296,
+      "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
+      "enrichmentRequest": {
+        "offerId": "wayke:1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
+        "registrationNumber": "DEG34J",
+        "vin": "VF1HJD20571177750",
+        "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": null,
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Dacia Duster PhII 4x2 TCe 150 Express A (2023, 6296 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:d73735d3-df42-46d4-80c7-6d521486baa1",
+      "title": "Škoda Octavia",
+      "variant": "1.0 TSI eTEC DSG 110 HK Style | Nav | Drag mm",
+      "registrationNumber": "ZGZ12W",
+      "modelYear": 2021,
+      "mileageMil": 4534,
+      "sourceUrl": "https://www.wayke.se/objekt/d73735d3-df42-46d4-80c7-6d521486baa1",
+      "enrichmentRequest": {
+        "offerId": "wayke:d73735d3-df42-46d4-80c7-6d521486baa1",
+        "registrationNumber": "ZGZ12W",
+        "vin": "TMBAP7NX5MY070504",
+        "sourceUrl": "https://www.wayke.se/objekt/d73735d3-df42-46d4-80c7-6d521486baa1",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.skoda.se/service-och-underhall",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Škoda Octavia 1.0 TSI eTEC DSG 110 HK Style | Nav | Drag mm (2021, 4534 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:4aa40c00-8083-46d7-b7db-9e9c452e02bc",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.5 TSI 150 HK | DSG | Adaptiv FH",
+      "registrationNumber": "GDS58D",
+      "modelYear": 2021,
+      "mileageMil": 9279,
+      "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
+      "enrichmentRequest": {
+        "offerId": "wayke:4aa40c00-8083-46d7-b7db-9e9c452e02bc",
+        "registrationNumber": "GDS58D",
+        "vin": "WVGZZZA1ZMV019559",
+        "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Volkswagen T-Roc 1.5 TSI 150 HK | DSG | Adaptiv FH (2021, 9279 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:7d69912a-3c49-41fa-8438-4fb439e898dc",
+      "title": "Hyundai i30 Kombi",
+      "variant": "1.5 T-GDi DCT N-Line Drag 1 Ägare",
+      "registrationNumber": "ABZ52H",
+      "modelYear": 2021,
+      "mileageMil": 9500,
+      "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
+      "enrichmentRequest": {
+        "offerId": "wayke:7d69912a-3c49-41fa-8438-4fb439e898dc",
+        "registrationNumber": "ABZ52H",
+        "vin": "TMAH381DGMJ082321",
+        "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.hyundai.com/se/sv/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Hyundai i30 Kombi 1.5 T-GDi DCT N-Line Drag 1 Ägare (2021, 9500 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:25503fa4-4bf2-4912-8d50-eb6be87c8c81",
+      "title": "Volkswagen Golf Sportscombi",
+      "variant": "1.5 eTSI Värmare Drag Backkamera Garanti",
+      "registrationNumber": "PZT17L",
+      "modelYear": 2023,
+      "mileageMil": 8230,
+      "sourceUrl": "https://www.wayke.se/objekt/25503fa4-4bf2-4912-8d50-eb6be87c8c81",
+      "enrichmentRequest": {
+        "offerId": "wayke:25503fa4-4bf2-4912-8d50-eb6be87c8c81",
+        "registrationNumber": "PZT17L",
+        "vin": "WVWZZZCD1PW547687",
+        "sourceUrl": "https://www.wayke.se/objekt/25503fa4-4bf2-4912-8d50-eb6be87c8c81",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Volkswagen Golf Sportscombi 1.5 eTSI Värmare Drag Backkamera Garanti (2023, 8230 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
+      "title": "Volkswagen Golf Sportscombi",
+      "variant": "1.5 eTSI DSG VÄRMARE DRAG NAV",
+      "registrationNumber": "PXO072",
+      "modelYear": 2021,
+      "mileageMil": 9600,
+      "sourceUrl": "https://www.wayke.se/objekt/b3482c14-7a8e-48ba-931d-7c731b0cd61e",
+      "enrichmentRequest": {
+        "offerId": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
+        "registrationNumber": "PXO072",
+        "vin": "WVWZZZCDZMW803981",
+        "sourceUrl": "https://www.wayke.se/objekt/b3482c14-7a8e-48ba-931d-7c731b0cd61e",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Volkswagen Golf Sportscombi 1.5 eTSI DSG VÄRMARE DRAG NAV (2021, 9600 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:a8afb359-cd68-4bb3-a577-3cb7541099db",
+      "title": "Škoda Octavia Kombi",
+      "variant": "Skoda 1.0 TSI e-TEC Style Värmare Dragkrok Carplay",
+      "registrationNumber": "GWR58Y",
+      "modelYear": 2021,
+      "mileageMil": 8734,
+      "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
+      "enrichmentRequest": {
+        "offerId": "wayke:a8afb359-cd68-4bb3-a577-3cb7541099db",
+        "registrationNumber": "GWR58Y",
+        "vin": "TMBJP7NX9MY166958",
+        "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.skoda.se/service-och-underhall",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Škoda Octavia Kombi Skoda 1.0 TSI e-TEC Style Värmare Dragkrok Carplay (2021, 8734 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:35121016-1fae-49fc-82f2-6594356855bd",
+      "title": "Peugeot 3008",
+      "variant": "GT 130 hk *V-HJUL/Backkamera/Navi*",
+      "registrationNumber": "ZTD16B",
+      "modelYear": 2023,
+      "mileageMil": 4816,
+      "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
+      "enrichmentRequest": {
+        "offerId": "wayke:35121016-1fae-49fc-82f2-6594356855bd",
+        "registrationNumber": "ZTD16B",
+        "vin": "VF3MRHNSUPS147379",
+        "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.peugeot.se/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Peugeot 3008 GT 130 hk *V-HJUL/Backkamera/Navi* (2023, 4816 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
+      "title": "Nissan Qashqai",
+      "variant": "1.3 Tekna2 360° Navi 0.56l/mil Kamera Skinn",
+      "registrationNumber": "BBT03N",
+      "modelYear": 2021,
+      "mileageMil": 8606,
+      "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
+      "enrichmentRequest": {
+        "offerId": "wayke:fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
+        "registrationNumber": "BBT03N",
+        "vin": "SJNFFAJ11U2970164",
+        "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.nissan.se/aga/service.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Nissan Qashqai 1.3 Tekna2 360° Navi 0.56l/mil Kamera Skinn (2021, 8606 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:8846ce2c-6713-4579-b22b-ba897e7ddb4b",
+      "title": "Nissan Qashqai",
+      "variant": "1.3 DIG-T DCT /360 Kamera /",
+      "registrationNumber": "CGH45E",
+      "modelYear": 2021,
+      "mileageMil": 8800,
+      "sourceUrl": "https://www.wayke.se/objekt/8846ce2c-6713-4579-b22b-ba897e7ddb4b",
+      "enrichmentRequest": {
+        "offerId": "wayke:8846ce2c-6713-4579-b22b-ba897e7ddb4b",
+        "registrationNumber": "CGH45E",
+        "vin": "SJNFFAJ11U2859321",
+        "sourceUrl": "https://www.wayke.se/objekt/8846ce2c-6713-4579-b22b-ba897e7ddb4b",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.nissan.se/aga/service.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Nissan Qashqai 1.3 DIG-T DCT /360 Kamera / (2021, 8800 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:fb478a7c-4a9f-4340-89ce-94c68f439317",
+      "title": "Peugeot 3008",
+      "variant": "1.2 PureTech 130/ EAT/Allure /",
+      "registrationNumber": "JMB39N",
+      "modelYear": 2021,
+      "mileageMil": 9200,
+      "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
+      "enrichmentRequest": {
+        "offerId": "wayke:fb478a7c-4a9f-4340-89ce-94c68f439317",
+        "registrationNumber": "JMB39N",
+        "vin": "VF3MRHNSUMS155385",
+        "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.peugeot.se/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Peugeot 3008 1.2 PureTech 130/ EAT/Allure / (2021, 9200 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:faa05a10-2f78-444e-a27a-157e59cf9a34",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.5 TSI AUTOMAT 150 HK",
+      "registrationNumber": "KFO713",
+      "modelYear": 2022,
+      "mileageMil": 9690,
+      "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
+      "enrichmentRequest": {
+        "offerId": "wayke:faa05a10-2f78-444e-a27a-157e59cf9a34",
+        "registrationNumber": "KFO713",
+        "vin": "WVGZZZA1ZNV127928",
+        "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Volkswagen T-Roc 1.5 TSI AUTOMAT 150 HK (2022, 9690 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:233784a2-1893-4b4a-9dfd-2a833f5d66b2",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.5 TSI DSG, 150hk, 2021 7 växlar",
+      "registrationNumber": "RGF86B",
+      "modelYear": 2021,
+      "mileageMil": 8500,
+      "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
+      "enrichmentRequest": {
+        "offerId": "wayke:233784a2-1893-4b4a-9dfd-2a833f5d66b2",
+        "registrationNumber": "RGF86B",
+        "vin": "WVGZZZA1ZMV026415",
+        "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Volkswagen T-Roc 1.5 TSI DSG, 150hk, 2021 7 växlar (2021, 8500 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:b3322c88-5f3b-4490-ac39-5e62b7c724f2",
+      "title": "Peugeot 3008",
+      "variant": "GT PureTech 130 A 5-d SUV",
+      "registrationNumber": "RLN93U",
+      "modelYear": 2023,
+      "mileageMil": 3138,
+      "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
+      "enrichmentRequest": {
+        "offerId": "wayke:b3322c88-5f3b-4490-ac39-5e62b7c724f2",
+        "registrationNumber": "RLN93U",
+        "vin": "VF3MRHNSUPS083731",
+        "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.peugeot.se/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Peugeot 3008 GT PureTech 130 A 5-d SUV (2023, 3138 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:8f935ae8-8293-4ad7-82fd-3a73de4cff29",
+      "title": "Peugeot 3008",
+      "variant": "1.2 GT Leasebar Drag Kamera Döda-vinkel var",
+      "registrationNumber": "NEM59A",
+      "modelYear": 2023,
+      "mileageMil": 5995,
+      "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
+      "enrichmentRequest": {
+        "offerId": "wayke:8f935ae8-8293-4ad7-82fd-3a73de4cff29",
+        "registrationNumber": "NEM59A",
+        "vin": "VF3MRHNSUPS065526",
+        "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.peugeot.se/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Peugeot 3008 1.2 GT Leasebar Drag Kamera Döda-vinkel var (2023, 5995 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
+      "title": "Peugeot 3008",
+      "variant": "1.2 GT Cockpit Kamera CarPlay MOMS",
+      "registrationNumber": "JAH85F",
+      "modelYear": 2023,
+      "mileageMil": 4440,
+      "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
+      "enrichmentRequest": {
+        "offerId": "wayke:4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
+        "registrationNumber": "JAH85F",
+        "vin": "VF3MRHNSUPS067239",
+        "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.peugeot.se/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Peugeot 3008 1.2 GT Cockpit Kamera CarPlay MOMS (2023, 4440 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:114790de-1346-4420-85bf-7f0ccc8c6fac",
+      "title": "Peugeot 3008",
+      "variant": "1.2 PT 130hk GT | El-baklucka | Drag | Vhjul | Nyservad",
+      "registrationNumber": "RAN67M",
+      "modelYear": 2023,
+      "mileageMil": 2790,
+      "sourceUrl": "https://www.wayke.se/objekt/114790de-1346-4420-85bf-7f0ccc8c6fac",
+      "enrichmentRequest": {
+        "offerId": "wayke:114790de-1346-4420-85bf-7f0ccc8c6fac",
+        "registrationNumber": "RAN67M",
+        "vin": "VF3MRHNSUPS100119",
+        "sourceUrl": "https://www.wayke.se/objekt/114790de-1346-4420-85bf-7f0ccc8c6fac",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.peugeot.se/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Peugeot 3008 1.2 PT 130hk GT | El-baklucka | Drag | Vhjul | Nyservad (2023, 2790 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:9dbfc015-5da0-47f6-96e7-d02abb19433b",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.5 TSI 150 DSG/Pluspkt/elbaklucka/tonade rutor",
+      "registrationNumber": "NRX13F",
+      "modelYear": 2021,
+      "mileageMil": 9871,
+      "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
+      "enrichmentRequest": {
+        "offerId": "wayke:9dbfc015-5da0-47f6-96e7-d02abb19433b",
+        "registrationNumber": "NRX13F",
+        "vin": "WVGZZZA1ZMV070657",
+        "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Volkswagen T-Roc 1.5 TSI 150 DSG/Pluspkt/elbaklucka/tonade rutor (2021, 9871 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:68cab897-73a7-4259-b74f-64f51d870bd7",
+      "title": "Nissan Qashqai",
+      "variant": "MHEV 158 XTRONIC 2WD N-CONNECTA 12.3\" TFT",
+      "registrationNumber": "NEN53A",
+      "modelYear": 2022,
+      "mileageMil": 8600,
+      "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
+      "enrichmentRequest": {
+        "offerId": "wayke:68cab897-73a7-4259-b74f-64f51d870bd7",
+        "registrationNumber": "NEN53A",
+        "vin": "SJNTAAJ12U1133583",
+        "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.nissan.se/aga/service.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Nissan Qashqai MHEV 158 XTRONIC 2WD N-CONNECTA 12.3\" TFT (2022, 8600 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
+      "title": "CUPRA Leon Sportstourer",
+      "variant": "1.5/CUPRA Paket/Vision Plus/Full Link/",
+      "registrationNumber": "JUS52N",
+      "modelYear": 2023,
+      "mileageMil": 7520,
+      "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
+      "enrichmentRequest": {
+        "offerId": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
+        "registrationNumber": "JUS52N",
+        "vin": "VSSZZZKLXPR062695",
+        "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": null,
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera CUPRA Leon Sportstourer 1.5/CUPRA Paket/Vision Plus/Full Link/ (2023, 7520 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:08063b58-4845-4f59-849b-30ae0d51f536",
+      "title": "CUPRA Leon Sportstourer",
+      "variant": "1.5 eTSI/B-kamera/Farthållare/Carplay/Drag",
+      "registrationNumber": "KPS70J",
+      "modelYear": 2023,
+      "mileageMil": 6914,
+      "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
+      "enrichmentRequest": {
+        "offerId": "wayke:08063b58-4845-4f59-849b-30ae0d51f536",
+        "registrationNumber": "KPS70J",
+        "vin": "VSSZZZKL1PR038320",
+        "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": null,
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera CUPRA Leon Sportstourer 1.5 eTSI/B-kamera/Farthållare/Carplay/Drag (2023, 6914 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:d2e4cf07-8a3d-406d-bdf1-4aa4d29af680",
+      "title": "CUPRA Leon Sportstourer",
+      "variant": "1.5 eTSI DSG Sekventiell 150hk",
+      "registrationNumber": "JFM52E",
+      "modelYear": 2023,
+      "mileageMil": 3816,
+      "sourceUrl": "https://www.wayke.se/objekt/d2e4cf07-8a3d-406d-bdf1-4aa4d29af680",
+      "enrichmentRequest": {
+        "offerId": "wayke:d2e4cf07-8a3d-406d-bdf1-4aa4d29af680",
+        "registrationNumber": "JFM52E",
+        "vin": "VSSZZZKL1PR050063",
+        "sourceUrl": "https://www.wayke.se/objekt/d2e4cf07-8a3d-406d-bdf1-4aa4d29af680",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": null,
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera CUPRA Leon Sportstourer 1.5 eTSI DSG Sekventiell 150hk (2023, 3816 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:95f94d28-6d83-41e9-a01a-e00eebb23222",
+      "title": "Nissan Qashqai",
+      "variant": "1.3 158hk Acenta Kamera Rattvärme CarPlay",
+      "registrationNumber": "AXC22D",
+      "modelYear": 2022,
+      "mileageMil": 5223,
+      "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
+      "enrichmentRequest": {
+        "offerId": "wayke:95f94d28-6d83-41e9-a01a-e00eebb23222",
+        "registrationNumber": "AXC22D",
+        "vin": "SJNTAAJ12U1078333",
+        "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.nissan.se/aga/service.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Nissan Qashqai 1.3 158hk Acenta Kamera Rattvärme CarPlay (2022, 5223 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:60011c2f-3cc2-4af1-85b7-7814596ecd20",
+      "title": "CUPRA Leon Sportstourer",
+      "variant": "1.5 eTSI/P-sensorer/Full Link/En ägare",
+      "registrationNumber": "RZR01A",
+      "modelYear": 2023,
+      "mileageMil": 3240,
+      "sourceUrl": "https://www.wayke.se/objekt/60011c2f-3cc2-4af1-85b7-7814596ecd20",
+      "enrichmentRequest": {
+        "offerId": "wayke:60011c2f-3cc2-4af1-85b7-7814596ecd20",
+        "registrationNumber": "RZR01A",
+        "vin": "VSSZZZKL5PR039955",
+        "sourceUrl": "https://www.wayke.se/objekt/60011c2f-3cc2-4af1-85b7-7814596ecd20",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": null,
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera CUPRA Leon Sportstourer 1.5 eTSI/P-sensorer/Full Link/En ägare (2023, 3240 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:c91274a9-dba4-4628-a022-685347f85665",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.5 TSI 150hk |Backkamera|",
+      "registrationNumber": "JAJ44D",
+      "modelYear": 2023,
+      "mileageMil": 9303,
+      "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
+      "enrichmentRequest": {
+        "offerId": "wayke:c91274a9-dba4-4628-a022-685347f85665",
+        "registrationNumber": "JAJ44D",
+        "vin": "WVGZZZA1ZPV690102",
+        "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Volkswagen T-Roc 1.5 TSI 150hk |Backkamera| (2023, 9303 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
+      "title": "Peugeot 3008",
+      "variant": "GT PureTech 130 A 5-d SUV",
+      "registrationNumber": "UDA99C",
+      "modelYear": 2023,
+      "mileageMil": 9067,
+      "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
+      "enrichmentRequest": {
+        "offerId": "wayke:e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
+        "registrationNumber": "UDA99C",
+        "vin": "VF3MRHNSUPS047354",
+        "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.peugeot.se/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Peugeot 3008 GT PureTech 130 A 5-d SUV (2023, 9067 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:afa4f887-88a1-4db4-9f0e-e966e1e44825",
+      "title": "Peugeot 5008",
+      "variant": "1.2 PureTech (130hk) GT-Line",
+      "registrationNumber": "JAJ07D",
+      "modelYear": 2023,
+      "mileageMil": 4930,
+      "sourceUrl": "https://www.wayke.se/objekt/afa4f887-88a1-4db4-9f0e-e966e1e44825",
+      "enrichmentRequest": {
+        "offerId": "wayke:afa4f887-88a1-4db4-9f0e-e966e1e44825",
+        "registrationNumber": "JAJ07D",
+        "vin": "VF3MRHNSUPL023037",
+        "sourceUrl": "https://www.wayke.se/objekt/afa4f887-88a1-4db4-9f0e-e966e1e44825",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.peugeot.se/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Peugeot 5008 1.2 PureTech (130hk) GT-Line (2023, 4930 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:6ecc9dcd-dab0-4597-be09-c3d725266702",
+      "title": "Peugeot 5008",
+      "variant": "1.2  GT-line 7-sits Cockpit Backkamera Navi",
+      "registrationNumber": "GSH80G",
+      "modelYear": 2022,
+      "mileageMil": 5109,
+      "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
+      "enrichmentRequest": {
+        "offerId": "wayke:6ecc9dcd-dab0-4597-be09-c3d725266702",
+        "registrationNumber": "GSH80G",
+        "vin": "VF3MRHNSUNL024116",
+        "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.peugeot.se/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Peugeot 5008 1.2  GT-line 7-sits Cockpit Backkamera Navi (2022, 5109 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "wayke:4f522997-fa19-4d86-b303-d106b6dba770",
+      "title": "Volkswagen Tiguan",
+      "variant": "1.5 TSI 150HK DSG / Drag & Backkamera",
+      "registrationNumber": "BRJ35J",
+      "modelYear": 2021,
+      "mileageMil": 9307,
+      "sourceUrl": "https://www.wayke.se/objekt/4f522997-fa19-4d86-b303-d106b6dba770",
+      "enrichmentRequest": {
+        "offerId": "wayke:4f522997-fa19-4d86-b303-d106b6dba770",
+        "registrationNumber": "BRJ35J",
+        "vin": "WVGZZZ5NZMW070732",
+        "sourceUrl": "https://www.wayke.se/objekt/4f522997-fa19-4d86-b303-d106b6dba770",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Volkswagen Tiguan 1.5 TSI 150HK DSG / Drag & Backkamera (2021, 9307 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    },
+    {
+      "id": "toyota:corolla-ts:easy-privatleasing",
+      "title": "Toyota Corolla Touring Sports Hybrid",
+      "variant": "1.8 Hybrid Touring Sports Active · Automat",
+      "registrationNumber": null,
+      "modelYear": null,
+      "mileageMil": null,
+      "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
+      "enrichmentRequest": {
+        "offerId": "toyota:corolla-ts:easy-privatleasing",
+        "registrationNumber": null,
+        "vin": null,
+        "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.toyota.se/aga/service",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        }
+      },
+      "instruction": "Researchera Toyota Corolla Touring Sports Hybrid 1.8 Hybrid Touring Sports Active · Automat (undefined, undefined mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+    }
+  ]
+}

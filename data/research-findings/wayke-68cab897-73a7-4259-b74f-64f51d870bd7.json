@@ -1,0 +1,59 @@
+{
+  "offerId": "wayke:68cab897-73a7-4259-b74f-64f51d870bd7",
+  "checkedAt": "2026-09-07T21:45:00+02:00",
+  "vehicle": {
+    "title": "Nissan Qashqai",
+    "variant": "MHEV 158 XTRONIC 2WD N-CONNECTA 12.3\" TFT",
+    "modelYear": 2022,
+    "mileageMil": 8600,
+    "registrationNumber": "NEN53A"
+  },
+  "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
+  "notes": "Nissans J12-serviceplan och europeiska Qashqai-specifikationer används som primärkällor. Exakt nästa service, fordonsskatt och däckens skick kräver servicehistorik respektive registrerade fordonsdata och fysisk kontroll. Inga exakta priser har hittats eller påståtts.",
+  "service": {
+    "interval": { "value": "15 000 km eller 12 månader, det som inträffar först", "status": "partially_verified", "sourceUrl": "https://www.nissan.co.za/content/dam/Nissan/za/Maintenance/New-Qashqai-Maintenance-Schedule.pdf", "note": "Officiell Nissan J12 1.3 MHEV-plan; Nissan Sverige anger att intervall kan variera med modellår/marknad, så agent/VIN bör bekräfta svensk plan." },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Kan inte beräknas utan senaste servicedatum och mätarställning/VIN; bilen är annonserad till 8 600 mil." },
+    "operations": { "value": "Motorolja/oljefilter, inspektion av bromsar, däck, vätskor, styrning/upphängning och övriga kontrollpunkter enligt Nissan J12-underhållsplan; bromsvätska och kupéfilter återkommer enligt plan", "status": "verified", "sourceUrl": "https://www.nissan.co.za/content/dam/Nissan/za/Maintenance/New-Qashqai-Maintenance-Schedule.pdf" },
+    "priceAuthorized": { "value": null, "status": "estimated", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Ingen offentlig fast svensk verkstadsprislista för just årsmodell/variant; offert krävs." },
+    "priceIndependent": { "value": null, "status": "estimated", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Lokal oberoende verkstadsoffert krävs." },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Ingen offert att kontrollera; momsstatus kan därför inte verifieras." },
+    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.nissan.co.za/content/dam/Nissan/za/Maintenance/New-Qashqai-Maintenance-Schedule.pdf", "note": "Planen listar återkommande intervall men svensk storservicebenämning/pris för aktuell bil framgår inte." }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "estimated", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premie beror på förare, ort, omfattning och skadehistorik; personlig offert krävs." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil (halv-/helförsäkring); 15 000 mil (Stor bilförsäkring)", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Självrisk beror på vald försäkring, bilens ålder och miltal." },
+    "coveredComponents": { "value": "Motor, motorns kylsystem, startmotor/start-stopp, bränslesystem, hybridbatteri (inte lågvoltsbatteri), kraftöverföring, styrväxel, krockkuddesystem och vissa elektronikkomponenter enligt villkoren", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": true
+  },
+  "tyres": {
+    "dimension": { "value": "235/55 R18 (N-Connecta); 215/65 R17 och 235/50 R19 förekommer på andra utrustningsnivåer", "status": "partially_verified", "sourceUrl": "https://www.nissan.fr/content/dam/Nissan/fr/brochures/Brochures-vehicules/Brochures-accessoires-et-eBrochure-Qashqai-2021-Desktop.pdf", "note": "N-Connecta anges med 18 tum i Nissan-broschyren; kontrollera däcksida/CoC för detta exemplar." },
+    "loadIndex": { "value": "104V för 235/55 R18 enligt Nissans EU-däckinformation", "status": "partially_verified", "sourceUrl": "https://www.nissan.de/reifenkennzeichnung.html", "note": "Exakt belastnings- och hastighetsindex måste verifieras på bilens monterade däck/CoC." },
+    "completeSetPrice": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen prisuppgift används; pris kräver verifierad dimension, index och fabrikat." },
+    "mountingPrice": { "value": null, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Lokalt verkstadspris/offert krävs." },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/", "note": "Återstående livslängd kräver mätning av mönsterdjup och däckålder." },
+    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Beror på skick, körsträcka och marknad; ingen primär fast värdering." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
+    "note": "NEN53A måste slås upp i Transportstyrelsens fordonsuppgifter för registrerat WLTP-CO2 och första trafikdatum. För bensin/mildhybrid tagen i trafik 1 juni 2022 eller senare är grundbeloppet 360 kr och CO2-beloppet 107 kr/g över 75–125 g/km samt 132 kr/g över 125 g/km under malusperioden; exakt belopp kan därför inte styrkas här."
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Ingen variantunik primärkälla med felfrekvenser hittad; kontrollera servicehistorik och återkallelser via Nissan-agent." },
+    "partsPrice": { "value": null, "status": "estimated", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Ingen specifik reparation eller del är identifierad; ingen exakt prisuppgift." },
+    "laborPriceAuthorized": { "value": null, "status": "estimated", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Auktoriserad verkstadsoffert krävs." },
+    "laborPriceIndependent": { "value": null, "status": "estimated", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Lokal oberoende verkstadsoffert krävs." },
+    "threeYearReserve": { "value": null, "status": "estimated", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Ingen exakt reserv kan styrkas utan historik, skick och reparationsdata." }
+  },
+  "costs": {
+    "service": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad." },
+    "insurance": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Personlig premie krävs." },
+    "tax": { "amountSek": 0, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/", "note": "Registrerade CO2- och datumuppgifter saknas i denna kontroll." },
+    "winter": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Dimension/index och offert saknas." },
+    "tyres": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Montering/slitage och offert saknas." },
+    "repair": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Ingen modellstatistik eller offert." }
+  }
+}

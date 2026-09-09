@@ -1,0 +1,407 @@
+[
+  {
+    "generatedAt": "2026-09-05T16:12:29.029Z",
+    "offers": 18,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:7d409560-5a88-4d2f-8a4c-87470a63f5d6",
+        "title": "Ford Focus Active Kombi",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:0c458a8d-e297-43c1-8135-529d3860f7c8",
+        "title": "SEAT Leon Sportstourer",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:c9fdeb16-0d54-4140-961b-43568350b470",
+        "title": "Dacia Duster",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:fb478a7c-4a9f-4340-89ce-94c68f439317",
+        "title": "Peugeot 3008",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:fa01452b-4ff5-43b2-910b-6dd397b09343",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:8f935ae8-8293-4ad7-82fd-3a73de4cff29",
+        "title": "Peugeot 3008",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
+        "title": "Peugeot 3008",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:8846ce2c-6713-4579-b22b-ba897e7ddb4b",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:4aa40c00-8083-46d7-b7db-9e9c452e02bc",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
+        "title": "Peugeot 3008",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:7d69912a-3c49-41fa-8438-4fb439e898dc",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:faa05a10-2f78-444e-a27a-157e59cf9a34",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
+        "title": "Kia Ceed Sportswagon",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:114790de-1346-4420-85bf-7f0ccc8c6fac",
+        "title": "Peugeot 3008",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:a8afb359-cd68-4bb3-a577-3cb7541099db",
+        "title": "Škoda Octavia Kombi",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:233784a2-1893-4b4a-9dfd-2a833f5d66b2",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-05T16:12:29.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:68cab897-73a7-4259-b74f-64f51d870bd7",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-05T16:12:29.029Z"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "generatedAt": "2026-09-05T16:15:34.584Z",
+    "offers": 18,
+    "changes": [],
+    "errors": []
+  },
+  {
+    "generatedAt": "2026-09-05T16:26:37.607Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
+        "title": "Dacia Duster",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:35121016-1fae-49fc-82f2-6594356855bd",
+        "title": "Peugeot 3008",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:25503fa4-4bf2-4912-8d50-eb6be87c8c81",
+        "title": "Volkswagen Golf Sportscombi",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:8cd495d1-937e-473d-9f2f-e8baf165ad49",
+        "title": "Kia Ceed Sportswagon",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:08063b58-4845-4f59-849b-30ae0d51f536",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:ec41ff35-2fc2-4ff9-ae69-cfeb13fa39d7",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:c91274a9-dba4-4628-a022-685347f85665",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:18fcedc0-c05b-4c04-b02d-119efea02ff9",
+        "title": "SEAT Leon",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:6ecc9dcd-dab0-4597-be09-c3d725266702",
+        "title": "Peugeot 5008",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:95f94d28-6d83-41e9-a01a-e00eebb23222",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
+        "title": "Dacia Duster",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:4f522997-fa19-4d86-b303-d106b6dba770",
+        "title": "Volkswagen Tiguan",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:d73735d3-df42-46d4-80c7-6d521486baa1",
+        "title": "Škoda Octavia",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
+        "title": "Volkswagen Golf Sportscombi",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:b27fdcad-e911-437d-8b49-f3fd2469e225",
+        "title": "Kia Ceed Sportswagon",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:9dbfc015-5da0-47f6-96e7-d02abb19433b",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:afa4f887-88a1-4db4-9f0e-e966e1e44825",
+        "title": "Peugeot 5008",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
+        "title": "Volkswagen Golf Sportscombi",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:60011c2f-3cc2-4af1-85b7-7814596ecd20",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-05T16:26:37.607Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:d2e4cf07-8a3d-406d-bdf1-4aa4d29af680",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-05T16:26:37.607Z"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "generatedAt": "2026-09-07T15:05:05.119Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "price",
+        "id": "wayke:fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
+        "title": "Nissan Qashqai",
+        "before": 209900,
+        "after": 204900,
+        "at": "2026-09-07T15:05:05.119Z"
+      },
+      {
+        "type": "price",
+        "id": "wayke:18fcedc0-c05b-4c04-b02d-119efea02ff9",
+        "title": "SEAT Leon",
+        "before": 189800,
+        "after": 179900,
+        "at": "2026-09-07T15:05:05.119Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:b3322c88-5f3b-4490-ac39-5e62b7c724f2",
+        "title": "Peugeot 3008",
+        "at": "2026-09-07T15:05:05.119Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:d2e4cf07-8a3d-406d-bdf1-4aa4d29af680",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-07T15:05:47.299Z"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "generatedAt": "2026-09-07T15:29:30.944Z",
+    "offers": 40,
+    "changes": [],
+    "errors": []
+  },
+  {
+    "generatedAt": "2026-09-07T16:01:55.708Z",
+    "offers": 40,
+    "changes": [],
+    "errors": []
+  },
+  {
+    "generatedAt": "2026-09-08T05:02:10.802Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:d2e4cf07-8a3d-406d-bdf1-4aa4d29af680",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-08T05:02:10.802Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:ec41ff35-2fc2-4ff9-ae69-cfeb13fa39d7",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-08T05:02:43.424Z"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "generatedAt": "2026-09-09T16:01:58.509Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:a0b20001-65db-44cb-8fa4-6bffc12ba91e",
+        "title": "Peugeot 3008",
+        "at": "2026-09-09T16:01:58.509Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:487d50e9-363e-45dd-a80f-4547d7e8776e",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-09T16:01:58.509Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-09T16:01:58.509Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:1b8b4414-a528-46f0-a4f2-c166c9e5069f",
+        "title": "Volkswagen Golf Sportscombi",
+        "at": "2026-09-09T16:01:58.509Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-09T16:01:58.509Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:ec0c60c7-220d-45b6-b0cd-7bd46484b266",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-09T16:01:58.509Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:8cd495d1-937e-473d-9f2f-e8baf165ad49",
+        "title": "Kia Ceed Sportswagon",
+        "at": "2026-09-09T16:02:35.886Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:4f522997-fa19-4d86-b303-d106b6dba770",
+        "title": "Volkswagen Tiguan",
+        "at": "2026-09-09T16:02:35.886Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:114790de-1346-4420-85bf-7f0ccc8c6fac",
+        "title": "Peugeot 3008",
+        "at": "2026-09-09T16:02:35.886Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:d73735d3-df42-46d4-80c7-6d521486baa1",
+        "title": "Škoda Octavia",
+        "at": "2026-09-09T16:02:35.886Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:60011c2f-3cc2-4af1-85b7-7814596ecd20",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-09T16:02:35.886Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:d2e4cf07-8a3d-406d-bdf1-4aa4d29af680",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-09T16:02:35.886Z"
+      }
+    ],
+    "errors": []
+  }
+]

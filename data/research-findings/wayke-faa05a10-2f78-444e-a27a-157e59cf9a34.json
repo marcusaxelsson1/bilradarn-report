@@ -1,0 +1,50 @@
+{
+  "offerId": "wayke:faa05a10-2f78-444e-a27a-157e59cf9a34",
+  "checkedAt": "2026-09-07T21:45:00+02:00",
+  "vehicle": {
+    "title": "Volkswagen T-Roc",
+    "variant": "1.5 TSI AUTOMAT 150 HK",
+    "modelYear": 2022,
+    "mileageMil": 9690,
+    "registrationNumber": "KFO713"
+  },
+  "notes": "Volkswagens svenska juli 2022-broschyr verifierar 1.5 TSI 150 hk med 7-växlad DSG, 250 Nm och 142 g/km WLTP CO2. Volkswagens modellöversikt anger 215/55 R17 för T-Roc 1.5 TSI-varianter med 17-tumshjul. Exakt servicehistorik, förfallodatum, verkstadspriser, personlig premie/självrisk, däckpris och skatt kan inte verifieras utan servicebok, offert eller Transportstyrelsens fordonsuppgift. Inga exakta prisbelopp har uppfunnits.",
+  "service": {
+    "interval": { "value": "Volkswagen använder flexibla serviceintervall; oljebyte indikeras i bilens instrumentering och intervallen påverkas av körsträcka, körsätt och antal kallstarter. Exakt intervall för detta VIN kräver instruktionsbok/servicehistorik.", "status": "partially_verified", "sourceUrl": "https://www.volkswagen.se/sv/aga-en-vw/service/originalservice.html" },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga-en-vw/service/originalservice.html", "note": "Kräver senaste service, datum/mätarställning och bilens serviceindikering." },
+    "operations": { "value": "Volkswagen Originalservice omfattar bl.a. motorolja/oljefilter vid angivet intervall samt kontroller av motor/motorrum, växellåda/slutväxel, kylsystem och bromsar; exakta moment varierar mellan modeller och servicetidpunkter.", "status": "verified", "sourceUrl": "https://www.volkswagen.se/sv/aga-en-vw/service/originalservice.html" },
+    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga-en-vw/service/originalservice.html", "note": "VW-återförsäljare sätter egna priser och ingen bilspecifik offert finns." },
+    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga-en-vw/service/originalservice.html" },
+    "largeServiceAfter36Months": { "value": "Ingen offentlig, variant- och fordonsunik 36-månaders storserviceoffert verifierad.", "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga-en-vw/service/originalservice.html" }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premien är individuell och kräver offert." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helf försäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "If anger att självrisken beror på bilens ålder och körsträcka; aktuell försäkring/offert krävs." },
+    "coveredComponents": { "value": "Exempel för personbil: motor och motorns kylsystem, bränslesystem, styrväxel, kraftöverföring, krockkuddesystem samt vissa elektronikkomponenter; full omfattning styrs av villkoren.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tyres": {
+    "dimension": { "value": "215/55 R17 för T-Roc 1.5 TSI med 17-tumshjul (modellöversikt); aktuell bils exakta hjulvariant bör verifieras mot registreringsuppgift/VIN.", "status": "partially_verified", "sourceUrl": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/suv/t-roc-1.html" },
+    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.de/de/besitzer-und-service/ueber-ihr-auto/vorgaengermodelle/suv/t-roc-1.html", "note": "Belastningsindex framgår inte av den verifierade modellöversikten." },
+    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Kräver fabrikat, säsong och aktuell offert." },
+    "mountingPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Ingen bil- och datumverifierad offert." },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Kräver fysisk mätning av aktuella däck." },
+    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Kan inte uppskattas utan inköpspris, mönsterdjup och körprofil." }
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "note": "Ingen variantunik primärkälla med verifierade felfrekvenser hittad." },
+    "partsPrice": { "value": null, "status": "unknown", "note": "Ingen fordons- och delverifierad offert." },
+    "laborPriceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga-en-vw/service/originalservice.html", "note": "Återförsäljarspecifik offert krävs." },
+    "laborPriceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Verkstads- och åtgärdsspecifik offert krävs." },
+    "threeYearReserve": { "value": null, "status": "estimated", "note": "Kräver separat riskmodell; inget exakt belopp anges." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+    "note": "Exakt skatt kräver registreringsuppgift/fordonsdata; CO2-uppgiften i broschyren är inte tillräcklig för att säkert fastställa detta individuella fordons skattebelopp."
+  }
+}

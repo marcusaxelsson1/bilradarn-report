@@ -1,0 +1,52 @@
+{
+  "offerId": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
+  "checkedAt": "2026-09-07T18:45:00.000Z",
+  "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
+  "notes": "Dacia Duster PhII TCe 150 EDC (2023, KCD10G, 4 099 mil). Exakta verkstadspriser, försäkringspremie och skatt är inte offentligt verifierbara utan VIN/registreringsregister och personlig offert; de lämnas därför som estimated/unknown.",
+  "service": {
+    "interval": { "value": null, "status": "estimated", "sourceUrl": "https://www.dacia.co.uk/maintenance/service-schedule.html", "note": "Dacia anger att intervall varierar med modell och motor och ska slås upp i My Dacia med registrering/VIN; inget generellt intervall för just detta exemplar publiceras." },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.dacia.co.uk/maintenance/service-schedule.html", "note": "Kräver bilens servicehistorik/My Dacia." },
+    "operations": { "value": "Motorolja/filter, kontroller och eventuella tilläggsarbeten enligt bilens serviceschema", "status": "verified", "sourceUrl": "https://www.dacia.co.uk/maintenance/servicing.html" },
+    "priceAuthorized": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dacia.se/aga/service-underhall", "note": "Dacia Sverige publicerar bokning/verkstadsnät men ingen fast svensk prislista för denna begagnade variant." },
+    "priceIndependent": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dacia.se/aga/service-underhall", "note": "Ingen primär, modell- och verkstadsspecifik offert tillgänglig." },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.dacia.se/aga/service-underhall" },
+    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.dacia.co.uk/maintenance/service-schedule.html", "note": "Beror på motor, körsträcka och bilens individuella schema." }
+  },
+  "insurance": {
+    "annualPremiumRange": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dacia.se/kopa/forsakring", "note": "Premie kräver personlig offert (förare, ort, omfattning och skadehistorik)." },
+    "machineDamageMaxAge": { "value": "10 år (If halv/hel; Stor kan ha annan gräns)", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil (If halv/hel; 15 000 mil Stor)", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "estimated", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Självrisk varierar mellan bolag och miltal." },
+    "coveredComponents": { "value": "Motor, elektronik, växellåda och kraftöverföring (exempel på If:s maskin-/elektronikskydd)", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": true
+  },
+  "tyres": {
+    "dimension": { "value": "Ej verifierad för just PhII Journey-exemplaret", "status": "unknown", "sourceUrl": "https://www.dacia.co.uk/brochures.html", "note": "Däckdimension måste kontrolleras mot bilens CoC/registreringsuppgifter; nya Duster-broschyrer gäller annan generation." },
+    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://www.dacia.co.uk/brochures.html" },
+    "completeSetPrice": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen exakt uppsättning kan prissättas utan dimension, index och fabrikat." },
+    "mountingPrice": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Verkstadspris varierar lokalt och kräver offert." },
+    "treadLife": { "value": null, "status": "estimated", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/", "note": "Återstående livslängd kan inte verifieras utan mönsterdjup och ålder." },
+    "valueAtMonth36": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Restvärde beror på skick och marknad; ingen primär fast uppgift." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "estimated",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
+    "note": "KCD10G måste kontrolleras i vägtrafikregistret. Transportstyrelsen anger att exakt skatt kräver registrerat CO2-värde; för bensinbil tagen i trafik från 1 juni 2022 gäller grundbelopp 360 kr plus CO2-komponent enligt WLTP, och malus kan gälla i tre år."
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "sourceUrl": "https://www.dacia.se/aga/dacia-care-serviceavtal", "note": "Dacia publicerar inget statistiskt felutfall för just Duster TCe 150 EDC; Care beskriver i stället täckning/slitdelar." },
+    "partsPrice": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dacia.se/aga/dacia-care-serviceavtal", "note": "Ingen modell- och delspecifik primäroffert." },
+    "laborPriceAuthorized": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dacia.se/aga/service-underhall" },
+    "laborPriceIndependent": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dacia.se/aga/service-underhall" },
+    "threeYearReserve": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dacia.se/aga/dacia-care-serviceavtal", "note": "Ingen exakt reserv anges utan skade- och offertdata." }
+  },
+  "costs": {
+    "service": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.dacia.co.uk/maintenance/service-schedule.html", "note": "Pris ej publicerat; 0 används som null-kompatibelt sentinelvärde, inte som påstådd kostnad." },
+    "insurance": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.dacia.se/kopa/forsakring", "note": "Personlig premie krävs." },
+    "tax": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/", "note": "Exakt CO2/registeruppgift saknas." },
+    "winter": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Dimension och offert saknas." },
+    "tyres": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Montering/slitage kan inte verifieras." },
+    "repair": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.dacia.se/aga/dacia-care-serviceavtal", "note": "Ingen modellstatistik eller offert; ingen exakt reserv uppges." }
+  }
+}

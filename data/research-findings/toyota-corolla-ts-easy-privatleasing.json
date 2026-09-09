@@ -1,0 +1,46 @@
+{
+  "offerId": "toyota:corolla-ts:easy-privatleasing",
+  "checkedAt": "2026-09-07T20:20:00.000Z",
+  "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
+  "notes": "Toyota anger service en gång per år/1 500 mil, vartannat år fullständig service med funktions- och säkerhetskontroll, samt hybridkontroll årligen/1 500 mil. Officiell Corolla-specifikation anger 1,8 Hybrid Touring Sports och 195/65 R15, 205/55 R16 eller 225/45 R17 beroende på hjulutförande; Active anges med 16-tums lättmetallfälg i broschyren. Annonsen saknar registreringsnummer och årsmodell, varför exakt skatt, nästa servicedatum och personlig försäkringspremie inte kan fastställas.",
+  "costs": {
+    "service": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.toyota.se/service-verkstad/service", "note": "Toyota publicerar intervall och serviceinnehåll men ingen generell fast verkstadsprislista; lokal offert krävs."},
+    "insurance": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Premie och självrisk är individ- och försäkringsomfattningsberoende. If anger maskinskadeskydd för personbil till 10 år och under 12 000 mil (halv/hel) eller 15 000 mil (Stor)."},
+    "tax": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/", "note": "Transportstyrelsen kräver registrerat CO2-värde och första trafikdatum för exakt skatt; båda saknas för leasingerbjudandet."},
+    "winter": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Vinterhjulspaket och aktuell offert saknas; dimension beror på valt hjulutförande."},
+    "tyres": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Däckpris, montering, slitage och restvärde kräver aktuell offert och inspektion."},
+    "repair": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.toyota.se/service-verkstad/service", "note": "Toyota beskriver underhåll och reparationstjänster men publicerar ingen generell kostnadstabell eller modellunik treårsreserv."}
+  },
+  "service": {
+    "interval": {"value": "1 år eller 1 500 mil", "status": "verified", "sourceUrl": "https://www.toyota.se/service-verkstad/service"},
+    "nextDue": {"value": null, "status": "unknown", "sourceUrl": "https://www.toyota.se/service-verkstad/service", "note": "Servicehistorik och registreringsdatum saknas."},
+    "operations": {"value": "Årlig mellanliggande funktionsservice med oljebyte; vartannat år fullständig service inklusive funktions- och säkerhetskontroll; hybridservice omfattar diagnos och hälsokontroll av hybridsystem/batteri.", "status": "verified", "sourceUrl": "https://www.toyota.se/service-verkstad/service"},
+    "priceAuthorized": {"value": null, "status": "unknown", "sourceUrl": "https://www.toyota.se/service-verkstad/service"},
+    "priceIndependent": {"value": null, "status": "unknown", "sourceUrl": "https://www.toyota.se/service-verkstad/service"},
+    "priceIncludesVat": {"value": null, "status": "unknown", "sourceUrl": "https://www.toyota.se/service-verkstad/service"},
+    "largeServiceAfter36Months": {"value": "Vartannat år/3 000 mil fullständig service enligt Toyota-broschyr; exakt kommande åtgärd beror på servicehistorik.", "status": "verified", "sourceUrl": "https://www.toyota.se/content/dam/toyota/nmsc/sweden/cross-model/new-cars/broschyrer/documents/cor_bb_web.pdf"}
+  },
+  "insurance": {
+    "annualPremiumRange": {"value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "machineDamageMaxAge": {"value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "machineDamageMaxMileage": {"value": "12 000 mil för halv-/helforsäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "deductible": {"value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Självrisk beror på bilens ålder, körsträcka och vald försäkring."},
+    "coveredComponents": {"value": ["motor", "bränslesystem", "hybridbatteri (ej lågvoltsbatteri)", "högvoltskablage", "styrväxel", "kraftöverföring", "farthållare och färddator"], "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "personalQuoteRequired": {"value": true, "status": "verified", "sourceUrl": "https://easyprivatleasing.toyota.se/konfiguration/modell/corolla-ts"}
+  },
+  "tyres": {
+    "dimension": {"value": ["195/65 R15", "205/55 R16", "225/45 R17"], "status": "verified", "sourceUrl": "https://www.toyota.se/content/dam/toyota/nmsc/sweden/cross-model/new-cars/broschyrer/documents/cor_bb_web.pdf", "note": "Toyota anger tre dimensioner beroende på fälg/utförande; Active-broschyren anger 16-tums lättmetall som standard."},
+    "loadIndex": {"value": null, "status": "unknown", "sourceUrl": "https://www.toyota.se/content/dam/toyota/nmsc/sweden/cross-model/new-cars/broschyrer/documents/cor_bb_web.pdf"},
+    "completeSetPrice": {"value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/"},
+    "mountingPrice": {"value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/"},
+    "treadLife": {"value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/"},
+    "valueAtMonth36": {"value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/"}
+  },
+  "repairs": {
+    "commonFailures": {"value": null, "status": "unknown", "sourceUrl": "https://www.toyota.se/service-verkstad/service", "note": "Toyota publicerar inte en modellunik lista över vanliga fel på denna sida."},
+    "partsPrice": {"value": null, "status": "unknown", "sourceUrl": "https://www.toyota.se/service-verkstad"},
+    "laborPriceAuthorized": {"value": null, "status": "unknown", "sourceUrl": "https://www.toyota.se/service-verkstad"},
+    "laborPriceIndependent": {"value": null, "status": "unknown", "sourceUrl": "https://www.toyota.se/service-verkstad"},
+    "threeYearReserve": {"value": null, "status": "unknown", "sourceUrl": "https://www.toyota.se/service-verkstad/service", "note": "Ingen verifierbar modell- eller användningsspecifik reserv kan beräknas utan offert och servicehistorik."}
+  }
+}

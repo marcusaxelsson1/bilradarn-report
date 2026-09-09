@@ -1,0 +1,50 @@
+{
+  "offerId": "wayke:c91274a9-dba4-4628-a022-685347f85665",
+  "checkedAt": "2026-09-07T21:15:00+02:00",
+  "vehicle": {
+    "title": "Volkswagen T-Roc",
+    "variant": "1.5 TSI 150hk |Backkamera|",
+    "modelYear": 2023,
+    "mileageMil": 9303,
+    "registrationNumber": "JAJ44D"
+  },
+  "notes": "Primärkällor verifierar Volkswagens flexibla serviceindikering 30 000 km eller 2 år för T-Roc med 1.5 TSI och T-Roc 1.5 TSI:s 17-tumshjul med 215/55 R17 94V i officiellt modellmaterial. Exakt nästa service, svensk servicehistorik, verkstadspriser, däckpris, faktisk premie och fordonsskatt kräver VIN/servicebok, offert eller Transportstyrelsens fordonsuppgift. Inga exakta prisbelopp har uppskattats.",
+  "service": {
+    "interval": { "value": "30 000 km eller 2 år, det som inträffar först (flexibelt serviceintervall enligt Volkswagens T-Roc-specifikation).", "status": "verified", "sourceUrl": "https://www.volkswagen.se/sv/kop-en-vw/bilar-i-lager.html/__app/search/car/U1dFNDA0MjIyMjIyMDI2ODQ3NDgw%3D.app" },
+    "nextDue": { "value": "Kan inte fastställas från modellår och mätarställning utan datum/miltal för senast utförda service.", "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "operations": { "value": "Exakt åtgärdslista för just bilen och servicehändelsen är inte offentlig i den kontrollerade källan; följ bilens serviceindikering och serviceplan.", "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "largeServiceAfter36Months": { "value": "Ingen offentlig, variant- och svenskprisverifierad 36-månaders storserviceoffert hittad.", "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premie är individuell och kräver offert." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helf försäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": "If anger 3 500 kr för maskin/elektronik när bilen är äldre än 5 år eller har körts mer än 8 000 mil (1 500 kr i Stor bilförsäkring); exakt försäkringsprodukt måste bekräftas.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/trafikforsakring" },
+    "coveredComponents": { "value": "Exempel enligt If: motor, motorns kylsystem, bränslesystem, styrväxel, kraftöverföring, krockkuddesystem och vissa elektronikkomponenter; full omfattning styrs av villkor.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tyres": {
+    "dimension": { "value": "215/55 R17 (94V i officiellt T-Roc-material); aktuell bil kan ha annan godkänd dimension beroende på fälg/utrustning.", "status": "verified", "sourceUrl": "https://www.volkswagen.ie/idhub/content/dam/onehub_pkw/importers/ie/models/product-guides/my22/T-Roc_MY22.pdf" },
+    "loadIndex": { "value": "94V för den dokumenterade 215/55 R17-konfigurationen.", "status": "verified", "sourceUrl": "https://www.volkswagen.ie/idhub/content/dam/onehub_pkw/importers/ie/models/product-guides/my22/T-Roc_MY22.pdf" },
+    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/" },
+    "mountingPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/" },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Kräver fysisk mätning av däcken." },
+    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen prognos utan inköpspris, mönsterdjup och körprofil." }
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "note": "Ingen variantunik primärkälla med felfrekvenser hittad." },
+    "partsPrice": { "value": null, "status": "unknown" },
+    "laborPriceAuthorized": { "value": null, "status": "unknown" },
+    "laborPriceIndependent": { "value": null, "status": "unknown" },
+    "threeYearReserve": { "value": null, "status": "estimated", "note": "Kräver separat riskmodell; inget exakt belopp anges." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordon-agaruppgift/webbtjanster",
+    "note": "Transportstyrelsen anger att skatteuppgifter hämtas via Fordonsuppgifter-sökning med registreringsnummer; beloppet kunde inte verifieras i den publika källan."
+  }
+}

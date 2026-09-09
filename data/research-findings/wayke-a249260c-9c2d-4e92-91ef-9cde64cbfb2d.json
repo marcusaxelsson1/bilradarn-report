@@ -1,0 +1,44 @@
+{
+  "offerId": "wayke:a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
+  "checkedAt": "2026-09-07T19:05:00.000Z",
+  "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/golf-sportscombi/Golf_Sportscombi_web_juni.pdf",
+  "notes": "Volkswagens svenska Golf Sportscombi-broschyr identifierar 1,5 eTSI 150 hk/7-växlad DSG och WLTP CO2 129 g/km samt 205/55 R16 som officiell Golf eTSI-standarddimension i Volkswagens tekniska data. Volkswagen anger flexibel serviceindikering 30 000 km eller 2 år. Exakt nästa förfallodatum, utförda operationer och offert kräver servicebok/Fordonsuppgift. If anger maskin- och elektronikskydd till 10 år/12 000 mil (halv-/helförsäkring) eller 10 år/15 000 mil (Stor), med bl.a. motor, bränslesystem, kraftöverföring och styrväxel; personlig premie och exakt självrisk kräver offert. Transportstyrelsen anger att exakt skatt ska hämtas i fordonsuppgift via registreringsnummer. Vanliga modellfel, reservdelspriser och verkstadstaxor kunde inte verifieras från en primärkälla; reparationsposten är därför endast planeringsreserv.",
+  "costs": {
+    "service": {
+      "amountSek": 15500,
+      "status": "estimated",
+      "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+      "note": "Volkswagens serviceindikering är 30 000 km eller 2 år (flexibel); 15 500 kr är treårsplanering, inte en variantmatchad offert. Servicehistorik saknas."
+    },
+    "insurance": {
+      "amountSek": 25200,
+      "status": "estimated",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
+      "note": "Treårsplanering; If:s maskinskadegränser och täckta komponenter är verifierade, men individuell premie och självrisk saknas."
+    },
+    "tax": {
+      "amountSek": 2202,
+      "status": "estimated",
+      "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+      "note": "Treårsplanering baserad på modellbroschyrns 129 g/km WLTP; exakt skatt för ZBR52C måste kontrolleras i Transportstyrelsens fordonsuppgift."
+    },
+    "winter": {
+      "amountSek": 6500,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/205-55-R16",
+      "note": "Volkswagen anger 205/55 R16 som standard för Golf eTSI; Dackonline visar prisexempel för dimensionen. 6 500 kr är en uppskattad fyradäcksprojektion utan fälg och montering."
+    },
+    "tyres": {
+      "amountSek": 4000,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/205-55-R16",
+      "note": "Däckslitage, montering och värde vid månad 36 saknar faktisk däckvariant, mönsterdjup och verkstadsoffert; planeringsestimat."
+    },
+    "repair": {
+      "amountSek": 10400,
+      "status": "estimated",
+      "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+      "note": "Treårsreserv, inte verifierat reparationspris. Primärkälla med variantunika vanliga fel, delar och arbetskostnader saknas."
+    }
+  }
+}

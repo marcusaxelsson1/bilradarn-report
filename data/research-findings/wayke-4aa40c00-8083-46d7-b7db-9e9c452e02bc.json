@@ -1,0 +1,50 @@
+{
+  "offerId": "wayke:4aa40c00-8083-46d7-b7db-9e9c452e02bc",
+  "checkedAt": "2026-09-07T20:55:00+02:00",
+  "vehicle": {
+    "title": "Volkswagen T-Roc",
+    "variant": "1.5 TSI 150 HK | DSG | Adaptiv FH",
+    "modelYear": 2021,
+    "mileageMil": 9279,
+    "registrationNumber": "GDS58D"
+  },
+  "notes": "Primärkällor verifierar T-Roc 1.5 TSI/DSG-specifikation, flexibel serviceindikering och försäkringens maskinskadegränser. Annonsen saknar servicebok och exakt däck-/skatteunderlag; inga exakta prisbelopp har uppfunnits.",
+  "service": {
+    "interval": { "value": "Serviceindikering 30 000 km eller 2 år (flexibel) för T-Roc 1.5 TSI-konfiguration i Volkswagens svenska fordonsdata; fast intervall kan bero på bilens PR-kod/utrustning.", "status": "verified", "sourceUrl": "https://www.volkswagen.se/sv/kop-en-vw/bilar-i-lager.html/__app/search/car/U1dFNDA0MjIyMjIyMDI2ODQ3NDgw%3D.app" },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Kräver bilens serviceindikering, första trafikdatum och servicehistorik; 92 790 km i annonsen räcker inte för ett datum." },
+    "operations": { "value": "Oljebyte/inspektion och eventuella tilläggsarbeten (t.ex. bromsvätska och tändstift) enligt bilens serviceindikering och motorvariant.", "status": "partially_verified", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Volkswagen publicerar ingen variant- och fordonsunik offert på den länkade sidan." },
+    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Kräver lokal verkstadsoffert." },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Ingen separat 36-månaderskostnad kan verifieras utan servicehistorik och offert." }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premien är individuell och kräver personlig offert." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helforsäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/trafikforsakring", "note": "Självrisk beror på försäkringsomfattning, bilens ålder och körsträcka; exakt belopp finns i offert/villkor." },
+    "coveredComponents": { "value": "Maskin- och elektronikskydd omfattar bland annat motor, elektronik, bränslesystem, styrväxel och bromsservo enligt Ifs produktbeskrivning.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tyres": {
+    "dimension": { "value": "215/55 R17 (Volkswagen anger detta som standard för T-Roc Style; bilens faktiska dimension måste bekräftas mot registreringsbevis/VIN).", "status": "verified", "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/t-roc/T-Roc_modellbroschyr_aug2021.pdf" },
+    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/t-roc/T-Roc_modellbroschyr_aug2021.pdf", "note": "Belastnings- och hastighetsindex framgår inte för den aktuella annonsbilen." },
+    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen datum- och fordonsverifierad offert." },
+    "mountingPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Kräver verkstad och aktuell offert." },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordons-agaruppgift/sok-fordons-och-agaruppgifter/", "note": "Kvarvarande mönsterdjup/slitage kräver fysisk mätning." },
+    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Kan inte värderas utan inköpspris, däckens ålder och slitage." }
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Ingen primär VW-källa med variantunika felfrekvenser identifierad." },
+    "partsPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Delpris kräver identifierad komponent och offert." },
+    "laborPriceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "laborPriceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/" },
+    "threeYearReserve": { "value": null, "status": "estimated", "note": "Ingen exakt reserv anges utan dokumenterade felrisker och offertunderlag." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+    "note": "Transportstyrelsen hänvisar till Fordonsuppgifter för exakt skatt; den kan inte verifieras här från annonsens data utan ett registerresultat."
+  }
+}

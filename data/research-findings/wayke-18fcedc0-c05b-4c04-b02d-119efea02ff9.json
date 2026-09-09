@@ -1,0 +1,13 @@
+{
+  "offerId": "wayke:18fcedc0-c05b-4c04-b02d-119efea02ff9",
+  "checkedAt": "2026-09-07T16:00:00.000Z",
+  "sourceUrl": "https://www.seat.se/datamanual-manual/leon/my22_w25/se-se/LEON_06_21_SE.pdf",
+  "notes": "SEAT:s MY22-manual bekräftar att serviceintervallet styrs av tid/körd sträcka och att exakt åtgärdslista beror på motorvariant. Annonsen saknar registreringsnummer och exakt servicehistorik, därför ändras inte beloppen till verifierade offerter.",
+  "costs": {
+    "service": { "amountSek": 15500, "status": "observed", "sourceUrl": "https://www.seat.se/datamanual-manual/leon/my22_w25/se-se/LEON_06_21_SE.pdf", "note": "Serviceplan verifierad på modellnivå; verkstadspris kräver registreringsnummer och aktuell mätarställning." },
+    "insurance": { "amountSek": 25200, "status": "estimated", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Maskinskadegräns kan verifieras (10 år/12 000 mil för standard, 15 000 mil för Stor); personlig premie saknas." },
+    "tax": { "amountSek": 2700, "status": "estimated", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/", "note": "Exakt skatt kräver registreringsnummer och kan inte fastställas från Wayke-annonsen ensam." },
+    "winter": { "amountSek": 14500, "status": "estimated", "sourceUrl": "https://www.euromaster.se/sok/tyres-275-45-20-110-t--vinterdack", "note": "Däckpris kan inte verifieras utan exakt dimension, belastningsindex och hastighetsindex." },
+    "tyres": { "amountSek": 4000, "status": "estimated", "sourceUrl": "https://www.euromaster.se/dackservice/dackmontering", "note": "Montering och slitage modelleras tills dimension och offert är kända." }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "offerId": "wayke:e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
+  "checkedAt": "2026-09-07T20:20:00.000Z",
+  "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
+  "notes": "Peugeot 3008 GT PureTech 130 EAT8 (2023, 9067 mil, UDA99C). Peugeot Servicebox kräver VIN, ålder, körsträcka och användningsprofil för exakt plan; servicehistorik och verkstadsofferter saknas. Peugeot/Stellantis dokumenterar tidigare PureTech-problem med för tidig kamremsnedbrytning/oljetryck och överdriven oljeförbrukning, men det går inte att fastställa om just detta VIN omfattas.",
+  "costs": {
+    "service": {"amountSek": null, "status": "unknown", "sourceUrl": "https://public.servicebox.peugeot.com/aides/DOC_OI/AP/documents/fr_FR/AIDE/9941/plan_entretien_apoi.html", "note": "Ingen offentlig fast prislista; exakt plan och offert kräver VIN samt användningsprofil."},
+    "insurance": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Personlig premie och exakt självrisk kräver försäkringsoffert."},
+    "tax": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/", "note": "Transportstyrelsen kräver registrerat CO2-värde och första trafikdatum; annonsens skatt är inte registerverifierad."},
+    "winter": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.peugeot.co.uk/content/dam/peugeot/uk/b2c/buy/price-and-spec-guides/pdfs/3008-suv-price-spec-guide.pdf", "note": "Däckdimension är verifierad som fälg-/utrustningsberoende, men aktuell komplett vinterhjulsoffert saknas."},
+    "tyres": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen aktuell offert, mönsterdjup eller slitageprognos."},
+    "repair": {"amountSek": null, "status": "unknown", "sourceUrl": "https://www.peugeot.co.uk/owners/puretech-engines-solutions.html", "note": "Tillverkaren bekräftar möjliga PureTech-rem-/oljetrycks- och oljeförbrukningsproblem, men delar-/arbetspriser och VIN-specifik reparationshistorik saknas."}
+  },
+  "service": {
+    "interval": {"value": null, "status": "unknown", "sourceUrl": "https://public.servicebox.peugeot.com/aides/DOC_OI/AP/documents/fr_FR/AIDE/9941/plan_entretien_apoi.html", "note": "VIN, ålder, miltal och normal/allvarlig användning måste anges i Peugeot Servicebox."},
+    "nextDue": {"value": null, "status": "unknown", "sourceUrl": "https://public.servicebox.peugeot.com/aides/DOC_OI/AP/documents/fr_FR/AIDE/9941/plan_entretien_apoi.html"},
+    "operations": {"value": "Tillverkarens VIN-specifika serviceplan; detaljer ej åtkomliga utan VIN-sökning", "status": "verified", "sourceUrl": "https://public.servicebox.peugeot.com/aides/DOC_OI/AP/documents/fr_FR/AIDE/9941/plan_entretien_apoi.html"},
+    "priceAuthorized": {"value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"},
+    "priceIndependent": {"value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"},
+    "priceIncludesVat": {"value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"},
+    "largeServiceAfter36Months": {"value": null, "status": "unknown", "sourceUrl": "https://public.servicebox.peugeot.com/aides/DOC_OI/AP/documents/fr_FR/AIDE/9941/plan_entretien_apoi.html"}
+  },
+  "insurance": {
+    "annualPremiumRange": {"value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "machineDamageMaxAge": {"value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "machineDamageMaxMileage": {"value": "12 000 mil halv-/helförsäkring; 15 000 mil Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "deductible": {"value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Självrisk varierar med bilens ålder och körsträcka."},
+    "coveredComponents": {"value": ["motor", "motorns kylsystem", "bränslesystem", "styrväxel", "kraftöverföring", "farthållare och färddator"], "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "personalQuoteRequired": {"value": true, "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"}
+  },
+  "tyres": {
+    "dimension": {"value": ["215/65 R17 99V", "225/55 R18 102V", "205/55 R19 97V", "225/50 R19 100V"], "status": "verified", "sourceUrl": "https://www.peugeot.co.uk/content/dam/peugeot/uk/b2c/buy/price-and-spec-guides/pdfs/3008-suv-price-spec-guide.pdf", "note": "Alternativen beror på hjul-/utrustningsnivå; exakt dimension för UDA99C måste bekräftas mot bilen/CoC."},
+    "loadIndex": {"value": ["99", "102", "97", "100"], "status": "verified", "sourceUrl": "https://www.peugeot.co.uk/content/dam/peugeot/uk/b2c/buy/price-and-spec-guides/pdfs/3008-suv-price-spec-guide.pdf"},
+    "completeSetPrice": {"value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/"},
+    "mountingPrice": {"value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/"},
+    "treadLife": {"value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/"},
+    "valueAtMonth36": {"value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/"}
+  },
+  "repairs": {
+    "commonFailures": {"value": ["för tidig nedbrytning av kamrem med möjlig oljetrycksproblematik", "överdriven oljeförbrukning"], "status": "verified", "sourceUrl": "https://www.peugeot.co.uk/owners/puretech-engines-solutions.html", "note": "Peugeot anger dessa som reparationsorsaker i vissa tidigare PureTech-generationer; inte en diagnos av detta exemplar."},
+    "partsPrice": {"value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.co.uk/owners/puretech-engines-solutions.html"},
+    "laborPriceAuthorized": {"value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.co.uk/owners/puretech-engines-solutions.html"},
+    "laborPriceIndependent": {"value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.co.uk/owners/puretech-engines-solutions.html"},
+    "threeYearReserve": {"value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.co.uk/owners/puretech-engines-solutions.html"}
+  }
+}

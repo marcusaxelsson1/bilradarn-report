@@ -1,0 +1,76 @@
+{
+  "offerId": "wayke:95f94d28-6d83-41e9-a01a-e00eebb23222",
+  "checkedAt": "2026-09-07T20:18:00.000Z",
+  "sourceUrl": "https://www-europe.nissan-cdn.net/content/dam/Nissan/sk/brochures/Pricelists/New-Qashqai-Pricelist_SK_2022.pdf",
+  "notes": "Nissans MY22-produktblad styrker 1.3 DIG-T Mild Hybrid 158 hk och Acenta-däck 215/65 R17 samt CO2-intervall för 158 hk Xtronic 2WD. Exakt registrerad drivlina, servicehistorik, personliga försäkringspremie/självrisk, aktuella däckpriser och verkstadspriser kräver registeruppslag eller offert.",
+  "costs": {
+    "service": {
+      "amountSek": 15000,
+      "status": "estimated",
+      "sourceUrl": "https://www.nissan.se/aga/service.html",
+      "note": "Treårsbudget för planerade servicebesök; Nissan publicerar inte en modell-/VIN-specifik svensk prislista här. Beloppet är en budgetuppskattning, inte ett verifierat pris."
+    },
+    "insurance": {
+      "amountSek": 18000,
+      "status": "estimated",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
+      "note": "Årspremie kan inte verifieras utan förare, ort, körsträcka och försäkringsomfattning; treårsbeloppet är endast en budgetuppskattning."
+    },
+    "tax": {
+      "amountSek": 8000,
+      "status": "estimated",
+      "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/malus/",
+      "note": "Nissan anger 142–147 g/km WLTP för 158 hk Xtronic 2WD. Transportstyrelsens malusformel ger modellbaserat intervall, men registrerad CO2, första trafikdatum och faktisk drivlina saknas; beloppet är därför inte verifierat."
+    },
+    "winter": {
+      "amountSek": 12000,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Dimensionen 215/65 R17 är verifierad för Acenta, men komplett vinterhjulspaket och aktuellt pris kräver offert; ingen exakt prisuppgift påstås."
+    },
+    "tyres": {
+      "amountSek": 3500,
+      "status": "estimated",
+      "sourceUrl": "https://www.mekonomen.se/",
+      "note": "Budget för slitage/montering; faktisk återstående livslängd, montagepris och månad-36-värde är inte verifierade."
+    },
+    "repair": {
+      "amountSek": 12000,
+      "status": "estimated",
+      "sourceUrl": "https://www.nissan.se/aga/garanti.html",
+      "note": "Treårsreserv som budgetpost. Nissan-källan styrker garanti-/servicekanal, inte sannolikhet eller kostnad för specifika fel."
+    }
+  },
+  "service": {
+    "interval": {"value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Exakt intervall för denna motor/VIN framgår inte av den publika svenska sidan; kontrollera service- och underhållsguide eller Nissan-verkstad."},
+    "nextDue": {"value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html"},
+    "operations": {"value": "Service enligt Nissan service- och underhållsguide; olja/oljefilter och inspektion är modell-/drivlineberoende", "status": "verified", "sourceUrl": "https://www.nissan.se/aga/service.html"},
+    "priceAuthorized": {"value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html"},
+    "priceIndependent": {"value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html"},
+    "priceIncludesVat": {"value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html"},
+    "largeServiceAfter36Months": {"value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html"}
+  },
+  "insurance": {
+    "annualPremiumRange": {"value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Personlig offert krävs."},
+    "machineDamageMaxAge": {"value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "machineDamageMaxMileage": {"value": "12 000 mil för halv-/helforsäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "deductible": {"value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "coveredComponents": {"value": ["motor", "bränslesystem", "styrväxel", "kraftöverföring", "farthållare och färddator"], "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"},
+    "personalQuoteRequired": {"value": true, "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"}
+  },
+  "tyres": {
+    "dimension": {"value": "215/65 R17", "status": "verified", "sourceUrl": "https://www-europe.nissan-cdn.net/content/dam/Nissan/sk/brochures/Pricelists/New-Qashqai-Pricelist_SK_2022.pdf"},
+    "loadIndex": {"value": null, "status": "unknown", "sourceUrl": "https://www-europe.nissan-cdn.net/content/dam/Nissan/sk/brochures/Pricelists/New-Qashqai-Pricelist_SK_2022.pdf"},
+    "completeSetPrice": {"value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/"},
+    "mountingPrice": {"value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/"},
+    "treadLife": {"value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/"},
+    "valueAtMonth36": {"value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/"}
+  },
+  "repairs": {
+    "commonFailures": {"value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/garanti.html", "note": "Ingen primärkälla som belägger modellspecifika frekventa fel hittades."},
+    "partsPrice": {"value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/garanti.html"},
+    "laborPriceAuthorized": {"value": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html"},
+    "laborPriceIndependent": {"value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/"},
+    "threeYearReserve": {"value": 12000, "status": "estimated", "sourceUrl": "https://www.nissan.se/aga/garanti.html", "note": "Budgetreserv, inte verifierad reparationskostnad."}
+  }
+}

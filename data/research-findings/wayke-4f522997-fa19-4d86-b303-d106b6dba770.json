@@ -1,0 +1,50 @@
+{
+  "offerId": "wayke:4f522997-fa19-4d86-b303-d106b6dba770",
+  "checkedAt": "2026-09-07T21:15:00+02:00",
+  "vehicle": {
+    "title": "Volkswagen Tiguan",
+    "variant": "1.5 TSI 150HK DSG / Drag & Backkamera",
+    "modelYear": 2021,
+    "mileageMil": 9307,
+    "registrationNumber": "BRJ35J"
+  },
+  "notes": "Annonsen anger 2021 Volkswagen Tiguan 1.5 TSI 150 hk DSG, 9 307 mil och registreringsnummer BRJ35J. Volkswagens MY21-material bekräftar 1.5 TSI 150 hk med 7-växlad DSG. Svensk servicehistorik, exakt utrustningsnivå/däckdimension, individuella försäkringspremier och aktuell registerskatt kräver VIN/servicebok, offert eller Transportstyrelsens fordonsuppgift. Inga exakta prisbelopp har uppskattats.",
+  "service": {
+    "interval": { "value": "Flexibelt intervall enligt bilens serviceindikering, dock högst 24 månader; exakt km-intervall styrs av bilens indikering.", "status": "verified", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "nextDue": { "value": "Kan inte fastställas från modellår och mätarställning; kräver serviceindikering eller servicebok.", "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "operations": { "value": "Åtgärdsinnehåll beror på serviceindikering, tid och körsträcka; variantens utförda service saknar verifierad servicebok.", "status": "partially_verified", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "largeServiceAfter36Months": { "value": "Ingen offentlig, svensk och variantverifierad storserviceoffert hittad.", "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" }
+  },
+  "insurance": {
+    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premie är individuell och kräver offert." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helförsäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Självrisk beror på försäkringsomfattning och bilens ålder/körsträcka." },
+    "coveredComponents": { "value": "Exempel enligt If: motor och motorns kylsystem, bränslesystem, styrväxel, kraftöverföring, krockkuddesystem/säkerhetsbälten samt vissa elektronikkomponenter; full omfattning styrs av villkoren.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tyres": {
+    "dimension": { "value": "Volkswagens MY21-guide anger 215/65 R17 som standard för Tiguan; andra utrustningsnivåer kan ha 235/55 R18 eller 235/50 R19. Exakt dimension på BRJ35J kan inte fastställas utan fordons-/däckuppgift.", "status": "partially_verified", "sourceUrl": "https://www.volkswagen.ie/idhub/content/dam/onehub_pkw/importers/ie/models/product-guides/2021/feb/210203_LB_TiguanMY21.pdf" },
+    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.ie/idhub/content/dam/onehub_pkw/importers/ie/models/product-guides/2021/feb/210203_LB_TiguanMY21.pdf" },
+    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/" },
+    "mountingPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/" },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Kräver fysisk mätning av däcken." },
+    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen prognos utan inköpspris, mönsterdjup och körprofil." }
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "note": "Ingen variantunik primärkälla med felfrekvenser hittad." },
+    "partsPrice": { "value": null, "status": "unknown" },
+    "laborPriceAuthorized": { "value": null, "status": "unknown" },
+    "laborPriceIndependent": { "value": null, "status": "unknown" },
+    "threeYearReserve": { "value": null, "status": "estimated", "note": "Kräver separat riskmodell; inget exakt belopp anges." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordons-agaruppgift/sok-fordons-och-agaruppgifter/",
+    "note": "Transportstyrelsen anger att aktuell skatteuppgift hämtas via tjänsten Fordonsuppgifter med registreringsnummer; beloppet kunde inte verifieras i den publika sidan."
+  }
+}

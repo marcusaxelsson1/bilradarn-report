@@ -1,0 +1,51 @@
+{
+  "offerId": "wayke:25503fa4-4bf2-4912-8d50-eb6be87c8c81",
+  "checkedAt": "2026-09-07T21:00:00+02:00",
+  "sourceUrl": "https://www.wayke.se/objekt/25503fa4-4bf2-4912-8d50-eb6be87c8c81",
+  "vehicle": {
+    "title": "Volkswagen Golf Sportscombi",
+    "variant": "1.5 eTSI Värmare Drag Backkamera Garanti",
+    "modelYear": 2023,
+    "mileageMil": 8230,
+    "registrationNumber": "PZT17L"
+  },
+  "notes": "Volkswagens primärdata bekräftar Golf Sportscombi med 1,5 eTSI/mildhybrid och 7-växlad DSG. Annonsens exakta effektvariant, första trafikdatum, servicehistorik, CoC/däckdata och registrerade CO2-värde har inte kunnat verifieras i tillgängliga primärkällor. Inga exakta prisbelopp har hittats eller uppfunnits.",
+  "service": {
+    "interval": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Volkswagen hänvisar till bilens serviceindikering/serviceplan; ett modellgenerellt intervall för just PZT17L kan inte verifieras utan VIN/servicehistorik." },
+    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Kräver servicebok, VIN och aktuell serviceindikering." },
+    "operations": { "value": "Service enligt bilens serviceindikering, med olja/inspektion och eventuella tilläggsarbeten enligt motorvariant och ålder.", "status": "verified", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "priceAuthorized": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Ingen fordons- och verkstadsbunden offert publiceras på källan; auktoriserad offert krävs." },
+    "priceIndependent": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Lokal oberoende verkstadsoffert krävs." },
+    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
+    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Kan inte fastställas utan bilens serviceplan och första trafikdatum." }
+  },
+  "insurance": {
+    "annualPremiumRange": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premien är individuell och kräver personlig offert." },
+    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "machineDamageMaxMileage": { "value": "12 000 mil (standard); 15 000 mil (Stor bilförsäkring)", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Självrisk beror på bolag, försäkringsnivå och individuell offert." },
+    "coveredComponents": { "value": "Motor, kylsystem, bränslesystem, styrväxel, kraftöverföring samt utvalda elektronik-/säkerhetssystem enligt If:s maskinskadeskydd.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+  },
+  "tyres": {
+    "dimension": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/golf-sportscombi/golf-sportscombi-okt2022.pdf", "note": "Volkswagens tekniska broschyr identifierar modell/drivlina men inte tillräckligt entydig standarddimension för just annonsens utrustning; bekräfta mot CoC, registreringsbevis eller däcksida." },
+    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/", "note": "Belastnings- och hastighetsindex kräver faktisk däck-/CoC-information." },
+    "completeSetPrice": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen fordons- och dimensionsverifierad offert." },
+    "mountingPrice": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Aktuellt lokalt verkstadspris krävs." },
+    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/", "note": "Mönsterdjup och ålder måste mätas på bilens däck." },
+    "valueAtMonth36": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Beror på inköpspris, fabrikat, ålder och slitage." }
+  },
+  "tax": {
+    "annualAmountSek": null,
+    "status": "unknown",
+    "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+    "note": "Transportstyrelsen beräknar skatten från registrerat CO2-värde, första trafikdatum och malusregler. Exakt årsbelopp för PZT17L kan därför inte verifieras utan registeruppgift. Volkswagens 2022-broschyr anger 126 g/km för 1,5 eTSI 130 och 129 g/km för 1,5 eTSI 150, men annonsen anger inte effektvariant och registervärdet styr."
+  },
+  "repairs": {
+    "commonFailures": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Ingen primär Volkswagen-källa med variantunik felfrekvens identifierad." },
+    "partsPrice": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Delpris kräver identifierad komponent och offert." },
+    "laborPriceAuthorized": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Auktoriserad verkstadsoffert krävs." },
+    "laborPriceIndependent": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Oberoende verkstadsoffert krävs." },
+    "threeYearReserve": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Ingen exakt reserv kan styrkas utan dokumenterade felrisker, skick och offerter." }
+  }
+}
