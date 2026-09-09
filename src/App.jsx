@@ -16,7 +16,7 @@ import { applyScenario, readScenario } from "./features/economics/scenario";
 const labels = { verified: "Verifierad", observed: "Annonsuppgift", modelled: "Modellberäknad", estimated: "Estimerad", incomplete: "Ofullständig", missing: "Saknas" };
 
 const REGISTRY_URL = "https://fordon-fu-regnr.transportstyrelsen.se/UppgifterAnnatFordon/";
-const assetUrl = (value) => value && value.startsWith("/") ? `${import.meta.env.BASE_URL}${value.slice(1)}` : value;
+const assetUrl = (value) => value && value.startsWith("/") && !value.startsWith(import.meta.env.BASE_URL) ? `${import.meta.env.BASE_URL}${value.slice(1)}` : value;
 const publishedRegistry = { ...publicRegistry, ...publicRegistryExtra };
 function saveRegistryLocally(key, value) {
   try { localStorage.setItem(key, JSON.stringify(value)); return value; }
