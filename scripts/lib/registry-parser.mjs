@@ -18,13 +18,16 @@ export function knownRegistryValues(rawText) {
   const numberAfter = (patterns) => { for (const pattern of patterns) { const match = rawText.match(pattern); if (match) return Number(match[1].replace(/\s/g, "")); } return null; };
   const textAfter = (patterns) => { for (const pattern of patterns) { const match = rawText.match(pattern); if (match) return match[1].trim(); } return null; };
   const ownerField = extractRegistryFields(rawText).find((field) => /tidigare.*ägare/i.test(field.label));
+  const userField = extractRegistryFields(rawText).find((field) => /antal brukare/i.test(field.label));
   const previousOwners = ownerField && /^\s*\d+\s*$/.test(ownerField.value) ? Number(ownerField.value) : null;
+  const ownerCount = userField && /^\s*\d+\s*$/.test(userField.value) ? Number(userField.value) : null;
   return {
     firstTrafficDate: textAfter([/första (?:gången )?i trafik[^\d]*(\d{4}[-/.]\d{1,2}[-/.]\d{1,2})/i, /fordonet tillverkat[^\d]*(\d{4}[-/.]\d{1,2}[-/.]\d{1,2})/i]),
     modelYear: numberAfter([/årsmodell[^\d]*(20\d{2})/i, /fordonsår[^\d]*(20\d{2})/i]),
     co2Gkm: numberAfter([/CO[₂2][^\d]*(\d{2,3})\s*g\/?km/i, /koldioxid[^\d]*(\d{2,3})/i]),
-    annualTaxSek: numberAfter([/år(?:lig)?\s*fordonsskatt[^\d]*(\d[\d\s]*)\s*kr/i, /fordonsskatt[^\d]*(\d[\d\s]*)\s*kr/i]),
+    annualTaxSek: numberAfter([/år(?:lig)?\s*fordonsskatt[^\d]*(\d[\d\s]*)\s*(?:kr|kronor)/i, /årsskatt[^\d]*(\d[\d\s]*)\s*(?:kr|kronor)/i, /fordonsskatt[^\d]*(\d[\d\s]*)\s*(?:kr|kronor)/i]),
     previousOwners,
+    ownerCount,
     inspection: { lastDate: textAfter([/senaste besiktning[^\d]*(\d{4}[-/.]\d{1,2}[-/.]\d{1,2})/i]), validUntil: textAfter([/besiktas senast[^\d]*(\d{4}[-/.]\d{1,2}[-/.]\d{1,2})/i]), status: "observed" },
   };
 }
