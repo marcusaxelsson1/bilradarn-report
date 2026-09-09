@@ -13,6 +13,9 @@ Domänkontext: `CONTEXT.md`. Agenten ska publicera direkt efter validering. Pers
 - Mekonomen används som generellt riktpris för service och standardreparationer.
 - Märkesverkstad används som jämförelse eller för modell-/garantispecifika arbeten.
 - Transportstyrelsen har företräde för fordonsfakta och skatteuppgifter.
+- Agenten hämtar inte Transportstyrelseuppgifter, annonsdata eller bränslepriser i första versionen.
+- Däck hämtas endast från Däckonline.
+- Billigaste giltiga försäkringsalternativ används i ekonomiplanen; flera alternativ visas separat när de kan hämtas.
 
 ## Open decision tickets
 
