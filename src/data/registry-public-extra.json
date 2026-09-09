@@ -1,0 +1,37 @@
+{
+  "PMB74G": {
+    "registrationNumber": "PMB74G",
+    "firstTrafficDate": "2022-02-21",
+    "co2Gkm": 92,
+    "annualTaxSek": 646,
+    "ownerCount": 4,
+    "inspection": { "lastDate": null, "validUntil": "2027-01-31", "status": "observed" },
+    "fields": [
+      { "label": "Registreringsnummer", "value": "PMB74G" },
+      { "label": "Fabrikat", "value": "SEAT" },
+      { "label": "Handelsbeteckning", "value": "SEAT LEON" },
+      { "label": "Färg", "value": "Röd" },
+      { "label": "Fordonsår", "value": "2022" },
+      { "label": "Fordonet tillverkat", "value": "2022-02-21" },
+      { "label": "Fordonsstatus", "value": "Avställd (2025-11-29)" },
+      { "label": "Besiktas senast", "value": "2027-01-31" },
+      { "label": "Senast godkända besiktning", "value": "2025-01-24" },
+      { "label": "Mätarställning", "value": "22000" },
+      { "label": "Antal brukare", "value": "4" },
+      { "label": "Försäkringsbolag", "value": "TRYGG-HANSA" },
+      { "label": "Försäkringsdatum", "value": "2026-01-15" },
+      { "label": "Identifieringsnummer", "value": "VSSZZZKLZNR042156" },
+      { "label": "Årsskatt", "value": "646 kronor" },
+      { "label": "Vägtrafikregisteravgift", "value": "74 kronor" },
+      { "label": "Betalningsmånad/er", "value": "Augusti" },
+      { "label": "Trängselskattepliktigt", "value": "Ja" },
+      { "label": "Däckdimension", "value": "205/55 R16 91V" },
+      { "label": "Växellåda", "value": "AUTOMAT" },
+      { "label": "Drivmedel", "value": "Bensin" },
+      { "label": "Motoreffekt", "value": "81 kW" },
+      { "label": "Max hastighet", "value": "192 km/h" },
+      { "label": "Blandad körning", "value": "101 g/km" }
+    ],
+    "evidence": { "status": "verified", "sourceUrl": "https://fordon-fu-regnr.transportstyrelsen.se/UppgifterAnnatFordon/", "checkedAt": "2026-09-08T16:39:55.666Z" }
+  }
+}
