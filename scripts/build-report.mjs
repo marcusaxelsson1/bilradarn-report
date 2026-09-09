@@ -10,10 +10,10 @@ const OUTPUT = resolve(ROOT, "src/data/report.json");
 const MONTHS = 36;
 const ANNUAL_MILEAGE_MIL = 1500;
 const FUEL_PRICE = { Bensin: 14.82, Diesel: 16.5, hybrid: 14.82 };
-const LOAN_RATE = 0.0619;
+const LOAN_RATE = 0.061;
 
 const sources = {
-  finance: { label: "Swedbank Billån", url: "https://www.swedbank.se/privat/privatlan-och-krediter/lana-till-bil/billan.html", note: "Representativ rörlig ränta 6,19 %, 20 % kontantinsats och rak amortering. Individuell offert krävs." },
+  finance: { label: "Billån – publicerat marknadsriktmärke", url: "https://www.swedbank.se/privat/rantor-priser-och-kurser/lanetjanster.html", note: "Riktmärke 6,1 % nominell rörlig ränta, 20 % kontantinsats, rak amortering över 36 månader. Effektiv ränta och individuella villkor kan avvika." },
   insurance: { label: "Konsumenternas Försäkringsbyrå", url: "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", note: "Premien är personlig; beloppen i rapporten är därför modellestimat tills registreringsnummer och förare offererats." },
   fuel: { label: "Drivkraft Sverige / marknadsantagande", url: "https://drivkraftsverige.se/fakta-statistik/priser/", note: "Bränslepris är ett uppdateringsbart kalkylantagande och inte ett löfte om framtida pris." },
   lease: { label: "Toyota Sverige", url: "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d", note: "Kampanj och avtalsram kontrolleras i originalsidan vid varje import." },

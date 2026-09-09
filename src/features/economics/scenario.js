@@ -8,7 +8,7 @@ export function applyScenario(offer, scenario, baseFuelPrice) {
   const baseEconomics = offer.__baseEconomics || offer.economics;
   const mileageFactor = Math.max(0.25, Number(scenario.annualMileageMil || 1500) / 1500);
   const fuelFactor = mileageFactor * (Number(scenario.fuelPriceSekPerLitre || baseFuelPrice) / baseFuelPrice);
-  const rateFactor = Math.max(0.2, Number(scenario.loanRatePercent || 0) / 6.19);
+  const rateFactor = Math.max(0.2, Number(scenario.loanRatePercent || 0) / 6.1);
   const downFactor = (100 - Number(scenario.downPaymentPercent ?? 20)) / 80;
   const insuranceFactor = scenario.insuranceLevel === "halv" ? 0.82 : scenario.insuranceLevel === "stor" ? 1.18 : 1;
   const rows = baseEconomics.breakdown.map((row) => {
