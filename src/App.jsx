@@ -29,6 +29,7 @@ function saveRegistryLocally(key, value) {
     return compact;
   }
 }
+function hasVerifiedRegistry(offer) { try { const saved = JSON.parse(localStorage.getItem(`bilradarn.registry.${offer.id}`) || "null"); return saved?.evidence?.status === "verified" || Boolean(publicRegistry[offer.registrationNumber?.toUpperCase()]); } catch { return Boolean(publicRegistry[offer.registrationNumber?.toUpperCase()]); } }
 function RegistryQueue({ offers, onClose }) {
   const [skipped, setSkipped] = useState([]);
   const [bridgeStatus, setBridgeStatus] = useState("unknown");
@@ -36,7 +37,7 @@ function RegistryQueue({ offers, onClose }) {
   const [cooldownUntil, setCooldownUntil] = useState(0);
   const [cooldownSeconds, setCooldownSeconds] = useState(0);
   useEffect(() => { const tick = () => setCooldownSeconds(Math.max(0, Math.ceil((cooldownUntil - Date.now()) / 1000))); tick(); const id = setInterval(tick, 250); return () => clearInterval(id); }, [cooldownUntil]);
-  const candidates = offers.filter((o) => { if (!o.registrationNumber) return false; try { const saved=JSON.parse(localStorage.getItem(`bilradarn.registry.${o.id}`)||"null"); return saved?.evidence?.status !== "verified"; } catch { return true; } });
+  const candidates = offers.filter((o) => o.registrationNumber && !hasVerifiedRegistry(o));
   const pending = candidates.filter((o) => !skipped.includes(o.id));
   const current = pending[0];
   const openRegistryWindow = async () => { if (cooldownSeconds > 0) return; try { const response = await fetch(`http://127.0.0.1:8787/start?registration=${encodeURIComponent(current.registrationNumber)}`); if (!response.ok) throw new Error("bridge unavailable"); setBridgeStatus("connected"); } catch { setBridgeStatus("fallback"); window.open(REGISTRY_URL, "bilradarn-transportstyrelsen", "popup,width=980,height=820,resizable=yes,scrollbars=yes"); } };
@@ -48,7 +49,7 @@ function RegistryQueue({ offers, onClose }) {
 
 function Sidebar({ page, setPage, openOffer, openRegistry }) {
   const best = [...report.leases, ...report.purchases].sort((a, b) => a.economics.total36Sek - b.economics.total36Sek).slice(0, 3);
-  const registryPending = [...report.leases, ...report.purchases].filter((offer) => { if (!offer.registrationNumber) return false; try { const saved=JSON.parse(localStorage.getItem(`bilradarn.registry.${offer.id}`)||"null"); return saved?.evidence?.status !== "verified"; } catch { return true; } }).length;
+  const registryPending = [...report.leases, ...report.purchases].filter((offer) => offer.registrationNumber && !hasVerifiedRegistry(offer)).length;
   return <aside className="app-sidebar">
     <div className="brand"><Car weight="duotone" /><strong>Bilradarn</strong><span>LIVE</span></div>
     <nav>
