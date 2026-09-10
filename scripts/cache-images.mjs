@@ -32,8 +32,11 @@ export async function cacheImages() {
       if (url.startsWith("/car-images/")) {
         const filePath = resolve(ROOT, "public", url.replace(/^\//, ""));
         try {
-          await stat(filePath);
           const prior = previousManifest[offer.id]?.find((item) => item.path === url);
+          const info = await stat(filePath);
+          if (info.size > 5 * 1024 * 1024 && prior?.url?.startsWith("http")) {
+            await download(prior.url, filePath);
+          }
           local[index] = prior ? { ...prior, path: url } : { url, path: url };
           return;
         } catch { /* stale local path; continue without it */ }
