@@ -403,5 +403,48 @@
       }
     ],
     "errors": []
+  },
+  {
+    "generatedAt": "2026-09-10T05:01:20.660Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:4d1bf0f4-5830-4005-a676-c13110c09318",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-10T05:01:20.660Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:801f6ac9-2cd3-4243-b79d-1285ca04f633",
+        "title": "Volkswagen Tiguan",
+        "at": "2026-09-10T05:01:20.660Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:50b26f29-1b35-4bcb-a655-7f7cc667f11c",
+        "title": "Peugeot 5008",
+        "at": "2026-09-10T05:01:20.660Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:18fcedc0-c05b-4c04-b02d-119efea02ff9",
+        "title": "SEAT Leon",
+        "at": "2026-09-10T05:01:54.910Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:ec0c60c7-220d-45b6-b0cd-7bd46484b266",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-10T05:01:54.910Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
+        "title": "Volkswagen Golf Sportscombi",
+        "at": "2026-09-10T05:01:54.910Z"
+      }
+    ],
+    "errors": []
   }
 ]

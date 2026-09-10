@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T05:02:56.202Z",
+  "generatedAt": "2026-09-10T05:02:07.762Z",
   "mode": "live",
   "offers": [
     {
@@ -27,7 +27,7 @@
       "distanceKm": null,
       "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
       "termsUrl": "https://easyprivatleasing.toyota.se/konfiguration/modell/corolla-ts",
-      "sourceCheckedAt": "2026-09-08T05:02:56.202Z",
+      "sourceCheckedAt": "2026-09-10T05:02:07.762Z",
       "imageUrls": [
         "https://scene7.toyota.eu/is/image/toyotaeurope/large-logo-toyota?wid=1920&amp;hei=1080&amp;fit=hfit,1"
       ],
@@ -49,32 +49,32 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
-          "checkedAt": "2026-09-08T05:02:56.202Z"
+          "checkedAt": "2026-09-10T05:02:07.762Z"
         },
         "monthlyFee": {
           "status": "verified",
           "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
-          "checkedAt": "2026-09-08T05:02:56.202Z"
+          "checkedAt": "2026-09-10T05:02:07.762Z"
         },
         "term": {
           "status": "verified",
           "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
-          "checkedAt": "2026-09-08T05:02:56.202Z"
+          "checkedAt": "2026-09-10T05:02:07.762Z"
         },
         "mileage": {
           "status": "verified",
           "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
-          "checkedAt": "2026-09-08T05:02:56.202Z"
+          "checkedAt": "2026-09-10T05:02:07.762Z"
         },
         "extraMileage": {
           "status": "observed",
           "sourceUrl": "https://easyprivatleasing.toyota.se/konfiguration/modell/corolla-ts",
-          "checkedAt": "2026-09-08T05:02:56.202Z"
+          "checkedAt": "2026-09-10T05:02:07.762Z"
         },
         "tax": {
           "status": "modelled",
           "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
-          "checkedAt": "2026-09-08T05:02:56.202Z",
+          "checkedAt": "2026-09-10T05:02:07.762Z",
           "note": "Kontrolleras mot registreringsnummer vid offert"
         }
       }
