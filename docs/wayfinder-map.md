@@ -6,7 +6,7 @@ En specificerad och testbar design för en daglig agent som hämtar kostnadsuppg
 
 ## Notes
 
-Domänkontext: `CONTEXT.md`. Agenten ska publicera direkt efter validering. Personlig försäkringsprofil används endast som privat indata.
+Domänkontext: `CONTEXT.md`. Agenten ska publicera direkt efter validering. Personlig försäkringsprofil används endast som privat indata. Genomförandeordningen finns i [Genomförandeplan](wayfinder/00-genomforandeplan.md).
 
 ## Decisions so far
 
