@@ -16,7 +16,7 @@ En schemalagd agent som berikar befintliga bilannonser med källbelagda riktpris
 
 - Däck: Däckonline.
 - Verkstad: Mekonomen Bilverkstad Göteborg, Deltavägen 4 som fast riktpunkt.
-- Försäkring: offentliga riktvärden; personlig offert endast om flödet är tillåtet och kräver inga automatiskt hanterade personuppgifter.
+- Försäkring: Hedvigs offentliga statistik som fast riktvärde; inga individuella offerter.
 - Klart när varje adapter returnerar belopp/intervall, källa, kontrolltid och status.
 
 ### 3. Matchning och normalisering

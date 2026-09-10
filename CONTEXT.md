@@ -22,6 +22,8 @@ Fast verkstadsriktmärke är Mekonomen Bilverkstad Göteborg, Deltavägen 4. Mek
 
 Lånekalkylen använder 36 månaders rak amortering och 6,1 % nominell rörlig ränta som riktmärke. Försäkringsprofil, årlig körsträcka och bränslepris ligger i appens inställningar och ska inte ändras av kostnadsagenten.
 
+Försäkringsriktmärket är Hedvigs offentliga statistik. Agenten ska inte hämta eller försöka simulera individuella försäkringsofferter.
+
 ## Källhierarki
 
 Transportstyrelsen har företräde för registrerings-, skatte-, besiktnings-, ägar- och tekniska fordonsuppgifter. Kostnadskällor får inte ersätta eller motsäga dessa uppgifter.
