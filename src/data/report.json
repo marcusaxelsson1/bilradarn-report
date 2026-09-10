@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T05:04:41.580Z",
+  "generatedAt": "2026-09-10T15:15:31.575Z",
   "mode": "live",
   "parameters": {
     "horizonMonths": 36,
@@ -249,7 +249,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Registreringsnummer saknas."
             }
           },
@@ -260,7 +260,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Villkorsgräns verifierad men personlig premie saknas."
             }
           },
@@ -271,7 +271,7 @@
             "evidence": {
               "status": "observed",
               "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Tillverkarens servicekälla identifierad; exakt intervall och offert återstår."
             }
           },
@@ -1820,7 +1820,7 @@
       "rank": 1,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html"
       }
     },
@@ -2053,7 +2053,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Registreringsnummer saknas."
             }
           },
@@ -2064,7 +2064,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Villkorsgräns verifierad men personlig premie saknas."
             }
           },
@@ -2075,7 +2075,7 @@
             "evidence": {
               "status": "observed",
               "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Intervall verifierat på modellnivå; pris kräver variantmatchad offert."
             }
           },
@@ -3620,7 +3620,7 @@
       "rank": 2,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/"
       }
     },
@@ -3870,7 +3870,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Registreringsnummer saknas."
             }
           },
@@ -3881,7 +3881,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Maskinskadevillkor verifierat på bolagsnivå; personlig premie saknas."
             }
           },
@@ -3892,7 +3892,7 @@
             "evidence": {
               "status": "observed",
               "sourceUrl": "https://www.seat.se/datamanual-manual/leon/my22_w25/se-se/LEON_06_21_SE.pdf",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Serviceplan identifierad; beloppet är fortfarande modellestimat."
             }
           },
@@ -5441,7 +5441,7 @@
       "rank": 3,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.seat.se/datamanual-manual/leon/my22_w25/se-se/LEON_06_21_SE.pdf"
       }
     },
@@ -5648,7 +5648,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/215-55-R17-H",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Dackonline visade flera 215/55 R17 94H vinterdäck cirka 1 625–2 096 kr/st; 6 500 kr är en enkel fyra-däcksprojektion, utan fälg och montering."
             }
           },
@@ -5699,7 +5699,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Treårsprojektion av Fords testfakta 591 kr/år för motsvarande Focus Active 1,0T. Exakt skatt för FKL86D måste kontrolleras i Transportstyrelsens fordonsuppgift."
             }
           },
@@ -5710,7 +5710,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://ford.se/media_assets/a7dfdb9f-9d80-4f86-b59b-ff9b3cb18f08",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Treårsprojektion av Fords testantagande 2 448 kr/år; personlig premie beror bland annat på förare, ort, körsträcka och skadehistorik. If:s maskinskadegränser och täckta komponenter är verifierade separat."
             }
           },
@@ -5721,7 +5721,7 @@
             "evidence": {
               "status": "observed",
               "sourceUrl": "https://ford.se/media_assets/a7dfdb9f-9d80-4f86-b59b-ff9b3cb18f08",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Ford-testets kostnad till 6 000 mil för Focus Active Kombi 1,0T EcoBoost 125 hk; inte en variantmatchad offert och bilen i annonsen har gått 7 090 mil. Intervallkälla: 2 år/18 000 miles."
             }
           },
@@ -5732,7 +5732,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/215-55-R17-H",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Montering, skifte och slitagevärde vid månad 36 saknar variant- och verkstadsoffert; beloppet är endast planeringsestimat."
             }
           },
@@ -5743,7 +5743,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.ford.co.uk/support/how-tos/recall/recalls-and-faqs/can-i-check-for-a-safety-recall-before-buying-a-ford-vehicle",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Planeringsreserv, inte ett verifierat reparationspris. Ford kräver registreringsnummer för specifik återkallelsekontroll; primärkälla för variantens typiska fel, delar och arbetskostnad saknas."
             }
           },
@@ -7272,7 +7272,7 @@
       "rank": 4,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/CG2147GBR-202211-20230207101401.pdf"
       }
     },
@@ -9058,7 +9058,7 @@
       "rank": 5,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.hyundai.com/se/sv/service-och-underhaall.html"
       }
     },
@@ -10877,7 +10877,7 @@
       "rank": 6,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.volkswagen.se/sv/verkstad-service.html"
       }
     },
@@ -11080,7 +11080,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/205-55-R16",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Volkswagen anger 205/55 R16 som standard för Golf eTSI; Dackonline visar prisexempel för dimensionen. 6 500 kr är en uppskattad fyradäcksprojektion utan fälg och montering."
             }
           },
@@ -11131,7 +11131,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Treårsplanering baserad på modellbroschyrns 129 g/km WLTP; exakt skatt för ZBR52C måste kontrolleras i Transportstyrelsens fordonsuppgift."
             }
           },
@@ -11142,7 +11142,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Treårsplanering; If:s maskinskadegränser och täckta komponenter är verifierade, men individuell premie och självrisk saknas."
             }
           },
@@ -11153,7 +11153,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Volkswagens serviceindikering är 30 000 km eller 2 år (flexibel); 15 500 kr är treårsplanering, inte en variantmatchad offert. Servicehistorik saknas."
             }
           },
@@ -11164,7 +11164,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/205-55-R16",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Däckslitage, montering och värde vid månad 36 saknar faktisk däckvariant, mönsterdjup och verkstadsoffert; planeringsestimat."
             }
           },
@@ -11175,7 +11175,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Treårsreserv, inte verifierat reparationspris. Primärkälla med variantunika vanliga fel, delar och arbetskostnader saknas."
             }
           },
@@ -12704,7 +12704,7 @@
       "rank": 7,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/golf-sportscombi/Golf_Sportscombi_web_juni.pdf"
       }
     },
@@ -14489,7 +14489,7 @@
       "rank": 8,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": null
       }
     },
@@ -16287,7 +16287,7 @@
       "rank": 9,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": null
       }
     },
@@ -16465,7 +16465,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Dimension och offert saknas."
             }
           },
@@ -16516,7 +16516,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Exakt CO2/registeruppgift saknas."
             }
           },
@@ -16527,7 +16527,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dacia.se/kopa/forsakring",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Personlig premie krävs."
             }
           },
@@ -16538,7 +16538,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dacia.co.uk/maintenance/service-schedule.html",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Pris ej publicerat; 0 används som null-kompatibelt sentinelvärde, inte som påstådd kostnad."
             }
           },
@@ -16549,7 +16549,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Montering/slitage kan inte verifieras."
             }
           },
@@ -16560,7 +16560,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dacia.se/aga/dacia-care-serviceavtal",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Ingen modellstatistik eller offert; ingen exakt reserv uppges."
             }
           },
@@ -18089,7 +18089,7 @@
       "rank": 10,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9"
       }
     },
@@ -18266,7 +18266,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Dimension och offert saknas."
             }
           },
@@ -18317,7 +18317,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Exakt CO2/registeruppgift saknas."
             }
           },
@@ -18328,7 +18328,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Personlig premie krävs."
             }
           },
@@ -18339,7 +18339,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dacia.se/aga/service-underhall",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Pris ej publicerat; 0 är null-kompatibelt sentinelvärde, inte påstådd kostnad."
             }
           },
@@ -18350,7 +18350,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Montering/slitage kan inte verifieras."
             }
           },
@@ -18361,7 +18361,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dacia.se/aga/dacia-care-serviceavtal",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Ingen modellstatistik eller offert; ingen exakt reserv uppges."
             }
           },
@@ -19890,7 +19890,7 @@
       "rank": 11,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470"
       }
     },
@@ -21688,7 +21688,7 @@
       "rank": 12,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e"
       }
     },
@@ -23494,7 +23494,7 @@
       "rank": 13,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": null
       }
     },
@@ -25303,7 +25303,7 @@
       "rank": 14,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc"
       }
     },
@@ -27109,7 +27109,7 @@
       "rank": 15,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.wayke.se/objekt/25503fa4-4bf2-4912-8d50-eb6be87c8c81"
       }
     },
@@ -28935,7 +28935,7 @@
       "rank": 16,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": null
       }
     },
@@ -30722,7 +30722,7 @@
       "rank": 17,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.nissan.se/agarservice/service.html"
       }
     },
@@ -32530,7 +32530,7 @@
       "rank": 18,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd"
       }
     },
@@ -34333,7 +34333,7 @@
       "rank": 19,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": null
       }
     },
@@ -36140,7 +36140,7 @@
       "rank": 20,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.wayke.se/objekt/8846ce2c-6713-4579-b22b-ba897e7ddb4b"
       }
     },
@@ -37952,7 +37952,7 @@
       "rank": 21,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": null
       }
     },
@@ -39745,7 +39745,7 @@
       "rank": 22,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": null
       }
     },
@@ -39933,7 +39933,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Komplett vinterhjulspaket, dimension ej verifierad."
             }
           },
@@ -39984,7 +39984,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Annonsens årsskatt × 3; registerkontroll återstår."
             }
           },
@@ -39995,7 +39995,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "800 kr/mån schablon; personlig premie saknas."
             }
           },
@@ -40006,7 +40006,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "36-månaders schablon; ingen offert."
             }
           },
@@ -40017,7 +40017,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Slitage-/bytesreserv, ej offert."
             }
           },
@@ -40028,7 +40028,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Treårig reparationsreserv, inte säker utgift."
             }
           },
@@ -41557,7 +41557,7 @@
       "rank": 23,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/t-roc/T-Roc_modellbroschyr_aug2021.pdf"
       }
     },
@@ -43335,7 +43335,7 @@
       "rank": 24,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": null
       }
     },
@@ -45144,7 +45144,7 @@
       "rank": 25,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": null
       }
     },
@@ -45335,7 +45335,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Komplett vinterhjulspaket."
             }
           },
@@ -45397,7 +45397,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "800 kr/mån schablon; personlig premie saknas."
             }
           },
@@ -45408,7 +45408,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.peugeot.se/service-och-underhall.html",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "36-månaders schablon."
             }
           },
@@ -45419,7 +45419,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Slitage-/bytesreserv."
             }
           },
@@ -45430,7 +45430,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Treårig reparationsreserv."
             }
           },
@@ -46959,7 +46959,7 @@
       "rank": 26,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc"
       }
     },
@@ -48773,7 +48773,7 @@
       "rank": 27,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.peugeot.se/servicetjanster.html"
       }
     },
@@ -48959,7 +48959,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Dimension och offert saknas."
             }
           },
@@ -49010,7 +49010,7 @@
             "evidence": {
               "status": "unknown",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Registeruppgift saknas."
             }
           },
@@ -49021,7 +49021,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Personlig premie krävs."
             }
           },
@@ -49032,7 +49032,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad."
             }
           },
@@ -49043,7 +49043,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Montering/slitage och dimension kan inte verifieras."
             }
           },
@@ -49054,7 +49054,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Ingen modellstatistik eller offert."
             }
           },
@@ -50583,7 +50583,7 @@
       "rank": 28,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b"
       }
     },
@@ -50767,7 +50767,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Dimension/index och offert saknas."
             }
           },
@@ -50818,7 +50818,7 @@
             "evidence": {
               "status": "unknown",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Registrerade CO2- och datumuppgifter saknas i denna kontroll."
             }
           },
@@ -50829,7 +50829,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Personlig premie krävs."
             }
           },
@@ -50840,7 +50840,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.nissan.se/aga/service.html",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad."
             }
           },
@@ -50851,7 +50851,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Montering/slitage och offert saknas."
             }
           },
@@ -50862,7 +50862,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.nissan.se/aga/service.html",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Ingen modellstatistik eller offert."
             }
           },
@@ -52391,7 +52391,7 @@
       "rank": 29,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7"
       }
     },
@@ -54173,7 +54173,7 @@
       "rank": 30,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.nissan.se/agarservice/service.html"
       }
     },
@@ -54376,7 +54376,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Dimension och offert saknas."
             }
           },
@@ -54427,7 +54427,7 @@
             "evidence": {
               "status": "unknown",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "CO2- och registeruppgift saknas."
             }
           },
@@ -54438,7 +54438,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Personlig premie krävs."
             }
           },
@@ -54449,7 +54449,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad."
             }
           },
@@ -54460,7 +54460,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Montering/slitage kan inte verifieras."
             }
           },
@@ -54471,7 +54471,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Ingen modellstatistik eller offert."
             }
           },
@@ -56000,7 +56000,7 @@
       "rank": 31,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561"
       }
     },
@@ -56198,7 +56198,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "225/40 R18 modellverifierad; komplett vinterhjulspaket kräver aktuell offert och index."
             }
           },
@@ -56249,7 +56249,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Skatt beräknas efter registrerat CO2 och eventuell treårig malus; KPS70J är inte registerverifierad. Annonsens 932 kr/år används som estimat."
             }
           },
@@ -56260,7 +56260,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "If: maskin/elektronik till 10 år och under 12 000 mil (halv/hel) eller 15 000 mil (Stor); personlig premie/självrisk kräver offert."
             }
           },
@@ -56271,7 +56271,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Fast oljeservice är PR-nummerberoende 5 000–15 000 km/1 år eller flexibel enligt indikator; exakt nästa datum/offert saknas."
             }
           },
@@ -56282,7 +56282,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Slitage/montering/värde månad 36 saknar mätning/offert."
             }
           },
@@ -56293,7 +56293,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "CUPRA anger 24 mån garanti på delar/arbete i auktoriserat nätverk; reserv är budget, inte felpris."
             }
           },
@@ -57822,7 +57822,7 @@
       "rank": 32,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf"
       }
     },
@@ -58019,7 +58019,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Dimensionen 215/65 R17 är verifierad för Acenta, men komplett vinterhjulspaket och aktuellt pris kräver offert; ingen exakt prisuppgift påstås."
             }
           },
@@ -58070,7 +58070,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/malus/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Nissan anger 142–147 g/km WLTP för 158 hk Xtronic 2WD. Transportstyrelsens malusformel ger modellbaserat intervall, men registrerad CO2, första trafikdatum och faktisk drivlina saknas; beloppet är därför inte verifierat."
             }
           },
@@ -58081,7 +58081,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Årspremie kan inte verifieras utan förare, ort, körsträcka och försäkringsomfattning; treårsbeloppet är endast en budgetuppskattning."
             }
           },
@@ -58092,7 +58092,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.nissan.se/aga/service.html",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Treårsbudget för planerade servicebesök; Nissan publicerar inte en modell-/VIN-specifik svensk prislista här. Beloppet är en budgetuppskattning, inte ett verifierat pris."
             }
           },
@@ -58103,7 +58103,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Budget för slitage/montering; faktisk återstående livslängd, montagepris och månad-36-värde är inte verifierade."
             }
           },
@@ -58114,7 +58114,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.nissan.se/aga/garanti.html",
-              "checkedAt": "2026-09-10T05:04:41.580Z",
+              "checkedAt": "2026-09-10T15:15:31.575Z",
               "note": "Treårsreserv som budgetpost. Nissan-källan styrker garanti-/servicekanal, inte sannolikhet eller kostnad för specifika fel."
             }
           },
@@ -59643,7 +59643,7 @@
       "rank": 33,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www-europe.nissan-cdn.net/content/dam/Nissan/sk/brochures/Pricelists/New-Qashqai-Pricelist_SK_2022.pdf"
       }
     },
@@ -61456,7 +61456,7 @@
       "rank": 34,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.peugeot.se/servicetjanster.html"
       }
     },
@@ -63260,7 +63260,7 @@
       "rank": 35,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": null
       }
     },
@@ -65044,7 +65044,7 @@
       "rank": 36,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c"
       }
     },
@@ -66849,7 +66849,7 @@
       "rank": 37,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": null
       }
     },
@@ -68656,7 +68656,7 @@
       "rank": 38,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.volkswagen.se/sv/verkstad-service.html"
       }
     },
@@ -70472,7 +70472,7 @@
       "rank": 39,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702"
       }
     },
@@ -72292,7 +72292,7 @@
       "rank": 40,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.volkswagen.se/sv/verkstad-service.html"
       }
     }
@@ -73464,7 +73464,7 @@
       "rank": 1,
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-10T05:04:41.580Z",
+        "checkedAt": "2026-09-10T15:15:31.575Z",
         "findingSource": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d"
       }
     }

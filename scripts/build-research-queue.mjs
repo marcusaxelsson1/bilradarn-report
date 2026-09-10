@@ -58,7 +58,10 @@ function applyFinding(offer, finding) {
   if (!finding || finding.offerId !== offer.id) return offer;
   const rows = offer.economics.breakdown.map((row) => {
     const update = finding.costs?.[row.key];
-    return update ? { ...row, amountSek: Math.round(update.amountSek), evidence: { status: update.status || "verified", sourceUrl: update.sourceUrl || null, checkedAt: update.checkedAt || checkedAt, note: update.note || null } } : row;
+    // Unknown/estimated findings must never turn into zero or overwrite an
+    // existing value. Only a finite amount is an admissible numeric update.
+    if (!update || !Number.isFinite(update.amountSek)) return row;
+    return { ...row, amountSek: Math.round(update.amountSek), evidence: { status: update.status || "verified", sourceUrl: update.sourceUrl || null, checkedAt: update.checkedAt || checkedAt, note: update.note || null } };
   });
   const total = Math.round(rows.reduce((sum, row) => sum + row.amountSek, 0));
   return { ...offer, economics: { ...offer.economics, breakdown: rows, total36Sek: total, monthlyEconomicSek: Math.round(total / 36), stressTotal36Sek: Math.round(total * 1.12), stressMonthlySek: Math.round(total * 1.12 / 36) }, enrichment: { status: "partially-verified", checkedAt, findingSource: finding.sourceUrl || null } };
