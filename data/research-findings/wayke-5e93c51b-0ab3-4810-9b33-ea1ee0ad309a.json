@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
-  "checkedAt": "2026-09-10T15:46:56.901Z",
+  "checkedAt": "2026-09-10T16:27:08.784Z",
   "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/",
   "notes": "Kia anger 1 500 mil/12 månader för Ceed/ Ceed SW bensin. Annonsen anger inte registreringsnummer eller servicehistorik, så verkstadspriset förblir estimerat.",
   "costs": {
@@ -14,7 +14,7 @@
       "amountSek": 18288,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "checkedAt": "2026-09-10T16:27:08.784Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 508 kr/mån (Kia). Inte personlig offert."
     },
     "tax": {
@@ -29,14 +29,84 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "checkedAt": "2026-09-10T16:27:08.784Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "partially_verified",
       "sourceUrl": "https://www.dackonline.se/search?width=225&profile=45&size=17&searchByCar=true",
-      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "checkedAt": "2026-09-10T16:27:08.784Z",
       "note": "Däckdimension 225/45R1791W; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
     }
+  },
+  "reliability": {
+    "status": "partially_verified",
+    "checkedAt": "2026-09-10",
+    "heading": "Ett starkt val i familjebilsklassen",
+    "summary": "Kia Ceed placerar sig högt i flera oberoende brittiska driftsäkerhetsmätningar och 2021 års modell har dessutom färre registrerade vägassistansstopp än flera vanliga konkurrenter i ADAC:s statistik. Sammantaget pekar underlaget på en ovanligt driftsäker familjebil, men resultaten gäller modellserien och marknadernas bilbestånd – inte en garanti för just detta exemplar. Servicehistorik, DCT-växellådans funktion och kvarvarande fabriksgaranti bör därför kontrolleras före köp.",
+    "comparisons": [
+      {
+        "source": "What Car?",
+        "result": "1:a i klassen · 98,8 %",
+        "context": "Ceed toppade familjebilsklassen i den redovisade ägarundersökningen. 8 % av bilarna uppgavs ha haft fel, främst infotainment.",
+        "sourceUrl": "https://www.whatcar.com/kia/ceed/hatchback/used-review/n19276/reliability"
+      },
+      {
+        "source": "Warrantywise 2026",
+        "result": "9:a totalt · 77,5/100",
+        "context": "Index över garantireparationer för Ceed-varianter i Storbritannien. Genomsnittlig reparation var £709,10.",
+        "sourceUrl": "https://www.warrantywise.co.uk/reliability-index-2026/most-reliable-cars-kia-ceed/"
+      },
+      {
+        "source": "ADAC Pannenstatistik",
+        "result": "7,1 stopp per 1 000 bilar",
+        "context": "För registreringsår 2021; lägre än Seat Leon 8,3, VW Golf 9,6, Ford Focus 16,0 och Skoda Octavia 19,5 i samma årsrad.",
+        "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/kia/ceed/cd/319960/"
+      }
+    ],
+    "knownIssues": [
+      {
+        "title": "Infotainment och elektronik",
+        "description": "Det tydligaste felområdet i What Car?-underlaget var infotainment. Prova skärm, kamera, CarPlay, Bluetooth och samtliga reglage under provkörningen.",
+        "repairCost": "Ingen tillförlitlig svensk modellkostnad hittad – offert krävs."
+      },
+      {
+        "title": "Utsläppsrelaterade komponenter",
+        "description": "Warrantywise anger emissionssystemet som vanligaste reparationsområde i sitt samlade Ceed-underlag. Uppgiften är inte specifik för 1.5 T-GDI DCT.",
+        "repairCost": "Indexets genomsnitt för alla registrerade Ceed-reparationer var £709,10; inte ett pris för detta fel."
+      }
+    ],
+    "warranty": {
+      "summary": "Kia Sverige lämnar sju års nybilsgaranti eller 15 000 mil och garantin följer bilen. En 2021-bil med 4 798 mil kan därför fortfarande omfattas, beroende på första registreringsdatum, korrekt service och övriga villkor.",
+      "sourceUrl": "https://www.kia.com/se/service/values-and-benefits/7-year-warranty/"
+    },
+    "limitations": [
+      "Undersökningarna avser modellserier och kan blanda karosser, motorer eller utrustningsnivåer.",
+      "Brittiska kostnader ska inte räknas om direkt till en svensk verkstadsnota.",
+      "ADAC mäter vägassistansstopp, inte alla verkstadsbesök eller mindre fel.",
+      "Exemplarets skick och servicehistorik väger tyngre än modellstatistik vid köpbeslutet."
+    ],
+    "sources": [
+      {
+        "name": "What Car? Reliability Survey",
+        "url": "https://www.whatcar.com/kia/ceed/hatchback/used-review/n19276/reliability",
+        "note": "Ägarrapporterad driftsäkerhet, brittisk marknad."
+      },
+      {
+        "name": "Warrantywise Reliability Index 2026",
+        "url": "https://www.warrantywise.co.uk/reliability-index-2026/most-reliable-cars-kia-ceed/",
+        "note": "Garantireparationer, brittisk marknad."
+      },
+      {
+        "name": "ADAC Pannenstatistik",
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/kia/ceed/cd/319960/",
+        "note": "Vägassistansstopp per 1 000 bilar, Tyskland."
+      },
+      {
+        "name": "Kia Sverige – nybilsgaranti",
+        "url": "https://www.kia.com/se/service/values-and-benefits/7-year-warranty/",
+        "note": "Officiella svenska garantivillkor."
+      }
+    ]
   }
 }

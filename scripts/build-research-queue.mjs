@@ -8,6 +8,7 @@ const REPORT = resolve(ROOT, "src/data/report.json");
 const QUEUE = resolve(ROOT, "data/research-queue.json");
 const FINDINGS_DIR = resolve(ROOT, "data/research-findings");
 const STATUS = resolve(ROOT, "src/data/enrichment-status.json");
+const RELIABILITY_MODELS = resolve(ROOT, "data/model-reliability.json");
 const checkedAt = new Date().toISOString();
 
 const brandDomain = (title = "") => {
@@ -39,8 +40,13 @@ function taskFor(offer) {
       insurance: { fields: ["annualPremiumRange", "machineDamageMaxAge", "machineDamageMaxMileage", "deductible", "coveredComponents", "personalQuoteRequired"], sources: ["https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"] },
       tyres: { fields: ["dimension", "loadIndex", "completeSetPrice", "mountingPrice", "treadLife", "valueAtMonth36"], sources: ["https://www.mekonomen.se/", "https://www.dackonline.se/"] },
       repairs: { fields: ["commonFailures", "partsPrice", "laborPriceAuthorized", "laborPriceIndependent", "threeYearReserve"] },
+      reliability: {
+        fields: ["summary", "comparisons", "knownIssues", "repairCosts", "warranty", "limitations", "sources"],
+        sources: ["ADAC Pannenstatistik", "What Car? Reliability Survey", "Warrantywise Reliability Index", "official recalls and warranty terms"],
+        rules: ["match model generation and powertrain", "exclude normal wear", "keep markets and survey scopes explicit", "never infer a ranking or repair price", "preserve every completed field and only fill missing fields"],
+      },
     },
-    instruction: `Researchera ${offer.title} ${offer.variant} (${offer.modelYear}, ${offer.mileageMil} mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated.`
+    instruction: `Researchera endast saknade fält för ${offer.title} ${offer.variant} (${offer.modelYear}, ${offer.mileageMil} mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.`
   };
 }
 
@@ -54,8 +60,8 @@ async function loadFindings() {
   } catch { return []; }
 }
 
-function applyFinding(offer, finding) {
-  if (!finding || finding.offerId !== offer.id) return offer;
+function applyFinding(offer, finding, modelReliability = {}) {
+  if (!finding || finding.offerId !== offer.id) return { ...offer, reliability: offer.reliability ?? modelReliability[offer.title] ?? null };
   const rows = offer.economics.breakdown.map((row) => {
     const update = finding.costs?.[row.key];
     // Unknown/estimated findings must never turn into zero or overwrite an
@@ -64,7 +70,7 @@ function applyFinding(offer, finding) {
     return { ...row, amountSek: Math.round(update.amountSek), evidence: { status: update.status || "verified", sourceUrl: update.sourceUrl || null, checkedAt: update.checkedAt || checkedAt, note: update.note || null } };
   });
   const total = Math.round(rows.reduce((sum, row) => sum + row.amountSek, 0));
-  return { ...offer, economics: { ...offer.economics, breakdown: rows, total36Sek: total, monthlyEconomicSek: Math.round(total / 36), stressTotal36Sek: Math.round(total * 1.12), stressMonthlySek: Math.round(total * 1.12 / 36) }, enrichment: { status: "partially-verified", checkedAt, findingSource: finding.sourceUrl || null } };
+  return { ...offer, economics: { ...offer.economics, breakdown: rows, total36Sek: total, monthlyEconomicSek: Math.round(total / 36), stressTotal36Sek: Math.round(total * 1.12), stressMonthlySek: Math.round(total * 1.12 / 36) }, reliability: finding.reliability ?? offer.reliability ?? modelReliability[offer.title] ?? null, enrichment: { status: "partially-verified", checkedAt, findingSource: finding.sourceUrl || null } };
 }
 
 export async function buildResearchQueue() {
@@ -73,10 +79,13 @@ export async function buildResearchQueue() {
   // used a top-10 pilot; production runs must not silently omit valid adverts.
   const targets = [...report.purchases, ...report.leases];
   const findings = await loadFindings();
-  const enriched = [...report.purchases, ...report.leases].map((offer) => findings.reduce(applyFinding, offer));
+  const modelReliability = JSON.parse(await readFile(RELIABILITY_MODELS, "utf8"));
+  const enriched = [...report.purchases, ...report.leases].map((offer) => findings.reduce((current, finding) => applyFinding(current, finding, modelReliability), { ...offer, reliability: offer.reliability ?? modelReliability[offer.title] ?? null }));
   const queue = targets.map(taskFor).map((task) => {
     const finding = findings.find((item) => item.offerId === task.id);
-    return { ...task, status: finding ? "received" : "pending" };
+    const reliability = finding?.reliability ?? modelReliability[task.title] ?? null;
+    const reliabilityComplete = Boolean(reliability?.summary && reliability?.sources?.length);
+    return { ...task, existingFinding: finding || reliability ? { reliability } : null, missing: { reliability: !reliabilityComplete }, status: finding && reliabilityComplete ? "received" : "pending" };
   });
   await mkdir(dirname(QUEUE), { recursive: true });
   await mkdir(FINDINGS_DIR, { recursive: true });

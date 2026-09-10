@@ -1,0 +1,111 @@
+{
+  "Hyundai i30 Kombi": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "Bättre än genomsnittet i vägassistansstatistiken",
+    "summary": "Hyundai i30 från 2021 ligger på 8,1 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är ett förhållandevis starkt resultat bland familjebilarna i Bilradarns urval, även om statistiken gäller hela i30-serien och inte bara kombin eller mildhybriden.",
+    "comparisons": [{"source":"ADAC Pannenstatistik","result":"8,1 stopp per 1 000 bilar","context":"Registreringsår 2021. Som jämförelse redovisas Golf med 9,6 och Focus med 16,0 i samma årsrad.","sourceUrl":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/?filter=NONE"}],
+    "knownIssues": [{"title":"Kontrollera utförda återkallelser","description":"ADAC redovisar en återkallelse för vissa i30 byggda 2020–2021 där däcktrycksövervakningen kunde ha begränsad funktion; åtgärden var mjukvaruuppdatering.","repairCost":"Återkallelser ska normalt åtgärdas av märkesverkstad; kontrollera bilen mot VIN."}],
+    "limitations": ["ADAC mäter vägassistansstopp, inte alla verkstadsfel.","Resultatet omfattar flera i30-karosser och motoralternativ."],
+    "sources": [{"name":"ADAC – Hyundai i30","url":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/?filter=NONE","note":"Tysk vägassistansstatistik per registreringsår."}]
+  },
+  "Peugeot 3008": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "Medelstarkt stoppresultat – drivlinan är avgörande",
+    "summary": "Peugeot 3008 från 2021 redovisas med 13,0 vägassistansstopp per 1 000 bilar hos ADAC. Det placerar modellen bakom flera av de starkaste alternativen i Bilradarns urval. För bilar med 1.2 PureTech är dokumenterad service och kontroll av kamrem särskilt viktig; den risken gäller inte automatiskt andra motorer.",
+    "comparisons": [{"source":"ADAC Pannenstatistik","result":"13,0 stopp per 1 000 bilar","context":"Registreringsår 2021; högre än T-Roc 3,8, Ceed 7,1 och Golf 9,6 men lägre än Focus 16,0.","sourceUrl":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/"}],
+    "knownIssues": [{"title":"1.2 PureTech: kamrem och oljeförbrukning","description":"Stellantis har en särskild kompensationspolicy för tidigare PureTech 1.0/1.2-motorer avseende förtida kamremsnedbrytning och överdriven oljeförbrukning. Kontrollera motorvariant, serviceintervall och dokumentation.","repairCost":"Ingen generell svensk kostnad kan anges; kontroll och offert krävs."}],
+    "limitations": ["PureTech-risken ska endast visas som relevant när annonsens motor matchar.","ADAC-siffran omfattar modellserien, inte en enskild drivlina."],
+    "sources": [{"name":"ADAC – Peugeot 3008","url":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/","note":"Tysk vägassistansstatistik."},{"name":"Stellantis PureTech policy","url":"https://www.stellantis.com/en/contacts/puretech-compensation-platform","note":"Tillverkarens information om berörda PureTech-problem."}]
+  },
+  "Nissan Qashqai": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "Svagare än flera vanliga konkurrenter",
+    "summary": "Nissan Qashqai från 2021 har 13,6 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är svagare än Ceed, i30, Leon, Golf och T-Roc i samma årsrad, men bättre än Focus och Octavia. Startbatteriet är det tydligaste återkommande stoppområdet i ADAC:s modellöversikt.",
+    "comparisons": [{"source":"ADAC Pannenstatistik","result":"13,6 stopp per 1 000 bilar","context":"Registreringsår 2021. ADAC anger startbatteri som återkommande stopporsak för 2016–2023.","sourceUrl":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/"}],
+    "knownIssues": [{"title":"Startbatteri","description":"ADAC listar startbatteriet som återkommande stopporsak för Qashqai 2016–2023. Batteritest före köp är mer relevant än att utgå från åldern ensam.","repairCost":"Batteribyte är normalt slitage och ingår inte som modellfelskostnad i ekonomiplanen."}],
+    "limitations": ["Batteri är en slitdel och redovisas här för att det påverkar stoppfrekvensen, inte som konstruktionsfel.","Statistiken blandar Qashqai-generationer kring modellskiftet 2021."],
+    "sources": [{"name":"ADAC – Nissan Qashqai","url":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/","note":"Tysk vägassistansstatistik och redovisade stopporsaker."}]
+  },
+  "Volkswagen T-Roc": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "Ett av urvalets starkaste stoppresultat",
+    "summary": "Volkswagen T-Roc från 2021 redovisas med endast 3,8 vägassistansstopp per 1 000 bilar hos ADAC. Det är klart lägre än de flesta andra familjebilar i Bilradarns aktuella urval och ger modellen ett starkt statistiskt utgångsläge.",
+    "comparisons": [{"source":"ADAC Pannenstatistik","result":"3,8 stopp per 1 000 bilar","context":"Registreringsår 2021; lägre än Ceed 7,1, Leon 8,3, Golf 9,6 och Tiguan 11,3.","sourceUrl":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE"}],
+    "knownIssues": [], "limitations": ["ADAC mäter driftstopp och fångar inte alla mindre elektronik- eller verkstadsfel.","Exakt DSG- och motorvariant behöver matchas separat."],
+    "sources": [{"name":"ADAC – Volkswagen T-Roc","url":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE","note":"Tysk vägassistansstatistik."}]
+  },
+  "Volkswagen Golf Sportscombi": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "Mittenresultat bland jämförbara familjebilar",
+    "summary": "Golf-serien från 2021 redovisas med 9,6 vägassistansstopp per 1 000 bilar hos ADAC. Det är bättre än Qashqai, 3008, Focus och Octavia, men bakom T-Roc, Ceed, i30 och Leon. Siffran avser Golf-serien och särredovisar inte Sportscombi.",
+    "comparisons": [{"source":"ADAC Pannenstatistik","result":"9,6 stopp per 1 000 bilar","context":"Registreringsår 2021 för Golf-serien.","sourceUrl":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/"}],
+    "knownIssues": [], "limitations": ["Sportscombi och enskilda motor-/DSG-varianter särredovisas inte i totalsiffran.","Mindre mjukvarufel behöver bedömas från andra källor än vägassistansdata."],
+    "sources": [{"name":"ADAC – Volkswagen Golf","url":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/","note":"Tysk vägassistansstatistik för Golf-serien."}]
+  },
+  "Dacia Duster": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "Bra stoppresultat för årsmodellen",
+    "summary": "Dacia Duster från 2021 ligger på 8,0 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är bättre än Golf, Tiguan, 3008, Qashqai, Focus och Octavia i samma årsrad. Senare års bilar har generatorn som redovisad stopporsak, vilket bör kontrolleras för exemplar från 2022–2023.",
+    "comparisons": [{"source":"ADAC Pannenstatistik","result":"8,0 stopp per 1 000 bilar","context":"Registreringsår 2021 för den samlade Duster/Logan/Sandero-gruppen.","sourceUrl":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/"}],
+    "knownIssues": [{"title":"Generator på senare års bilar","description":"ADAC listar generator som stopporsak för registreringsår 2022–2023 i den samlade Duster/Logan/Sandero-statistiken.","repairCost":"Ingen styrkt svensk modellkostnad hittad."}],
+    "limitations": ["ADAC grupperar Duster med Logan och Sandero i stopporsakerna.","Generatoruppgiften är främst relevant för 2022–2023."],
+    "sources": [{"name":"ADAC – Dacia Duster","url":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/","note":"Tysk vägassistansstatistik."}]
+  },
+  "Peugeot 5008": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "God ägarrapporterad driftsäkerhet, men fel kan bli långdragna",
+    "summary": "Peugeot 5008 (2017–2024) placerades delad åtta i What Car?:s senaste redovisade sjusitsklass med 91,5 procent. 35 procent av de rapporterade bilarna hade något fel, främst motor eller icke-motorelektronik, men 90 procent kunde fortfarande köras och Peugeot stod för de rapporterade reparationskostnaderna.",
+    "comparisons": [{"source":"What Car? Reliability Survey","result":"Delad 8:a · 91,5 %","context":"Sjusitsklassen, brittisk ägarundersökning för Peugeot 5008 2017–2024.","sourceUrl":"https://www.whatcar.com/news/reliability-survey-most-reliable-7-seaters/n26157"}],
+    "knownIssues": [{"title":"Motor och övrig elektronik","description":"I undersökningen var motor och icke-motorelektronik de vanligaste felområdena, vardera 8 procent av de rapporterade bilarna.","repairCost":"Undersökningen redovisade £0 i genomsnitt eftersom Peugeot täckte arbetena; det är inte en prognos efter garanti."}],
+    "limitations": ["Ägarundersökningen avser brittiska bilar och hela modellperioden 2017–2024.","Motorvariant måste matchas innan ett specifikt motorfel kopplas till bilen."],
+    "sources": [{"name":"What Car? – sjusitsiga bilar","url":"https://www.whatcar.com/news/reliability-survey-most-reliable-7-seaters/n26157","note":"Brittisk ägarrapporterad undersökning."}]
+  },
+  "CUPRA Leon Sportstourer": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "Lovande nyare stoppdata, men kort historik",
+    "summary": "CUPRA Leon har mycket låga ADAC-tal för registreringsår 2022–2023: 1,8 respektive 1,7 stopp per 1 000 bilar. För 2021 saknas ett redovisat tal, så ett exemplar från modellens första år bör inte bedömas som lika säkert enbart utifrån de senare årsresultaten.",
+    "comparisons": [{"source":"ADAC Pannenstatistik","result":"1,8 stopp per 1 000 bilar","context":"Registreringsår 2022; 2023 redovisas med 1,7 och 2021 saknar värde.","sourceUrl":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/leon/"}],
+    "knownIssues": [], "limitations": ["Kort modellhistorik och inget ADAC-värde för 2021.","CUPRA Leon och Sportstourer/drivlinor särredovisas inte i stopptalet."],
+    "sources": [{"name":"ADAC – CUPRA Leon","url":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/leon/","note":"Tysk vägassistansstatistik."}]
+  },
+  "Ford Focus Active Kombi": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "Svagare stoppresultat än de flesta alternativen",
+    "summary": "Ford Focus från 2021 redovisas med 16,0 vägassistansstopp per 1 000 bilar hos ADAC. I Bilradarns aktuella jämförelse är det svagare än T-Roc, Ceed, i30, Leon, Golf, Tiguan, 3008 och Qashqai, men bättre än Octavia. Startbatteri är den återkommande stopporsak som omfattar årsmodellen.",
+    "comparisons": [{"source":"ADAC Pannenstatistik","result":"16,0 stopp per 1 000 bilar","context":"Registreringsår 2021; Focus-serien inklusive flera karosser och motorer.","sourceUrl":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/"}],
+    "knownIssues": [{"title":"Startbatteri","description":"ADAC listar startbatteriet som återkommande stopporsak för registreringsår 2016–2023.","repairCost":"Batteri är normalt slitage och summeras inte som modellfel."}],
+    "limitations": ["Active Kombi och aktuell motor särredovisas inte.","Vägassistansstatistik fångar inte alla verkstadsbesök."],
+    "sources": [{"name":"ADAC – Ford Focus","url":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/","note":"Tysk vägassistansstatistik och stopporsaker."}]
+  },
+  "SEAT Leon Sportstourer": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "Starkt resultat i kompaktklassen",
+    "summary": "SEAT Leon från 2021 redovisas med 8,3 vägassistansstopp per 1 000 bilar hos ADAC. Det är något bättre än Golf och tydligt bättre än 3008, Qashqai, Focus och Octavia, men bakom T-Roc, Ceed och i30.",
+    "comparisons": [{"source":"ADAC Pannenstatistik","result":"8,3 stopp per 1 000 bilar","context":"Registreringsår 2021 för Leon-serien.","sourceUrl":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/"}],
+    "knownIssues": [], "limitations": ["Sportstourer och aktuell drivlina särredovisas inte.","Återkallelser måste alltid kontrolleras mot VIN."],
+    "sources": [{"name":"ADAC – SEAT Leon","url":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/","note":"Tysk vägassistansstatistik."}]
+  },
+  "Škoda Octavia Kombi": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "Hög stoppfrekvens för 2021 års modell",
+    "summary": "Škoda Octavia från 2021 redovisas med 19,5 vägassistansstopp per 1 000 bilar hos ADAC, högst bland de direkt jämförda familjebilarna i Bilradarns aktuella urval. Startbatteriet anges som återkommande stopporsak för 2020–2023.",
+    "comparisons": [{"source":"ADAC Pannenstatistik","result":"19,5 stopp per 1 000 bilar","context":"Registreringsår 2021; högre än Focus 16,0, Qashqai 13,6, Golf 9,6 och Ceed 7,1.","sourceUrl":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/?filter=ONLY_RECENT&sort=SORTING_DESC"}],
+    "knownIssues": [{"title":"Startbatteri","description":"ADAC listar startbatteriet som återkommande stopporsak för Octavia 2020–2023.","repairCost":"Batteri är normalt slitage och räknas inte som modellfelskostnad."}],
+    "limitations": ["Kombi och aktuell drivlina särredovisas inte.","Stoppfrekvens ska vägas mot servicehistorik och genomförda mjukvaruåtgärder."],
+    "sources": [{"name":"ADAC – Škoda Octavia","url":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/?filter=ONLY_RECENT&sort=SORTING_DESC","note":"Tysk vägassistansstatistik och stopporsaker."}]
+  },
+  "Toyota Corolla Touring Sports Hybrid": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "Högt ägarbetyg men svagare vägassistanssiffra",
+    "summary": "Toyota Corolla får ett starkt ägarrapporterat resultat hos What Car? med 96,5 procent och nionde plats bland hybrider. Samtidigt redovisar ADAC 21,4 vägassistansstopp per 1 000 bilar för 2021, där 12-voltsbatteriet anges som en viktig orsak. Källorna motsäger inte nödvändigtvis varandra: de mäter olika typer av problem.",
+    "comparisons": [{"source":"What Car? Reliability Survey","result":"9:a bland hybrider · 96,5 %","context":"15 procent rapporterade fel; vanligast var 12-voltsbatteri.","sourceUrl":"https://www.whatcar.com/news/most-and-least-reliable-hybrid-cars/n26780"},{"source":"ADAC Pannenstatistik","result":"21,4 stopp per 1 000 bilar","context":"Registreringsår 2021; ADAC listar 12-voltsbatteri för 2019–2023.","sourceUrl":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/corolla/"}],
+    "knownIssues": [{"title":"12-voltsbatteri","description":"Både ADAC och What Car? pekar ut 12-voltsbatteriet som ett centralt problemområde. Det är en slitdel, men påverkar bilens faktiska start- och stoppstatistik.","repairCost":"What Car? redovisar att 91 procent betalade £0 och övriga £51–£200; svenskt pris kräver offert."}],
+    "limitations": ["What Car? bygger på brittiska ägarrapporter; ADAC på tyska vägassistansfall.","12-voltsbatteri är normalt slitage och ska inte läggas till som modellfelskostnad."],
+    "sources": [{"name":"What Car? – hybridbilar","url":"https://www.whatcar.com/news/most-and-least-reliable-hybrid-cars/n26780","note":"Brittisk ägarundersökning."},{"name":"ADAC – Toyota Corolla","url":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/corolla/","note":"Tysk vägassistansstatistik."}]
+  },
+  "Kia Ceed Sportswagon": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "Ett starkt val i familjebilsklassen",
+    "summary": "Kia Ceed placerar sig högt i flera oberoende driftsäkerhetsmätningar. What Car? redovisar 98,8 procent och förstaplats i familjebilsklassen, medan 2021 års modell har 7,1 vägassistansstopp per 1 000 bilar hos ADAC – bättre än bland annat Leon, Golf, Focus och Octavia i samma årsrad.",
+    "comparisons": [{"source":"What Car? Reliability Survey","result":"1:a i klassen · 98,8 %","context":"Ägarrapporterad brittisk undersökning; 8 procent uppgav fel, främst infotainment.","sourceUrl":"https://www.whatcar.com/kia/ceed/hatchback/used-review/n19276/reliability"},{"source":"Warrantywise 2026","result":"9:a totalt · 77,5/100","context":"Brittiskt garantireparationsindex för Ceed-varianter; genomsnittlig reparation £709,10.","sourceUrl":"https://www.warrantywise.co.uk/reliability-index-2026/most-reliable-cars-kia-ceed/"},{"source":"ADAC Pannenstatistik","result":"7,1 stopp per 1 000 bilar","context":"Registreringsår 2021; lägre är bättre.","sourceUrl":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/kia/ceed/cd/319960/"}],
+    "knownIssues": [{"title":"Infotainment och elektronik","description":"Det tydligaste felområdet i What Car?-underlaget var infotainment. Prova skärm, kamera, CarPlay, Bluetooth och reglage.","repairCost":"Ingen tillförlitlig svensk modellkostnad hittad."},{"title":"Utsläppsrelaterade komponenter","description":"Warrantywise anger emissionssystemet som vanligaste reparationsområde i sitt samlade Ceed-underlag; uppgiften är inte specifik för 1.5 T-GDI DCT.","repairCost":"Indexets genomsnitt för alla Ceed-reparationer var £709,10; inte priset för detta fel."}],
+    "warranty": {"summary":"Kia Sverige lämnar sju års nybilsgaranti eller 15 000 mil och garantin följer bilen, under förutsättning att service- och garantivillkoren är uppfyllda.","sourceUrl":"https://www.kia.com/se/service/values-and-benefits/7-year-warranty/"},
+    "limitations": ["Undersökningarna kan blanda karosser, motorer och utrustningsnivåer.","Brittiska reparationskostnader är inte svenska offerter.","ADAC mäter vägassistansstopp, inte alla verkstadsbesök."],
+    "sources": [{"name":"What Car? – Kia Ceed","url":"https://www.whatcar.com/kia/ceed/hatchback/used-review/n19276/reliability","note":"Brittisk ägarundersökning."},{"name":"Warrantywise Reliability Index 2026","url":"https://www.warrantywise.co.uk/reliability-index-2026/most-reliable-cars-kia-ceed/","note":"Brittiska garantireparationer."},{"name":"ADAC – Kia Ceed","url":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/kia/ceed/cd/319960/","note":"Tysk vägassistansstatistik."},{"name":"Kia Sverige – nybilsgaranti","url":"https://www.kia.com/se/service/values-and-benefits/7-year-warranty/","note":"Officiella svenska garantivillkor."}]
+  },
+  "Volkswagen Tiguan": {
+    "status": "partially_verified", "checkedAt": "2026-09-10", "heading": "Mittfält bland de jämförda familjebilarna",
+    "summary": "Volkswagen Tiguan från 2021 redovisas med 11,3 vägassistansstopp per 1 000 bilar hos ADAC. Det är bättre än 3008, Qashqai, Focus, Octavia och Corolla i samma årsrad, men bakom T-Roc, Ceed, i30, Leon och Golf. Startbatteriet anges som relevant stopporsak för 2021.",
+    "comparisons": [{"source":"ADAC Pannenstatistik","result":"11,3 stopp per 1 000 bilar","context":"Registreringsår 2021 för Tiguan-serien.","sourceUrl":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/"}],
+    "knownIssues": [{"title":"Startbatteri","description":"ADAC listar startbatteriet som stopporsak för registreringsår 2021.","repairCost":"Batteri är normalt slitage och räknas inte som modellfelskostnad."}],
+    "limitations": ["Aktuell motor och växellåda särredovisas inte.","ADAC-medlemsrapporter om enskilda fel är inte samma sak som statistiskt återkommande modellfel."],
+    "sources": [{"name":"ADAC – Volkswagen Tiguan","url":"https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/","note":"Tysk vägassistansstatistik."}]
+  }
+}

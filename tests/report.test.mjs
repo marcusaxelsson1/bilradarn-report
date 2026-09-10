@@ -29,3 +29,11 @@ test("purchase ranking has the required source and equipment evidence", () => {
     assert.equal(offer.quality.rankBlockers.length, 0);
   }
 });
+
+test("every visible offer has a sourced reliability summary", () => {
+  for (const offer of [...report.purchases, ...report.leases]) {
+    assert.ok(offer.reliability?.summary, `${offer.title} saknar driftsäkerhetstext`);
+    assert.ok(offer.reliability?.sources?.length, `${offer.title} saknar driftsäkerhetskälla`);
+    for (const source of offer.reliability.sources) assert.match(source.url, /^https?:\/\//);
+  }
+});

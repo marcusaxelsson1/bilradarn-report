@@ -19,9 +19,12 @@ test("research queue contains live, auditable enrichment tasks", async () => {
     assert.ok(task.requested.insurance);
     assert.ok(task.requested.tyres);
     assert.ok(task.requested.repairs);
+    assert.ok(task.requested.reliability);
+    assert.equal(typeof task.missing.reliability, "boolean");
     assert.ok(task.enrichmentRequest?.providers?.registry);
     assert.ok(task.enrichmentRequest?.providers?.insurance);
     assert.match(task.instruction, /primärkällor/i);
   }
   assert.equal(status.pending + status.received, queue.tasks.length);
+  assert.ok(queue.tasks.some((task) => task.status === "received" && task.existingFinding?.reliability?.summary));
 });

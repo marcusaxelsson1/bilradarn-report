@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:801f6ac9-2cd3-4243-b79d-1285ca04f633",
-  "checkedAt": "2026-09-10T15:46:56.901Z",
+  "checkedAt": "2026-09-10T16:27:08.784Z",
   "sourceUrl": "https://www.volkswagen.se/sv/verkstad-service.html",
   "notes": "Volkswagens primära servicesida ger generell serviceinformation men ingen verifierbar modell- och verkstadsoffert i detta flöde.",
   "costs": {
@@ -13,7 +13,7 @@
       "amountSek": 20376,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "checkedAt": "2026-09-10T16:27:08.784Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
     },
     "winter": {
@@ -37,13 +37,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "checkedAt": "2026-09-10T16:27:08.784Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "unknown",
       "sourceUrl": "https://www.dackonline.se/",
-      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "checkedAt": "2026-09-10T16:27:08.784Z",
       "note": "Däckdimension saknas i sanerad registerdata."
     }
   }

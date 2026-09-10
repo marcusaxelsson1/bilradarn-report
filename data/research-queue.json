@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T16:03:01.102Z",
+  "generatedAt": "2026-09-10T16:33:29.533Z",
   "horizonMonths": 36,
   "annualMileageMil": 1500,
   "tasks": [
@@ -99,9 +99,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Hyundai i30 Kombi 1,0T 120hk Automat MHEV Drag Essential B-Kamera Apple Carplay (2021, 7501 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Hyundai i30 Kombi 1,0T 120hk Automat MHEV Drag Essential B-Kamera Apple Carplay (2021, 7501 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Bättre än genomsnittet i vägassistansstatistiken",
+          "summary": "Hyundai i30 från 2021 ligger på 8,1 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är ett förhållandevis starkt resultat bland familjebilarna i Bilradarns urval, även om statistiken gäller hela i30-serien och inte bara kombin eller mildhybriden.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "8,1 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021. Som jämförelse redovisas Golf med 9,6 och Focus med 16,0 i samma årsrad.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/?filter=NONE"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Kontrollera utförda återkallelser",
+              "description": "ADAC redovisar en återkallelse för vissa i30 byggda 2020–2021 där däcktrycksövervakningen kunde ha begränsad funktion; åtgärden var mjukvaruuppdatering.",
+              "repairCost": "Återkallelser ska normalt åtgärdas av märkesverkstad; kontrollera bilen mot VIN."
+            }
+          ],
+          "limitations": [
+            "ADAC mäter vägassistansstopp, inte alla verkstadsfel.",
+            "Resultatet omfattar flera i30-karosser och motoralternativ."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Hyundai i30",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/?filter=NONE",
+              "note": "Tysk vägassistansstatistik per registreringsår."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
@@ -198,9 +259,108 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Kia Ceed Sportswagon 1.5 T-GDI DCT 160hk/Advance/Drag/backkamera/S+V-Hj (2021, 4798 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Kia Ceed Sportswagon 1.5 T-GDI DCT 160hk/Advance/Drag/backkamera/S+V-Hj (2021, 4798 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Ett starkt val i familjebilsklassen",
+          "summary": "Kia Ceed placerar sig högt i flera oberoende brittiska driftsäkerhetsmätningar och 2021 års modell har dessutom färre registrerade vägassistansstopp än flera vanliga konkurrenter i ADAC:s statistik. Sammantaget pekar underlaget på en ovanligt driftsäker familjebil, men resultaten gäller modellserien och marknadernas bilbestånd – inte en garanti för just detta exemplar. Servicehistorik, DCT-växellådans funktion och kvarvarande fabriksgaranti bör därför kontrolleras före köp.",
+          "comparisons": [
+            {
+              "source": "What Car?",
+              "result": "1:a i klassen · 98,8 %",
+              "context": "Ceed toppade familjebilsklassen i den redovisade ägarundersökningen. 8 % av bilarna uppgavs ha haft fel, främst infotainment.",
+              "sourceUrl": "https://www.whatcar.com/kia/ceed/hatchback/used-review/n19276/reliability"
+            },
+            {
+              "source": "Warrantywise 2026",
+              "result": "9:a totalt · 77,5/100",
+              "context": "Index över garantireparationer för Ceed-varianter i Storbritannien. Genomsnittlig reparation var £709,10.",
+              "sourceUrl": "https://www.warrantywise.co.uk/reliability-index-2026/most-reliable-cars-kia-ceed/"
+            },
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "7,1 stopp per 1 000 bilar",
+              "context": "För registreringsår 2021; lägre än Seat Leon 8,3, VW Golf 9,6, Ford Focus 16,0 och Skoda Octavia 19,5 i samma årsrad.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/kia/ceed/cd/319960/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Infotainment och elektronik",
+              "description": "Det tydligaste felområdet i What Car?-underlaget var infotainment. Prova skärm, kamera, CarPlay, Bluetooth och samtliga reglage under provkörningen.",
+              "repairCost": "Ingen tillförlitlig svensk modellkostnad hittad – offert krävs."
+            },
+            {
+              "title": "Utsläppsrelaterade komponenter",
+              "description": "Warrantywise anger emissionssystemet som vanligaste reparationsområde i sitt samlade Ceed-underlag. Uppgiften är inte specifik för 1.5 T-GDI DCT.",
+              "repairCost": "Indexets genomsnitt för alla registrerade Ceed-reparationer var £709,10; inte ett pris för detta fel."
+            }
+          ],
+          "warranty": {
+            "summary": "Kia Sverige lämnar sju års nybilsgaranti eller 15 000 mil och garantin följer bilen. En 2021-bil med 4 798 mil kan därför fortfarande omfattas, beroende på första registreringsdatum, korrekt service och övriga villkor.",
+            "sourceUrl": "https://www.kia.com/se/service/values-and-benefits/7-year-warranty/"
+          },
+          "limitations": [
+            "Undersökningarna avser modellserier och kan blanda karosser, motorer eller utrustningsnivåer.",
+            "Brittiska kostnader ska inte räknas om direkt till en svensk verkstadsnota.",
+            "ADAC mäter vägassistansstopp, inte alla verkstadsbesök eller mindre fel.",
+            "Exemplarets skick och servicehistorik väger tyngre än modellstatistik vid köpbeslutet."
+          ],
+          "sources": [
+            {
+              "name": "What Car? Reliability Survey",
+              "url": "https://www.whatcar.com/kia/ceed/hatchback/used-review/n19276/reliability",
+              "note": "Ägarrapporterad driftsäkerhet, brittisk marknad."
+            },
+            {
+              "name": "Warrantywise Reliability Index 2026",
+              "url": "https://www.warrantywise.co.uk/reliability-index-2026/most-reliable-cars-kia-ceed/",
+              "note": "Garantireparationer, brittisk marknad."
+            },
+            {
+              "name": "ADAC Pannenstatistik",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/kia/ceed/cd/319960/",
+              "note": "Vägassistansstopp per 1 000 bilar, Tyskland."
+            },
+            {
+              "name": "Kia Sverige – nybilsgaranti",
+              "url": "https://www.kia.com/se/service/values-and-benefits/7-year-warranty/",
+              "note": "Officiella svenska garantivillkor."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:0c458a8d-e297-43c1-8135-529d3860f7c8",
@@ -297,9 +457,64 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera SEAT Leon Sportstourer ST Style Drag Värmare Kamera Rattvärme Cockpit (2021, 7044 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för SEAT Leon Sportstourer ST Style Drag Värmare Kamera Rattvärme Cockpit (2021, 7044 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Starkt resultat i kompaktklassen",
+          "summary": "SEAT Leon från 2021 redovisas med 8,3 vägassistansstopp per 1 000 bilar hos ADAC. Det är något bättre än Golf och tydligt bättre än 3008, Qashqai, Focus och Octavia, men bakom T-Roc, Ceed och i30.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "8,3 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021 för Leon-serien.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/"
+            }
+          ],
+          "knownIssues": [],
+          "limitations": [
+            "Sportstourer och aktuell drivlina särredovisas inte.",
+            "Återkallelser måste alltid kontrolleras mot VIN."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – SEAT Leon",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/seat/leon/",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:7d409560-5a88-4d2f-8a4c-87470a63f5d6",
@@ -396,9 +611,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Ford Focus Active Kombi 1.0 EcoBoost 125hk SelectShift Edition (2022, 7090 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Ford Focus Active Kombi 1.0 EcoBoost 125hk SelectShift Edition (2022, 7090 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Svagare stoppresultat än de flesta alternativen",
+          "summary": "Ford Focus från 2021 redovisas med 16,0 vägassistansstopp per 1 000 bilar hos ADAC. I Bilradarns aktuella jämförelse är det svagare än T-Roc, Ceed, i30, Leon, Golf, Tiguan, 3008 och Qashqai, men bättre än Octavia. Startbatteri är den återkommande stopporsak som omfattar årsmodellen.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "16,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; Focus-serien inklusive flera karosser och motorer.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Startbatteri",
+              "description": "ADAC listar startbatteriet som återkommande stopporsak för registreringsår 2016–2023.",
+              "repairCost": "Batteri är normalt slitage och summeras inte som modellfel."
+            }
+          ],
+          "limitations": [
+            "Active Kombi och aktuell motor särredovisas inte.",
+            "Vägassistansstatistik fångar inte alla verkstadsbesök."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Ford Focus",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/",
+              "note": "Tysk vägassistansstatistik och stopporsaker."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:487d50e9-363e-45dd-a80f-4547d7e8776e",
@@ -495,9 +771,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Hyundai i30 Kombi 1.5 N-Line 159hk Drag Vhjul *PÅ VÄG IN* (2021, 9030 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Hyundai i30 Kombi 1.5 N-Line 159hk Drag Vhjul *PÅ VÄG IN* (2021, 9030 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Bättre än genomsnittet i vägassistansstatistiken",
+          "summary": "Hyundai i30 från 2021 ligger på 8,1 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är ett förhållandevis starkt resultat bland familjebilarna i Bilradarns urval, även om statistiken gäller hela i30-serien och inte bara kombin eller mildhybriden.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "8,1 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021. Som jämförelse redovisas Golf med 9,6 och Focus med 16,0 i samma årsrad.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/?filter=NONE"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Kontrollera utförda återkallelser",
+              "description": "ADAC redovisar en återkallelse för vissa i30 byggda 2020–2021 där däcktrycksövervakningen kunde ha begränsad funktion; åtgärden var mjukvaruuppdatering.",
+              "repairCost": "Återkallelser ska normalt åtgärdas av märkesverkstad; kontrollera bilen mot VIN."
+            }
+          ],
+          "limitations": [
+            "ADAC mäter vägassistansstopp, inte alla verkstadsfel.",
+            "Resultatet omfattar flera i30-karosser och motoralternativ."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Hyundai i30",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/?filter=NONE",
+              "note": "Tysk vägassistansstatistik per registreringsår."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:1b8b4414-a528-46f0-a4f2-c166c9e5069f",
@@ -594,9 +931,64 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Volkswagen Golf Sportscombi VIII 1.5 eTSI (130hk) (2021, 3429 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Volkswagen Golf Sportscombi VIII 1.5 eTSI (130hk) (2021, 3429 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Mittenresultat bland jämförbara familjebilar",
+          "summary": "Golf-serien från 2021 redovisas med 9,6 vägassistansstopp per 1 000 bilar hos ADAC. Det är bättre än Qashqai, 3008, Focus och Octavia, men bakom T-Roc, Ceed, i30 och Leon. Siffran avser Golf-serien och särredovisar inte Sportscombi.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "9,6 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021 för Golf-serien.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/"
+            }
+          ],
+          "knownIssues": [],
+          "limitations": [
+            "Sportscombi och enskilda motor-/DSG-varianter särredovisas inte i totalsiffran.",
+            "Mindre mjukvarufel behöver bedömas från andra källor än vägassistansdata."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Volkswagen Golf",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/",
+              "note": "Tysk vägassistansstatistik för Golf-serien."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
@@ -693,9 +1085,64 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Volkswagen Golf Sportscombi 1.5 eTSI Cockpit Värmare Apple CarPlay (2021, 4841 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Volkswagen Golf Sportscombi 1.5 eTSI Cockpit Värmare Apple CarPlay (2021, 4841 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Mittenresultat bland jämförbara familjebilar",
+          "summary": "Golf-serien från 2021 redovisas med 9,6 vägassistansstopp per 1 000 bilar hos ADAC. Det är bättre än Qashqai, 3008, Focus och Octavia, men bakom T-Roc, Ceed, i30 och Leon. Siffran avser Golf-serien och särredovisar inte Sportscombi.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "9,6 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021 för Golf-serien.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/"
+            }
+          ],
+          "knownIssues": [],
+          "limitations": [
+            "Sportscombi och enskilda motor-/DSG-varianter särredovisas inte i totalsiffran.",
+            "Mindre mjukvarufel behöver bedömas från andra källor än vägassistansdata."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Volkswagen Golf",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/",
+              "note": "Tysk vägassistansstatistik för Golf-serien."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:fa01452b-4ff5-43b2-910b-6dd397b09343",
@@ -792,9 +1239,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Nissan Qashqai 1.3 DIG-T DCT (160hk)   Acenta | Automat | (2021, 5914 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Nissan Qashqai 1.3 DIG-T DCT (160hk)   Acenta | Automat | (2021, 5914 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Svagare än flera vanliga konkurrenter",
+          "summary": "Nissan Qashqai från 2021 har 13,6 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är svagare än Ceed, i30, Leon, Golf och T-Roc i samma årsrad, men bättre än Focus och Octavia. Startbatteriet är det tydligaste återkommande stoppområdet i ADAC:s modellöversikt.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,6 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021. ADAC anger startbatteri som återkommande stopporsak för 2016–2023.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Startbatteri",
+              "description": "ADAC listar startbatteriet som återkommande stopporsak för Qashqai 2016–2023. Batteritest före köp är mer relevant än att utgå från åldern ensam.",
+              "repairCost": "Batteribyte är normalt slitage och ingår inte som modellfelskostnad i ekonomiplanen."
+            }
+          ],
+          "limitations": [
+            "Batteri är en slitdel och redovisas här för att det påverkar stoppfrekvensen, inte som konstruktionsfel.",
+            "Statistiken blandar Qashqai-generationer kring modellskiftet 2021."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Nissan Qashqai",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/",
+              "note": "Tysk vägassistansstatistik och redovisade stopporsaker."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:b27fdcad-e911-437d-8b49-f3fd2469e225",
@@ -891,9 +1399,107 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Kia Ceed Sportswagon 1.5 T-GDI (2022, 2750 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Kia Ceed Sportswagon 1.5 T-GDI (2022, 2750 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Ett starkt val i familjebilsklassen",
+          "summary": "Kia Ceed placerar sig högt i flera oberoende driftsäkerhetsmätningar. What Car? redovisar 98,8 procent och förstaplats i familjebilsklassen, medan 2021 års modell har 7,1 vägassistansstopp per 1 000 bilar hos ADAC – bättre än bland annat Leon, Golf, Focus och Octavia i samma årsrad.",
+          "comparisons": [
+            {
+              "source": "What Car? Reliability Survey",
+              "result": "1:a i klassen · 98,8 %",
+              "context": "Ägarrapporterad brittisk undersökning; 8 procent uppgav fel, främst infotainment.",
+              "sourceUrl": "https://www.whatcar.com/kia/ceed/hatchback/used-review/n19276/reliability"
+            },
+            {
+              "source": "Warrantywise 2026",
+              "result": "9:a totalt · 77,5/100",
+              "context": "Brittiskt garantireparationsindex för Ceed-varianter; genomsnittlig reparation £709,10.",
+              "sourceUrl": "https://www.warrantywise.co.uk/reliability-index-2026/most-reliable-cars-kia-ceed/"
+            },
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "7,1 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; lägre är bättre.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/kia/ceed/cd/319960/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Infotainment och elektronik",
+              "description": "Det tydligaste felområdet i What Car?-underlaget var infotainment. Prova skärm, kamera, CarPlay, Bluetooth och reglage.",
+              "repairCost": "Ingen tillförlitlig svensk modellkostnad hittad."
+            },
+            {
+              "title": "Utsläppsrelaterade komponenter",
+              "description": "Warrantywise anger emissionssystemet som vanligaste reparationsområde i sitt samlade Ceed-underlag; uppgiften är inte specifik för 1.5 T-GDI DCT.",
+              "repairCost": "Indexets genomsnitt för alla Ceed-reparationer var £709,10; inte priset för detta fel."
+            }
+          ],
+          "warranty": {
+            "summary": "Kia Sverige lämnar sju års nybilsgaranti eller 15 000 mil och garantin följer bilen, under förutsättning att service- och garantivillkoren är uppfyllda.",
+            "sourceUrl": "https://www.kia.com/se/service/values-and-benefits/7-year-warranty/"
+          },
+          "limitations": [
+            "Undersökningarna kan blanda karosser, motorer och utrustningsnivåer.",
+            "Brittiska reparationskostnader är inte svenska offerter.",
+            "ADAC mäter vägassistansstopp, inte alla verkstadsbesök."
+          ],
+          "sources": [
+            {
+              "name": "What Car? – Kia Ceed",
+              "url": "https://www.whatcar.com/kia/ceed/hatchback/used-review/n19276/reliability",
+              "note": "Brittisk ägarundersökning."
+            },
+            {
+              "name": "Warrantywise Reliability Index 2026",
+              "url": "https://www.warrantywise.co.uk/reliability-index-2026/most-reliable-cars-kia-ceed/",
+              "note": "Brittiska garantireparationer."
+            },
+            {
+              "name": "ADAC – Kia Ceed",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/kia/ceed/cd/319960/",
+              "note": "Tysk vägassistansstatistik."
+            },
+            {
+              "name": "Kia Sverige – nybilsgaranti",
+              "url": "https://www.kia.com/se/service/values-and-benefits/7-year-warranty/",
+              "note": "Officiella svenska garantivillkor."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
@@ -990,9 +1596,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Dacia Duster PhII 4x2 TCe 150 Journey A, Backkamera, Automat, Sensorer (2023, 4099 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Dacia Duster PhII 4x2 TCe 150 Journey A, Backkamera, Automat, Sensorer (2023, 4099 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Bra stoppresultat för årsmodellen",
+          "summary": "Dacia Duster från 2021 ligger på 8,0 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är bättre än Golf, Tiguan, 3008, Qashqai, Focus och Octavia i samma årsrad. Senare års bilar har generatorn som redovisad stopporsak, vilket bör kontrolleras för exemplar från 2022–2023.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "8,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021 för den samlade Duster/Logan/Sandero-gruppen.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Generator på senare års bilar",
+              "description": "ADAC listar generator som stopporsak för registreringsår 2022–2023 i den samlade Duster/Logan/Sandero-statistiken.",
+              "repairCost": "Ingen styrkt svensk modellkostnad hittad."
+            }
+          ],
+          "limitations": [
+            "ADAC grupperar Duster med Logan och Sandero i stopporsakerna.",
+            "Generatoruppgiften är främst relevant för 2022–2023."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Dacia Duster",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:c9fdeb16-0d54-4140-961b-43568350b470",
@@ -1089,9 +1756,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Dacia Duster PhII 4x2 TCe 150 Journey A (2023, 4764 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Dacia Duster PhII 4x2 TCe 150 Journey A (2023, 4764 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Bra stoppresultat för årsmodellen",
+          "summary": "Dacia Duster från 2021 ligger på 8,0 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är bättre än Golf, Tiguan, 3008, Qashqai, Focus och Octavia i samma årsrad. Senare års bilar har generatorn som redovisad stopporsak, vilket bör kontrolleras för exemplar från 2022–2023.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "8,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021 för den samlade Duster/Logan/Sandero-gruppen.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Generator på senare års bilar",
+              "description": "ADAC listar generator som stopporsak för registreringsår 2022–2023 i den samlade Duster/Logan/Sandero-statistiken.",
+              "repairCost": "Ingen styrkt svensk modellkostnad hittad."
+            }
+          ],
+          "limitations": [
+            "ADAC grupperar Duster med Logan och Sandero i stopporsakerna.",
+            "Generatoruppgiften är främst relevant för 2022–2023."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Dacia Duster",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
@@ -1188,9 +1916,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Dacia Duster PhII 4x2 TCe 150 Express A (2023, 6296 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Dacia Duster PhII 4x2 TCe 150 Express A (2023, 6296 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Bra stoppresultat för årsmodellen",
+          "summary": "Dacia Duster från 2021 ligger på 8,0 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är bättre än Golf, Tiguan, 3008, Qashqai, Focus och Octavia i samma årsrad. Senare års bilar har generatorn som redovisad stopporsak, vilket bör kontrolleras för exemplar från 2022–2023.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "8,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021 för den samlade Duster/Logan/Sandero-gruppen.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Generator på senare års bilar",
+              "description": "ADAC listar generator som stopporsak för registreringsår 2022–2023 i den samlade Duster/Logan/Sandero-statistiken.",
+              "repairCost": "Ingen styrkt svensk modellkostnad hittad."
+            }
+          ],
+          "limitations": [
+            "ADAC grupperar Duster med Logan och Sandero i stopporsakerna.",
+            "Generatoruppgiften är främst relevant för 2022–2023."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Dacia Duster",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:4aa40c00-8083-46d7-b7db-9e9c452e02bc",
@@ -1287,9 +2076,64 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Volkswagen T-Roc 1.5 TSI 150 HK | DSG | Adaptiv FH (2021, 9279 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Volkswagen T-Roc 1.5 TSI 150 HK | DSG | Adaptiv FH (2021, 9279 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Ett av urvalets starkaste stoppresultat",
+          "summary": "Volkswagen T-Roc från 2021 redovisas med endast 3,8 vägassistansstopp per 1 000 bilar hos ADAC. Det är klart lägre än de flesta andra familjebilar i Bilradarns aktuella urval och ger modellen ett starkt statistiskt utgångsläge.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "3,8 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; lägre än Ceed 7,1, Leon 8,3, Golf 9,6 och Tiguan 11,3.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE"
+            }
+          ],
+          "knownIssues": [],
+          "limitations": [
+            "ADAC mäter driftstopp och fångar inte alla mindre elektronik- eller verkstadsfel.",
+            "Exakt DSG- och motorvariant behöver matchas separat."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Volkswagen T-Roc",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:7d69912a-3c49-41fa-8438-4fb439e898dc",
@@ -1386,9 +2230,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Hyundai i30 Kombi 1.5 T-GDi DCT N-Line Drag 1 Ägare (2021, 9500 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Hyundai i30 Kombi 1.5 T-GDi DCT N-Line Drag 1 Ägare (2021, 9500 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Bättre än genomsnittet i vägassistansstatistiken",
+          "summary": "Hyundai i30 från 2021 ligger på 8,1 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är ett förhållandevis starkt resultat bland familjebilarna i Bilradarns urval, även om statistiken gäller hela i30-serien och inte bara kombin eller mildhybriden.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "8,1 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021. Som jämförelse redovisas Golf med 9,6 och Focus med 16,0 i samma årsrad.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/?filter=NONE"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Kontrollera utförda återkallelser",
+              "description": "ADAC redovisar en återkallelse för vissa i30 byggda 2020–2021 där däcktrycksövervakningen kunde ha begränsad funktion; åtgärden var mjukvaruuppdatering.",
+              "repairCost": "Återkallelser ska normalt åtgärdas av märkesverkstad; kontrollera bilen mot VIN."
+            }
+          ],
+          "limitations": [
+            "ADAC mäter vägassistansstopp, inte alla verkstadsfel.",
+            "Resultatet omfattar flera i30-karosser och motoralternativ."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Hyundai i30",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/?filter=NONE",
+              "note": "Tysk vägassistansstatistik per registreringsår."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:25503fa4-4bf2-4912-8d50-eb6be87c8c81",
@@ -1485,9 +2390,64 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Volkswagen Golf Sportscombi 1.5 eTSI Värmare Drag Backkamera Garanti (2023, 8230 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Volkswagen Golf Sportscombi 1.5 eTSI Värmare Drag Backkamera Garanti (2023, 8230 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Mittenresultat bland jämförbara familjebilar",
+          "summary": "Golf-serien från 2021 redovisas med 9,6 vägassistansstopp per 1 000 bilar hos ADAC. Det är bättre än Qashqai, 3008, Focus och Octavia, men bakom T-Roc, Ceed, i30 och Leon. Siffran avser Golf-serien och särredovisar inte Sportscombi.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "9,6 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021 för Golf-serien.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/"
+            }
+          ],
+          "knownIssues": [],
+          "limitations": [
+            "Sportscombi och enskilda motor-/DSG-varianter särredovisas inte i totalsiffran.",
+            "Mindre mjukvarufel behöver bedömas från andra källor än vägassistansdata."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Volkswagen Golf",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/",
+              "note": "Tysk vägassistansstatistik för Golf-serien."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
@@ -1584,9 +2544,64 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Volkswagen Golf Sportscombi 1.5 eTSI DSG VÄRMARE DRAG NAV (2021, 9600 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Volkswagen Golf Sportscombi 1.5 eTSI DSG VÄRMARE DRAG NAV (2021, 9600 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Mittenresultat bland jämförbara familjebilar",
+          "summary": "Golf-serien från 2021 redovisas med 9,6 vägassistansstopp per 1 000 bilar hos ADAC. Det är bättre än Qashqai, 3008, Focus och Octavia, men bakom T-Roc, Ceed, i30 och Leon. Siffran avser Golf-serien och särredovisar inte Sportscombi.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "9,6 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021 för Golf-serien.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/"
+            }
+          ],
+          "knownIssues": [],
+          "limitations": [
+            "Sportscombi och enskilda motor-/DSG-varianter särredovisas inte i totalsiffran.",
+            "Mindre mjukvarufel behöver bedömas från andra källor än vägassistansdata."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Volkswagen Golf",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/",
+              "note": "Tysk vägassistansstatistik för Golf-serien."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:a8afb359-cd68-4bb3-a577-3cb7541099db",
@@ -1683,9 +2698,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Škoda Octavia Kombi Skoda 1.0 TSI e-TEC Style Värmare Dragkrok Carplay (2021, 8734 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Škoda Octavia Kombi Skoda 1.0 TSI e-TEC Style Värmare Dragkrok Carplay (2021, 8734 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Hög stoppfrekvens för 2021 års modell",
+          "summary": "Škoda Octavia från 2021 redovisas med 19,5 vägassistansstopp per 1 000 bilar hos ADAC, högst bland de direkt jämförda familjebilarna i Bilradarns aktuella urval. Startbatteriet anges som återkommande stopporsak för 2020–2023.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "19,5 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; högre än Focus 16,0, Qashqai 13,6, Golf 9,6 och Ceed 7,1.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/?filter=ONLY_RECENT&sort=SORTING_DESC"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Startbatteri",
+              "description": "ADAC listar startbatteriet som återkommande stopporsak för Octavia 2020–2023.",
+              "repairCost": "Batteri är normalt slitage och räknas inte som modellfelskostnad."
+            }
+          ],
+          "limitations": [
+            "Kombi och aktuell drivlina särredovisas inte.",
+            "Stoppfrekvens ska vägas mot servicehistorik och genomförda mjukvaruåtgärder."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Škoda Octavia",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/skoda/octavia/?filter=ONLY_RECENT&sort=SORTING_DESC",
+              "note": "Tysk vägassistansstatistik och stopporsaker."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
@@ -1782,9 +2858,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Nissan Qashqai DIG-T 160 TEKNA 2WD DCT (2021, 4939 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Nissan Qashqai DIG-T 160 TEKNA 2WD DCT (2021, 4939 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Svagare än flera vanliga konkurrenter",
+          "summary": "Nissan Qashqai från 2021 har 13,6 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är svagare än Ceed, i30, Leon, Golf och T-Roc i samma årsrad, men bättre än Focus och Octavia. Startbatteriet är det tydligaste återkommande stoppområdet i ADAC:s modellöversikt.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,6 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021. ADAC anger startbatteri som återkommande stopporsak för 2016–2023.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Startbatteri",
+              "description": "ADAC listar startbatteriet som återkommande stopporsak för Qashqai 2016–2023. Batteritest före köp är mer relevant än att utgå från åldern ensam.",
+              "repairCost": "Batteribyte är normalt slitage och ingår inte som modellfelskostnad i ekonomiplanen."
+            }
+          ],
+          "limitations": [
+            "Batteri är en slitdel och redovisas här för att det påverkar stoppfrekvensen, inte som konstruktionsfel.",
+            "Statistiken blandar Qashqai-generationer kring modellskiftet 2021."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Nissan Qashqai",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/",
+              "note": "Tysk vägassistansstatistik och redovisade stopporsaker."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:35121016-1fae-49fc-82f2-6594356855bd",
@@ -1881,9 +3018,75 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Peugeot 3008 GT 130 hk *V-HJUL/Backkamera/Navi* (2023, 4816 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Peugeot 3008 GT 130 hk *V-HJUL/Backkamera/Navi* (2023, 4816 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Medelstarkt stoppresultat – drivlinan är avgörande",
+          "summary": "Peugeot 3008 från 2021 redovisas med 13,0 vägassistansstopp per 1 000 bilar hos ADAC. Det placerar modellen bakom flera av de starkaste alternativen i Bilradarns urval. För bilar med 1.2 PureTech är dokumenterad service och kontroll av kamrem särskilt viktig; den risken gäller inte automatiskt andra motorer.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; högre än T-Roc 3,8, Ceed 7,1 och Golf 9,6 men lägre än Focus 16,0.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "1.2 PureTech: kamrem och oljeförbrukning",
+              "description": "Stellantis har en särskild kompensationspolicy för tidigare PureTech 1.0/1.2-motorer avseende förtida kamremsnedbrytning och överdriven oljeförbrukning. Kontrollera motorvariant, serviceintervall och dokumentation.",
+              "repairCost": "Ingen generell svensk kostnad kan anges; kontroll och offert krävs."
+            }
+          ],
+          "limitations": [
+            "PureTech-risken ska endast visas som relevant när annonsens motor matchar.",
+            "ADAC-siffran omfattar modellserien, inte en enskild drivlina."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Peugeot 3008",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/",
+              "note": "Tysk vägassistansstatistik."
+            },
+            {
+              "name": "Stellantis PureTech policy",
+              "url": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
+              "note": "Tillverkarens information om berörda PureTech-problem."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
@@ -1980,9 +3183,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Nissan Qashqai 1.3 Tekna2 360° Navi 0.56l/mil Kamera Skinn (2021, 8606 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Nissan Qashqai 1.3 Tekna2 360° Navi 0.56l/mil Kamera Skinn (2021, 8606 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Svagare än flera vanliga konkurrenter",
+          "summary": "Nissan Qashqai från 2021 har 13,6 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är svagare än Ceed, i30, Leon, Golf och T-Roc i samma årsrad, men bättre än Focus och Octavia. Startbatteriet är det tydligaste återkommande stoppområdet i ADAC:s modellöversikt.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,6 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021. ADAC anger startbatteri som återkommande stopporsak för 2016–2023.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Startbatteri",
+              "description": "ADAC listar startbatteriet som återkommande stopporsak för Qashqai 2016–2023. Batteritest före köp är mer relevant än att utgå från åldern ensam.",
+              "repairCost": "Batteribyte är normalt slitage och ingår inte som modellfelskostnad i ekonomiplanen."
+            }
+          ],
+          "limitations": [
+            "Batteri är en slitdel och redovisas här för att det påverkar stoppfrekvensen, inte som konstruktionsfel.",
+            "Statistiken blandar Qashqai-generationer kring modellskiftet 2021."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Nissan Qashqai",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/",
+              "note": "Tysk vägassistansstatistik och redovisade stopporsaker."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:fb478a7c-4a9f-4340-89ce-94c68f439317",
@@ -2079,9 +3343,75 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Peugeot 3008 1.2 PureTech 130/ EAT/Allure / (2021, 9200 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Peugeot 3008 1.2 PureTech 130/ EAT/Allure / (2021, 9200 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Medelstarkt stoppresultat – drivlinan är avgörande",
+          "summary": "Peugeot 3008 från 2021 redovisas med 13,0 vägassistansstopp per 1 000 bilar hos ADAC. Det placerar modellen bakom flera av de starkaste alternativen i Bilradarns urval. För bilar med 1.2 PureTech är dokumenterad service och kontroll av kamrem särskilt viktig; den risken gäller inte automatiskt andra motorer.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; högre än T-Roc 3,8, Ceed 7,1 och Golf 9,6 men lägre än Focus 16,0.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "1.2 PureTech: kamrem och oljeförbrukning",
+              "description": "Stellantis har en särskild kompensationspolicy för tidigare PureTech 1.0/1.2-motorer avseende förtida kamremsnedbrytning och överdriven oljeförbrukning. Kontrollera motorvariant, serviceintervall och dokumentation.",
+              "repairCost": "Ingen generell svensk kostnad kan anges; kontroll och offert krävs."
+            }
+          ],
+          "limitations": [
+            "PureTech-risken ska endast visas som relevant när annonsens motor matchar.",
+            "ADAC-siffran omfattar modellserien, inte en enskild drivlina."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Peugeot 3008",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/",
+              "note": "Tysk vägassistansstatistik."
+            },
+            {
+              "name": "Stellantis PureTech policy",
+              "url": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
+              "note": "Tillverkarens information om berörda PureTech-problem."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:faa05a10-2f78-444e-a27a-157e59cf9a34",
@@ -2178,9 +3508,64 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Volkswagen T-Roc 1.5 TSI AUTOMAT 150 HK (2022, 9690 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Volkswagen T-Roc 1.5 TSI AUTOMAT 150 HK (2022, 9690 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Ett av urvalets starkaste stoppresultat",
+          "summary": "Volkswagen T-Roc från 2021 redovisas med endast 3,8 vägassistansstopp per 1 000 bilar hos ADAC. Det är klart lägre än de flesta andra familjebilar i Bilradarns aktuella urval och ger modellen ett starkt statistiskt utgångsläge.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "3,8 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; lägre än Ceed 7,1, Leon 8,3, Golf 9,6 och Tiguan 11,3.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE"
+            }
+          ],
+          "knownIssues": [],
+          "limitations": [
+            "ADAC mäter driftstopp och fångar inte alla mindre elektronik- eller verkstadsfel.",
+            "Exakt DSG- och motorvariant behöver matchas separat."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Volkswagen T-Roc",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:233784a2-1893-4b4a-9dfd-2a833f5d66b2",
@@ -2277,9 +3662,64 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Volkswagen T-Roc 1.5 TSI DSG, 150hk, 2021 7 växlar (2021, 8500 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Volkswagen T-Roc 1.5 TSI DSG, 150hk, 2021 7 växlar (2021, 8500 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Ett av urvalets starkaste stoppresultat",
+          "summary": "Volkswagen T-Roc från 2021 redovisas med endast 3,8 vägassistansstopp per 1 000 bilar hos ADAC. Det är klart lägre än de flesta andra familjebilar i Bilradarns aktuella urval och ger modellen ett starkt statistiskt utgångsläge.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "3,8 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; lägre än Ceed 7,1, Leon 8,3, Golf 9,6 och Tiguan 11,3.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE"
+            }
+          ],
+          "knownIssues": [],
+          "limitations": [
+            "ADAC mäter driftstopp och fångar inte alla mindre elektronik- eller verkstadsfel.",
+            "Exakt DSG- och motorvariant behöver matchas separat."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Volkswagen T-Roc",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:b3322c88-5f3b-4490-ac39-5e62b7c724f2",
@@ -2376,9 +3816,75 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Peugeot 3008 GT PureTech 130 A 5-d SUV (2023, 3138 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Peugeot 3008 GT PureTech 130 A 5-d SUV (2023, 3138 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Medelstarkt stoppresultat – drivlinan är avgörande",
+          "summary": "Peugeot 3008 från 2021 redovisas med 13,0 vägassistansstopp per 1 000 bilar hos ADAC. Det placerar modellen bakom flera av de starkaste alternativen i Bilradarns urval. För bilar med 1.2 PureTech är dokumenterad service och kontroll av kamrem särskilt viktig; den risken gäller inte automatiskt andra motorer.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; högre än T-Roc 3,8, Ceed 7,1 och Golf 9,6 men lägre än Focus 16,0.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "1.2 PureTech: kamrem och oljeförbrukning",
+              "description": "Stellantis har en särskild kompensationspolicy för tidigare PureTech 1.0/1.2-motorer avseende förtida kamremsnedbrytning och överdriven oljeförbrukning. Kontrollera motorvariant, serviceintervall och dokumentation.",
+              "repairCost": "Ingen generell svensk kostnad kan anges; kontroll och offert krävs."
+            }
+          ],
+          "limitations": [
+            "PureTech-risken ska endast visas som relevant när annonsens motor matchar.",
+            "ADAC-siffran omfattar modellserien, inte en enskild drivlina."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Peugeot 3008",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/",
+              "note": "Tysk vägassistansstatistik."
+            },
+            {
+              "name": "Stellantis PureTech policy",
+              "url": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
+              "note": "Tillverkarens information om berörda PureTech-problem."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:8f935ae8-8293-4ad7-82fd-3a73de4cff29",
@@ -2475,9 +3981,75 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Peugeot 3008 1.2 GT LEASING Drag Kamera Döda-vinkel var (2023, 5995 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Peugeot 3008 1.2 GT LEASING Drag Kamera Döda-vinkel var (2023, 5995 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Medelstarkt stoppresultat – drivlinan är avgörande",
+          "summary": "Peugeot 3008 från 2021 redovisas med 13,0 vägassistansstopp per 1 000 bilar hos ADAC. Det placerar modellen bakom flera av de starkaste alternativen i Bilradarns urval. För bilar med 1.2 PureTech är dokumenterad service och kontroll av kamrem särskilt viktig; den risken gäller inte automatiskt andra motorer.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; högre än T-Roc 3,8, Ceed 7,1 och Golf 9,6 men lägre än Focus 16,0.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "1.2 PureTech: kamrem och oljeförbrukning",
+              "description": "Stellantis har en särskild kompensationspolicy för tidigare PureTech 1.0/1.2-motorer avseende förtida kamremsnedbrytning och överdriven oljeförbrukning. Kontrollera motorvariant, serviceintervall och dokumentation.",
+              "repairCost": "Ingen generell svensk kostnad kan anges; kontroll och offert krävs."
+            }
+          ],
+          "limitations": [
+            "PureTech-risken ska endast visas som relevant när annonsens motor matchar.",
+            "ADAC-siffran omfattar modellserien, inte en enskild drivlina."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Peugeot 3008",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/",
+              "note": "Tysk vägassistansstatistik."
+            },
+            {
+              "name": "Stellantis PureTech policy",
+              "url": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
+              "note": "Tillverkarens information om berörda PureTech-problem."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
@@ -2574,9 +4146,75 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Peugeot 3008 1.2 GT Cockpit Kamera CarPlay MOMS (2023, 4440 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Peugeot 3008 1.2 GT Cockpit Kamera CarPlay MOMS (2023, 4440 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Medelstarkt stoppresultat – drivlinan är avgörande",
+          "summary": "Peugeot 3008 från 2021 redovisas med 13,0 vägassistansstopp per 1 000 bilar hos ADAC. Det placerar modellen bakom flera av de starkaste alternativen i Bilradarns urval. För bilar med 1.2 PureTech är dokumenterad service och kontroll av kamrem särskilt viktig; den risken gäller inte automatiskt andra motorer.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; högre än T-Roc 3,8, Ceed 7,1 och Golf 9,6 men lägre än Focus 16,0.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "1.2 PureTech: kamrem och oljeförbrukning",
+              "description": "Stellantis har en särskild kompensationspolicy för tidigare PureTech 1.0/1.2-motorer avseende förtida kamremsnedbrytning och överdriven oljeförbrukning. Kontrollera motorvariant, serviceintervall och dokumentation.",
+              "repairCost": "Ingen generell svensk kostnad kan anges; kontroll och offert krävs."
+            }
+          ],
+          "limitations": [
+            "PureTech-risken ska endast visas som relevant när annonsens motor matchar.",
+            "ADAC-siffran omfattar modellserien, inte en enskild drivlina."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Peugeot 3008",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/",
+              "note": "Tysk vägassistansstatistik."
+            },
+            {
+              "name": "Stellantis PureTech policy",
+              "url": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
+              "note": "Tillverkarens information om berörda PureTech-problem."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:a0b20001-65db-44cb-8fa4-6bffc12ba91e",
@@ -2673,9 +4311,75 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Peugeot 3008 1.2 PureTech GT 131hk / Kamera Carplay Navigation BLIS (2022, 7913 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Peugeot 3008 1.2 PureTech GT 131hk / Kamera Carplay Navigation BLIS (2022, 7913 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Medelstarkt stoppresultat – drivlinan är avgörande",
+          "summary": "Peugeot 3008 från 2021 redovisas med 13,0 vägassistansstopp per 1 000 bilar hos ADAC. Det placerar modellen bakom flera av de starkaste alternativen i Bilradarns urval. För bilar med 1.2 PureTech är dokumenterad service och kontroll av kamrem särskilt viktig; den risken gäller inte automatiskt andra motorer.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; högre än T-Roc 3,8, Ceed 7,1 och Golf 9,6 men lägre än Focus 16,0.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "1.2 PureTech: kamrem och oljeförbrukning",
+              "description": "Stellantis har en särskild kompensationspolicy för tidigare PureTech 1.0/1.2-motorer avseende förtida kamremsnedbrytning och överdriven oljeförbrukning. Kontrollera motorvariant, serviceintervall och dokumentation.",
+              "repairCost": "Ingen generell svensk kostnad kan anges; kontroll och offert krävs."
+            }
+          ],
+          "limitations": [
+            "PureTech-risken ska endast visas som relevant när annonsens motor matchar.",
+            "ADAC-siffran omfattar modellserien, inte en enskild drivlina."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Peugeot 3008",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/",
+              "note": "Tysk vägassistansstatistik."
+            },
+            {
+              "name": "Stellantis PureTech policy",
+              "url": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
+              "note": "Tillverkarens information om berörda PureTech-problem."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:9dbfc015-5da0-47f6-96e7-d02abb19433b",
@@ -2772,9 +4476,64 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Volkswagen T-Roc 1.5 TSI 150 DSG/Pluspkt/elbaklucka/tonade rutor (2021, 9871 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Volkswagen T-Roc 1.5 TSI 150 DSG/Pluspkt/elbaklucka/tonade rutor (2021, 9871 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Ett av urvalets starkaste stoppresultat",
+          "summary": "Volkswagen T-Roc från 2021 redovisas med endast 3,8 vägassistansstopp per 1 000 bilar hos ADAC. Det är klart lägre än de flesta andra familjebilar i Bilradarns aktuella urval och ger modellen ett starkt statistiskt utgångsläge.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "3,8 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; lägre än Ceed 7,1, Leon 8,3, Golf 9,6 och Tiguan 11,3.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE"
+            }
+          ],
+          "knownIssues": [],
+          "limitations": [
+            "ADAC mäter driftstopp och fångar inte alla mindre elektronik- eller verkstadsfel.",
+            "Exakt DSG- och motorvariant behöver matchas separat."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Volkswagen T-Roc",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:68cab897-73a7-4259-b74f-64f51d870bd7",
@@ -2871,9 +4630,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Nissan Qashqai MHEV 158 XTRONIC 2WD N-CONNECTA 12.3\" TFT (2022, 8600 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Nissan Qashqai MHEV 158 XTRONIC 2WD N-CONNECTA 12.3\" TFT (2022, 8600 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Svagare än flera vanliga konkurrenter",
+          "summary": "Nissan Qashqai från 2021 har 13,6 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är svagare än Ceed, i30, Leon, Golf och T-Roc i samma årsrad, men bättre än Focus och Octavia. Startbatteriet är det tydligaste återkommande stoppområdet i ADAC:s modellöversikt.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,6 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021. ADAC anger startbatteri som återkommande stopporsak för 2016–2023.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Startbatteri",
+              "description": "ADAC listar startbatteriet som återkommande stopporsak för Qashqai 2016–2023. Batteritest före köp är mer relevant än att utgå från åldern ensam.",
+              "repairCost": "Batteribyte är normalt slitage och ingår inte som modellfelskostnad i ekonomiplanen."
+            }
+          ],
+          "limitations": [
+            "Batteri är en slitdel och redovisas här för att det påverkar stoppfrekvensen, inte som konstruktionsfel.",
+            "Statistiken blandar Qashqai-generationer kring modellskiftet 2021."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Nissan Qashqai",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/",
+              "note": "Tysk vägassistansstatistik och redovisade stopporsaker."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
@@ -2970,9 +4790,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Nissan Qashqai DIG-T 160 TEKNA 2WD DCT (2021, 3600 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Nissan Qashqai DIG-T 160 TEKNA 2WD DCT (2021, 3600 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Svagare än flera vanliga konkurrenter",
+          "summary": "Nissan Qashqai från 2021 har 13,6 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är svagare än Ceed, i30, Leon, Golf och T-Roc i samma årsrad, men bättre än Focus och Octavia. Startbatteriet är det tydligaste återkommande stoppområdet i ADAC:s modellöversikt.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,6 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021. ADAC anger startbatteri som återkommande stopporsak för 2016–2023.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Startbatteri",
+              "description": "ADAC listar startbatteriet som återkommande stopporsak för Qashqai 2016–2023. Batteritest före köp är mer relevant än att utgå från åldern ensam.",
+              "repairCost": "Batteribyte är normalt slitage och ingår inte som modellfelskostnad i ekonomiplanen."
+            }
+          ],
+          "limitations": [
+            "Batteri är en slitdel och redovisas här för att det påverkar stoppfrekvensen, inte som konstruktionsfel.",
+            "Statistiken blandar Qashqai-generationer kring modellskiftet 2021."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Nissan Qashqai",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/",
+              "note": "Tysk vägassistansstatistik och redovisade stopporsaker."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
@@ -3069,9 +4950,64 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera CUPRA Leon Sportstourer 1.5/CUPRA Paket/Vision Plus/Full Link/ (2023, 7520 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för CUPRA Leon Sportstourer 1.5/CUPRA Paket/Vision Plus/Full Link/ (2023, 7520 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Lovande nyare stoppdata, men kort historik",
+          "summary": "CUPRA Leon har mycket låga ADAC-tal för registreringsår 2022–2023: 1,8 respektive 1,7 stopp per 1 000 bilar. För 2021 saknas ett redovisat tal, så ett exemplar från modellens första år bör inte bedömas som lika säkert enbart utifrån de senare årsresultaten.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "1,8 stopp per 1 000 bilar",
+              "context": "Registreringsår 2022; 2023 redovisas med 1,7 och 2021 saknar värde.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/leon/"
+            }
+          ],
+          "knownIssues": [],
+          "limitations": [
+            "Kort modellhistorik och inget ADAC-värde för 2021.",
+            "CUPRA Leon och Sportstourer/drivlinor särredovisas inte i stopptalet."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – CUPRA Leon",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/leon/",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:08063b58-4845-4f59-849b-30ae0d51f536",
@@ -3168,9 +5104,64 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera CUPRA Leon Sportstourer 1.5 eTSI/B-kamera/Farthållare/Carplay/Drag (2023, 6914 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för CUPRA Leon Sportstourer 1.5 eTSI/B-kamera/Farthållare/Carplay/Drag (2023, 6914 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Lovande nyare stoppdata, men kort historik",
+          "summary": "CUPRA Leon har mycket låga ADAC-tal för registreringsår 2022–2023: 1,8 respektive 1,7 stopp per 1 000 bilar. För 2021 saknas ett redovisat tal, så ett exemplar från modellens första år bör inte bedömas som lika säkert enbart utifrån de senare årsresultaten.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "1,8 stopp per 1 000 bilar",
+              "context": "Registreringsår 2022; 2023 redovisas med 1,7 och 2021 saknar värde.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/leon/"
+            }
+          ],
+          "knownIssues": [],
+          "limitations": [
+            "Kort modellhistorik och inget ADAC-värde för 2021.",
+            "CUPRA Leon och Sportstourer/drivlinor särredovisas inte i stopptalet."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – CUPRA Leon",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/cupra/leon/",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:95f94d28-6d83-41e9-a01a-e00eebb23222",
@@ -3267,9 +5258,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Nissan Qashqai 1.3 158hk Acenta Kamera Rattvärme CarPlay (2022, 5223 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Nissan Qashqai 1.3 158hk Acenta Kamera Rattvärme CarPlay (2022, 5223 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Svagare än flera vanliga konkurrenter",
+          "summary": "Nissan Qashqai från 2021 har 13,6 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är svagare än Ceed, i30, Leon, Golf och T-Roc i samma årsrad, men bättre än Focus och Octavia. Startbatteriet är det tydligaste återkommande stoppområdet i ADAC:s modellöversikt.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,6 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021. ADAC anger startbatteri som återkommande stopporsak för 2016–2023.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Startbatteri",
+              "description": "ADAC listar startbatteriet som återkommande stopporsak för Qashqai 2016–2023. Batteritest före köp är mer relevant än att utgå från åldern ensam.",
+              "repairCost": "Batteribyte är normalt slitage och ingår inte som modellfelskostnad i ekonomiplanen."
+            }
+          ],
+          "limitations": [
+            "Batteri är en slitdel och redovisas här för att det påverkar stoppfrekvensen, inte som konstruktionsfel.",
+            "Statistiken blandar Qashqai-generationer kring modellskiftet 2021."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Nissan Qashqai",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/",
+              "note": "Tysk vägassistansstatistik och redovisade stopporsaker."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:50b26f29-1b35-4bcb-a655-7f7cc667f11c",
@@ -3366,9 +5418,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Peugeot 5008 1.2 PureTech (130hk) 7-sits (2022, 6885 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Peugeot 5008 1.2 PureTech (130hk) 7-sits (2022, 6885 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "God ägarrapporterad driftsäkerhet, men fel kan bli långdragna",
+          "summary": "Peugeot 5008 (2017–2024) placerades delad åtta i What Car?:s senaste redovisade sjusitsklass med 91,5 procent. 35 procent av de rapporterade bilarna hade något fel, främst motor eller icke-motorelektronik, men 90 procent kunde fortfarande köras och Peugeot stod för de rapporterade reparationskostnaderna.",
+          "comparisons": [
+            {
+              "source": "What Car? Reliability Survey",
+              "result": "Delad 8:a · 91,5 %",
+              "context": "Sjusitsklassen, brittisk ägarundersökning för Peugeot 5008 2017–2024.",
+              "sourceUrl": "https://www.whatcar.com/news/reliability-survey-most-reliable-7-seaters/n26157"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Motor och övrig elektronik",
+              "description": "I undersökningen var motor och icke-motorelektronik de vanligaste felområdena, vardera 8 procent av de rapporterade bilarna.",
+              "repairCost": "Undersökningen redovisade £0 i genomsnitt eftersom Peugeot täckte arbetena; det är inte en prognos efter garanti."
+            }
+          ],
+          "limitations": [
+            "Ägarundersökningen avser brittiska bilar och hela modellperioden 2017–2024.",
+            "Motorvariant måste matchas innan ett specifikt motorfel kopplas till bilen."
+          ],
+          "sources": [
+            {
+              "name": "What Car? – sjusitsiga bilar",
+              "url": "https://www.whatcar.com/news/reliability-survey-most-reliable-7-seaters/n26157",
+              "note": "Brittisk ägarrapporterad undersökning."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:c91274a9-dba4-4628-a022-685347f85665",
@@ -3465,9 +5578,64 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Volkswagen T-Roc 1.5 TSI 150hk |Backkamera| (2023, 9303 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Volkswagen T-Roc 1.5 TSI 150hk |Backkamera| (2023, 9303 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Ett av urvalets starkaste stoppresultat",
+          "summary": "Volkswagen T-Roc från 2021 redovisas med endast 3,8 vägassistansstopp per 1 000 bilar hos ADAC. Det är klart lägre än de flesta andra familjebilar i Bilradarns aktuella urval och ger modellen ett starkt statistiskt utgångsläge.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "3,8 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; lägre än Ceed 7,1, Leon 8,3, Golf 9,6 och Tiguan 11,3.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE"
+            }
+          ],
+          "knownIssues": [],
+          "limitations": [
+            "ADAC mäter driftstopp och fångar inte alla mindre elektronik- eller verkstadsfel.",
+            "Exakt DSG- och motorvariant behöver matchas separat."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Volkswagen T-Roc",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
@@ -3564,9 +5732,75 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Peugeot 3008 GT PureTech 130 A 5-d SUV (2023, 9067 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Peugeot 3008 GT PureTech 130 A 5-d SUV (2023, 9067 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Medelstarkt stoppresultat – drivlinan är avgörande",
+          "summary": "Peugeot 3008 från 2021 redovisas med 13,0 vägassistansstopp per 1 000 bilar hos ADAC. Det placerar modellen bakom flera av de starkaste alternativen i Bilradarns urval. För bilar med 1.2 PureTech är dokumenterad service och kontroll av kamrem särskilt viktig; den risken gäller inte automatiskt andra motorer.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; högre än T-Roc 3,8, Ceed 7,1 och Golf 9,6 men lägre än Focus 16,0.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "1.2 PureTech: kamrem och oljeförbrukning",
+              "description": "Stellantis har en särskild kompensationspolicy för tidigare PureTech 1.0/1.2-motorer avseende förtida kamremsnedbrytning och överdriven oljeförbrukning. Kontrollera motorvariant, serviceintervall och dokumentation.",
+              "repairCost": "Ingen generell svensk kostnad kan anges; kontroll och offert krävs."
+            }
+          ],
+          "limitations": [
+            "PureTech-risken ska endast visas som relevant när annonsens motor matchar.",
+            "ADAC-siffran omfattar modellserien, inte en enskild drivlina."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Peugeot 3008",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/",
+              "note": "Tysk vägassistansstatistik."
+            },
+            {
+              "name": "Stellantis PureTech policy",
+              "url": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
+              "note": "Tillverkarens information om berörda PureTech-problem."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:afa4f887-88a1-4db4-9f0e-e966e1e44825",
@@ -3663,9 +5897,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Peugeot 5008 1.2 PureTech (130hk) GT-Line (2023, 4930 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Peugeot 5008 1.2 PureTech (130hk) GT-Line (2023, 4930 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "God ägarrapporterad driftsäkerhet, men fel kan bli långdragna",
+          "summary": "Peugeot 5008 (2017–2024) placerades delad åtta i What Car?:s senaste redovisade sjusitsklass med 91,5 procent. 35 procent av de rapporterade bilarna hade något fel, främst motor eller icke-motorelektronik, men 90 procent kunde fortfarande köras och Peugeot stod för de rapporterade reparationskostnaderna.",
+          "comparisons": [
+            {
+              "source": "What Car? Reliability Survey",
+              "result": "Delad 8:a · 91,5 %",
+              "context": "Sjusitsklassen, brittisk ägarundersökning för Peugeot 5008 2017–2024.",
+              "sourceUrl": "https://www.whatcar.com/news/reliability-survey-most-reliable-7-seaters/n26157"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Motor och övrig elektronik",
+              "description": "I undersökningen var motor och icke-motorelektronik de vanligaste felområdena, vardera 8 procent av de rapporterade bilarna.",
+              "repairCost": "Undersökningen redovisade £0 i genomsnitt eftersom Peugeot täckte arbetena; det är inte en prognos efter garanti."
+            }
+          ],
+          "limitations": [
+            "Ägarundersökningen avser brittiska bilar och hela modellperioden 2017–2024.",
+            "Motorvariant måste matchas innan ett specifikt motorfel kopplas till bilen."
+          ],
+          "sources": [
+            {
+              "name": "What Car? – sjusitsiga bilar",
+              "url": "https://www.whatcar.com/news/reliability-survey-most-reliable-7-seaters/n26157",
+              "note": "Brittisk ägarrapporterad undersökning."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:801f6ac9-2cd3-4243-b79d-1285ca04f633",
@@ -3762,9 +6057,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Volkswagen Tiguan 1.5 TSI 150hk Dragkrok & Backkamera (2021, 8530 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Volkswagen Tiguan 1.5 TSI 150hk Dragkrok & Backkamera (2021, 8530 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Mittfält bland de jämförda familjebilarna",
+          "summary": "Volkswagen Tiguan från 2021 redovisas med 11,3 vägassistansstopp per 1 000 bilar hos ADAC. Det är bättre än 3008, Qashqai, Focus, Octavia och Corolla i samma årsrad, men bakom T-Roc, Ceed, i30, Leon och Golf. Startbatteriet anges som relevant stopporsak för 2021.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "11,3 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021 för Tiguan-serien.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Startbatteri",
+              "description": "ADAC listar startbatteriet som stopporsak för registreringsår 2021.",
+              "repairCost": "Batteri är normalt slitage och räknas inte som modellfelskostnad."
+            }
+          ],
+          "limitations": [
+            "Aktuell motor och växellåda särredovisas inte.",
+            "ADAC-medlemsrapporter om enskilda fel är inte samma sak som statistiskt återkommande modellfel."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Volkswagen Tiguan",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/tiguan/",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:6ecc9dcd-dab0-4597-be09-c3d725266702",
@@ -3861,9 +6217,70 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Peugeot 5008 1.2  GT-line 7-sits Cockpit Backkamera Navi (2022, 5109 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Peugeot 5008 1.2  GT-line 7-sits Cockpit Backkamera Navi (2022, 5109 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "God ägarrapporterad driftsäkerhet, men fel kan bli långdragna",
+          "summary": "Peugeot 5008 (2017–2024) placerades delad åtta i What Car?:s senaste redovisade sjusitsklass med 91,5 procent. 35 procent av de rapporterade bilarna hade något fel, främst motor eller icke-motorelektronik, men 90 procent kunde fortfarande köras och Peugeot stod för de rapporterade reparationskostnaderna.",
+          "comparisons": [
+            {
+              "source": "What Car? Reliability Survey",
+              "result": "Delad 8:a · 91,5 %",
+              "context": "Sjusitsklassen, brittisk ägarundersökning för Peugeot 5008 2017–2024.",
+              "sourceUrl": "https://www.whatcar.com/news/reliability-survey-most-reliable-7-seaters/n26157"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Motor och övrig elektronik",
+              "description": "I undersökningen var motor och icke-motorelektronik de vanligaste felområdena, vardera 8 procent av de rapporterade bilarna.",
+              "repairCost": "Undersökningen redovisade £0 i genomsnitt eftersom Peugeot täckte arbetena; det är inte en prognos efter garanti."
+            }
+          ],
+          "limitations": [
+            "Ägarundersökningen avser brittiska bilar och hela modellperioden 2017–2024.",
+            "Motorvariant måste matchas innan ett specifikt motorfel kopplas till bilen."
+          ],
+          "sources": [
+            {
+              "name": "What Car? – sjusitsiga bilar",
+              "url": "https://www.whatcar.com/news/reliability-survey-most-reliable-7-seaters/n26157",
+              "note": "Brittisk ägarrapporterad undersökning."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "wayke:4d1bf0f4-5830-4005-a676-c13110c09318",
@@ -3960,9 +6377,64 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Volkswagen T-Roc 2.0 TDI 4M 150hk Drag BEATS B-Kamera (2022, 7551 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Volkswagen T-Roc 2.0 TDI 4M 150hk Drag BEATS B-Kamera (2022, 7551 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Ett av urvalets starkaste stoppresultat",
+          "summary": "Volkswagen T-Roc från 2021 redovisas med endast 3,8 vägassistansstopp per 1 000 bilar hos ADAC. Det är klart lägre än de flesta andra familjebilar i Bilradarns aktuella urval och ger modellen ett starkt statistiskt utgångsläge.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "3,8 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; lägre än Ceed 7,1, Leon 8,3, Golf 9,6 och Tiguan 11,3.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE"
+            }
+          ],
+          "knownIssues": [],
+          "limitations": [
+            "ADAC mäter driftstopp och fångar inte alla mindre elektronik- eller verkstadsfel.",
+            "Exakt DSG- och motorvariant behöver matchas separat."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Volkswagen T-Roc",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     },
     {
       "id": "toyota:corolla-ts:easy-privatleasing",
@@ -4059,9 +6531,81 @@
             "laborPriceIndependent",
             "threeYearReserve"
           ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
         }
       },
-      "instruction": "Researchera Toyota Corolla Touring Sports Hybrid 1.8 Hybrid Touring Sports Active · Automat (undefined, undefined mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera endast saknade fält för Toyota Corolla Touring Sports Hybrid 1.8 Hybrid Touring Sports Active · Automat (undefined, undefined mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Högt ägarbetyg men svagare vägassistanssiffra",
+          "summary": "Toyota Corolla får ett starkt ägarrapporterat resultat hos What Car? med 96,5 procent och nionde plats bland hybrider. Samtidigt redovisar ADAC 21,4 vägassistansstopp per 1 000 bilar för 2021, där 12-voltsbatteriet anges som en viktig orsak. Källorna motsäger inte nödvändigtvis varandra: de mäter olika typer av problem.",
+          "comparisons": [
+            {
+              "source": "What Car? Reliability Survey",
+              "result": "9:a bland hybrider · 96,5 %",
+              "context": "15 procent rapporterade fel; vanligast var 12-voltsbatteri.",
+              "sourceUrl": "https://www.whatcar.com/news/most-and-least-reliable-hybrid-cars/n26780"
+            },
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "21,4 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; ADAC listar 12-voltsbatteri för 2019–2023.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/corolla/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "12-voltsbatteri",
+              "description": "Både ADAC och What Car? pekar ut 12-voltsbatteriet som ett centralt problemområde. Det är en slitdel, men påverkar bilens faktiska start- och stoppstatistik.",
+              "repairCost": "What Car? redovisar att 91 procent betalade £0 och övriga £51–£200; svenskt pris kräver offert."
+            }
+          ],
+          "limitations": [
+            "What Car? bygger på brittiska ägarrapporter; ADAC på tyska vägassistansfall.",
+            "12-voltsbatteri är normalt slitage och ska inte läggas till som modellfelskostnad."
+          ],
+          "sources": [
+            {
+              "name": "What Car? – hybridbilar",
+              "url": "https://www.whatcar.com/news/most-and-least-reliable-hybrid-cars/n26780",
+              "note": "Brittisk ägarundersökning."
+            },
+            {
+              "name": "ADAC – Toyota Corolla",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/corolla/",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
     }
   ]
 }

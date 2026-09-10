@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:c91274a9-dba4-4628-a022-685347f85665",
-  "checkedAt": "2026-09-10T15:46:56.901Z",
+  "checkedAt": "2026-09-10T16:27:08.784Z",
   "vehicle": {
     "title": "Volkswagen T-Roc",
     "variant": "1.5 TSI 150hk |Backkamera|",
@@ -150,7 +150,7 @@
       "amountSek": 20376,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "checkedAt": "2026-09-10T16:27:08.784Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
     }
   },
@@ -158,13 +158,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "checkedAt": "2026-09-10T16:27:08.784Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "partially_verified",
       "sourceUrl": "https://www.dackonline.se/search?width=215&profile=60&size=16&searchByCar=true",
-      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "checkedAt": "2026-09-10T16:27:08.784Z",
       "note": "Däckdimension 215/60 R16 95V; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
     }
   }
