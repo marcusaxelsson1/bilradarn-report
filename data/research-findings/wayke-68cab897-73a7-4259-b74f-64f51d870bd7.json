@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:68cab897-73a7-4259-b74f-64f51d870bd7",
-  "checkedAt": "2026-09-10T16:27:08.784Z",
+  "checkedAt": "2026-09-10T19:43:25.268Z",
   "vehicle": {
     "title": "Nissan Qashqai",
     "variant": "MHEV 158 XTRONIC 2WD N-CONNECTA 12.3\" TFT",
@@ -170,7 +170,7 @@
       "amountSek": 20556,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
     },
     "tax": {
@@ -203,13 +203,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "partially_verified",
       "sourceUrl": "https://www.dackonline.se/search?width=215&profile=65&size=17&searchByCar=true",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Däckdimension 215/65R17 87U; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
     }
   }

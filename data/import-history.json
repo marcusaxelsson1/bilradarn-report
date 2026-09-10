@@ -496,5 +496,24 @@
     "offers": 40,
     "changes": [],
     "errors": []
+  },
+  {
+    "generatedAt": "2026-09-10T19:41:31.609Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:43ae6183-9a73-4f65-9186-8eac7ea99155",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-10T19:41:31.609Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:25503fa4-4bf2-4912-8d50-eb6be87c8c81",
+        "title": "Volkswagen Golf Sportscombi",
+        "at": "2026-09-10T19:43:02.397Z"
+      }
+    ],
+    "errors": []
   }
 ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T16:33:29.533Z",
+  "generatedAt": "2026-09-10T19:43:25.459Z",
   "horizonMonths": 36,
   "annualMileageMil": 1500,
   "tasks": [
@@ -2296,160 +2296,6 @@
       }
     },
     {
-      "id": "wayke:25503fa4-4bf2-4912-8d50-eb6be87c8c81",
-      "title": "Volkswagen Golf Sportscombi",
-      "variant": "1.5 eTSI Värmare Drag Backkamera Garanti",
-      "registrationNumber": "PZT17L",
-      "modelYear": 2023,
-      "mileageMil": 8230,
-      "sourceUrl": "https://www.wayke.se/objekt/25503fa4-4bf2-4912-8d50-eb6be87c8c81",
-      "enrichmentRequest": {
-        "offerId": "wayke:25503fa4-4bf2-4912-8d50-eb6be87c8c81",
-        "registrationNumber": "PZT17L",
-        "vin": "WVWZZZCD1PW547687",
-        "sourceUrl": "https://www.wayke.se/objekt/25503fa4-4bf2-4912-8d50-eb6be87c8c81",
-        "checkedAt": null,
-        "providers": {
-          "registry": {
-            "required": [
-              "annualTaxSek",
-              "co2Gkm",
-              "firstTrafficDate"
-            ]
-          },
-          "manufacturer": {
-            "required": [
-              "serviceInterval",
-              "serviceOperations",
-              "warranty"
-            ]
-          },
-          "insurance": {
-            "required": [
-              "machineDamageMaxAge",
-              "machineDamageMaxMileage",
-              "personalQuote"
-            ]
-          },
-          "tyres": {
-            "required": [
-              "dimension",
-              "loadIndex",
-              "setPrice",
-              "treadLife"
-            ]
-          }
-        }
-      },
-      "status": "received",
-      "requested": {
-        "service": {
-          "manufacturerPlanUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-          "fields": [
-            "interval",
-            "nextDue",
-            "operations",
-            "priceAuthorized",
-            "priceIndependent",
-            "priceIncludesVat",
-            "largeServiceAfter36Months"
-          ]
-        },
-        "insurance": {
-          "fields": [
-            "annualPremiumRange",
-            "machineDamageMaxAge",
-            "machineDamageMaxMileage",
-            "deductible",
-            "coveredComponents",
-            "personalQuoteRequired"
-          ],
-          "sources": [
-            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
-          ]
-        },
-        "tyres": {
-          "fields": [
-            "dimension",
-            "loadIndex",
-            "completeSetPrice",
-            "mountingPrice",
-            "treadLife",
-            "valueAtMonth36"
-          ],
-          "sources": [
-            "https://www.mekonomen.se/",
-            "https://www.dackonline.se/"
-          ]
-        },
-        "repairs": {
-          "fields": [
-            "commonFailures",
-            "partsPrice",
-            "laborPriceAuthorized",
-            "laborPriceIndependent",
-            "threeYearReserve"
-          ]
-        },
-        "reliability": {
-          "fields": [
-            "summary",
-            "comparisons",
-            "knownIssues",
-            "repairCosts",
-            "warranty",
-            "limitations",
-            "sources"
-          ],
-          "sources": [
-            "ADAC Pannenstatistik",
-            "What Car? Reliability Survey",
-            "Warrantywise Reliability Index",
-            "official recalls and warranty terms"
-          ],
-          "rules": [
-            "match model generation and powertrain",
-            "exclude normal wear",
-            "keep markets and survey scopes explicit",
-            "never infer a ranking or repair price",
-            "preserve every completed field and only fill missing fields"
-          ]
-        }
-      },
-      "instruction": "Researchera endast saknade fält för Volkswagen Golf Sportscombi 1.5 eTSI Värmare Drag Backkamera Garanti (2023, 8230 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
-      "existingFinding": {
-        "reliability": {
-          "status": "partially_verified",
-          "checkedAt": "2026-09-10",
-          "heading": "Mittenresultat bland jämförbara familjebilar",
-          "summary": "Golf-serien från 2021 redovisas med 9,6 vägassistansstopp per 1 000 bilar hos ADAC. Det är bättre än Qashqai, 3008, Focus och Octavia, men bakom T-Roc, Ceed, i30 och Leon. Siffran avser Golf-serien och särredovisar inte Sportscombi.",
-          "comparisons": [
-            {
-              "source": "ADAC Pannenstatistik",
-              "result": "9,6 stopp per 1 000 bilar",
-              "context": "Registreringsår 2021 för Golf-serien.",
-              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/"
-            }
-          ],
-          "knownIssues": [],
-          "limitations": [
-            "Sportscombi och enskilda motor-/DSG-varianter särredovisas inte i totalsiffran.",
-            "Mindre mjukvarufel behöver bedömas från andra källor än vägassistansdata."
-          ],
-          "sources": [
-            {
-              "name": "ADAC – Volkswagen Golf",
-              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/",
-              "note": "Tysk vägassistansstatistik för Golf-serien."
-            }
-          ]
-        }
-      },
-      "missing": {
-        "reliability": false
-      }
-    },
-    {
       "id": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
       "title": "Volkswagen Golf Sportscombi",
       "variant": "1.5 eTSI DSG VÄRMARE DRAG NAV",
@@ -4527,6 +4373,166 @@
               "name": "ADAC – Volkswagen T-Roc",
               "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE",
               "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
+    },
+    {
+      "id": "wayke:43ae6183-9a73-4f65-9186-8eac7ea99155",
+      "title": "Nissan Qashqai",
+      "variant": "1.3 MHEV (158hk) Tekna Design Pack",
+      "registrationNumber": "RAY156",
+      "modelYear": 2022,
+      "mileageMil": 3615,
+      "sourceUrl": "https://www.wayke.se/objekt/43ae6183-9a73-4f65-9186-8eac7ea99155",
+      "enrichmentRequest": {
+        "offerId": "wayke:43ae6183-9a73-4f65-9186-8eac7ea99155",
+        "registrationNumber": "RAY156",
+        "vin": "SJNTAAJ12U1069618",
+        "sourceUrl": "https://www.wayke.se/objekt/43ae6183-9a73-4f65-9186-8eac7ea99155",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.nissan.se/aga/service.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
+        }
+      },
+      "instruction": "Researchera endast saknade fält för Nissan Qashqai 1.3 MHEV (158hk) Tekna Design Pack (2022, 3615 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Svagare än flera vanliga konkurrenter",
+          "summary": "Nissan Qashqai från 2021 har 13,6 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är svagare än Ceed, i30, Leon, Golf och T-Roc i samma årsrad, men bättre än Focus och Octavia. Startbatteriet är det tydligaste återkommande stoppområdet i ADAC:s modellöversikt.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,6 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021. ADAC anger startbatteri som återkommande stopporsak för 2016–2023.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Startbatteri",
+              "description": "ADAC listar startbatteriet som återkommande stopporsak för Qashqai 2016–2023. Batteritest före köp är mer relevant än att utgå från åldern ensam.",
+              "repairCost": "Batteribyte är normalt slitage och ingår inte som modellfelskostnad i ekonomiplanen."
+            }
+          ],
+          "limitations": [
+            "Batteri är en slitdel och redovisas här för att det påverkar stoppfrekvensen, inte som konstruktionsfel.",
+            "Statistiken blandar Qashqai-generationer kring modellskiftet 2021."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Nissan Qashqai",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/",
+              "note": "Tysk vägassistansstatistik och redovisade stopporsaker."
             }
           ]
         }

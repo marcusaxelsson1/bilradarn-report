@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
-  "checkedAt": "2026-09-10T16:27:08.784Z",
+  "checkedAt": "2026-09-10T19:43:25.268Z",
   "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
   "vehicle": {
     "title": "Dacia Duster",
@@ -165,7 +165,7 @@
       "amountSek": 20808,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
     }
   },
@@ -173,13 +173,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "partially_verified",
       "sourceUrl": "https://www.dackonline.se/search?width=215&profile=65&size=16&searchByCar=true",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Däckdimension 215/65 R16 98 H; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
     }
   }

@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
-  "checkedAt": "2026-09-10T16:27:08.784Z",
+  "checkedAt": "2026-09-10T19:43:25.268Z",
   "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
   "notes": "Dacia Duster PhII TCe 150 EDC (2023, KCD10G, 4 099 mil). Exakta verkstadspriser, försäkringspremie och skatt är inte offentligt verifierbara utan VIN/registreringsregister och personlig offert; de lämnas därför som estimated/unknown.",
   "service": {
@@ -159,7 +159,7 @@
       "amountSek": 20808,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
     },
     "tax": {
@@ -192,13 +192,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "partially_verified",
       "sourceUrl": "https://www.dackonline.se/search?width=215&profile=60&size=17&searchByCar=true",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Däckdimension 215/60 R17 96 H; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
     }
   }

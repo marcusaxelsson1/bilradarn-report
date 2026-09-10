@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:fb478a7c-4a9f-4340-89ce-94c68f439317",
-  "checkedAt": "2026-09-10T16:27:08.784Z",
+  "checkedAt": "2026-09-10T19:43:25.268Z",
   "vehicle": {
     "title": "Peugeot 3008",
     "variant": "1.2 PureTech 130/ EAT/Allure /",
@@ -156,7 +156,7 @@
       "amountSek": 20016,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
     }
   },
@@ -164,13 +164,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "partially_verified",
       "sourceUrl": "https://www.dackonline.se/search?width=215&profile=65&size=17&searchByCar=true",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Däckdimension 215/65 R17; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
     }
   }

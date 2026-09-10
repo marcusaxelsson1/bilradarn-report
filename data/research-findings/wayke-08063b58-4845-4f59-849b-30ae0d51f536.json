@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:08063b58-4845-4f59-849b-30ae0d51f536",
-  "checkedAt": "2026-09-10T16:27:08.784Z",
+  "checkedAt": "2026-09-10T19:43:25.268Z",
   "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf",
   "notes": "CUPRA-manual/broschyr styrker serviceprincip och 225/40 R18 för 1.5 eTSI Sportstourer. Exakt servicehistorik, load index, priser och personlig premie saknas.",
   "costs": {
@@ -14,7 +14,7 @@
       "amountSek": 20808,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
     },
     "tax": {
@@ -181,13 +181,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "partially_verified",
       "sourceUrl": "https://www.dackonline.se/search?width=225&profile=40&size=18&searchByCar=true",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Däckdimension 225/40 R18 92Y XL; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
     }
   }

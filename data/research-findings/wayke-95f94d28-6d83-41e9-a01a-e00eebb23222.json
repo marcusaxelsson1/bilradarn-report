@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:95f94d28-6d83-41e9-a01a-e00eebb23222",
-  "checkedAt": "2026-09-10T16:27:08.784Z",
+  "checkedAt": "2026-09-10T19:43:25.268Z",
   "sourceUrl": "https://www-europe.nissan-cdn.net/content/dam/Nissan/sk/brochures/Pricelists/New-Qashqai-Pricelist_SK_2022.pdf",
   "notes": "Nissans MY22-produktblad styrker 1.3 DIG-T Mild Hybrid 158 hk och Acenta-däck 215/65 R17 samt CO2-intervall för 158 hk Xtronic 2WD. Exakt registrerad drivlina, servicehistorik, personliga försäkringspremie/självrisk, aktuella däckpriser och verkstadspriser kräver registeruppslag eller offert.",
   "costs": {
@@ -14,7 +14,7 @@
       "amountSek": 20556,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
     },
     "tax": {
@@ -185,13 +185,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "partially_verified",
       "sourceUrl": "https://www.dackonline.se/search?width=215&profile=65&size=17&searchByCar=true",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Däckdimension 215/65R17 87U; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
     }
   }

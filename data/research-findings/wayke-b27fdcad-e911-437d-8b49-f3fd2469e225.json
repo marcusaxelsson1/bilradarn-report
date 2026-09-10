@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:b27fdcad-e911-437d-8b49-f3fd2469e225",
-  "checkedAt": "2026-09-10T16:27:08.784Z",
+  "checkedAt": "2026-09-10T19:43:25.268Z",
   "vehicle": {
     "title": "Kia Ceed Sportswagon",
     "variant": "1.5 T-GDI",
@@ -159,7 +159,7 @@
       "amountSek": 18288,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 508 kr/mån (Kia). Inte personlig offert."
     }
   },
@@ -167,13 +167,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "partially_verified",
       "sourceUrl": "https://www.dackonline.se/search?width=225&profile=45&size=17&searchByCar=true",
-      "checkedAt": "2026-09-10T16:27:08.784Z",
+      "checkedAt": "2026-09-10T19:43:25.268Z",
       "note": "Däckdimension 225/45R1791W; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
     }
   }
