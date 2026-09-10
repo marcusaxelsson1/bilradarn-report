@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const npm = process.platform === "win32" ? "npm.cmd" : "npm";
-const steps = ["data:import", "data:lease", "data:report", "data:queue", "data:images", "registry:export", "test:data", "test:economics", "test:queue", "build", "test:sites"];
+const steps = ["data:import", "data:lease", "data:report", "data:queue", "data:research", "data:queue", "data:images", "registry:export", "test:data", "test:economics", "test:queue", "test:cost-sources", "build", "test:sites"];
 
 function run(script) {
   return new Promise((resolvePromise, reject) => {

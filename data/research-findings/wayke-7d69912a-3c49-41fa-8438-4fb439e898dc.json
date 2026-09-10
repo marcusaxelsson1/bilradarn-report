@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:7d69912a-3c49-41fa-8438-4fb439e898dc",
-  "checkedAt": "2026-09-07T21:10:00+02:00",
+  "checkedAt": "2026-09-10T15:46:56.901Z",
   "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
   "vehicle": {
     "title": "Hyundai i30 Kombi",
@@ -11,29 +11,117 @@
   },
   "notes": "Hyundais officiella material bekräftar 1.5 T-GDi 159 PS, DCT och N-Line-karosseri. Exakt servicehistorik/next due, individuell premie och skatt, faktisk däckdimension/index samt verkstads- och reservdelspriser kräver VIN/servicebok, försäkringsoffert, Transportstyrelseregister eller offert. Inga exakta priser har uppfunnits.",
   "service": {
-    "interval": { "value": null, "status": "unknown", "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html", "note": "Hyundai anger att teknisk dokumentation/servicehistorik hanteras via servicebok; inget variantspecifikt intervall kunde verifieras publikt för detta exemplar." },
-    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html", "note": "Kräver digital servicebok, första trafikdatum och aktuell serviceindikering." },
-    "operations": { "value": "Tillverkarstyrda kontroller och service enligt bilens individuella serviceschema; 1.5 T-GDi-motor och DCT är verifierade i Hyundais modellmaterial.", "status": "partially_verified", "sourceUrl": "https://dmassets.hyundai.com/is/content/hyundaiautoever/brochure_i30pdf" },
-    "priceAuthorized": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.hyundai.com/se/sv/aga/service-och-underhall.html", "note": "Ingen offentlig fordons- och servicehistorikspecifik svensk offert." },
-    "priceIndependent": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html", "note": "Lokal offert krävs." },
-    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.hyundai.com/se/sv/aga/service-och-underhall.html" },
-    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.hyundai.com/se/sv/aga/service-och-underhall.html", "note": "Beror på individuell serviceplan, trafikdatum och miltal." }
+    "interval": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html",
+      "note": "Hyundai anger att teknisk dokumentation/servicehistorik hanteras via servicebok; inget variantspecifikt intervall kunde verifieras publikt för detta exemplar."
+    },
+    "nextDue": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html",
+      "note": "Kräver digital servicebok, första trafikdatum och aktuell serviceindikering."
+    },
+    "operations": {
+      "value": "Tillverkarstyrda kontroller och service enligt bilens individuella serviceschema; 1.5 T-GDi-motor och DCT är verifierade i Hyundais modellmaterial.",
+      "status": "partially_verified",
+      "sourceUrl": "https://dmassets.hyundai.com/is/content/hyundaiautoever/brochure_i30pdf"
+    },
+    "priceAuthorized": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.hyundai.com/se/sv/aga/service-och-underhall.html",
+      "note": "Ingen offentlig fordons- och servicehistorikspecifik svensk offert."
+    },
+    "priceIndependent": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html",
+      "note": "Lokal offert krävs."
+    },
+    "priceIncludesVat": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.hyundai.com/se/sv/aga/service-och-underhall.html"
+    },
+    "largeServiceAfter36Months": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.hyundai.com/se/sv/aga/service-och-underhall.html",
+      "note": "Beror på individuell serviceplan, trafikdatum och miltal."
+    }
   },
   "insurance": {
-    "annualPremiumRange": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premien är individuell och kräver personlig offert." },
-    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helforsäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "If anger att självrisken beror på bilens ålder och körsträcka; exakt belopp kräver valt avtal." },
-    "coveredComponents": { "value": "Motor, motorkylsystem, bränslesystem, styrväxel, kraftöverföring, krockkuddesystem och flera elektronik-/säkerhetskomponenter enligt If:s produktbeskrivning.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+    "annualPremiumRange": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
+      "note": "Premien är individuell och kräver personlig offert."
+    },
+    "machineDamageMaxAge": {
+      "value": "10 år",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "machineDamageMaxMileage": {
+      "value": "12 000 mil för halv-/helforsäkring; 15 000 mil för Stor bilförsäkring",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "deductible": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
+      "note": "If anger att självrisken beror på bilens ålder och körsträcka; exakt belopp kräver valt avtal."
+    },
+    "coveredComponents": {
+      "value": "Motor, motorkylsystem, bränslesystem, styrväxel, kraftöverföring, krockkuddesystem och flera elektronik-/säkerhetskomponenter enligt If:s produktbeskrivning.",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "personalQuoteRequired": {
+      "value": true,
+      "status": "verified",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+    }
   },
   "tyres": {
-    "dimension": { "value": "16- eller 18-tums hjul förekommer för Hyundai i30 Kombi; faktisk dimension för ABZ52H är inte verifierad.", "status": "partially_verified", "sourceUrl": "https://www.hyundai.com/se/sv/agare/information-and-regler/eu-dackmarkning.html" },
-    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://www.hyundai.com/se/sv/agare/information-and-regler/eu-dackmarkning.html", "note": "Kräver däcksida, CoC eller registrerings-/VIN-data." },
-    "completeSetPrice": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen exakt offert utan bekräftad dimension, index, fabrikat och säsong." },
-    "mountingPrice": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Varierar med verkstad och hjulstorlek; offert krävs." },
-    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/", "note": "Mönsterdjup och däckålder kräver fysisk kontroll." },
-    "valueAtMonth36": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Kan inte värderas utan inköpspris, ålder och slitage." }
+    "dimension": {
+      "value": "16- eller 18-tums hjul förekommer för Hyundai i30 Kombi; faktisk dimension för ABZ52H är inte verifierad.",
+      "status": "partially_verified",
+      "sourceUrl": "https://www.hyundai.com/se/sv/agare/information-and-regler/eu-dackmarkning.html"
+    },
+    "loadIndex": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.hyundai.com/se/sv/agare/information-and-regler/eu-dackmarkning.html",
+      "note": "Kräver däcksida, CoC eller registrerings-/VIN-data."
+    },
+    "completeSetPrice": {
+      "amountSek": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Ingen exakt offert utan bekräftad dimension, index, fabrikat och säsong."
+    },
+    "mountingPrice": {
+      "amountSek": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.mekonomen.se/",
+      "note": "Varierar med verkstad och hjulstorlek; offert krävs."
+    },
+    "treadLife": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/",
+      "note": "Mönsterdjup och däckålder kräver fysisk kontroll."
+    },
+    "valueAtMonth36": {
+      "amountSek": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Kan inte värderas utan inköpspris, ålder och slitage."
+    }
   },
   "tax": {
     "annualAmountSek": null,
@@ -43,16 +131,72 @@
     "calculationSourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/"
   },
   "repairs": {
-    "commonFailures": { "value": null, "status": "unknown", "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html", "note": "Ingen primärkälla med variantunik felfrekvens identifierad." },
-    "partsPrice": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.hyundai.com/se/sv/aga/service-och-underhall.html", "note": "Kräver identifierad komponent och offert." },
-    "laborPriceAuthorized": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.hyundai.com/se/sv/aga/service-och-underhall.html" },
-    "laborPriceIndependent": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Lokal verkstadsoffert krävs." },
-    "threeYearReserve": { "amountSek": null, "status": "estimated", "note": "Ingen exakt reserv kan styrkas utan skick, historik, felriskdata och offerter." }
+    "commonFailures": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html",
+      "note": "Ingen primärkälla med variantunik felfrekvens identifierad."
+    },
+    "partsPrice": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.hyundai.com/se/sv/aga/service-och-underhall.html",
+      "note": "Kräver identifierad komponent och offert."
+    },
+    "laborPriceAuthorized": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.hyundai.com/se/sv/aga/service-och-underhall.html"
+    },
+    "laborPriceIndependent": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/",
+      "note": "Lokal verkstadsoffert krävs."
+    },
+    "threeYearReserve": {
+      "amountSek": null,
+      "status": "estimated",
+      "note": "Ingen exakt reserv kan styrkas utan skick, historik, felriskdata och offerter."
+    }
   },
   "costs": {
-    "service": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.hyundai.com/se/sv/aga/service-och-underhall.html" },
-    "insurance": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "tax": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/" },
-    "tyres": { "amountSek": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/" }
+    "service": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.hyundai.com/se/sv/aga/service-och-underhall.html"
+    },
+    "insurance": {
+      "amountSek": 20808,
+      "status": "estimated",
+      "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
+    },
+    "tax": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/"
+    },
+    "tyres": {
+      "amountSek": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/"
+    }
+  },
+  "status": "partially_verified",
+  "evidence": {
+    "tyreSwap": {
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Pris kunde inte läsas."
+    },
+    "tyreSearch": {
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Däckdimension saknas i sanerad registerdata."
+    }
   }
 }

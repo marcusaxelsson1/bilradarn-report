@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
-  "checkedAt": "2026-09-07T21:10:00+02:00",
+  "checkedAt": "2026-09-10T15:46:56.901Z",
   "sourceUrl": "https://www.wayke.se/objekt/b3482c14-7a8e-48ba-931d-7c731b0cd61e",
   "vehicle": {
     "title": "Volkswagen Golf Sportscombi",
@@ -11,41 +11,177 @@
   },
   "notes": "Volkswagens svenska Golf Sportscombi-broschyr verifierar att 1,5 eTSI finns med 7-växlad DSG och anger WLTP CO2 129 g/km för eTSI 150. Exakt motorvariant/registrerat CO2-värde, servicehistorik, däckkonfiguration och priser kräver VIN/registreringsuppgifter eller offert; inga exakta prisbelopp har uppfunnits.",
   "service": {
-    "interval": { "value": "Fast service: oljebyte efter 1 år eller 15 000 km; inspektion första gången efter 2 år/30 000 km och därefter årligen/30 000 km. Flexibel service: oljebyte enligt serviceindikering, senast 2 år; inspektion första gången efter 2 år/30 000 km och därefter årligen/30 000 km.", "status": "verified", "sourceUrl": "https://www.volkswagen.co.uk/idhub/content/dam/onehub_pkw/importers/gb/downloads/brochures/used-cars/golf-8-%282020---present%29/vw_golf_2020-present_april_2020.pdf" },
-    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Kräver bilens serviceindikering, första trafikdatum och dokumenterad servicehistorik." },
-    "operations": { "value": "Oljebyte och inspektion enligt valt fast/flexibelt schema; tilläggsarbeten styrs av motorvariant, ålder och serviceindikering.", "status": "partially_verified", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
-    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Ingen variant- och fordonsunik svensk offert publiceras på sidan." },
-    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Kräver lokal verkstadsoffert." },
-    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html" },
-    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Ingen separat 36-månaderskostnad kan verifieras utan servicehistorik och offert." }
+    "interval": {
+      "value": "Fast service: oljebyte efter 1 år eller 15 000 km; inspektion första gången efter 2 år/30 000 km och därefter årligen/30 000 km. Flexibel service: oljebyte enligt serviceindikering, senast 2 år; inspektion första gången efter 2 år/30 000 km och därefter årligen/30 000 km.",
+      "status": "verified",
+      "sourceUrl": "https://www.volkswagen.co.uk/idhub/content/dam/onehub_pkw/importers/gb/downloads/brochures/used-cars/golf-8-%282020---present%29/vw_golf_2020-present_april_2020.pdf"
+    },
+    "nextDue": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+      "note": "Kräver bilens serviceindikering, första trafikdatum och dokumenterad servicehistorik."
+    },
+    "operations": {
+      "value": "Oljebyte och inspektion enligt valt fast/flexibelt schema; tilläggsarbeten styrs av motorvariant, ålder och serviceindikering.",
+      "status": "partially_verified",
+      "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html"
+    },
+    "priceAuthorized": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+      "note": "Ingen variant- och fordonsunik svensk offert publiceras på sidan."
+    },
+    "priceIndependent": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+      "note": "Kräver lokal verkstadsoffert."
+    },
+    "priceIncludesVat": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html"
+    },
+    "largeServiceAfter36Months": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+      "note": "Ingen separat 36-månaderskostnad kan verifieras utan servicehistorik och offert."
+    }
   },
   "insurance": {
-    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premie beror på förare, ort, omfattning och skadehistorik; personlig offert krävs." },
-    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helforsäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/trafikforsakring", "note": "Självrisk beror på försäkringsomfattning, bilens ålder och körsträcka." },
-    "coveredComponents": { "value": "Motor, motorns kylsystem, bränslesystem, styrväxel, kraftöverföring samt flera elektronik- och säkerhetssystem omfattas enligt Ifs produktbeskrivning.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+    "annualPremiumRange": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
+      "note": "Premie beror på förare, ort, omfattning och skadehistorik; personlig offert krävs."
+    },
+    "machineDamageMaxAge": {
+      "value": "10 år",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "machineDamageMaxMileage": {
+      "value": "12 000 mil för halv-/helforsäkring; 15 000 mil för Stor bilförsäkring",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "deductible": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/trafikforsakring",
+      "note": "Självrisk beror på försäkringsomfattning, bilens ålder och körsträcka."
+    },
+    "coveredComponents": {
+      "value": "Motor, motorns kylsystem, bränslesystem, styrväxel, kraftöverföring samt flera elektronik- och säkerhetssystem omfattas enligt Ifs produktbeskrivning.",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "personalQuoteRequired": {
+      "value": true,
+      "status": "verified",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+    }
   },
   "tyres": {
-    "dimension": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/golf-sportscombi/Golf_Sportscombi_aug2021.pdf", "note": "Exakt PXO072-dimension/fälg och eventuell vinterdimension måste kontrolleras mot registreringsbevis, CoC eller däcksida." },
-    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/golf-sportscombi/Golf_Sportscombi_aug2021.pdf", "note": "Belastnings- och hastighetsindex för exemplar saknas." },
-    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen prisuppgift utan verifierad dimension, index och aktuell offert." },
-    "mountingPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Kräver vald verkstad och offert." },
-    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/", "note": "Kvarvarande mönsterdjup och däckålder kräver fysisk kontroll." },
-    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Beror på dimension, inköpspris, ålder och slitage." }
+    "dimension": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/golf-sportscombi/Golf_Sportscombi_aug2021.pdf",
+      "note": "Exakt PXO072-dimension/fälg och eventuell vinterdimension måste kontrolleras mot registreringsbevis, CoC eller däcksida."
+    },
+    "loadIndex": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/golf-sportscombi/Golf_Sportscombi_aug2021.pdf",
+      "note": "Belastnings- och hastighetsindex för exemplar saknas."
+    },
+    "completeSetPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Ingen prisuppgift utan verifierad dimension, index och aktuell offert."
+    },
+    "mountingPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/",
+      "note": "Kräver vald verkstad och offert."
+    },
+    "treadLife": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/",
+      "note": "Kvarvarande mönsterdjup och däckålder kräver fysisk kontroll."
+    },
+    "valueAtMonth36": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Beror på dimension, inköpspris, ålder och slitage."
+    }
   },
   "repairs": {
-    "commonFailures": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Ingen primär Volkswagen-källa med variantunika felfrekvenser identifierad." },
-    "partsPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Del och fel måste identifieras innan pris kan offereras." },
-    "laborPriceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html", "note": "Kräver auktoriserad verkstadsoffert." },
-    "laborPriceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Kräver lokal oberoende verkstadsoffert." },
-    "threeYearReserve": { "value": null, "status": "estimated", "note": "Ingen exakt reserv kan styrkas utan dokumenterade felrisker, skick och offerter." }
+    "commonFailures": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+      "note": "Ingen primär Volkswagen-källa med variantunika felfrekvenser identifierad."
+    },
+    "partsPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+      "note": "Del och fel måste identifieras innan pris kan offereras."
+    },
+    "laborPriceAuthorized": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+      "note": "Kräver auktoriserad verkstadsoffert."
+    },
+    "laborPriceIndependent": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/",
+      "note": "Kräver lokal oberoende verkstadsoffert."
+    },
+    "threeYearReserve": {
+      "value": null,
+      "status": "estimated",
+      "note": "Ingen exakt reserv kan styrkas utan dokumenterade felrisker, skick och offerter."
+    }
   },
   "tax": {
     "annualAmountSek": null,
     "status": "unknown",
     "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
     "note": "Transportstyrelsen kräver registrerat CO2-värde och första trafikdatum för exakt skatt. Volkswagen anger modellvärde 129 g/km WLTP för eTSI 150, men PXO072:s registrerade värde och malusstatus måste verifieras i vägtrafikregistret."
+  },
+  "status": "partially_verified",
+  "costs": {
+    "insurance": {
+      "amountSek": 20376,
+      "status": "estimated",
+      "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
+    }
+  },
+  "evidence": {
+    "tyreSwap": {
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Pris kunde inte läsas."
+    },
+    "tyreSearch": {
+      "status": "partially_verified",
+      "sourceUrl": "https://www.dackonline.se/search?width=205&profile=55&size=16&searchByCar=true",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Däckdimension 205/55 R16 91V; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
+    }
   }
 }

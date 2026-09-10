@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:b3322c88-5f3b-4490-ac39-5e62b7c724f2",
-  "checkedAt": "2026-09-07T21:17:28+02:00",
+  "checkedAt": "2026-09-10T15:46:56.901Z",
   "vehicle": {
     "title": "Peugeot 3008",
     "variant": "GT PureTech 130 A 5-d SUV",
@@ -10,41 +10,171 @@
   },
   "notes": "Första pending-erbjudandet i research-queue.json. Peugeot bekräftar 3008 GT PureTech 130 AUT och 18-tums aluminiumfälgar i svensk information. Exakt svensk servicehistorik, intervall för just VIN, däckindex, individuellt försäkringspris/självrisk och fordonsskatt kräver fordons-/serviceuppgift eller offert. Inga uppskattade exakta belopp har använts.",
   "service": {
-    "interval": { "value": "Peugeots officiella 3008-specifikation anger serviceintervall 16 000 miles eller 1 år för 1.2 PureTech 130 (det som inträffar först); svensk/VIN-specifik plan bör bekräftas i servicebok/Service Box.", "status": "verified", "sourceUrl": "https://business.peugeot.co.uk/content/dam/peugeot/uk/b2b/buy/price---spec/pdfs/3008-suv-price-spec-guide.pdf" },
-    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Kräver datum och mätarställning för senast utförda service." },
-    "operations": { "value": "Peugeot Service Box beskriver att serviceåtgärder väljs från tillverkarens underhållsschema efter VIN och mätarställning; variantens konkreta åtgärdslista är inte publicerad i annonsen.", "status": "partially_verified", "sourceUrl": "https://public.servicebox.peugeot.com/aides/DOC_OI/AP/documents/en_GB/AIDE/9941/plan_entretien_apoi.html?id=sous_menu2%7C2_12" },
-    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/servicetjanster/erbjudanden/fastpris.html", "note": "Peugeots svenska sida visar separata fastpriser för vissa arbeten, men inte en verifierad ordinarie 3008-service för detta VIN." },
-    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
-    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
-    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://public.servicebox.peugeot.com/aides/DOC_OI/AP/documents/en_GB/AIDE/9941/plan_entretien_apoi.html?id=sous_menu2%7C2_12", "note": "Ingen publik, VIN-specifik 36-månaders storserviceoffert." }
+    "interval": {
+      "value": "Peugeots officiella 3008-specifikation anger serviceintervall 16 000 miles eller 1 år för 1.2 PureTech 130 (det som inträffar först); svensk/VIN-specifik plan bör bekräftas i servicebok/Service Box.",
+      "status": "verified",
+      "sourceUrl": "https://business.peugeot.co.uk/content/dam/peugeot/uk/b2b/buy/price---spec/pdfs/3008-suv-price-spec-guide.pdf"
+    },
+    "nextDue": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html",
+      "note": "Kräver datum och mätarställning för senast utförda service."
+    },
+    "operations": {
+      "value": "Peugeot Service Box beskriver att serviceåtgärder väljs från tillverkarens underhållsschema efter VIN och mätarställning; variantens konkreta åtgärdslista är inte publicerad i annonsen.",
+      "status": "partially_verified",
+      "sourceUrl": "https://public.servicebox.peugeot.com/aides/DOC_OI/AP/documents/en_GB/AIDE/9941/plan_entretien_apoi.html?id=sous_menu2%7C2_12"
+    },
+    "priceAuthorized": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/servicetjanster/erbjudanden/fastpris.html",
+      "note": "Peugeots svenska sida visar separata fastpriser för vissa arbeten, men inte en verifierad ordinarie 3008-service för detta VIN."
+    },
+    "priceIndependent": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"
+    },
+    "priceIncludesVat": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"
+    },
+    "largeServiceAfter36Months": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://public.servicebox.peugeot.com/aides/DOC_OI/AP/documents/en_GB/AIDE/9941/plan_entretien_apoi.html?id=sous_menu2%7C2_12",
+      "note": "Ingen publik, VIN-specifik 36-månaders storserviceoffert."
+    }
   },
   "insurance": {
-    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premie är individuell och kräver offert." },
-    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helförsäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Självrisk beror på valt försäkringspaket och offert." },
-    "coveredComponents": { "value": "If beskriver maskin- och elektronikskydd för många komponenter; exakt omfattning och undantag styrs av försäkringsvillkoren.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+    "annualPremiumRange": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
+      "note": "Premie är individuell och kräver offert."
+    },
+    "machineDamageMaxAge": {
+      "value": "10 år",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "machineDamageMaxMileage": {
+      "value": "12 000 mil för halv-/helförsäkring; 15 000 mil för Stor bilförsäkring",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "deductible": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
+      "note": "Självrisk beror på valt försäkringspaket och offert."
+    },
+    "coveredComponents": {
+      "value": "If beskriver maskin- och elektronikskydd för många komponenter; exakt omfattning och undantag styrs av försäkringsvillkoren.",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "personalQuoteRequired": {
+      "value": true,
+      "status": "verified",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+    }
   },
   "tyres": {
-    "dimension": { "value": "18-tums aluminiumfälgar anges för Peugeot 3008 GT PureTech 130 AUT; den officiella 3008-specifikationen listar 225/55 R18 för 18-tumsversionen. Kontrollera bilens däck-/CoC-uppgift för exakt godkänd dimension.", "status": "partially_verified", "sourceUrl": "https://www.peugeot.se/om-peugeot/om-oss/nyheter/2023/kor-en-peugeot-suv-i-12-manader-fran-3499-kronor.html" },
-    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://business.peugeot.co.uk/content/dam/peugeot/uk/b2b/buy/price---spec/pdfs/3008-suv-price-spec-guide.pdf", "note": "Däckindex varierar med version; kräver fordonets CoC/däckmärkning." },
-    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/" },
-    "mountingPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/" },
-    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html", "note": "Kräver fysisk mätning av aktuella däck." },
-    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Kan inte prognostiseras utan inköpspris, mönsterdjup och körprofil." }
+    "dimension": {
+      "value": "18-tums aluminiumfälgar anges för Peugeot 3008 GT PureTech 130 AUT; den officiella 3008-specifikationen listar 225/55 R18 för 18-tumsversionen. Kontrollera bilens däck-/CoC-uppgift för exakt godkänd dimension.",
+      "status": "partially_verified",
+      "sourceUrl": "https://www.peugeot.se/om-peugeot/om-oss/nyheter/2023/kor-en-peugeot-suv-i-12-manader-fran-3499-kronor.html"
+    },
+    "loadIndex": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://business.peugeot.co.uk/content/dam/peugeot/uk/b2b/buy/price---spec/pdfs/3008-suv-price-spec-guide.pdf",
+      "note": "Däckindex varierar med version; kräver fordonets CoC/däckmärkning."
+    },
+    "completeSetPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/"
+    },
+    "mountingPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/"
+    },
+    "treadLife": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html",
+      "note": "Kräver fysisk mätning av aktuella däck."
+    },
+    "valueAtMonth36": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Kan inte prognostiseras utan inköpspris, mönsterdjup och körprofil."
+    }
   },
   "repairs": {
-    "commonFailures": { "value": "Peugeot har publicerat ett PureTech-program för tidigare 1.0/1.2-motorer med oljetrycksproblem kopplade till förtida kamremsnedbrytning och/eller överdriven oljeförbrukning. Tillämpning på denna 2023-bil måste verifieras mot motor-/VIN-uppgifter.", "status": "verified", "sourceUrl": "https://www.peugeot.co.uk/owners/puretech-engines-solutions.html" },
-    "partsPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/servicetjanster/erbjudanden/fastpris.html", "note": "Ingen svensk variant- och reservdelsidentifierad delprisuppgift." },
-    "laborPriceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/servicetjanster/erbjudanden/fastpris.html" },
-    "laborPriceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/" },
-    "threeYearReserve": { "value": null, "status": "estimated", "note": "Ingen exakt reservfond anges; kräver separat riskmodell och offertdata." }
+    "commonFailures": {
+      "value": "Peugeot har publicerat ett PureTech-program för tidigare 1.0/1.2-motorer med oljetrycksproblem kopplade till förtida kamremsnedbrytning och/eller överdriven oljeförbrukning. Tillämpning på denna 2023-bil måste verifieras mot motor-/VIN-uppgifter.",
+      "status": "verified",
+      "sourceUrl": "https://www.peugeot.co.uk/owners/puretech-engines-solutions.html"
+    },
+    "partsPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/servicetjanster/erbjudanden/fastpris.html",
+      "note": "Ingen svensk variant- och reservdelsidentifierad delprisuppgift."
+    },
+    "laborPriceAuthorized": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/servicetjanster/erbjudanden/fastpris.html"
+    },
+    "laborPriceIndependent": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/"
+    },
+    "threeYearReserve": {
+      "value": null,
+      "status": "estimated",
+      "note": "Ingen exakt reservfond anges; kräver separat riskmodell och offertdata."
+    }
   },
   "tax": {
     "annualAmountSek": null,
     "status": "unknown",
     "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
     "note": "Transportstyrelsen anger att skatt för ett annat fordon hämtas via sökning med registreringsnummer; beloppet kunde inte verifieras i den publika sidan."
+  },
+  "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
+  "status": "partially_verified",
+  "costs": {
+    "insurance": {
+      "amountSek": 20016,
+      "status": "estimated",
+      "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
+    }
+  },
+  "evidence": {
+    "tyreSwap": {
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Pris kunde inte läsas."
+    },
+    "tyreSearch": {
+      "status": "partially_verified",
+      "sourceUrl": "https://www.dackonline.se/search?width=225&profile=55&size=18&searchByCar=true",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Däckdimension 225/55 R18; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
+    }
   }
 }

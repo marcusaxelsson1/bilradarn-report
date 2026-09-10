@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T15:36:12.841Z",
+  "generatedAt": "2026-09-10T15:46:57.283Z",
   "mode": "live",
   "parameters": {
     "horizonMonths": 36,
@@ -170,10 +170,10 @@
       },
       "brand": "Hyundai",
       "economics": {
-        "total36Sek": 226935,
-        "monthlyEconomicSek": 6304,
-        "stressTotal36Sek": 260401,
-        "stressMonthlySek": 7233,
+        "total36Sek": 223503,
+        "monthlyEconomicSek": 6208,
+        "stressTotal36Sek": 250323,
+        "stressMonthlySek": 6953,
         "upfrontSek": 51030,
         "residual36Sek": 88000,
         "tradeIn36Sek": 76500,
@@ -245,21 +245,23 @@
           {
             "key": "tax",
             "label": "Fordonsskatt, 3 år",
-            "amountSek": 1740,
+            "amountSek": 2700,
             "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Registreringsnummer saknas."
             }
           },
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 25200,
+            "amountSek": 20808,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "700 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
           {
@@ -267,9 +269,10 @@
             "label": "Planerad service",
             "amountSek": 15500,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "observed",
+              "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Tillverkarens servicekälla identifierad; exakt intervall och offert återstår."
             }
           },
           {
@@ -1814,7 +1817,12 @@
           }
         ]
       },
-      "rank": 1
+      "rank": 1,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html"
+      }
     },
     {
       "id": "wayke:5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
@@ -1966,10 +1974,10 @@
       },
       "brand": "Kia",
       "economics": {
-        "total36Sek": 229423,
-        "monthlyEconomicSek": 6373,
-        "stressTotal36Sek": 261986,
-        "stressMonthlySek": 7277,
+        "total36Sek": 222613,
+        "monthlyEconomicSek": 6184,
+        "stressTotal36Sek": 249327,
+        "stressMonthlySek": 6926,
         "upfrontSek": 45510,
         "residual36Sek": 119000,
         "tradeIn36Sek": 103500,
@@ -2041,21 +2049,23 @@
           {
             "key": "tax",
             "label": "Fordonsskatt, 3 år",
-            "amountSek": 2598,
+            "amountSek": 2700,
             "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Registreringsnummer saknas."
             }
           },
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 25200,
+            "amountSek": 18288,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "700 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 508 kr/mån (Kia). Inte personlig offert."
             }
           },
           {
@@ -2063,9 +2073,10 @@
             "label": "Planerad service",
             "amountSek": 15500,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "observed",
+              "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Intervall verifierat på modellnivå; pris kräver variantmatchad offert."
             }
           },
           {
@@ -3606,7 +3617,12 @@
           }
         ]
       },
-      "rank": 2
+      "rank": 2,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/"
+      }
     },
     {
       "id": "wayke:0c458a8d-e297-43c1-8135-529d3860f7c8",
@@ -3773,10 +3789,10 @@
       },
       "brand": "SEAT",
       "economics": {
-        "total36Sek": 229476,
-        "monthlyEconomicSek": 6374,
-        "stressTotal36Sek": 264497,
-        "stressMonthlySek": 7347,
+        "total36Sek": 223062,
+        "monthlyEconomicSek": 6196,
+        "stressTotal36Sek": 249829,
+        "stressMonthlySek": 6940,
         "upfrontSek": 51030,
         "residual36Sek": 83500,
         "tradeIn36Sek": 72500,
@@ -3848,21 +3864,23 @@
           {
             "key": "tax",
             "label": "Fordonsskatt, 3 år",
-            "amountSek": 2202,
+            "amountSek": 2700,
             "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Registreringsnummer saknas."
             }
           },
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 25200,
+            "amountSek": 18288,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "700 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 508 kr/mån (Seat). Inte personlig offert."
             }
           },
           {
@@ -3870,9 +3888,10 @@
             "label": "Planerad service",
             "amountSek": 15500,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "observed",
+              "sourceUrl": "https://www.seat.se/datamanual-manual/leon/my22_w25/se-se/LEON_06_21_SE.pdf",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Serviceplan identifierad; beloppet är fortfarande modellestimat."
             }
           },
           {
@@ -5417,7 +5436,12 @@
           }
         ]
       },
-      "rank": 3
+      "rank": 3,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.seat.se/datamanual-manual/leon/my22_w25/se-se/LEON_06_21_SE.pdf"
+      }
     },
     {
       "id": "wayke:7d409560-5a88-4d2f-8a4c-87470a63f5d6",
@@ -5593,10 +5617,10 @@
       },
       "brand": "Ford",
       "economics": {
-        "total36Sek": 230774,
-        "monthlyEconomicSek": 6410,
-        "stressTotal36Sek": 267668,
-        "stressMonthlySek": 7435,
+        "total36Sek": 211362,
+        "monthlyEconomicSek": 5871,
+        "stressTotal36Sek": 236725,
+        "stressMonthlySek": 6576,
         "upfrontSek": 50850,
         "residual36Sek": 88500,
         "tradeIn36Sek": 77000,
@@ -5618,11 +5642,12 @@
           {
             "key": "winter",
             "label": "Vinterhjul, inköp",
-            "amountSek": 14500,
+            "amountSek": 6500,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/215-55-R17-H",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Dackonline visade flera 215/55 R17 94H vinterdäck cirka 1 625–2 096 kr/st; 6 500 kr är en enkel fyra-däcksprojektion, utan fälg och montering."
             }
           },
           {
@@ -5668,31 +5693,34 @@
           {
             "key": "tax",
             "label": "Fordonsskatt, 3 år",
-            "amountSek": 3192,
+            "amountSek": 1773,
             "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Treårsprojektion av Fords testfakta 591 kr/år för motsvarande Focus Active 1,0T. Exakt skatt för FKL86D måste kontrolleras i Transportstyrelsens fordonsuppgift."
             }
           },
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 25200,
+            "amountSek": 18000,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "700 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 500 kr/mån (Ford). Inte personlig offert."
             }
           },
           {
             "key": "service",
             "label": "Planerad service",
-            "amountSek": 15500,
+            "amountSek": 16887,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "observed",
+              "sourceUrl": "https://ford.se/media_assets/a7dfdb9f-9d80-4f86-b59b-ff9b3cb18f08",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Ford-testets kostnad till 6 000 mil för Focus Active Kombi 1,0T EcoBoost 125 hk; inte en variantmatchad offert och bilen i annonsen har gått 7 090 mil. Intervallkälla: 2 år/18 000 miles."
             }
           },
           {
@@ -5700,19 +5728,21 @@
             "label": "Däckslitage och byten",
             "amountSek": 4000,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/215-55-R17-H",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Montering, skifte och slitagevärde vid månad 36 saknar variant- och verkstadsoffert; beloppet är endast planeringsestimat."
             }
           },
           {
             "key": "repair",
             "label": "Modellspecifik reparationsreserv",
-            "amountSek": 14180,
+            "amountSek": 10000,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Reserv utifrån märke, biltyp och 7090 mil; är sparande, inte en säker utgift."
+              "status": "estimated",
+              "sourceUrl": "https://www.ford.co.uk/support/how-tos/recall/recalls-and-faqs/can-i-check-for-a-safety-recall-before-buying-a-ford-vehicle",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Planeringsreserv, inte ett verifierat reparationspris. Ford kräver registreringsnummer för specifik återkallelsekontroll; primärkälla för variantens typiska fel, delar och arbetskostnad saknas."
             }
           },
           {
@@ -7237,7 +7267,12 @@
           }
         ]
       },
-      "rank": 4
+      "rank": 4,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/CG2147GBR-202211-20230207101401.pdf"
+      }
     },
     {
       "id": "wayke:487d50e9-363e-45dd-a80f-4547d7e8776e",
@@ -7373,10 +7408,10 @@
       },
       "brand": "Hyundai",
       "economics": {
-        "total36Sek": 235844,
-        "monthlyEconomicSek": 6551,
-        "stressTotal36Sek": 272356,
-        "stressMonthlySek": 7565,
+        "total36Sek": 231452,
+        "monthlyEconomicSek": 6429,
+        "stressTotal36Sek": 259226,
+        "stressMonthlySek": 7201,
         "upfrontSek": 40350,
         "residual36Sek": 94500,
         "tradeIn36Sek": 82000,
@@ -7458,11 +7493,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 25200,
+            "amountSek": 20808,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "700 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
           {
@@ -9013,7 +9049,12 @@
           }
         ]
       },
-      "rank": 5
+      "rank": 5,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.hyundai.com/se/sv/service-och-underhaall.html"
+      }
     },
     {
       "id": "wayke:1b8b4414-a528-46f0-a4f2-c166c9e5069f",
@@ -9178,10 +9219,10 @@
       },
       "brand": "Volkswagen",
       "economics": {
-        "total36Sek": 239423,
-        "monthlyEconomicSek": 6651,
-        "stressTotal36Sek": 274416,
-        "stressMonthlySek": 7623,
+        "total36Sek": 234599,
+        "monthlyEconomicSek": 6517,
+        "stressTotal36Sek": 262751,
+        "stressMonthlySek": 7299,
         "upfrontSek": 59850,
         "residual36Sek": 118500,
         "tradeIn36Sek": 103000,
@@ -9263,11 +9304,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 25200,
+            "amountSek": 20376,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "700 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
           {
@@ -10822,7 +10864,12 @@
           }
         ]
       },
-      "rank": 6
+      "rank": 6,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.volkswagen.se/sv/verkstad-service.html"
+      }
     },
     {
       "id": "wayke:a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
@@ -10992,10 +11039,10 @@
       },
       "brand": "Volkswagen",
       "economics": {
-        "total36Sek": 242376,
-        "monthlyEconomicSek": 6733,
-        "stressTotal36Sek": 277719,
-        "stressMonthlySek": 7714,
+        "total36Sek": 229552,
+        "monthlyEconomicSek": 6376,
+        "stressTotal36Sek": 257098,
+        "stressMonthlySek": 7142,
         "upfrontSek": 61010,
         "residual36Sek": 122000,
         "tradeIn36Sek": 106000,
@@ -11017,11 +11064,12 @@
           {
             "key": "winter",
             "label": "Vinterhjul, inköp",
-            "amountSek": 14500,
+            "amountSek": 6500,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://www.wayke.se/objekt/a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/205-55-R16",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Volkswagen anger 205/55 R16 som standard för Golf eTSI; Dackonline visar prisexempel för dimensionen. 6 500 kr är en uppskattad fyradäcksprojektion utan fälg och montering."
             }
           },
           {
@@ -11069,19 +11117,21 @@
             "label": "Fordonsskatt, 3 år",
             "amountSek": 2202,
             "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Treårsplanering baserad på modellbroschyrns 129 g/km WLTP; exakt skatt för ZBR52C måste kontrolleras i Transportstyrelsens fordonsuppgift."
             }
           },
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 25200,
+            "amountSek": 20376,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "700 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
           {
@@ -11089,9 +11139,10 @@
             "label": "Planerad service",
             "amountSek": 15500,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Volkswagens serviceindikering är 30 000 km eller 2 år (flexibel); 15 500 kr är treårsplanering, inte en variantmatchad offert. Servicehistorik saknas."
             }
           },
           {
@@ -11099,9 +11150,10 @@
             "label": "Däckslitage och byten",
             "amountSek": 4000,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/205-55-R16",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Däckslitage, montering och värde vid månad 36 saknar faktisk däckvariant, mönsterdjup och verkstadsoffert; planeringsestimat."
             }
           },
           {
@@ -11109,9 +11161,10 @@
             "label": "Modellspecifik reparationsreserv",
             "amountSek": 10400,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Reserv utifrån märke, biltyp och 4841 mil; är sparande, inte en säker utgift."
+              "status": "estimated",
+              "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Treårsreserv, inte verifierat reparationspris. Primärkälla med variantunika vanliga fel, delar och arbetskostnader saknas."
             }
           },
           {
@@ -12636,7 +12689,12 @@
           }
         ]
       },
-      "rank": 7
+      "rank": 7,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/golf-sportscombi/Golf_Sportscombi_web_juni.pdf"
+      }
     },
     {
       "id": "wayke:fa01452b-4ff5-43b2-910b-6dd397b09343",
@@ -12772,10 +12830,10 @@
       },
       "brand": "Nissan",
       "economics": {
-        "total36Sek": 244411,
-        "monthlyEconomicSek": 6789,
-        "stressTotal36Sek": 280803,
-        "stressMonthlySek": 7800,
+        "total36Sek": 236167,
+        "monthlyEconomicSek": 6560,
+        "stressTotal36Sek": 264507,
+        "stressMonthlySek": 7347,
         "upfrontSek": 55030,
         "residual36Sek": 100000,
         "tradeIn36Sek": 87000,
@@ -12857,11 +12915,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20556,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
           {
@@ -14416,7 +14475,12 @@
           }
         ]
       },
-      "rank": 8
+      "rank": 8,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343"
+      }
     },
     {
       "id": "wayke:b27fdcad-e911-437d-8b49-f3fd2469e225",
@@ -14565,10 +14629,10 @@
       },
       "brand": "Kia",
       "economics": {
-        "total36Sek": 246872,
-        "monthlyEconomicSek": 6858,
-        "stressTotal36Sek": 280185,
-        "stressMonthlySek": 7783,
+        "total36Sek": 239960,
+        "monthlyEconomicSek": 6666,
+        "stressTotal36Sek": 268755,
+        "stressMonthlySek": 7465,
         "upfrontSek": 62850,
         "residual36Sek": 126500,
         "tradeIn36Sek": 110000,
@@ -14650,11 +14714,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 25200,
+            "amountSek": 18288,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "700 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 508 kr/mån (Kia). Inte personlig offert."
             }
           },
           {
@@ -16209,7 +16274,12 @@
           }
         ]
       },
-      "rank": 9
+      "rank": 9,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225"
+      }
     },
     {
       "id": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
@@ -16356,10 +16426,10 @@
       },
       "brand": "Dacia",
       "economics": {
-        "total36Sek": 247146,
-        "monthlyEconomicSek": 6865,
-        "stressTotal36Sek": 281189,
-        "stressMonthlySek": 7811,
+        "total36Sek": 191694,
+        "monthlyEconomicSek": 5325,
+        "stressTotal36Sek": 214697,
+        "stressMonthlySek": 5964,
         "upfrontSek": 55030,
         "residual36Sek": 94000,
         "tradeIn36Sek": 82000,
@@ -16381,11 +16451,12 @@
           {
             "key": "winter",
             "label": "Vinterhjul, inköp",
-            "amountSek": 14500,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dackonline.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Dimension och offert saknas."
             }
           },
           {
@@ -16431,51 +16502,56 @@
           {
             "key": "tax",
             "label": "Fordonsskatt, 3 år",
-            "amountSek": 3060,
+            "amountSek": 0,
             "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Exakt CO2/registeruppgift saknas."
             }
           },
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20808,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
           {
             "key": "service",
             "label": "Planerad service",
-            "amountSek": 15500,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dacia.co.uk/maintenance/service-schedule.html",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Pris ej publicerat; 0 används som null-kompatibelt sentinelvärde, inte som påstådd kostnad."
             }
           },
           {
             "key": "tyres",
             "label": "Däckslitage och byten",
-            "amountSek": 4000,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.mekonomen.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Montering/slitage kan inte verifieras."
             }
           },
           {
             "key": "repair",
             "label": "Modellspecifik reparationsreserv",
-            "amountSek": 10400,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Reserv utifrån märke, biltyp och 4099 mil; är sparande, inte en säker utgift."
+              "status": "estimated",
+              "sourceUrl": "https://www.dacia.se/aga/dacia-care-serviceavtal",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Ingen modellstatistik eller offert; ingen exakt reserv uppges."
             }
           },
           {
@@ -18000,7 +18076,12 @@
           }
         ]
       },
-      "rank": 10
+      "rank": 10,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9"
+      }
     },
     {
       "id": "wayke:c9fdeb16-0d54-4140-961b-43568350b470",
@@ -18146,10 +18227,10 @@
       },
       "brand": "Dacia",
       "economics": {
-        "total36Sek": 247146,
-        "monthlyEconomicSek": 6865,
-        "stressTotal36Sek": 281189,
-        "stressMonthlySek": 7811,
+        "total36Sek": 191694,
+        "monthlyEconomicSek": 5325,
+        "stressTotal36Sek": 214697,
+        "stressMonthlySek": 5964,
         "upfrontSek": 55030,
         "residual36Sek": 94000,
         "tradeIn36Sek": 82000,
@@ -18171,11 +18252,12 @@
           {
             "key": "winter",
             "label": "Vinterhjul, inköp",
-            "amountSek": 14500,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dackonline.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Dimension och offert saknas."
             }
           },
           {
@@ -18221,51 +18303,56 @@
           {
             "key": "tax",
             "label": "Fordonsskatt, 3 år",
-            "amountSek": 3060,
+            "amountSek": 0,
             "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Exakt CO2/registeruppgift saknas."
             }
           },
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20808,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
           {
             "key": "service",
             "label": "Planerad service",
-            "amountSek": 15500,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dacia.se/aga/service-underhall",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Pris ej publicerat; 0 är null-kompatibelt sentinelvärde, inte påstådd kostnad."
             }
           },
           {
             "key": "tyres",
             "label": "Däckslitage och byten",
-            "amountSek": 4000,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.mekonomen.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Montering/slitage kan inte verifieras."
             }
           },
           {
             "key": "repair",
             "label": "Modellspecifik reparationsreserv",
-            "amountSek": 10400,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Reserv utifrån märke, biltyp och 4764 mil; är sparande, inte en säker utgift."
+              "status": "estimated",
+              "sourceUrl": "https://www.dacia.se/aga/dacia-care-serviceavtal",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Ingen modellstatistik eller offert; ingen exakt reserv uppges."
             }
           },
           {
@@ -19790,7 +19877,12 @@
           }
         ]
       },
-      "rank": 11
+      "rank": 11,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470"
+      }
     },
     {
       "id": "wayke:1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
@@ -19939,10 +20031,10 @@
       },
       "brand": "Dacia",
       "economics": {
-        "total36Sek": 249338,
-        "monthlyEconomicSek": 6926,
-        "stressTotal36Sek": 285573,
-        "stressMonthlySek": 7933,
+        "total36Sek": 241346,
+        "monthlyEconomicSek": 6704,
+        "stressTotal36Sek": 270308,
+        "stressMonthlySek": 7509,
         "upfrontSek": 55030,
         "residual36Sek": 94000,
         "tradeIn36Sek": 82000,
@@ -20024,11 +20116,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20808,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
           {
@@ -21583,7 +21676,12 @@
           }
         ]
       },
-      "rank": 12
+      "rank": 12,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e"
+      }
     },
     {
       "id": "wayke:4aa40c00-8083-46d7-b7db-9e9c452e02bc",
@@ -21740,10 +21838,10 @@
       },
       "brand": "Volkswagen",
       "economics": {
-        "total36Sek": 253019,
-        "monthlyEconomicSek": 7028,
-        "stressTotal36Sek": 296621,
-        "stressMonthlySek": 8239,
+        "total36Sek": 244595,
+        "monthlyEconomicSek": 6794,
+        "stressTotal36Sek": 273946,
+        "stressMonthlySek": 7610,
         "upfrontSek": 54950,
         "residual36Sek": 100000,
         "tradeIn36Sek": 87000,
@@ -21825,11 +21923,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20376,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
           {
@@ -23384,7 +23483,12 @@
           }
         ]
       },
-      "rank": 13
+      "rank": 13,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc"
+      }
     },
     {
       "id": "wayke:7d69912a-3c49-41fa-8438-4fb439e898dc",
@@ -23540,10 +23644,10 @@
       },
       "brand": "Hyundai",
       "economics": {
-        "total36Sek": 253740,
-        "monthlyEconomicSek": 7048,
-        "stressTotal36Sek": 291229,
-        "stressMonthlySek": 8090,
+        "total36Sek": 249348,
+        "monthlyEconomicSek": 6926,
+        "stressTotal36Sek": 279270,
+        "stressMonthlySek": 7757,
         "upfrontSek": 57010,
         "residual36Sek": 98500,
         "tradeIn36Sek": 85500,
@@ -23625,11 +23729,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 25200,
+            "amountSek": 20808,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "700 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
           {
@@ -25184,7 +25289,12 @@
           }
         ]
       },
-      "rank": 14
+      "rank": 14,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc"
+      }
     },
     {
       "id": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
@@ -25357,10 +25467,10 @@
       },
       "brand": "Volkswagen",
       "economics": {
-        "total36Sek": 255511,
-        "monthlyEconomicSek": 7098,
-        "stressTotal36Sek": 298304,
-        "stressMonthlySek": 8286,
+        "total36Sek": 250687,
+        "monthlyEconomicSek": 6964,
+        "stressTotal36Sek": 280769,
+        "stressMonthlySek": 7799,
         "upfrontSek": 60030,
         "residual36Sek": 112000,
         "tradeIn36Sek": 97500,
@@ -25442,11 +25552,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 25200,
+            "amountSek": 20376,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "700 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
           {
@@ -27001,7 +27112,12 @@
           }
         ]
       },
-      "rank": 15
+      "rank": 15,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/b3482c14-7a8e-48ba-931d-7c731b0cd61e"
+      }
     },
     {
       "id": "wayke:a8afb359-cd68-4bb3-a577-3cb7541099db",
@@ -27174,10 +27290,10 @@
       },
       "brand": "Skoda",
       "economics": {
-        "total36Sek": 257022,
-        "monthlyEconomicSek": 7140,
-        "stressTotal36Sek": 296233,
-        "stressMonthlySek": 8229,
+        "total36Sek": 249066,
+        "monthlyEconomicSek": 6919,
+        "stressTotal36Sek": 278954,
+        "stressMonthlySek": 7749,
         "upfrontSek": 58850,
         "residual36Sek": 98000,
         "tradeIn36Sek": 85500,
@@ -27259,11 +27375,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 25200,
+            "amountSek": 17244,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "700 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 479 kr/mån (Skoda). Inte personlig offert."
             }
           },
           {
@@ -28818,7 +28935,12 @@
           }
         ]
       },
-      "rank": 16
+      "rank": 16,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db"
+      }
     },
     {
       "id": "wayke:01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
@@ -28940,10 +29062,10 @@
       },
       "brand": "Nissan",
       "economics": {
-        "total36Sek": 257242,
-        "monthlyEconomicSek": 7146,
-        "stressTotal36Sek": 293916,
-        "stressMonthlySek": 8164,
+        "total36Sek": 248998,
+        "monthlyEconomicSek": 6917,
+        "stressTotal36Sek": 278878,
+        "stressMonthlySek": 7747,
         "upfrontSek": 58030,
         "residual36Sek": 107500,
         "tradeIn36Sek": 93500,
@@ -29025,11 +29147,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20556,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
           {
@@ -30584,7 +30707,12 @@
           }
         ]
       },
-      "rank": 17
+      "rank": 17,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.nissan.se/agarservice/service.html"
+      }
     },
     {
       "id": "wayke:35121016-1fae-49fc-82f2-6594356855bd",
@@ -30743,10 +30871,10 @@
       },
       "brand": "Peugeot",
       "economics": {
-        "total36Sek": 258085,
-        "monthlyEconomicSek": 7169,
-        "stressTotal36Sek": 295699,
-        "stressMonthlySek": 8214,
+        "total36Sek": 249301,
+        "monthlyEconomicSek": 6925,
+        "stressTotal36Sek": 279217,
+        "stressMonthlySek": 7756,
         "upfrontSek": 57010,
         "residual36Sek": 98500,
         "tradeIn36Sek": 85500,
@@ -30828,11 +30956,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20016,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
           {
@@ -32387,7 +32516,12 @@
           }
         ]
       },
-      "rank": 18
+      "rank": 18,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd"
+      }
     },
     {
       "id": "wayke:fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
@@ -32522,10 +32656,10 @@
       },
       "brand": "Nissan",
       "economics": {
-        "total36Sek": 260085,
-        "monthlyEconomicSek": 7225,
-        "stressTotal36Sek": 302141,
-        "stressMonthlySek": 8393,
+        "total36Sek": 251841,
+        "monthlyEconomicSek": 6996,
+        "stressTotal36Sek": 282062,
+        "stressMonthlySek": 7835,
         "upfrontSek": 56030,
         "residual36Sek": 98000,
         "tradeIn36Sek": 85500,
@@ -32607,11 +32741,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20556,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
           {
@@ -34166,7 +34301,12 @@
           }
         ]
       },
-      "rank": 19
+      "rank": 19,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24"
+      }
     },
     {
       "id": "wayke:8846ce2c-6713-4579-b22b-ba897e7ddb4b",
@@ -34320,10 +34460,10 @@
       },
       "brand": "Nissan",
       "economics": {
-        "total36Sek": 260367,
-        "monthlyEconomicSek": 7232,
-        "stressTotal36Sek": 303041,
-        "stressMonthlySek": 8418,
+        "total36Sek": 252123,
+        "monthlyEconomicSek": 7003,
+        "stressTotal36Sek": 282378,
+        "stressMonthlySek": 7844,
         "upfrontSek": 55030,
         "residual36Sek": 95500,
         "tradeIn36Sek": 83000,
@@ -34405,11 +34545,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20556,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
           {
@@ -35964,7 +36105,12 @@
           }
         ]
       },
-      "rank": 20
+      "rank": 20,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/8846ce2c-6713-4579-b22b-ba897e7ddb4b"
+      }
     },
     {
       "id": "wayke:fb478a7c-4a9f-4340-89ce-94c68f439317",
@@ -36127,10 +36273,10 @@
       },
       "brand": "Peugeot",
       "economics": {
-        "total36Sek": 260838,
-        "monthlyEconomicSek": 7246,
-        "stressTotal36Sek": 307156,
-        "stressMonthlySek": 8532,
+        "total36Sek": 252054,
+        "monthlyEconomicSek": 7002,
+        "stressTotal36Sek": 282300,
+        "stressMonthlySek": 7842,
         "upfrontSek": 53030,
         "residual36Sek": 84000,
         "tradeIn36Sek": 73000,
@@ -36212,11 +36358,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20016,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
           {
@@ -37771,7 +37918,12 @@
           }
         ]
       },
-      "rank": 21
+      "rank": 21,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317"
+      }
     },
     {
       "id": "wayke:faa05a10-2f78-444e-a27a-157e59cf9a34",
@@ -37915,10 +38067,10 @@
       },
       "brand": "Volkswagen",
       "economics": {
-        "total36Sek": 261193,
-        "monthlyEconomicSek": 7255,
-        "stressTotal36Sek": 305186,
-        "stressMonthlySek": 8477,
+        "total36Sek": 252769,
+        "monthlyEconomicSek": 7021,
+        "stressTotal36Sek": 283101,
+        "stressMonthlySek": 7864,
         "upfrontSek": 58850,
         "residual36Sek": 109000,
         "tradeIn36Sek": 95000,
@@ -38000,11 +38152,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20376,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
           {
@@ -39559,7 +39712,12 @@
           }
         ]
       },
-      "rank": 22
+      "rank": 22,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34"
+      }
     },
     {
       "id": "wayke:233784a2-1893-4b4a-9dfd-2a833f5d66b2",
@@ -39716,10 +39874,10 @@
       },
       "brand": "Volkswagen",
       "economics": {
-        "total36Sek": 261720,
-        "monthlyEconomicSek": 7270,
-        "stressTotal36Sek": 304964,
-        "stressMonthlySek": 8471,
+        "total36Sek": 253296,
+        "monthlyEconomicSek": 7036,
+        "stressTotal36Sek": 283692,
+        "stressMonthlySek": 7880,
         "upfrontSek": 59030,
         "residual36Sek": 112000,
         "tradeIn36Sek": 97500,
@@ -39743,9 +39901,10 @@
             "label": "Vinterhjul, inköp",
             "amountSek": 14500,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dackonline.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Komplett vinterhjulspaket, dimension ej verifierad."
             }
           },
           {
@@ -39793,19 +39952,21 @@
             "label": "Fordonsskatt, 3 år",
             "amountSek": 3522,
             "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Annonsens årsskatt × 3; registerkontroll återstår."
             }
           },
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20376,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
           {
@@ -39813,9 +39974,10 @@
             "label": "Planerad service",
             "amountSek": 15500,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "36-månaders schablon; ingen offert."
             }
           },
           {
@@ -39823,9 +39985,10 @@
             "label": "Däckslitage och byten",
             "amountSek": 4000,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.mekonomen.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Slitage-/bytesreserv, ej offert."
             }
           },
           {
@@ -39833,9 +39996,10 @@
             "label": "Modellspecifik reparationsreserv",
             "amountSek": 17000,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Reserv utifrån märke, biltyp och 8500 mil; är sparande, inte en säker utgift."
+              "status": "estimated",
+              "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Treårig reparationsreserv, inte säker utgift."
             }
           },
           {
@@ -41360,7 +41524,12 @@
           }
         ]
       },
-      "rank": 23
+      "rank": 23,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/t-roc/T-Roc_modellbroschyr_aug2021.pdf"
+      }
     },
     {
       "id": "wayke:b3322c88-5f3b-4490-ac39-5e62b7c724f2",
@@ -41489,10 +41658,10 @@
       },
       "brand": "Peugeot",
       "economics": {
-        "total36Sek": 262820,
-        "monthlyEconomicSek": 7301,
-        "stressTotal36Sek": 300834,
-        "stressMonthlySek": 8357,
+        "total36Sek": 254036,
+        "monthlyEconomicSek": 7057,
+        "stressTotal36Sek": 284520,
+        "stressMonthlySek": 7903,
         "upfrontSek": 58650,
         "residual36Sek": 102500,
         "tradeIn36Sek": 89000,
@@ -41574,11 +41743,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20016,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
           {
@@ -43133,7 +43303,12 @@
           }
         ]
       },
-      "rank": 24
+      "rank": 24,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2"
+      }
     },
     {
       "id": "wayke:8f935ae8-8293-4ad7-82fd-3a73de4cff29",
@@ -43285,10 +43460,10 @@
       },
       "brand": "Peugeot",
       "economics": {
-        "total36Sek": 263174,
-        "monthlyEconomicSek": 7310,
-        "stressTotal36Sek": 303056,
-        "stressMonthlySek": 8418,
+        "total36Sek": 254390,
+        "monthlyEconomicSek": 7066,
+        "stressTotal36Sek": 284917,
+        "stressMonthlySek": 7914,
         "upfrontSek": 58030,
         "residual36Sek": 101000,
         "tradeIn36Sek": 88000,
@@ -43370,11 +43545,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20016,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
           {
@@ -44929,7 +45105,12 @@
           }
         ]
       },
-      "rank": 25
+      "rank": 25,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29"
+      }
     },
     {
       "id": "wayke:4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
@@ -45089,10 +45270,10 @@
       },
       "brand": "Peugeot",
       "economics": {
-        "total36Sek": 263894,
-        "monthlyEconomicSek": 7330,
-        "stressTotal36Sek": 302008,
-        "stressMonthlySek": 8389,
+        "total36Sek": 258910,
+        "monthlyEconomicSek": 7192,
+        "stressTotal36Sek": 289979,
+        "stressMonthlySek": 8055,
         "upfrontSek": 58990,
         "residual36Sek": 103500,
         "tradeIn36Sek": 90000,
@@ -45116,9 +45297,10 @@
             "label": "Vinterhjul, inköp",
             "amountSek": 14500,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dackonline.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Komplett vinterhjulspaket."
             }
           },
           {
@@ -45174,11 +45356,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20016,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
           {
@@ -45186,9 +45369,10 @@
             "label": "Planerad service",
             "amountSek": 15500,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.peugeot.se/service-och-underhall.html",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "36-månaders schablon."
             }
           },
           {
@@ -45196,19 +45380,21 @@
             "label": "Däckslitage och byten",
             "amountSek": 4000,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.mekonomen.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Slitage-/bytesreserv."
             }
           },
           {
             "key": "repair",
             "label": "Modellspecifik reparationsreserv",
-            "amountSek": 13200,
+            "amountSek": 17000,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Reserv utifrån märke, biltyp och 4440 mil; är sparande, inte en säker utgift."
+              "status": "estimated",
+              "sourceUrl": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Treårig reparationsreserv."
             }
           },
           {
@@ -46733,7 +46919,12 @@
           }
         ]
       },
-      "rank": 26
+      "rank": 26,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc"
+      }
     },
     {
       "id": "wayke:a0b20001-65db-44cb-8fa4-6bffc12ba91e",
@@ -46877,10 +47068,10 @@
       },
       "brand": "Peugeot",
       "economics": {
-        "total36Sek": 264455,
-        "monthlyEconomicSek": 7346,
-        "stressTotal36Sek": 308456,
-        "stressMonthlySek": 8568,
+        "total36Sek": 255671,
+        "monthlyEconomicSek": 7102,
+        "stressTotal36Sek": 286352,
+        "stressMonthlySek": 7954,
         "upfrontSek": 56030,
         "residual36Sek": 93500,
         "tradeIn36Sek": 81500,
@@ -46962,11 +47153,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20016,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
           {
@@ -48521,7 +48713,12 @@
           }
         ]
       },
-      "rank": 27
+      "rank": 27,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.peugeot.se/servicetjanster.html"
+      }
     },
     {
       "id": "wayke:9dbfc015-5da0-47f6-96e7-d02abb19433b",
@@ -48676,10 +48873,10 @@
       },
       "brand": "Volkswagen",
       "economics": {
-        "total36Sek": 266504,
-        "monthlyEconomicSek": 7403,
-        "stressTotal36Sek": 311298,
-        "stressMonthlySek": 8647,
+        "total36Sek": 201774,
+        "monthlyEconomicSek": 5605,
+        "stressTotal36Sek": 225987,
+        "stressMonthlySek": 6277,
         "upfrontSek": 59030,
         "residual36Sek": 109000,
         "tradeIn36Sek": 95000,
@@ -48701,11 +48898,12 @@
           {
             "key": "winter",
             "label": "Vinterhjul, inköp",
-            "amountSek": 14500,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dackonline.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Dimension och offert saknas."
             }
           },
           {
@@ -48751,51 +48949,56 @@
           {
             "key": "tax",
             "label": "Fordonsskatt, 3 år",
-            "amountSek": 3456,
+            "amountSek": 0,
             "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
+              "status": "unknown",
+              "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Registeruppgift saknas."
             }
           },
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20376,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
           {
             "key": "service",
             "label": "Planerad service",
-            "amountSek": 15500,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad."
             }
           },
           {
             "key": "tyres",
             "label": "Däckslitage och byten",
-            "amountSek": 4000,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.mekonomen.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Montering/slitage och dimension kan inte verifieras."
             }
           },
           {
             "key": "repair",
             "label": "Modellspecifik reparationsreserv",
-            "amountSek": 18850,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Reserv utifrån märke, biltyp och 9871 mil; är sparande, inte en säker utgift."
+              "status": "estimated",
+              "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Ingen modellstatistik eller offert."
             }
           },
           {
@@ -50320,7 +50523,12 @@
           }
         ]
       },
-      "rank": 28
+      "rank": 28,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b"
+      }
     },
     {
       "id": "wayke:68cab897-73a7-4259-b74f-64f51d870bd7",
@@ -50473,10 +50681,10 @@
       },
       "brand": "Nissan",
       "economics": {
-        "total36Sek": 268533,
-        "monthlyEconomicSek": 7459,
-        "stressTotal36Sek": 310887,
-        "stressMonthlySek": 8636,
+        "total36Sek": 205897,
+        "monthlyEconomicSek": 5719,
+        "stressTotal36Sek": 230605,
+        "stressMonthlySek": 6406,
         "upfrontSek": 60030,
         "residual36Sek": 107500,
         "tradeIn36Sek": 93500,
@@ -50498,11 +50706,12 @@
           {
             "key": "winter",
             "label": "Vinterhjul, inköp",
-            "amountSek": 14500,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dackonline.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Dimension/index och offert saknas."
             }
           },
           {
@@ -50548,51 +50757,56 @@
           {
             "key": "tax",
             "label": "Fordonsskatt, 3 år",
-            "amountSek": 3192,
+            "amountSek": 0,
             "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
+              "status": "unknown",
+              "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Registrerade CO2- och datumuppgifter saknas i denna kontroll."
             }
           },
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20556,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
           {
             "key": "service",
             "label": "Planerad service",
-            "amountSek": 15500,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.nissan.se/aga/service.html",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad."
             }
           },
           {
             "key": "tyres",
             "label": "Däckslitage och byten",
-            "amountSek": 4000,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.mekonomen.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Montering/slitage och offert saknas."
             }
           },
           {
             "key": "repair",
             "label": "Modellspecifik reparationsreserv",
-            "amountSek": 17200,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Reserv utifrån märke, biltyp och 8600 mil; är sparande, inte en säker utgift."
+              "status": "estimated",
+              "sourceUrl": "https://www.nissan.se/aga/service.html",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Ingen modellstatistik eller offert."
             }
           },
           {
@@ -52117,7 +52331,12 @@
           }
         ]
       },
-      "rank": 29
+      "rank": 29,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7"
+      }
     },
     {
       "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
@@ -52245,10 +52464,10 @@
       },
       "brand": "Nissan",
       "economics": {
-        "total36Sek": 268999,
-        "monthlyEconomicSek": 7472,
-        "stressTotal36Sek": 306673,
-        "stressMonthlySek": 8519,
+        "total36Sek": 260755,
+        "monthlyEconomicSek": 7243,
+        "stressTotal36Sek": 292046,
+        "stressMonthlySek": 8112,
         "upfrontSek": 62030,
         "residual36Sek": 117500,
         "tradeIn36Sek": 102000,
@@ -52330,11 +52549,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20556,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
           {
@@ -53889,7 +54109,12 @@
           }
         ]
       },
-      "rank": 30
+      "rank": 30,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.nissan.se/agarservice/service.html"
+      }
     },
     {
       "id": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
@@ -54061,10 +54286,10 @@
       },
       "brand": "CUPRA",
       "economics": {
-        "total36Sek": 269284,
-        "monthlyEconomicSek": 7480,
-        "stressTotal36Sek": 308347,
-        "stressMonthlySek": 8565,
+        "total36Sek": 213122,
+        "monthlyEconomicSek": 5920,
+        "stressTotal36Sek": 238697,
+        "stressMonthlySek": 6630,
         "upfrontSek": 62030,
         "residual36Sek": 108000,
         "tradeIn36Sek": 94000,
@@ -54086,11 +54311,12 @@
           {
             "key": "winter",
             "label": "Vinterhjul, inköp",
-            "amountSek": 14500,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dackonline.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Dimension och offert saknas."
             }
           },
           {
@@ -54136,51 +54362,56 @@
           {
             "key": "tax",
             "label": "Fordonsskatt, 3 år",
-            "amountSek": 2730,
+            "amountSek": 0,
             "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
+              "status": "unknown",
+              "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "CO2- och registeruppgift saknas."
             }
           },
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 25200,
+            "amountSek": 20808,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "700 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
           {
             "key": "service",
             "label": "Planerad service",
-            "amountSek": 15500,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad."
             }
           },
           {
             "key": "tyres",
             "label": "Däckslitage och byten",
-            "amountSek": 4000,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.mekonomen.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Montering/slitage kan inte verifieras."
             }
           },
           {
             "key": "repair",
             "label": "Modellspecifik reparationsreserv",
-            "amountSek": 15040,
+            "amountSek": 0,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Reserv utifrån märke, biltyp och 7520 mil; är sparande, inte en säker utgift."
+              "status": "estimated",
+              "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Ingen modellstatistik eller offert."
             }
           },
           {
@@ -55705,7 +55936,12 @@
           }
         ]
       },
-      "rank": 31
+      "rank": 31,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561"
+      }
     },
     {
       "id": "wayke:08063b58-4845-4f59-849b-30ae0d51f536",
@@ -55872,10 +56108,10 @@
       },
       "brand": "CUPRA",
       "economics": {
-        "total36Sek": 269578,
-        "monthlyEconomicSek": 7488,
-        "stressTotal36Sek": 307829,
-        "stressMonthlySek": 8551,
+        "total36Sek": 265186,
+        "monthlyEconomicSek": 7366,
+        "stressTotal36Sek": 297008,
+        "stressMonthlySek": 8250,
         "upfrontSek": 63030,
         "residual36Sek": 112000,
         "tradeIn36Sek": 97500,
@@ -55899,9 +56135,10 @@
             "label": "Vinterhjul, inköp",
             "amountSek": 14500,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dackonline.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "225/40 R18 modellverifierad; komplett vinterhjulspaket kräver aktuell offert och index."
             }
           },
           {
@@ -55949,19 +56186,21 @@
             "label": "Fordonsskatt, 3 år",
             "amountSek": 2796,
             "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Skatt beräknas efter registrerat CO2 och eventuell treårig malus; KPS70J är inte registerverifierad. Annonsens 932 kr/år används som estimat."
             }
           },
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 25200,
+            "amountSek": 20808,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "700 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
           {
@@ -55969,9 +56208,10 @@
             "label": "Planerad service",
             "amountSek": 15500,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Fast oljeservice är PR-nummerberoende 5 000–15 000 km/1 år eller flexibel enligt indikator; exakt nästa datum/offert saknas."
             }
           },
           {
@@ -55979,9 +56219,10 @@
             "label": "Däckslitage och byten",
             "amountSek": 4000,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.mekonomen.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Slitage/montering/värde månad 36 saknar mätning/offert."
             }
           },
           {
@@ -55989,9 +56230,10 @@
             "label": "Modellspecifik reparationsreserv",
             "amountSek": 13828,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Reserv utifrån märke, biltyp och 6914 mil; är sparande, inte en säker utgift."
+              "status": "estimated",
+              "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "CUPRA anger 24 mån garanti på delar/arbete i auktoriserat nätverk; reserv är budget, inte felpris."
             }
           },
           {
@@ -57516,7 +57758,12 @@
           }
         ]
       },
-      "rank": 32
+      "rank": 32,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf"
+      }
     },
     {
       "id": "wayke:95f94d28-6d83-41e9-a01a-e00eebb23222",
@@ -57682,10 +57929,10 @@
       },
       "brand": "Nissan",
       "economics": {
-        "total36Sek": 271097,
-        "monthlyEconomicSek": 7530,
-        "stressTotal36Sek": 308447,
-        "stressMonthlySek": 8568,
+        "total36Sek": 265781,
+        "monthlyEconomicSek": 7383,
+        "stressTotal36Sek": 297675,
+        "stressMonthlySek": 8269,
         "upfrontSek": 65010,
         "residual36Sek": 125000,
         "tradeIn36Sek": 109000,
@@ -57707,11 +57954,12 @@
           {
             "key": "winter",
             "label": "Vinterhjul, inköp",
-            "amountSek": 14500,
+            "amountSek": 12000,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.dackonline.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Dimensionen 215/65 R17 är verifierad för Acenta, men komplett vinterhjulspaket och aktuellt pris kräver offert; ingen exakt prisuppgift påstås."
             }
           },
           {
@@ -57757,51 +58005,56 @@
           {
             "key": "tax",
             "label": "Fordonsskatt, 3 år",
-            "amountSek": 3126,
+            "amountSek": 8000,
             "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/malus/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Nissan anger 142–147 g/km WLTP för 158 hk Xtronic 2WD. Transportstyrelsens malusformel ger modellbaserat intervall, men registrerad CO2, första trafikdatum och faktisk drivlina saknas; beloppet är därför inte verifierat."
             }
           },
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20556,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
           {
             "key": "service",
             "label": "Planerad service",
-            "amountSek": 15500,
+            "amountSek": 15000,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.nissan.se/aga/service.html",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Treårsbudget för planerade servicebesök; Nissan publicerar inte en modell-/VIN-specifik svensk prislista här. Beloppet är en budgetuppskattning, inte ett verifierat pris."
             }
           },
           {
             "key": "tyres",
             "label": "Däckslitage och byten",
-            "amountSek": 4000,
+            "amountSek": 3500,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
+              "status": "estimated",
+              "sourceUrl": "https://www.mekonomen.se/",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Budget för slitage/montering; faktisk återstående livslängd, montagepris och månad-36-värde är inte verifierade."
             }
           },
           {
             "key": "repair",
             "label": "Modellspecifik reparationsreserv",
-            "amountSek": 10446,
+            "amountSek": 12000,
             "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Reserv utifrån märke, biltyp och 5223 mil; är sparande, inte en säker utgift."
+              "status": "estimated",
+              "sourceUrl": "https://www.nissan.se/aga/garanti.html",
+              "checkedAt": "2026-09-10T15:46:57.283Z",
+              "note": "Treårsreserv som budgetpost. Nissan-källan styrker garanti-/servicekanal, inte sannolikhet eller kostnad för specifika fel."
             }
           },
           {
@@ -59326,7 +59579,12 @@
           }
         ]
       },
-      "rank": 33
+      "rank": 33,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www-europe.nissan-cdn.net/content/dam/Nissan/sk/brochures/Pricelists/New-Qashqai-Pricelist_SK_2022.pdf"
+      }
     },
     {
       "id": "wayke:50b26f29-1b35-4bcb-a655-7f7cc667f11c",
@@ -59485,10 +59743,10 @@
       },
       "brand": "Peugeot",
       "economics": {
-        "total36Sek": 271137,
-        "monthlyEconomicSek": 7532,
-        "stressTotal36Sek": 313748,
-        "stressMonthlySek": 8715,
+        "total36Sek": 262353,
+        "monthlyEconomicSek": 7288,
+        "stressTotal36Sek": 293835,
+        "stressMonthlySek": 8162,
         "upfrontSek": 59050,
         "residual36Sek": 102500,
         "tradeIn36Sek": 89000,
@@ -59570,11 +59828,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20016,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
           {
@@ -61129,7 +61388,12 @@
           }
         ]
       },
-      "rank": 34
+      "rank": 34,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.peugeot.se/servicetjanster.html"
+      }
     },
     {
       "id": "wayke:c91274a9-dba4-4628-a022-685347f85665",
@@ -61284,10 +61548,10 @@
       },
       "brand": "Volkswagen",
       "economics": {
-        "total36Sek": 271988,
-        "monthlyEconomicSek": 7555,
-        "stressTotal36Sek": 316887,
-        "stressMonthlySek": 8802,
+        "total36Sek": 263564,
+        "monthlyEconomicSek": 7321,
+        "stressTotal36Sek": 295192,
+        "stressMonthlySek": 8200,
         "upfrontSek": 63030,
         "residual36Sek": 120500,
         "tradeIn36Sek": 105000,
@@ -61369,11 +61633,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20376,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
           {
@@ -62928,7 +63193,12 @@
           }
         ]
       },
-      "rank": 35
+      "rank": 35,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665"
+      }
     },
     {
       "id": "wayke:e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
@@ -63057,10 +63327,10 @@
       },
       "brand": "Peugeot",
       "economics": {
-        "total36Sek": 272345,
-        "monthlyEconomicSek": 7565,
-        "stressTotal36Sek": 319225,
-        "stressMonthlySek": 8867,
+        "total36Sek": 263561,
+        "monthlyEconomicSek": 7321,
+        "stressTotal36Sek": 295188,
+        "stressMonthlySek": 8200,
         "upfrontSek": 56850,
         "residual36Sek": 93000,
         "tradeIn36Sek": 81000,
@@ -63142,11 +63412,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20016,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
           {
@@ -64701,7 +64972,12 @@
           }
         ]
       },
-      "rank": 36
+      "rank": 36,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c"
+      }
     },
     {
       "id": "wayke:afa4f887-88a1-4db4-9f0e-e966e1e44825",
@@ -64857,10 +65133,10 @@
       },
       "brand": "Peugeot",
       "economics": {
-        "total36Sek": 278466,
-        "monthlyEconomicSek": 7735,
-        "stressTotal36Sek": 317800,
-        "stressMonthlySek": 8828,
+        "total36Sek": 269682,
+        "monthlyEconomicSek": 7491,
+        "stressTotal36Sek": 302044,
+        "stressMonthlySek": 8390,
         "upfrontSek": 63010,
         "residual36Sek": 112500,
         "tradeIn36Sek": 98000,
@@ -64942,11 +65218,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20016,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
           {
@@ -66501,7 +66778,12 @@
           }
         ]
       },
-      "rank": 37
+      "rank": 37,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/afa4f887-88a1-4db4-9f0e-e966e1e44825"
+      }
     },
     {
       "id": "wayke:801f6ac9-2cd3-4243-b79d-1285ca04f633",
@@ -66654,10 +66936,10 @@
       },
       "brand": "Volkswagen",
       "economics": {
-        "total36Sek": 280962,
-        "monthlyEconomicSek": 7805,
-        "stressTotal36Sek": 326086,
-        "stressMonthlySek": 9058,
+        "total36Sek": 272538,
+        "monthlyEconomicSek": 7571,
+        "stressTotal36Sek": 305243,
+        "stressMonthlySek": 8479,
         "upfrontSek": 64850,
         "residual36Sek": 127000,
         "tradeIn36Sek": 110500,
@@ -66739,11 +67021,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20376,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
           {
@@ -68298,7 +68581,12 @@
           }
         ]
       },
-      "rank": 38
+      "rank": 38,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.volkswagen.se/sv/verkstad-service.html"
+      }
     },
     {
       "id": "wayke:6ecc9dcd-dab0-4597-be09-c3d725266702",
@@ -68459,10 +68747,10 @@
       },
       "brand": "Peugeot",
       "economics": {
-        "total36Sek": 284345,
-        "monthlyEconomicSek": 7898,
-        "stressTotal36Sek": 324179,
-        "stressMonthlySek": 9005,
+        "total36Sek": 275561,
+        "monthlyEconomicSek": 7654,
+        "stressTotal36Sek": 308628,
+        "stressMonthlySek": 8573,
         "upfrontSek": 65010,
         "residual36Sek": 117500,
         "tradeIn36Sek": 102000,
@@ -68544,11 +68832,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20016,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
           {
@@ -70103,7 +70392,12 @@
           }
         ]
       },
-      "rank": 39
+      "rank": 39,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702"
+      }
     },
     {
       "id": "wayke:4d1bf0f4-5830-4005-a676-c13110c09318",
@@ -70269,10 +70563,10 @@
       },
       "brand": "Volkswagen",
       "economics": {
-        "total36Sek": 288034,
-        "monthlyEconomicSek": 8001,
-        "stressTotal36Sek": 332395,
-        "stressMonthlySek": 9233,
+        "total36Sek": 279610,
+        "monthlyEconomicSek": 7767,
+        "stressTotal36Sek": 313163,
+        "stressMonthlySek": 8699,
         "upfrontSek": 65030,
         "residual36Sek": 130000,
         "tradeIn36Sek": 113000,
@@ -70354,11 +70648,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 28800,
+            "amountSek": 20376,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "800 kr/mån tills personlig offert finns."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
           {
@@ -71913,7 +72208,12 @@
           }
         ]
       },
-      "rank": 40
+      "rank": 40,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.volkswagen.se/sv/verkstad-service.html"
+      }
     }
   ],
   "leases": [
@@ -71993,10 +72293,10 @@
         }
       },
       "economics": {
-        "total36Sek": 206932,
-        "monthlyEconomicSek": 5748,
-        "stressTotal36Sek": 226965,
-        "stressMonthlySek": 6305,
+        "total36Sek": 203620,
+        "monthlyEconomicSek": 5656,
+        "stressTotal36Sek": 228054,
+        "stressMonthlySek": 6335,
         "upfrontSek": 15495,
         "residual36Sek": 0,
         "tradeIn36Sek": 0,
@@ -72056,11 +72356,12 @@
           {
             "key": "insurance",
             "label": "Försäkring",
-            "amountSek": 23400,
+            "amountSek": 20088,
             "evidence": {
               "status": "estimated",
-              "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
-              "note": "Personlig premie kräver offert; halvförsäkring antas under vagnskadegaranti."
+              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+              "checkedAt": "2026-09-10T15:46:56.901Z",
+              "note": "Hedvigs offentliga snitt för helförsäkring: 558 kr/mån (Toyota). Inte personlig offert."
             }
           },
           {
@@ -73076,7 +73377,12 @@
           "Försäkring, skatt, vinterhjul och återlämning är antaganden"
         ]
       },
-      "rank": 1
+      "rank": 1,
+      "enrichment": {
+        "status": "partially-verified",
+        "checkedAt": "2026-09-10T15:46:57.283Z",
+        "findingSource": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d"
+      }
     }
   ],
   "excludedPurchases": [],

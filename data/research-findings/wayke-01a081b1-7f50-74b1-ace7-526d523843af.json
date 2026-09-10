@@ -1,1 +1,50 @@
-{"offerId":"wayke:01a081b1-7f50-74b1-ace7-526d523843af","checkedAt":"2026-09-10T05:05:00.000Z","sourceUrl":"https://www.nissan.se/agarservice/service.html","notes":"Nissans primära servicesida ger generell serviceinformation men ingen verifierbar modell- och verkstadsoffert i detta flöde.","costs":{"service":{"amountSek":null,"status":"unknown","sourceUrl":"https://www.nissan.se/agarservice/service.html"},"insurance":{"amountSek":null,"status":"unknown","sourceUrl":"https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"},"winter":{"amountSek":null,"status":"unknown","sourceUrl":"https://www.dackonline.se/"},"tyres":{"amountSek":null,"status":"unknown","sourceUrl":"https://www.mekonomen.se/"},"repair":{"amountSek":null,"status":"unknown","sourceUrl":"https://www.nissan.se/agarservice/service.html"}}}
+{
+  "offerId": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
+  "checkedAt": "2026-09-10T15:46:56.901Z",
+  "sourceUrl": "https://www.nissan.se/agarservice/service.html",
+  "notes": "Nissans primära servicesida ger generell serviceinformation men ingen verifierbar modell- och verkstadsoffert i detta flöde.",
+  "costs": {
+    "service": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.nissan.se/agarservice/service.html"
+    },
+    "insurance": {
+      "amountSek": 20556,
+      "status": "estimated",
+      "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
+    },
+    "winter": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/"
+    },
+    "tyres": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/"
+    },
+    "repair": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.nissan.se/agarservice/service.html"
+    }
+  },
+  "status": "partially_verified",
+  "evidence": {
+    "tyreSwap": {
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Pris kunde inte läsas."
+    },
+    "tyreSearch": {
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Däckdimension saknas i sanerad registerdata."
+    }
+  }
+}

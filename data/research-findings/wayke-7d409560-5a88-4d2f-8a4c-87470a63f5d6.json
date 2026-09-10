@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-  "checkedAt": "2026-09-07T18:40:00.000Z",
+  "checkedAt": "2026-09-10T15:46:56.901Z",
   "sourceUrl": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/CG2147GBR-202211-20230207101401.pdf",
   "notes": "Ford anger huvudservice för Focus 1.0L EcoBoost bensin till 2 år/18 000 miles (cirka 2 år/29 000 km); exakt nästa förfallodatum och åtgärdslista kräver servicebok/FordPass och aktuell mätarställning. Fords svenska testfakta för Focus Active Kombi 1,0T EcoBoost 125 hk redovisar standarddäck 215/55 R17 94H, servicekostnad 16 887 kr till 6 000 mil, skatt 591 kr/år och försäkring 2 448 kr/år under angivna testantaganden. Dessa testbelopp är inte en personlig offert. If anger maskin- och elektronikskydd till 10 år/12 000 mil (halv-/helförsäkring) eller 10 år/15 000 mil (Stor), med exempel på motor, bränslesystem, kraftöverföring och styrväxel; personlig premie och exakt självrisk kräver offert. Dackonline visar vinterdäck i 215/55 R17 94H från cirka 1 625 kr/st inklusive moms/leverans vid kontrollen. Slitbana efter 36 månader, montering, reservdels- och verkstadspriser samt modellunika vanliga fel kan inte verifieras utan exakt däckvariant/verkstadshistorik; Ford hänvisar till registreringsnummer för återkallelsekontroll.",
   "costs": {
@@ -11,10 +11,11 @@
       "note": "Ford-testets kostnad till 6 000 mil för Focus Active Kombi 1,0T EcoBoost 125 hk; inte en variantmatchad offert och bilen i annonsen har gått 7 090 mil. Intervallkälla: 2 år/18 000 miles."
     },
     "insurance": {
-      "amountSek": 7344,
+      "amountSek": 18000,
       "status": "estimated",
-      "sourceUrl": "https://ford.se/media_assets/a7dfdb9f-9d80-4f86-b59b-ff9b3cb18f08",
-      "note": "Treårsprojektion av Fords testantagande 2 448 kr/år; personlig premie beror bland annat på förare, ort, körsträcka och skadehistorik. If:s maskinskadegränser och täckta komponenter är verifierade separat."
+      "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Hedvigs offentliga snitt för helförsäkring: 500 kr/mån (Ford). Inte personlig offert."
     },
     "tax": {
       "amountSek": 1773,
@@ -39,6 +40,21 @@
       "status": "estimated",
       "sourceUrl": "https://www.ford.co.uk/support/how-tos/recall/recalls-and-faqs/can-i-check-for-a-safety-recall-before-buying-a-ford-vehicle",
       "note": "Planeringsreserv, inte ett verifierat reparationspris. Ford kräver registreringsnummer för specifik återkallelsekontroll; primärkälla för variantens typiska fel, delar och arbetskostnad saknas."
+    }
+  },
+  "status": "partially_verified",
+  "evidence": {
+    "tyreSwap": {
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Pris kunde inte läsas."
+    },
+    "tyreSearch": {
+      "status": "partially_verified",
+      "sourceUrl": "https://www.dackonline.se/search?width=215&profile=55&size=17&searchByCar=true",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Däckdimension 215/55 R17 94 H; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
     }
   }
 }

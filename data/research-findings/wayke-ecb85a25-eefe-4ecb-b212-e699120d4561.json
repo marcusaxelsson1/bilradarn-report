@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
-  "checkedAt": "2026-09-07T21:45:00+02:00",
+  "checkedAt": "2026-09-10T15:46:56.901Z",
   "vehicle": {
     "title": "CUPRA Leon Sportstourer",
     "variant": "1.5/CUPRA Paket/Vision Plus/Full Link/",
@@ -11,29 +11,115 @@
   "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
   "notes": "CUPRA:s modell- och servicematerial verifierar 1.5 eTSI 150 DSG7 Sportstourer och serviceavtalets omfattning. Annonsen ger inte förstaregistreringsdatum, CO2-värde från registreringsuppgift, servicebok eller fysisk däckkontroll. Inga exakta verkstads-, försäkrings- eller däckpriser har hittats eller påståtts.",
   "service": {
-    "interval": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal", "note": "CUPRA hänvisar till bilens individuella serviceplan; fast intervall för detta exemplar kan inte styrkas utan VIN/servicebok." },
-    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal", "note": "Kräver senaste servicetidpunkt/miltal eller VIN-uppslag." },
-    "operations": { "value": "Service enligt CUPRA:s serviceplan; planerade tillägg kan omfatta tändstift, bränslefilter, luftfilter och bromsvätska", "status": "verified", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal", "note": "CUPRA listar dessa som exempel på tilläggsarbeten vid planerade intervaller; exakt åtgärdslista beror på serviceplanen." },
-    "priceAuthorized": { "value": null, "status": "estimated", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal", "note": "Ingen offentlig fast prislista för begagnat exemplar; auktoriserad offert krävs." },
-    "priceIndependent": { "value": null, "status": "estimated", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal", "note": "Lokal oberoende verkstadsoffert krävs." },
-    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal", "note": "Ingen offert att kontrollera." },
-    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal", "note": "Serviceavtalet anger 36 månader/3 000 mil för bilar ordertecknade från 1 mars 2023, men storservicepunkt för just denna bil kan inte verifieras." }
+    "interval": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal",
+      "note": "CUPRA hänvisar till bilens individuella serviceplan; fast intervall för detta exemplar kan inte styrkas utan VIN/servicebok."
+    },
+    "nextDue": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal",
+      "note": "Kräver senaste servicetidpunkt/miltal eller VIN-uppslag."
+    },
+    "operations": {
+      "value": "Service enligt CUPRA:s serviceplan; planerade tillägg kan omfatta tändstift, bränslefilter, luftfilter och bromsvätska",
+      "status": "verified",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal",
+      "note": "CUPRA listar dessa som exempel på tilläggsarbeten vid planerade intervaller; exakt åtgärdslista beror på serviceplanen."
+    },
+    "priceAuthorized": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal",
+      "note": "Ingen offentlig fast prislista för begagnat exemplar; auktoriserad offert krävs."
+    },
+    "priceIndependent": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal",
+      "note": "Lokal oberoende verkstadsoffert krävs."
+    },
+    "priceIncludesVat": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal",
+      "note": "Ingen offert att kontrollera."
+    },
+    "largeServiceAfter36Months": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal",
+      "note": "Serviceavtalet anger 36 månader/3 000 mil för bilar ordertecknade från 1 mars 2023, men storservicepunkt för just denna bil kan inte verifieras."
+    }
   },
   "insurance": {
-    "annualPremiumRange": { "value": null, "status": "estimated", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premien är personlig och beror bland annat på förare, ort, omfattning och skadehistorik; offert krävs." },
-    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "machineDamageMaxMileage": { "value": "12 000 mil (halv-/helförsäkring); 15 000 mil (Stor bilförsäkring)", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Självrisk beror på valt bolag och produkt." },
-    "coveredComponents": { "value": "Exempel enligt If: motor, motorns kylsystem, bränslesystem, hybridbatteri (inte lågvoltsbatteri), kraftöverföring, styrväxel, krockkuddesystem och vissa elektronikkomponenter.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
+    "annualPremiumRange": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
+      "note": "Premien är personlig och beror bland annat på förare, ort, omfattning och skadehistorik; offert krävs."
+    },
+    "machineDamageMaxAge": {
+      "value": "10 år",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "machineDamageMaxMileage": {
+      "value": "12 000 mil (halv-/helförsäkring); 15 000 mil (Stor bilförsäkring)",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "deductible": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring",
+      "note": "Självrisk beror på valt bolag och produkt."
+    },
+    "coveredComponents": {
+      "value": "Exempel enligt If: motor, motorns kylsystem, bränslesystem, hybridbatteri (inte lågvoltsbatteri), kraftöverföring, styrväxel, krockkuddesystem och vissa elektronikkomponenter.",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
     "personalQuoteRequired": true
   },
   "tyres": {
-    "dimension": { "value": "225/40 R18 92Y XL förekommer för CUPRA Leon Sportstourer 1.5 eTSI; aktuell bil måste kontrolleras mot däcksida/CoC.", "status": "partially_verified", "sourceUrl": "https://www.cupraofficial.com/content/dam/public/cupra-website/generic/pdf/cupra-leon-brochure2023.pdf", "note": "Broschyren bekräftar 18-tumshjul för 150 hk bensinvariant men exemplarens exakta däckdimension kan variera med hjulval." },
-    "loadIndex": { "value": "92 (för 225/40 R18), om denna hjulkonfiguration sitter på bilen", "status": "partially_verified", "sourceUrl": "https://www.cupraofficial.com/content/dam/public/cupra-website/generic/pdf/cupra-leon-brochure2023.pdf" },
-    "completeSetPrice": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Pris kräver verifierad dimension, fabrikat och belastnings-/hastighetsindex." },
-    "mountingPrice": { "value": null, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Lokalt pris/offert krävs." },
-    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/", "note": "Återstående livslängd kräver fysisk mätning och däckålder." },
-    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Beror på skick, körsträcka och marknad; ingen primär fast värdering." }
+    "dimension": {
+      "value": "225/40 R18 92Y XL förekommer för CUPRA Leon Sportstourer 1.5 eTSI; aktuell bil måste kontrolleras mot däcksida/CoC.",
+      "status": "partially_verified",
+      "sourceUrl": "https://www.cupraofficial.com/content/dam/public/cupra-website/generic/pdf/cupra-leon-brochure2023.pdf",
+      "note": "Broschyren bekräftar 18-tumshjul för 150 hk bensinvariant men exemplarens exakta däckdimension kan variera med hjulval."
+    },
+    "loadIndex": {
+      "value": "92 (för 225/40 R18), om denna hjulkonfiguration sitter på bilen",
+      "status": "partially_verified",
+      "sourceUrl": "https://www.cupraofficial.com/content/dam/public/cupra-website/generic/pdf/cupra-leon-brochure2023.pdf"
+    },
+    "completeSetPrice": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Pris kräver verifierad dimension, fabrikat och belastnings-/hastighetsindex."
+    },
+    "mountingPrice": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.mekonomen.se/",
+      "note": "Lokalt pris/offert krävs."
+    },
+    "treadLife": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/",
+      "note": "Återstående livslängd kräver fysisk mätning och däckålder."
+    },
+    "valueAtMonth36": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Beror på skick, körsträcka och marknad; ingen primär fast värdering."
+    }
   },
   "tax": {
     "annualAmountSek": null,
@@ -42,18 +128,89 @@
     "note": "Exakt skatt kräver JUS52N:s registrerade CO2-värde och förstaregistreringsdatum. För bensin/hybrid tagen i trafik 1 juni 2022 eller senare anger Transportstyrelsen 360 kr grundbelopp samt 107 kr/g över 75–125 g/km och 132 kr/g över 125 g/km under malusperioden; malus gäller i tre år. CUPRA:s bränsledeklaration visar 1.5 eTSI 150 DSG7 för Sportstourer men ersätter inte registeruppgiften för detta exemplar."
   },
   "repairs": {
-    "commonFailures": { "value": null, "status": "unknown", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier", "note": "Ingen tillförlitlig, variantunik primärkälla med felfrekvenser hittad." },
-    "partsPrice": { "value": null, "status": "estimated", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier", "note": "Del och specifik reparation saknas; ingen exakt prisuppgift." },
-    "laborPriceAuthorized": { "value": null, "status": "estimated", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier", "note": "Auktoriserad verkstadsoffert krävs." },
-    "laborPriceIndependent": { "value": null, "status": "estimated", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier", "note": "Lokal oberoende verkstadsoffert krävs." },
-    "threeYearReserve": { "value": null, "status": "estimated", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier", "note": "Ingen exakt reserv kan styrkas utan historik, skick och offerter." }
+    "commonFailures": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier",
+      "note": "Ingen tillförlitlig, variantunik primärkälla med felfrekvenser hittad."
+    },
+    "partsPrice": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier",
+      "note": "Del och specifik reparation saknas; ingen exakt prisuppgift."
+    },
+    "laborPriceAuthorized": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier",
+      "note": "Auktoriserad verkstadsoffert krävs."
+    },
+    "laborPriceIndependent": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier",
+      "note": "Lokal oberoende verkstadsoffert krävs."
+    },
+    "threeYearReserve": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier",
+      "note": "Ingen exakt reserv kan styrkas utan historik, skick och offerter."
+    }
   },
   "costs": {
-    "service": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal", "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad." },
-    "insurance": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Personlig premie krävs." },
-    "tax": { "amountSek": 0, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/", "note": "CO2- och registeruppgift saknas." },
-    "winter": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Dimension och offert saknas." },
-    "tyres": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.mekonomen.se/", "note": "Montering/slitage kan inte verifieras." },
-    "repair": { "amountSek": 0, "status": "estimated", "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier", "note": "Ingen modellstatistik eller offert." }
+    "service": {
+      "amountSek": 0,
+      "status": "estimated",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal",
+      "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad."
+    },
+    "insurance": {
+      "amountSek": 20808,
+      "status": "estimated",
+      "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
+    },
+    "tax": {
+      "amountSek": 0,
+      "status": "unknown",
+      "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
+      "note": "CO2- och registeruppgift saknas."
+    },
+    "winter": {
+      "amountSek": 0,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Dimension och offert saknas."
+    },
+    "tyres": {
+      "amountSek": 0,
+      "status": "estimated",
+      "sourceUrl": "https://www.mekonomen.se/",
+      "note": "Montering/slitage kan inte verifieras."
+    },
+    "repair": {
+      "amountSek": 0,
+      "status": "estimated",
+      "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier",
+      "note": "Ingen modellstatistik eller offert."
+    }
+  },
+  "status": "partially_verified",
+  "evidence": {
+    "tyreSwap": {
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Pris kunde inte läsas."
+    },
+    "tyreSearch": {
+      "status": "partially_verified",
+      "sourceUrl": "https://www.dackonline.se/search?width=225&profile=40&size=18&searchByCar=true",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Däckdimension 225/40 R18 92Y XL; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
+    }
   }
 }

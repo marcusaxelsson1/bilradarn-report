@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:afa4f887-88a1-4db4-9f0e-e966e1e44825",
-  "checkedAt": "2026-09-07T21:15:00+02:00",
+  "checkedAt": "2026-09-10T15:46:56.901Z",
   "vehicle": {
     "title": "Peugeot 5008",
     "variant": "1.2 PureTech (130hk) GT-Line",
@@ -10,41 +10,165 @@
   },
   "notes": "Peugeots officiella 5008-specifikation bekräftar 1.2 PureTech 130 EAT8 och 225/55 R18 V som modellalternativ. ServiceBox kräver VIN, användningsprofil, ålder och miltal för exakt plan; annonsen ger inte servicehistorik. Exakta svenska priser, personlig försäkringspremie/självrisk, däckindex och skatt kunde inte verifieras.",
   "service": {
-    "interval": { "value": "Exakt intervall är VIN- och användningsprofilberoende; Peugeot ServiceBoxs serviceplansökning kräver VIN/VIS, användningsförhållanden, fordonsålder och miltal. Peugeots aktuella bensinreferens är 1 år/12 500 miles (ca 20 000 km), men bör inte överföras som exakt svensk plan utan VIN/servicebok.", "status": "partially_verified", "sourceUrl": "https://public.servicebox.peugeot.com/aides/DOC_OI/AP/documents/en_GB/AIDE/9941/plan_entretien_apoi.html?id=sous_menu2%7C2_12" },
-    "nextDue": { "value": "Kan inte fastställas från annonsens modellår och mätarställning; kräver senast utförd service och VIN/servicebok.", "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
-    "operations": { "value": "Exakta operationer hämtas ur Peugeot ServiceBoxs VIN-baserade underhållsplan; ingen variantunik plan eller servicehistorik är offentlig i annonsen.", "status": "unknown", "sourceUrl": "https://public.servicebox.peugeot.com/aides/DOC_OI/AP/documents/en_GB/AIDE/9941/plan_entretien_apoi.html?id=sous_menu2%7C2_12" },
-    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
-    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
-    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
-    "largeServiceAfter36Months": { "value": "Ingen offentlig, VIN- och svenskprisverifierad 36-månaders storservice hittad.", "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" }
+    "interval": {
+      "value": "Exakt intervall är VIN- och användningsprofilberoende; Peugeot ServiceBoxs serviceplansökning kräver VIN/VIS, användningsförhållanden, fordonsålder och miltal. Peugeots aktuella bensinreferens är 1 år/12 500 miles (ca 20 000 km), men bör inte överföras som exakt svensk plan utan VIN/servicebok.",
+      "status": "partially_verified",
+      "sourceUrl": "https://public.servicebox.peugeot.com/aides/DOC_OI/AP/documents/en_GB/AIDE/9941/plan_entretien_apoi.html?id=sous_menu2%7C2_12"
+    },
+    "nextDue": {
+      "value": "Kan inte fastställas från annonsens modellår och mätarställning; kräver senast utförd service och VIN/servicebok.",
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"
+    },
+    "operations": {
+      "value": "Exakta operationer hämtas ur Peugeot ServiceBoxs VIN-baserade underhållsplan; ingen variantunik plan eller servicehistorik är offentlig i annonsen.",
+      "status": "unknown",
+      "sourceUrl": "https://public.servicebox.peugeot.com/aides/DOC_OI/AP/documents/en_GB/AIDE/9941/plan_entretien_apoi.html?id=sous_menu2%7C2_12"
+    },
+    "priceAuthorized": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"
+    },
+    "priceIndependent": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"
+    },
+    "priceIncludesVat": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"
+    },
+    "largeServiceAfter36Months": {
+      "value": "Ingen offentlig, VIN- och svenskprisverifierad 36-månaders storservice hittad.",
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"
+    }
   },
   "insurance": {
-    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premien är individuell och kräver offert." },
-    "machineDamageMaxAge": { "value": "10 år", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "machineDamageMaxMileage": { "value": "12 000 mil för halv-/helf försäkring; 15 000 mil för Stor bilförsäkring", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "deductible": { "value": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "coveredComponents": { "value": "If anger bland annat motor, motorns kylsystem, bränslesystem, kraftöverföring, styrväxel, krockkuddesystem och vissa elektronikkomponenter; full omfattning styrs av villkoren.", "status": "verified", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring" },
-    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+    "annualPremiumRange": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
+      "note": "Premien är individuell och kräver offert."
+    },
+    "machineDamageMaxAge": {
+      "value": "10 år",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "machineDamageMaxMileage": {
+      "value": "12 000 mil för halv-/helf försäkring; 15 000 mil för Stor bilförsäkring",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "deductible": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "coveredComponents": {
+      "value": "If anger bland annat motor, motorns kylsystem, bränslesystem, kraftöverföring, styrväxel, krockkuddesystem och vissa elektronikkomponenter; full omfattning styrs av villkoren.",
+      "status": "verified",
+      "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring"
+    },
+    "personalQuoteRequired": {
+      "value": true,
+      "status": "verified",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+    }
   },
   "tyres": {
-    "dimension": { "value": "225/55 R18 V (modell-/motoralternativ i officiell 5008-specifikation; kontrollera bilens CoC/registrerade däck för JAJ07D)", "status": "partially_verified", "sourceUrl": "https://www.peugeot.co.uk/content/dam/peugeot/uk/b2c/buy/price-and-spec-guides/pdfs/PEUGEOT%205008%20-%202022%20%28F4%29%20MY%20-%20Version%202.4.2%20-%201st%20November%202022.pdf" },
-    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.co.uk/content/dam/peugeot/uk/b2c/buy/price-and-spec-guides/pdfs/PEUGEOT%205008%20-%202022%20%28F4%29%20MY%20-%20Version%202.4.2%20-%201st%20November%202022.pdf" },
-    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/" },
-    "mountingPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/" },
-    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/", "note": "Kräver fysisk mätning av aktuell uppsättning." },
-    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen prognos utan inköpspris, mönsterdjup och körprofil." }
+    "dimension": {
+      "value": "225/55 R18 V (modell-/motoralternativ i officiell 5008-specifikation; kontrollera bilens CoC/registrerade däck för JAJ07D)",
+      "status": "partially_verified",
+      "sourceUrl": "https://www.peugeot.co.uk/content/dam/peugeot/uk/b2c/buy/price-and-spec-guides/pdfs/PEUGEOT%205008%20-%202022%20%28F4%29%20MY%20-%20Version%202.4.2%20-%201st%20November%202022.pdf"
+    },
+    "loadIndex": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.co.uk/content/dam/peugeot/uk/b2c/buy/price-and-spec-guides/pdfs/PEUGEOT%205008%20-%202022%20%28F4%29%20MY%20-%20Version%202.4.2%20-%201st%20November%202022.pdf"
+    },
+    "completeSetPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/"
+    },
+    "mountingPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/"
+    },
+    "treadLife": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/",
+      "note": "Kräver fysisk mätning av aktuell uppsättning."
+    },
+    "valueAtMonth36": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Ingen prognos utan inköpspris, mönsterdjup och körprofil."
+    }
   },
   "repairs": {
-    "commonFailures": { "value": "Stellantis/Peugeot har beskrivit tidigare generationer av 1.2 PureTech-problem kring för tidig kamremsnedbrytning och följande oljetrycksproblem; exakt motor-/produktionsgeneration för JAJ07D kräver VIN och tillämplighet är därför inte fastställd.", "status": "partially_verified", "sourceUrl": "https://www.peugeot.co.uk/owners/puretech-engines-solutions.html" },
-    "partsPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
-    "laborPriceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
-    "laborPriceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.peugeot.se/service-och-underhall.html" },
-    "threeYearReserve": { "value": null, "status": "estimated", "note": "Ingen exakt reserv anges utan verifierad felrisk, servicehistorik och offert." }
+    "commonFailures": {
+      "value": "Stellantis/Peugeot har beskrivit tidigare generationer av 1.2 PureTech-problem kring för tidig kamremsnedbrytning och följande oljetrycksproblem; exakt motor-/produktionsgeneration för JAJ07D kräver VIN och tillämplighet är därför inte fastställd.",
+      "status": "partially_verified",
+      "sourceUrl": "https://www.peugeot.co.uk/owners/puretech-engines-solutions.html"
+    },
+    "partsPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"
+    },
+    "laborPriceAuthorized": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"
+    },
+    "laborPriceIndependent": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.peugeot.se/service-och-underhall.html"
+    },
+    "threeYearReserve": {
+      "value": null,
+      "status": "estimated",
+      "note": "Ingen exakt reserv anges utan verifierad felrisk, servicehistorik och offert."
+    }
   },
   "tax": {
     "annualAmountSek": null,
     "status": "unknown",
     "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
     "note": "Transportstyrelsen anger att skatt baseras på registrerat CO2-värde och att malus kan gälla i tre år; exakt JAJ07D-belopp kräver fordonsuppgiftssökning/registrerat CO2-värde."
+  },
+  "sourceUrl": "https://www.wayke.se/objekt/afa4f887-88a1-4db4-9f0e-e966e1e44825",
+  "status": "partially_verified",
+  "costs": {
+    "insurance": {
+      "amountSek": 20016,
+      "status": "estimated",
+      "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
+    }
+  },
+  "evidence": {
+    "tyreSwap": {
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Pris kunde inte läsas."
+    },
+    "tyreSearch": {
+      "status": "partially_verified",
+      "sourceUrl": "https://www.dackonline.se/search?width=225&profile=55&size=18&searchByCar=true",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Däckdimension 225/55 R18; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
+    }
   }
 }

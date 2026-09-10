@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:b27fdcad-e911-437d-8b49-f3fd2469e225",
-  "checkedAt": "2026-09-07T18:55:00.000Z",
+  "checkedAt": "2026-09-10T15:46:56.901Z",
   "vehicle": {
     "title": "Kia Ceed Sportswagon",
     "variant": "1.5 T-GDI",
@@ -10,41 +10,171 @@
   },
   "notes": "Kias officiella källor verifierar serviceintervall, serviceinnehåll och 205/55R16 för Ceed SW 1.5 T-GDi. Individuell offert, exakt nästa servicedatum, faktisk däckspecifikation/skick och exakt fordonsskatt kräver servicebok, fordonsuppgift eller offert. Inga modellunika reparationsfrekvenser eller verkstadstaxor kunde styrkas med primärkälla.",
   "service": {
-    "interval": { "value": "1 500 mil eller 12 månader, det som inträffar först", "status": "verified", "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/" },
-    "nextDue": { "value": null, "status": "unknown", "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/", "note": "Första trafikdatum och servicehistorik saknas." },
-    "operations": { "value": "Beroende på årsmodell och miltal kan Kia Originalservice omfatta motorolja/oljefilter, luft- och kupéfilter, bromsvätska samt kontroller av bl.a. däck, bromsar, styrning, chassi och drivaxlar.", "status": "partially_verified", "sourceUrl": "https://www.kia.com/se/aga/kias-servicelofte/service-promise/" },
-    "priceAuthorized": { "value": null, "status": "unknown", "sourceUrl": "https://www.kia.com/se/aga/kias-servicelofte/service-promise/", "note": "Kia kräver årsmodell, registreringsnummer och miltal för korrekt prisuppgift." },
-    "priceIndependent": { "value": null, "status": "unknown", "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceavtal/" },
-    "priceIncludesVat": { "value": null, "status": "unknown", "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceavtal/", "note": "Ingen variantmatchad serviceoffert." },
-    "largeServiceAfter36Months": { "value": null, "status": "unknown", "sourceUrl": "https://www.kia.com/se/aga/kias-servicelofte/service-promise/", "note": "Ingen separat 36-månaders storservice publicerad för just detta exemplar." }
+    "interval": {
+      "value": "1 500 mil eller 12 månader, det som inträffar först",
+      "status": "verified",
+      "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/"
+    },
+    "nextDue": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/",
+      "note": "Första trafikdatum och servicehistorik saknas."
+    },
+    "operations": {
+      "value": "Beroende på årsmodell och miltal kan Kia Originalservice omfatta motorolja/oljefilter, luft- och kupéfilter, bromsvätska samt kontroller av bl.a. däck, bromsar, styrning, chassi och drivaxlar.",
+      "status": "partially_verified",
+      "sourceUrl": "https://www.kia.com/se/aga/kias-servicelofte/service-promise/"
+    },
+    "priceAuthorized": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.kia.com/se/aga/kias-servicelofte/service-promise/",
+      "note": "Kia kräver årsmodell, registreringsnummer och miltal för korrekt prisuppgift."
+    },
+    "priceIndependent": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceavtal/"
+    },
+    "priceIncludesVat": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceavtal/",
+      "note": "Ingen variantmatchad serviceoffert."
+    },
+    "largeServiceAfter36Months": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.kia.com/se/aga/kias-servicelofte/service-promise/",
+      "note": "Ingen separat 36-månaders storservice publicerad för just detta exemplar."
+    }
   },
   "insurance": {
-    "annualPremiumRange": { "value": null, "status": "unknown", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/", "note": "Premie är individuell och kräver offert." },
-    "machineDamageMaxAge": { "value": "Vanligtvis 8–12 år (bolagsvillkor varierar)", "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" },
-    "machineDamageMaxMileage": { "value": "Vanligtvis 10 000–15 000 mil (bolagsvillkor varierar)", "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" },
-    "deductible": { "value": "Varierar med bolag, bilens ålder och körsträcka", "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" },
-    "coveredComponents": { "value": "Maskinskadeförsäkring kan omfatta motor, elektronik, växellåda och klimatanläggning enligt respektive villkor", "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" },
-    "personalQuoteRequired": { "value": true, "status": "verified", "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/" }
+    "annualPremiumRange": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/",
+      "note": "Premie är individuell och kräver offert."
+    },
+    "machineDamageMaxAge": {
+      "value": "Vanligtvis 8–12 år (bolagsvillkor varierar)",
+      "status": "verified",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+    },
+    "machineDamageMaxMileage": {
+      "value": "Vanligtvis 10 000–15 000 mil (bolagsvillkor varierar)",
+      "status": "verified",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+    },
+    "deductible": {
+      "value": "Varierar med bolag, bilens ålder och körsträcka",
+      "status": "verified",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+    },
+    "coveredComponents": {
+      "value": "Maskinskadeförsäkring kan omfatta motor, elektronik, växellåda och klimatanläggning enligt respektive villkor",
+      "status": "verified",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+    },
+    "personalQuoteRequired": {
+      "value": true,
+      "status": "verified",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+    }
   },
   "tyres": {
-    "dimension": { "value": "205/55 R16", "status": "verified", "sourceUrl": "https://www.kia.com/api/bin/docDownload?locale=se&path=/content/dam/kwcms/kme/se/sv/assets/contents/utility/specifications/ceed-sw/kia-sweden-new-ceed-sw-specification.pdf&program=brochure", "note": "Kia-specifikation för Ceed SW 1.5 T-GDi; kontrollera bilens märkning eftersom utrustningsnivå kan ändra hjul." },
-    "loadIndex": { "value": null, "status": "unknown", "sourceUrl": "https://www.kia.com/api/bin/docDownload?locale=se&path=/content/dam/kwcms/kme/se/sv/assets/contents/utility/specifications/ceed-sw/kia-sweden-new-ceed-sw-specification.pdf&program=brochure" },
-    "completeSetPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Ingen datum- och variantverifierad prisoffert." },
-    "mountingPrice": { "value": null, "status": "unknown", "sourceUrl": "https://www.mekonomen.se/" },
-    "treadLife": { "value": null, "status": "unknown", "sourceUrl": "https://www.kia.com/se/aga/kias-servicelofte/service-promise/", "note": "Kräver mätning av aktuella däck." },
-    "valueAtMonth36": { "value": null, "status": "estimated", "sourceUrl": "https://www.dackonline.se/", "note": "Restvärde kan inte verifieras utan däckvariant, ålder och skick." }
+    "dimension": {
+      "value": "205/55 R16",
+      "status": "verified",
+      "sourceUrl": "https://www.kia.com/api/bin/docDownload?locale=se&path=/content/dam/kwcms/kme/se/sv/assets/contents/utility/specifications/ceed-sw/kia-sweden-new-ceed-sw-specification.pdf&program=brochure",
+      "note": "Kia-specifikation för Ceed SW 1.5 T-GDi; kontrollera bilens märkning eftersom utrustningsnivå kan ändra hjul."
+    },
+    "loadIndex": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.kia.com/api/bin/docDownload?locale=se&path=/content/dam/kwcms/kme/se/sv/assets/contents/utility/specifications/ceed-sw/kia-sweden-new-ceed-sw-specification.pdf&program=brochure"
+    },
+    "completeSetPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Ingen datum- och variantverifierad prisoffert."
+    },
+    "mountingPrice": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/"
+    },
+    "treadLife": {
+      "value": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.kia.com/se/aga/kias-servicelofte/service-promise/",
+      "note": "Kräver mätning av aktuella däck."
+    },
+    "valueAtMonth36": {
+      "value": null,
+      "status": "estimated",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Restvärde kan inte verifieras utan däckvariant, ålder och skick."
+    }
   },
   "repairs": {
-    "commonFailures": { "value": null, "status": "unknown", "note": "Ingen primärkälla med variantunika felfrekvenser hittad." },
-    "partsPrice": { "value": null, "status": "unknown", "note": "Kräver VIN-/delmatchad offert." },
-    "laborPriceAuthorized": { "value": null, "status": "unknown", "note": "Ingen offentlig variantmatchad Kia-taxa." },
-    "laborPriceIndependent": { "value": null, "status": "unknown", "note": "Ingen offentlig verkstadsoffert." },
-    "threeYearReserve": { "value": null, "status": "estimated", "note": "Planeringsreserv lämnas obelagd eftersom den inte kan härledas från primärkälla utan att hitta på belopp." }
+    "commonFailures": {
+      "value": null,
+      "status": "unknown",
+      "note": "Ingen primärkälla med variantunika felfrekvenser hittad."
+    },
+    "partsPrice": {
+      "value": null,
+      "status": "unknown",
+      "note": "Kräver VIN-/delmatchad offert."
+    },
+    "laborPriceAuthorized": {
+      "value": null,
+      "status": "unknown",
+      "note": "Ingen offentlig variantmatchad Kia-taxa."
+    },
+    "laborPriceIndependent": {
+      "value": null,
+      "status": "unknown",
+      "note": "Ingen offentlig verkstadsoffert."
+    },
+    "threeYearReserve": {
+      "value": null,
+      "status": "estimated",
+      "note": "Planeringsreserv lämnas obelagd eftersom den inte kan härledas från primärkälla utan att hitta på belopp."
+    }
   },
   "tax": {
     "annualAmountSek": null,
     "status": "unknown",
     "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
     "note": "Exakt skatt ska hämtas i Transportstyrelsens fordonsuppgift; modellbroschyrns aktuella skattetabell är inte tillräcklig för 2022-exemplaret."
+  },
+  "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
+  "status": "partially_verified",
+  "costs": {
+    "insurance": {
+      "amountSek": 18288,
+      "status": "estimated",
+      "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Hedvigs offentliga snitt för helförsäkring: 508 kr/mån (Kia). Inte personlig offert."
+    }
+  },
+  "evidence": {
+    "tyreSwap": {
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Pris kunde inte läsas."
+    },
+    "tyreSearch": {
+      "status": "partially_verified",
+      "sourceUrl": "https://www.dackonline.se/search?width=225&profile=45&size=17&searchByCar=true",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Däckdimension 225/45R1791W; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
+    }
   }
 }

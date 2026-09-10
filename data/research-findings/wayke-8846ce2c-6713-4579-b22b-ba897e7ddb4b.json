@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:8846ce2c-6713-4579-b22b-ba897e7ddb4b",
-  "checkedAt": "2026-09-07T21:25:00+02:00",
+  "checkedAt": "2026-09-10T15:46:56.901Z",
   "sourceUrl": "https://www.wayke.se/objekt/8846ce2c-6713-4579-b22b-ba897e7ddb4b",
   "vehicle": {
     "title": "Nissan Qashqai",
@@ -159,9 +159,45 @@
     }
   },
   "costs": {
-    "service": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.nissan.se/aga/service.html", "note": "Intervall verifierat; pris saknas." },
-    "insurance": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Villkorsgränser verifierade; personlig premie saknas." },
-    "tax": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/", "note": "Registeruppgift/CO2 behövs." },
-    "tyres": { "amountSek": null, "status": "unknown", "sourceUrl": "https://www.dackonline.se/", "note": "Referensdimension finns; offert saknas." }
+    "service": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.nissan.se/aga/service.html",
+      "note": "Intervall verifierat; pris saknas."
+    },
+    "insurance": {
+      "amountSek": 20556,
+      "status": "estimated",
+      "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
+    },
+    "tax": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
+      "note": "Registeruppgift/CO2 behövs."
+    },
+    "tyres": {
+      "amountSek": null,
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/",
+      "note": "Referensdimension finns; offert saknas."
+    }
+  },
+  "status": "partially_verified",
+  "evidence": {
+    "tyreSwap": {
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Pris kunde inte läsas."
+    },
+    "tyreSearch": {
+      "status": "partially_verified",
+      "sourceUrl": "https://www.dackonline.se/search?width=215&profile=60&size=17&searchByCar=true",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Däckdimension 215/60R17 85U; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
+    }
   }
 }

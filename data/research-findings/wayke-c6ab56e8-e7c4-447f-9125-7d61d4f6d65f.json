@@ -1,11 +1,42 @@
 {
   "offerId": "wayke:c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-  "checkedAt": "2026-09-07T16:40:00.000Z",
+  "checkedAt": "2026-09-10T15:46:56.901Z",
   "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html",
   "notes": "Hyundai hänvisar serviceplanen till modellens serviceprogram/myHyundai. Annonsen saknar registreringsnummer och servicebok, därför används inga påhittade prisbelopp.",
   "costs": {
-    "service": { "amountSek": 15500, "status": "observed", "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html", "note": "Tillverkarens servicekälla identifierad; exakt intervall och offert återstår." },
-    "insurance": { "amountSek": 25200, "status": "estimated", "sourceUrl": "https://www.if.se/privat/forsakringar/bilforsakring/maskinskadeforsakring", "note": "Villkorsgräns verifierad men personlig premie saknas." },
-    "tax": { "amountSek": 2700, "status": "estimated", "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/", "note": "Registreringsnummer saknas." }
+    "service": {
+      "amountSek": 15500,
+      "status": "observed",
+      "sourceUrl": "https://www.hyundai.com/se/sv/agare/ager-en-hyundai/service-och-underhaall/fria-verkstaeder.html",
+      "note": "Tillverkarens servicekälla identifierad; exakt intervall och offert återstår."
+    },
+    "insurance": {
+      "amountSek": 20808,
+      "status": "estimated",
+      "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
+    },
+    "tax": {
+      "amountSek": 2700,
+      "status": "estimated",
+      "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
+      "note": "Registreringsnummer saknas."
+    }
+  },
+  "status": "partially_verified",
+  "evidence": {
+    "tyreSwap": {
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Pris kunde inte läsas."
+    },
+    "tyreSearch": {
+      "status": "partially_verified",
+      "sourceUrl": "https://www.dackonline.se/search?width=205&profile=55&size=16&searchByCar=true",
+      "checkedAt": "2026-09-10T15:46:56.901Z",
+      "note": "Däckdimension 205/55 R16 91V; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
+    }
   }
 }
