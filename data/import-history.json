@@ -446,5 +446,24 @@
       }
     ],
     "errors": []
+  },
+  {
+    "generatedAt": "2026-09-10T15:19:56.828Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
+        "title": "Volkswagen Golf Sportscombi",
+        "at": "2026-09-10T15:19:56.828Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:25503fa4-4bf2-4912-8d50-eb6be87c8c81",
+        "title": "Volkswagen Golf Sportscombi",
+        "at": "2026-09-10T15:20:40.928Z"
+      }
+    ],
+    "errors": []
   }
 ]

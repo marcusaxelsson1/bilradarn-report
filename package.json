@@ -13,6 +13,7 @@
     "data:report": "node scripts/build-report.mjs",
     "data:queue": "node scripts/build-research-queue.mjs",
     "data:images": "node scripts/cache-images.mjs",
+    "data:pipeline": "node scripts/run-data-pipeline.mjs",
     "data:refresh": "npm run data:import && npm run data:lease && npm run data:report && npm run data:queue && npm run data:images",
     "test:data": "node --test tests/import-wayke.test.mjs",
     "test:economics": "node --test tests/report.test.mjs",

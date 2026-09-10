@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T15:15:31.575Z",
+  "generatedAt": "2026-09-10T15:20:47.028Z",
   "horizonMonths": 36,
   "annualMileageMil": 1500,
   "tasks": [
@@ -1391,18 +1391,18 @@
       "instruction": "Researchera Hyundai i30 Kombi 1.5 T-GDi DCT N-Line Drag 1 Ägare (2021, 9500 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
     },
     {
-      "id": "wayke:25503fa4-4bf2-4912-8d50-eb6be87c8c81",
+      "id": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
       "title": "Volkswagen Golf Sportscombi",
-      "variant": "1.5 eTSI Värmare Drag Backkamera Garanti",
-      "registrationNumber": "PZT17L",
-      "modelYear": 2023,
-      "mileageMil": 8230,
-      "sourceUrl": "https://www.wayke.se/objekt/25503fa4-4bf2-4912-8d50-eb6be87c8c81",
+      "variant": "1.5 eTSI DSG VÄRMARE DRAG NAV",
+      "registrationNumber": "PXO072",
+      "modelYear": 2021,
+      "mileageMil": 9600,
+      "sourceUrl": "https://www.wayke.se/objekt/b3482c14-7a8e-48ba-931d-7c731b0cd61e",
       "enrichmentRequest": {
-        "offerId": "wayke:25503fa4-4bf2-4912-8d50-eb6be87c8c81",
-        "registrationNumber": "PZT17L",
-        "vin": "WVWZZZCD1PW547687",
-        "sourceUrl": "https://www.wayke.se/objekt/25503fa4-4bf2-4912-8d50-eb6be87c8c81",
+        "offerId": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
+        "registrationNumber": "PXO072",
+        "vin": "WVWZZZCDZMW803981",
+        "sourceUrl": "https://www.wayke.se/objekt/b3482c14-7a8e-48ba-931d-7c731b0cd61e",
         "checkedAt": null,
         "providers": {
           "registry": {
@@ -1487,7 +1487,7 @@
           ]
         }
       },
-      "instruction": "Researchera Volkswagen Golf Sportscombi 1.5 eTSI Värmare Drag Backkamera Garanti (2023, 8230 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera Volkswagen Golf Sportscombi 1.5 eTSI DSG VÄRMARE DRAG NAV (2021, 9600 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
     },
     {
       "id": "wayke:a8afb359-cd68-4bb3-a577-3cb7541099db",
@@ -2383,7 +2383,7 @@
     {
       "id": "wayke:8f935ae8-8293-4ad7-82fd-3a73de4cff29",
       "title": "Peugeot 3008",
-      "variant": "1.2 GT Leasebar Drag Kamera Döda-vinkel var",
+      "variant": "1.2 GT LEASING Drag Kamera Döda-vinkel var",
       "registrationNumber": "NEM59A",
       "modelYear": 2023,
       "mileageMil": 5995,
@@ -2477,7 +2477,7 @@
           ]
         }
       },
-      "instruction": "Researchera Peugeot 3008 1.2 GT Leasebar Drag Kamera Döda-vinkel var (2023, 5995 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
+      "instruction": "Researchera Peugeot 3008 1.2 GT LEASING Drag Kamera Döda-vinkel var (2023, 5995 mil) mot primärkällor. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck och reparationer separata. Markera okända uppgifter som estimated."
     },
     {
       "id": "wayke:4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
