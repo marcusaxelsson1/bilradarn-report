@@ -16,6 +16,12 @@ Ett riktpris är ett generellt planeringspris när en personlig offert eller exa
 
 Mekonomen är förstahandskälla för generella riktpriser på service och standardreparationer. Märkesverkstad används som jämförelse eller när arbetet är starkt modell- eller tillverkarspecifikt. Exakta verkstadspriser får bara användas när modell, motor, variant och arbetsomfattning matchar.
 
+Fast verkstadsriktmärke är Mekonomen Bilverkstad Göteborg, Deltavägen 4. Mekonomen publicerar ingen jämförbar storleksranking för Göteborg, så valet är en reproducerbar standardpunkt och ska inte beskrivas som ett verifierat kapacitetsmått.
+
+## Fastställda planeringsantaganden
+
+Lånekalkylen använder 36 månaders rak amortering och 6,1 % nominell rörlig ränta som riktmärke. Försäkringsprofil, årlig körsträcka och bränslepris ligger i appens inställningar och ska inte ändras av kostnadsagenten.
+
 ## Källhierarki
 
 Transportstyrelsen har företräde för registrerings-, skatte-, besiktnings-, ägar- och tekniska fordonsuppgifter. Kostnadskällor får inte ersätta eller motsäga dessa uppgifter.
