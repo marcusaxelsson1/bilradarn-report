@@ -31,12 +31,20 @@ export async function cacheImages() {
     await Promise.all([...new Set(offer.imageUrls || [])].map(async (url, index) => {
       if (url.startsWith("/car-images/")) {
         const filePath = resolve(ROOT, "public", url.replace(/^\//, ""));
-        try { await stat(filePath); local[index] = { url, path: url }; return; } catch { /* stale local path; continue without it */ }
+        try {
+          await stat(filePath);
+          const prior = previousManifest[offer.id]?.find((item) => item.path === url);
+          local[index] = prior ? { ...prior, path: url } : { url, path: url };
+          return;
+        } catch { /* stale local path; continue without it */ }
       }
       const extension = /\.png/i.test(url) ? "png" : "jpg";
       const file = `${String(index + 1).padStart(2, "0")}.${extension}`;
       try {
-        const existing = previousManifest[offer.id]?.find((item) => item.url === url);
+        // Match by URL first, then by stable image index for manifests created
+        // before original URLs were preserved.
+        const existing = previousManifest[offer.id]?.find((item) => item.url === url)
+          ?? previousManifest[offer.id]?.[index];
         if (!existing) await download(url, resolve(folder, file));
         else {
           const info = await stat(resolve(ROOT, "public", existing.path.replace(/^\//, "")));
