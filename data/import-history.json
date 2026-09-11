@@ -515,5 +515,36 @@
       }
     ],
     "errors": []
+  },
+  {
+    "generatedAt": "2026-09-11T09:40:37.815Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:9173151c-a4a3-4cdd-b54b-2a88153d7051",
+        "title": "Peugeot 3008",
+        "at": "2026-09-11T09:40:37.815Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:9b8f0f9c-6c29-428e-8127-2d5c66527369",
+        "title": "Peugeot 3008",
+        "at": "2026-09-11T09:40:37.815Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:43ae6183-9a73-4f65-9186-8eac7ea99155",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-11T09:41:39.866Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
+        "title": "Volkswagen Golf Sportscombi",
+        "at": "2026-09-11T09:41:39.866Z"
+      }
+    ],
+    "errors": []
   }
 ]

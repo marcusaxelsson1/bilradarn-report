@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:8f935ae8-8293-4ad7-82fd-3a73de4cff29",
-  "checkedAt": "2026-09-10T19:43:25.268Z",
+  "checkedAt": "2026-09-11T09:41:43.062Z",
   "vehicle": {
     "title": "Peugeot 3008",
     "variant": "1.2 GT Leasebar Drag Kamera Döda-vinkel var",
@@ -156,7 +156,7 @@
       "amountSek": 20016,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-10T19:43:25.268Z",
+      "checkedAt": "2026-09-11T09:41:43.062Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
     }
   },
@@ -164,14 +164,14 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-10T19:43:25.268Z",
+      "checkedAt": "2026-09-11T09:41:43.062Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
-      "status": "partially_verified",
-      "sourceUrl": "https://www.dackonline.se/search?width=225&profile=55&size=18&searchByCar=true",
-      "checkedAt": "2026-09-10T19:43:25.268Z",
-      "note": "Däckdimension 225/55 R18; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/",
+      "checkedAt": "2026-09-11T09:41:43.062Z",
+      "note": "Däckdimension saknas i sanerad registerdata."
     }
   }
 }

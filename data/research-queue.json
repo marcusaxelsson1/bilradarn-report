@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T19:43:25.459Z",
+  "generatedAt": "2026-09-11T09:41:43.262Z",
   "horizonMonths": 36,
   "annualMileageMil": 1500,
   "tasks": [
@@ -2296,160 +2296,6 @@
       }
     },
     {
-      "id": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
-      "title": "Volkswagen Golf Sportscombi",
-      "variant": "1.5 eTSI DSG VÄRMARE DRAG NAV",
-      "registrationNumber": "PXO072",
-      "modelYear": 2021,
-      "mileageMil": 9600,
-      "sourceUrl": "https://www.wayke.se/objekt/b3482c14-7a8e-48ba-931d-7c731b0cd61e",
-      "enrichmentRequest": {
-        "offerId": "wayke:b3482c14-7a8e-48ba-931d-7c731b0cd61e",
-        "registrationNumber": "PXO072",
-        "vin": "WVWZZZCDZMW803981",
-        "sourceUrl": "https://www.wayke.se/objekt/b3482c14-7a8e-48ba-931d-7c731b0cd61e",
-        "checkedAt": null,
-        "providers": {
-          "registry": {
-            "required": [
-              "annualTaxSek",
-              "co2Gkm",
-              "firstTrafficDate"
-            ]
-          },
-          "manufacturer": {
-            "required": [
-              "serviceInterval",
-              "serviceOperations",
-              "warranty"
-            ]
-          },
-          "insurance": {
-            "required": [
-              "machineDamageMaxAge",
-              "machineDamageMaxMileage",
-              "personalQuote"
-            ]
-          },
-          "tyres": {
-            "required": [
-              "dimension",
-              "loadIndex",
-              "setPrice",
-              "treadLife"
-            ]
-          }
-        }
-      },
-      "status": "received",
-      "requested": {
-        "service": {
-          "manufacturerPlanUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-          "fields": [
-            "interval",
-            "nextDue",
-            "operations",
-            "priceAuthorized",
-            "priceIndependent",
-            "priceIncludesVat",
-            "largeServiceAfter36Months"
-          ]
-        },
-        "insurance": {
-          "fields": [
-            "annualPremiumRange",
-            "machineDamageMaxAge",
-            "machineDamageMaxMileage",
-            "deductible",
-            "coveredComponents",
-            "personalQuoteRequired"
-          ],
-          "sources": [
-            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
-          ]
-        },
-        "tyres": {
-          "fields": [
-            "dimension",
-            "loadIndex",
-            "completeSetPrice",
-            "mountingPrice",
-            "treadLife",
-            "valueAtMonth36"
-          ],
-          "sources": [
-            "https://www.mekonomen.se/",
-            "https://www.dackonline.se/"
-          ]
-        },
-        "repairs": {
-          "fields": [
-            "commonFailures",
-            "partsPrice",
-            "laborPriceAuthorized",
-            "laborPriceIndependent",
-            "threeYearReserve"
-          ]
-        },
-        "reliability": {
-          "fields": [
-            "summary",
-            "comparisons",
-            "knownIssues",
-            "repairCosts",
-            "warranty",
-            "limitations",
-            "sources"
-          ],
-          "sources": [
-            "ADAC Pannenstatistik",
-            "What Car? Reliability Survey",
-            "Warrantywise Reliability Index",
-            "official recalls and warranty terms"
-          ],
-          "rules": [
-            "match model generation and powertrain",
-            "exclude normal wear",
-            "keep markets and survey scopes explicit",
-            "never infer a ranking or repair price",
-            "preserve every completed field and only fill missing fields"
-          ]
-        }
-      },
-      "instruction": "Researchera endast saknade fält för Volkswagen Golf Sportscombi 1.5 eTSI DSG VÄRMARE DRAG NAV (2021, 9600 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
-      "existingFinding": {
-        "reliability": {
-          "status": "partially_verified",
-          "checkedAt": "2026-09-10",
-          "heading": "Mittenresultat bland jämförbara familjebilar",
-          "summary": "Golf-serien från 2021 redovisas med 9,6 vägassistansstopp per 1 000 bilar hos ADAC. Det är bättre än Qashqai, 3008, Focus och Octavia, men bakom T-Roc, Ceed, i30 och Leon. Siffran avser Golf-serien och särredovisar inte Sportscombi.",
-          "comparisons": [
-            {
-              "source": "ADAC Pannenstatistik",
-              "result": "9,6 stopp per 1 000 bilar",
-              "context": "Registreringsår 2021 för Golf-serien.",
-              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/"
-            }
-          ],
-          "knownIssues": [],
-          "limitations": [
-            "Sportscombi och enskilda motor-/DSG-varianter särredovisas inte i totalsiffran.",
-            "Mindre mjukvarufel behöver bedömas från andra källor än vägassistansdata."
-          ],
-          "sources": [
-            {
-              "name": "ADAC – Volkswagen Golf",
-              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/",
-              "note": "Tysk vägassistansstatistik för Golf-serien."
-            }
-          ]
-        }
-      },
-      "missing": {
-        "reliability": false
-      }
-    },
-    {
       "id": "wayke:a8afb359-cd68-4bb3-a577-3cb7541099db",
       "title": "Škoda Octavia Kombi",
       "variant": "Skoda 1.0 TSI e-TEC Style Värmare Dragkrok Carplay",
@@ -3216,6 +3062,171 @@
         }
       },
       "instruction": "Researchera endast saknade fält för Peugeot 3008 1.2 PureTech 130/ EAT/Allure / (2021, 9200 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Medelstarkt stoppresultat – drivlinan är avgörande",
+          "summary": "Peugeot 3008 från 2021 redovisas med 13,0 vägassistansstopp per 1 000 bilar hos ADAC. Det placerar modellen bakom flera av de starkaste alternativen i Bilradarns urval. För bilar med 1.2 PureTech är dokumenterad service och kontroll av kamrem särskilt viktig; den risken gäller inte automatiskt andra motorer.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; högre än T-Roc 3,8, Ceed 7,1 och Golf 9,6 men lägre än Focus 16,0.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "1.2 PureTech: kamrem och oljeförbrukning",
+              "description": "Stellantis har en särskild kompensationspolicy för tidigare PureTech 1.0/1.2-motorer avseende förtida kamremsnedbrytning och överdriven oljeförbrukning. Kontrollera motorvariant, serviceintervall och dokumentation.",
+              "repairCost": "Ingen generell svensk kostnad kan anges; kontroll och offert krävs."
+            }
+          ],
+          "limitations": [
+            "PureTech-risken ska endast visas som relevant när annonsens motor matchar.",
+            "ADAC-siffran omfattar modellserien, inte en enskild drivlina."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Peugeot 3008",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/",
+              "note": "Tysk vägassistansstatistik."
+            },
+            {
+              "name": "Stellantis PureTech policy",
+              "url": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
+              "note": "Tillverkarens information om berörda PureTech-problem."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
+    },
+    {
+      "id": "wayke:9173151c-a4a3-4cdd-b54b-2a88153d7051",
+      "title": "Peugeot 3008",
+      "variant": "GT Edition PureTech 130 A",
+      "registrationNumber": "ALF81Z",
+      "modelYear": 2023,
+      "mileageMil": 4494,
+      "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
+      "enrichmentRequest": {
+        "offerId": "wayke:9173151c-a4a3-4cdd-b54b-2a88153d7051",
+        "registrationNumber": "ALF81Z",
+        "vin": "VF3MRHNSUPS126420",
+        "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.peugeot.se/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
+        }
+      },
+      "instruction": "Researchera endast saknade fält för Peugeot 3008 GT Edition PureTech 130 A (2023, 4494 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
       "existingFinding": {
         "reliability": {
           "status": "partially_verified",
@@ -4382,166 +4393,6 @@
       }
     },
     {
-      "id": "wayke:43ae6183-9a73-4f65-9186-8eac7ea99155",
-      "title": "Nissan Qashqai",
-      "variant": "1.3 MHEV (158hk) Tekna Design Pack",
-      "registrationNumber": "RAY156",
-      "modelYear": 2022,
-      "mileageMil": 3615,
-      "sourceUrl": "https://www.wayke.se/objekt/43ae6183-9a73-4f65-9186-8eac7ea99155",
-      "enrichmentRequest": {
-        "offerId": "wayke:43ae6183-9a73-4f65-9186-8eac7ea99155",
-        "registrationNumber": "RAY156",
-        "vin": "SJNTAAJ12U1069618",
-        "sourceUrl": "https://www.wayke.se/objekt/43ae6183-9a73-4f65-9186-8eac7ea99155",
-        "checkedAt": null,
-        "providers": {
-          "registry": {
-            "required": [
-              "annualTaxSek",
-              "co2Gkm",
-              "firstTrafficDate"
-            ]
-          },
-          "manufacturer": {
-            "required": [
-              "serviceInterval",
-              "serviceOperations",
-              "warranty"
-            ]
-          },
-          "insurance": {
-            "required": [
-              "machineDamageMaxAge",
-              "machineDamageMaxMileage",
-              "personalQuote"
-            ]
-          },
-          "tyres": {
-            "required": [
-              "dimension",
-              "loadIndex",
-              "setPrice",
-              "treadLife"
-            ]
-          }
-        }
-      },
-      "status": "received",
-      "requested": {
-        "service": {
-          "manufacturerPlanUrl": "https://www.nissan.se/aga/service.html",
-          "fields": [
-            "interval",
-            "nextDue",
-            "operations",
-            "priceAuthorized",
-            "priceIndependent",
-            "priceIncludesVat",
-            "largeServiceAfter36Months"
-          ]
-        },
-        "insurance": {
-          "fields": [
-            "annualPremiumRange",
-            "machineDamageMaxAge",
-            "machineDamageMaxMileage",
-            "deductible",
-            "coveredComponents",
-            "personalQuoteRequired"
-          ],
-          "sources": [
-            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
-          ]
-        },
-        "tyres": {
-          "fields": [
-            "dimension",
-            "loadIndex",
-            "completeSetPrice",
-            "mountingPrice",
-            "treadLife",
-            "valueAtMonth36"
-          ],
-          "sources": [
-            "https://www.mekonomen.se/",
-            "https://www.dackonline.se/"
-          ]
-        },
-        "repairs": {
-          "fields": [
-            "commonFailures",
-            "partsPrice",
-            "laborPriceAuthorized",
-            "laborPriceIndependent",
-            "threeYearReserve"
-          ]
-        },
-        "reliability": {
-          "fields": [
-            "summary",
-            "comparisons",
-            "knownIssues",
-            "repairCosts",
-            "warranty",
-            "limitations",
-            "sources"
-          ],
-          "sources": [
-            "ADAC Pannenstatistik",
-            "What Car? Reliability Survey",
-            "Warrantywise Reliability Index",
-            "official recalls and warranty terms"
-          ],
-          "rules": [
-            "match model generation and powertrain",
-            "exclude normal wear",
-            "keep markets and survey scopes explicit",
-            "never infer a ranking or repair price",
-            "preserve every completed field and only fill missing fields"
-          ]
-        }
-      },
-      "instruction": "Researchera endast saknade fält för Nissan Qashqai 1.3 MHEV (158hk) Tekna Design Pack (2022, 3615 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
-      "existingFinding": {
-        "reliability": {
-          "status": "partially_verified",
-          "checkedAt": "2026-09-10",
-          "heading": "Svagare än flera vanliga konkurrenter",
-          "summary": "Nissan Qashqai från 2021 har 13,6 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är svagare än Ceed, i30, Leon, Golf och T-Roc i samma årsrad, men bättre än Focus och Octavia. Startbatteriet är det tydligaste återkommande stoppområdet i ADAC:s modellöversikt.",
-          "comparisons": [
-            {
-              "source": "ADAC Pannenstatistik",
-              "result": "13,6 stopp per 1 000 bilar",
-              "context": "Registreringsår 2021. ADAC anger startbatteri som återkommande stopporsak för 2016–2023.",
-              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/"
-            }
-          ],
-          "knownIssues": [
-            {
-              "title": "Startbatteri",
-              "description": "ADAC listar startbatteriet som återkommande stopporsak för Qashqai 2016–2023. Batteritest före köp är mer relevant än att utgå från åldern ensam.",
-              "repairCost": "Batteribyte är normalt slitage och ingår inte som modellfelskostnad i ekonomiplanen."
-            }
-          ],
-          "limitations": [
-            "Batteri är en slitdel och redovisas här för att det påverkar stoppfrekvensen, inte som konstruktionsfel.",
-            "Statistiken blandar Qashqai-generationer kring modellskiftet 2021."
-          ],
-          "sources": [
-            {
-              "name": "ADAC – Nissan Qashqai",
-              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/",
-              "note": "Tysk vägassistansstatistik och redovisade stopporsaker."
-            }
-          ]
-        }
-      },
-      "missing": {
-        "reliability": false
-      }
-    },
-    {
       "id": "wayke:68cab897-73a7-4259-b74f-64f51d870bd7",
       "title": "Nissan Qashqai",
       "variant": "MHEV 158 XTRONIC 2WD N-CONNECTA 12.3\" TFT",
@@ -5635,6 +5486,171 @@
               "name": "ADAC – Volkswagen T-Roc",
               "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/t-roc/?filter=NONE",
               "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
+    },
+    {
+      "id": "wayke:9b8f0f9c-6c29-428e-8127-2d5c66527369",
+      "title": "Peugeot 3008",
+      "variant": "GT Edition PureTech 130 A",
+      "registrationNumber": "WSS21D",
+      "modelYear": 2023,
+      "mileageMil": 8958,
+      "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
+      "enrichmentRequest": {
+        "offerId": "wayke:9b8f0f9c-6c29-428e-8127-2d5c66527369",
+        "registrationNumber": "WSS21D",
+        "vin": "VF3MRHNSUPS069154",
+        "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.peugeot.se/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
+        }
+      },
+      "instruction": "Researchera endast saknade fält för Peugeot 3008 GT Edition PureTech 130 A (2023, 8958 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Medelstarkt stoppresultat – drivlinan är avgörande",
+          "summary": "Peugeot 3008 från 2021 redovisas med 13,0 vägassistansstopp per 1 000 bilar hos ADAC. Det placerar modellen bakom flera av de starkaste alternativen i Bilradarns urval. För bilar med 1.2 PureTech är dokumenterad service och kontroll av kamrem särskilt viktig; den risken gäller inte automatiskt andra motorer.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; högre än T-Roc 3,8, Ceed 7,1 och Golf 9,6 men lägre än Focus 16,0.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "1.2 PureTech: kamrem och oljeförbrukning",
+              "description": "Stellantis har en särskild kompensationspolicy för tidigare PureTech 1.0/1.2-motorer avseende förtida kamremsnedbrytning och överdriven oljeförbrukning. Kontrollera motorvariant, serviceintervall och dokumentation.",
+              "repairCost": "Ingen generell svensk kostnad kan anges; kontroll och offert krävs."
+            }
+          ],
+          "limitations": [
+            "PureTech-risken ska endast visas som relevant när annonsens motor matchar.",
+            "ADAC-siffran omfattar modellserien, inte en enskild drivlina."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Peugeot 3008",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/",
+              "note": "Tysk vägassistansstatistik."
+            },
+            {
+              "name": "Stellantis PureTech policy",
+              "url": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
+              "note": "Tillverkarens information om berörda PureTech-problem."
             }
           ]
         }

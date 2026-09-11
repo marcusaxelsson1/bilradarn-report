@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:6ecc9dcd-dab0-4597-be09-c3d725266702",
-  "checkedAt": "2026-09-10T19:43:25.268Z",
+  "checkedAt": "2026-09-11T09:41:43.062Z",
   "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
   "notes": "Offerdata avser Peugeot 5008 1.2 GT-line 7-sits, registrering GSH80G, årsmodell 2022 och 5 109 mil enligt kön. Peugeots/Servicebox exakta serviceplan, registrerade CO2/skatt, personlig försäkringspremie och verkstads-/däckoffert kunde inte verifieras; dessa lämnas unknown. Stellantis bekräftar en relevant risk för tidigare PureTech 1.0/1.2-generationer (för tidig kamremsnedbrytning och/eller hög oljeförbrukning) och villkorad kostnadstäckning upp till 10 år/180 000 km.",
   "costs": {
@@ -14,7 +14,7 @@
       "amountSek": 20016,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-10T19:43:25.268Z",
+      "checkedAt": "2026-09-11T09:41:43.062Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
     },
     "tax": {
@@ -192,14 +192,14 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-10T19:43:25.268Z",
+      "checkedAt": "2026-09-11T09:41:43.062Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
-      "status": "partially_verified",
-      "sourceUrl": "https://www.dackonline.se/search?width=215&profile=65&size=17&searchByCar=true",
-      "checkedAt": "2026-09-10T19:43:25.268Z",
-      "note": "Däckdimension 215/65 R17; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/",
+      "checkedAt": "2026-09-11T09:41:43.062Z",
+      "note": "Däckdimension saknas i sanerad registerdata."
     }
   }
 }

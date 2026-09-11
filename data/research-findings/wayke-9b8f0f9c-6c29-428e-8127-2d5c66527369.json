@@ -1,38 +1,17 @@
 {
-  "offerId": "wayke:50b26f29-1b35-4bcb-a655-7f7cc667f11c",
+  "offerId": "wayke:9b8f0f9c-6c29-428e-8127-2d5c66527369",
+  "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
   "checkedAt": "2026-09-11T09:41:43.062Z",
-  "sourceUrl": "https://www.peugeot.se/servicetjanster.html",
-  "notes": "Peugeots primära servicesida ger generell serviceinformation men ingen verifierbar modell- och verkstadsoffert i detta flöde.",
+  "status": "partially_verified",
   "costs": {
-    "service": {
-      "amountSek": null,
-      "status": "unknown",
-      "sourceUrl": "https://www.peugeot.se/servicetjanster.html"
-    },
     "insurance": {
       "amountSek": 20016,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
       "checkedAt": "2026-09-11T09:41:43.062Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
-    },
-    "winter": {
-      "amountSek": null,
-      "status": "unknown",
-      "sourceUrl": "https://www.dackonline.se/"
-    },
-    "tyres": {
-      "amountSek": null,
-      "status": "unknown",
-      "sourceUrl": "https://www.mekonomen.se/"
-    },
-    "repair": {
-      "amountSek": null,
-      "status": "unknown",
-      "sourceUrl": "https://www.peugeot.se/servicetjanster.html"
     }
   },
-  "status": "partially_verified",
   "evidence": {
     "tyreSwap": {
       "status": "unknown",

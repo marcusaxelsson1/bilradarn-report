@@ -1,6 +1,6 @@
 {
   "offerId": "toyota:corolla-ts:easy-privatleasing",
-  "checkedAt": "2026-09-10T19:43:25.268Z",
+  "checkedAt": "2026-09-11T09:41:43.062Z",
   "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
   "notes": "Toyota anger service en gång per år/1 500 mil, vartannat år fullständig service med funktions- och säkerhetskontroll, samt hybridkontroll årligen/1 500 mil. Officiell Corolla-specifikation anger 1,8 Hybrid Touring Sports och 195/65 R15, 205/55 R16 eller 225/45 R17 beroende på hjulutförande; Active anges med 16-tums lättmetallfälg i broschyren. Annonsen saknar registreringsnummer och årsmodell, varför exakt skatt, nästa servicedatum och personlig försäkringspremie inte kan fastställas.",
   "costs": {
@@ -14,7 +14,7 @@
       "amountSek": 20088,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-10T19:43:25.268Z",
+      "checkedAt": "2026-09-11T09:41:43.062Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 558 kr/mån (Toyota). Inte personlig offert."
     },
     "tax": {
@@ -192,13 +192,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-10T19:43:25.268Z",
+      "checkedAt": "2026-09-11T09:41:43.062Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "unknown",
       "sourceUrl": "https://www.dackonline.se/",
-      "checkedAt": "2026-09-10T19:43:25.268Z",
+      "checkedAt": "2026-09-11T09:41:43.062Z",
       "note": "Däckdimension saknas i sanerad registerdata."
     }
   }
