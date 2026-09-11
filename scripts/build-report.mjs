@@ -11,6 +11,7 @@ const MONTHS = 36;
 const ANNUAL_MILEAGE_MIL = 1500;
 const FUEL_PRICE = { Bensin: 14.82, Diesel: 16.5, hybrid: 14.82 };
 const LOAN_RATE = 0.061;
+const INSPECTION_PRICE_SEK = 700;
 
 const sources = {
   finance: { label: "Billån – publicerat marknadsriktmärke", url: "https://www.swedbank.se/privat/rantor-priser-och-kurser/lanetjanster.html", note: "Riktmärke 6,1 % nominell rörlig ränta, 20 % kontantinsats, rak amortering över 36 månader. Effektiv ränta och individuella villkor kan avvika." },
@@ -95,7 +96,7 @@ function purchaseEconomics(offer, assumptions = {}) {
     { key: "service", label: "Planerad service", amountSek: service36, evidence: status("modelled", null, "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår.") },
     { key: "tyres", label: "Däckslitage och byten", amountSek: winter.wear, evidence: status("modelled", null, winter.note) },
     { key: "repair", label: "Modellspecifik reparationsreserv", amountSek: repairs, evidence: status("modelled", null, `Reserv utifrån märke, biltyp och ${offer.mileageMil} mil; är sparande, inte en säker utgift.`) },
-    { key: "inspection", label: "Besiktning", amountSek: 700, evidence: status("estimated", null, "En kontrollbesiktning avsatt under perioden.") },
+    { key: "inspection", label: "Besiktning", amountSek: INSPECTION_PRICE_SEK, evidence: status("estimated", "https://opus.se/priser/", "Preliminärt en kontrollbesiktning. När Transportstyrelsens datum finns ersätts raden med 700 kr per planerat tillfälle inom perioden.") },
     { key: "travel", label: "Hämtresa", amountSek: Math.max(300, round((offer.distanceKm ?? 0) * 4)), evidence: status("estimated", offer.sourceUrl) },
     { key: "capital", label: "Kapitalets alternativkostnad", amountSek: opportunity, evidence: status("modelled", null, "2 % årlig nettoalternativränta på bundet eget kapital.") },
   ];

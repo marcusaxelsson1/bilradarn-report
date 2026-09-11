@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { ArrowLeft, ArrowSquareOut, Bell, Camera, Car, ChartLine, CheckCircle, FileText, MagnifyingGlass, MapPin, Scales, WarningCircle } from "@phosphor-icons/react";
+import { ArrowLeft, ArrowSquareOut, Bell, Camera, Car, ChartLine, CheckCircle, ClipboardText, FileText, MagnifyingGlass, MapPin, Scales, Shield, WarningCircle, Wrench } from "@phosphor-icons/react";
 import report from "./data/report.json";
 import publicRegistry from "./data/registry-public.json";
 import publicRegistryExtra from "./data/registry-public-extra.json";
@@ -8,6 +8,7 @@ import { getReportSnapshot } from "./data/reportRepository";
 import { money, shortMoney, stamp, palette } from "./ui/formatters";
 import { Evidence } from "./ui/Evidence";
 import { cashflowSeries, valueDebtSeries } from "./features/charts/chartViewModel";
+import { buildTimelineEvents, groupTimelineEvents } from "./features/charts/timelineEvents";
 import { Info } from "./features/info/Info";
 import { Ranking } from "./features/ranking/Ranking";
 import { chooseOffers, toggleOffer } from "./features/compare/compareModel";
@@ -94,20 +95,26 @@ function seriesPath(values, width, height, max, months = 60) {
   return values.map((v, i) => `${i ? "L" : "M"}${left + (width - left - right) * i / months},${top + (height - top - bottom) * (1 - v / max)}`).join(" ");
 }
 
+const timelineGlyph = { newWarranty: Shield, vehicleDamage: Car, inspection: ClipboardText, service: Wrench };
+const timelineLabel = { newWarranty: "Nybilsgaranti", vehicleDamage: "Vagnskadegaranti", inspection: "Besiktning", service: "Service" };
+const eventDate = (value) => new Intl.DateTimeFormat("sv-SE", { day: "numeric", month: "short", year: "numeric" }).format(new Date(value));
+
 function CashflowChart({ offers }) {
   const [month, setMonth] = useState(1), width = 920, height = 280;
   const values = cashflowSeries(offers);
   const max = Math.max(10000, ...values.flat()) * 1.06;
+  const timeline = offers.map((offer) => groupTimelineEvents(buildTimelineEvents(offer, readStoredRegistry(offer), report.generatedAt, report.parameters?.annualMileageMil || 1500)));
   return <section className="chart-card"><div className="section-heading"><div><h2>Kassaflöde månad för månad</h2><p>Vad som faktiskt lämnar kontot. Leasinglinjen blir 0 efter återlämning månad 36.</p></div><div className="chart-legend">{offers.map((o, i) => <span key={o.id}><i style={{ background: palette[i] }} />{o.title}</span>)}</div></div>
     <div className="chart-scroll"><svg className="data-chart" viewBox={`0 0 ${width} ${height}`} onPointerMove={(e) => { const r = e.currentTarget.getBoundingClientRect(); setMonth(Math.max(0, Math.min(60, Math.round(((e.clientX - r.left) / r.width * width - 58) / 846 * 60)))); }}>
       {[0,.25,.5,.75,1].map((p) => <g key={p}><line x1="58" x2="904" y1={15 + 235*p} y2={15 + 235*p} className="grid-line"/><text x="50" y={19 + 235*p} textAnchor="end">{shortMoney(max*(1-p))}</text></g>)}
       {[0,12,24,36,48,60].map((m) => <text key={m} x={58+846*m/60} y="272" textAnchor="middle">{m===0?"Köpstart":`M${m}`}</text>)}
       {offers.map((o,i)=><path key={o.id} d={seriesPath(values[i],width,height,max)} fill="none" stroke={palette[i]} strokeWidth="3" />)}
       {offers.map((o,i)=><g key={`${o.id}-events`}>{o.economics.events.filter(e=>e.month<=60).map((ev,j)=>{const y=15+235*(1-values[i][ev.month]/max);return <circle key={j} cx={58+846*ev.month/60} cy={y} r="5" fill="#fff" stroke={palette[i]} strokeWidth="3"><title>{ev.label}: {money(ev.amountSek)}</title></circle>})}</g>)}
+      {offers.map((o,i)=><g key={`${o.id}-timeline`}>{timeline[i].map((group)=>{const x=58+846*group.month/60, y=15+235*(1-values[i][group.month]/max), Icon=timelineGlyph[group.items[0].type] || WarningCircle, title=group.items.map((item)=>`${item.label} ${eventDate(item.date)}`).join(" · ");return <g className="timeline-event" key={group.month} role="button" tabIndex="0" aria-label={`${o.title}: ${title}`} onClick={()=>setMonth(group.month)} onKeyDown={(event)=>{if(event.key==="Enter"||event.key===" ")setMonth(group.month)}}><circle cx={x} cy={y} r="10" fill="#fff" stroke={palette[i]} strokeWidth="2"><title>{title}</title></circle>{group.items.length>1?<text x={x} y={y+2.5} textAnchor="middle" className="timeline-count">{group.items.length}+</text>:<foreignObject x={x-6} y={y-6} width="12" height="12" pointerEvents="none"><Icon size={12} weight="bold" color={palette[i]}/></foreignObject>}</g>})}</g>)}
       {offers.map((o,i)=><g key={`${o.id}-start`}><circle cx="58" cy={15+235*(1-values[i][0]/max)} r="17" fill={palette[i]}/><text x="58" y={19+235*(1-values[i][0]/max)} textAnchor="middle" className="start-label">{shortMoney(values[i][0])}</text></g>)}
       <line x1={58+846*month/60} x2={58+846*month/60} y1="15" y2="250" className="hover-line" />
     </svg></div>
-    <div className="chart-inspector"><strong>Månad {month}</strong><div>{offers.map((o,i)=>{const plan=o.kind==="lease"&&month>36?{items:[],totalSek:0}:o.economics.monthlyPlan.find(x=>x.month===month);return <section key={o.id}><h3><i style={{background:palette[i]}}/>{o.title}<b>{money(plan?.totalSek)}</b></h3>{plan?.items?.length ? plan.items.map((item,j)=><p key={j}><span>{item.label}</span><b>{money(item.amountSek)}</b></p>):<p><span>Ingen betalning i kalkylen</span><b>0 kr</b></p>}</section>})}</div></div>
+    <div className="chart-inspector"><strong>Månad {month}</strong><div>{offers.map((o,i)=>{const plan=o.kind==="lease"&&month>36?{items:[],totalSek:0}:o.economics.monthlyPlan.find(x=>x.month===month), milestones=timeline[i].find((group)=>group.month===month)?.items || [];return <section key={o.id}><h3><i style={{background:palette[i]}}/>{o.title}<b>{money(plan?.totalSek)}</b></h3>{milestones.map((item,j)=><article className="timeline-inspector" key={`${item.type}-${j}`}><strong>{timelineLabel[item.type] || item.label}</strong><span>{eventDate(item.date)}</span>{item.note&&<small>{item.note}</small>}{item.sourceUrl&&<a href={item.sourceUrl} target="_blank" rel="noreferrer">Källa <ArrowSquareOut/></a>}</article>)}{plan?.items?.length ? plan.items.map((item,j)=><p key={j}><span>{item.label}</span><b>{money(item.amountSek)}</b></p>):<p><span>Ingen betalning i kalkylen</span><b>0 kr</b></p>}</section>})}</div></div>
   </section>;
 }
 

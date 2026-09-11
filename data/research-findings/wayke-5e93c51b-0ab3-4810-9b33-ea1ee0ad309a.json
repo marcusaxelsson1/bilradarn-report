@@ -78,7 +78,14 @@
     ],
     "warranty": {
       "summary": "Kia Sverige lämnar sju års nybilsgaranti eller 15 000 mil och garantin följer bilen. En 2021-bil med 4 798 mil kan därför fortfarande omfattas, beroende på första registreringsdatum, korrekt service och övriga villkor.",
-      "sourceUrl": "https://www.kia.com/se/service/values-and-benefits/7-year-warranty/"
+      "durationMonths": 84,
+      "maxMileageMil": 15000,
+      "sourceUrl": "https://www.kia.com/se/aga/garanti-assistans-forsakring/7-ars-nybilsgaranti/"
+    },
+    "vehicleDamageWarranty": {
+      "durationMonths": 36,
+      "status": "partially_verified",
+      "sourceUrl": "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/valja-bilforsakring/"
     },
     "limitations": [
       "Undersökningarna avser modellserier och kan blanda karosser, motorer eller utrustningsnivåer.",

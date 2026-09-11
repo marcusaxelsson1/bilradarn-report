@@ -2,6 +2,7 @@ import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createEnrichmentRequest, validateEnrichmentFinding } from "./lib/vehicle-enrichment-adapter.mjs";
+import { buildTimelineEvents } from "../src/features/charts/timelineEvents.js";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const REPORT = resolve(ROOT, "src/data/report.json");
@@ -9,7 +10,11 @@ const QUEUE = resolve(ROOT, "data/research-queue.json");
 const FINDINGS_DIR = resolve(ROOT, "data/research-findings");
 const STATUS = resolve(ROOT, "src/data/enrichment-status.json");
 const RELIABILITY_MODELS = resolve(ROOT, "data/model-reliability.json");
+const REGISTRY_PUBLIC = resolve(ROOT, "src/data/registry-public.json");
+const REGISTRY_PUBLIC_EXTRA = resolve(ROOT, "src/data/registry-public-extra.json");
 const checkedAt = new Date().toISOString();
+const INSPECTION_PRICE_SEK = 700;
+const INSPECTION_PRICE_SOURCE = "https://opus.se/priser/";
 
 const brandDomain = (title = "") => {
   const key = title.toLowerCase();
@@ -41,7 +46,7 @@ function taskFor(offer) {
       tyres: { fields: ["dimension", "loadIndex", "completeSetPrice", "mountingPrice", "treadLife", "valueAtMonth36"], sources: ["https://www.mekonomen.se/", "https://www.dackonline.se/"] },
       repairs: { fields: ["commonFailures", "partsPrice", "laborPriceAuthorized", "laborPriceIndependent", "threeYearReserve"] },
       reliability: {
-        fields: ["summary", "comparisons", "knownIssues", "repairCosts", "warranty", "limitations", "sources"],
+        fields: ["summary", "comparisons", "knownIssues", "repairCosts", "warranty", "vehicleDamageWarranty", "limitations", "sources"],
         sources: ["ADAC Pannenstatistik", "What Car? Reliability Survey", "Warrantywise Reliability Index", "official recalls and warranty terms"],
         rules: ["match model generation and powertrain", "exclude normal wear", "keep markets and survey scopes explicit", "never infer a ranking or repair price", "preserve every completed field and only fill missing fields"],
       },
@@ -70,7 +75,40 @@ function applyFinding(offer, finding, modelReliability = {}) {
     return { ...row, amountSek: Math.round(update.amountSek), evidence: { status: update.status || "verified", sourceUrl: update.sourceUrl || null, checkedAt: update.checkedAt || checkedAt, note: update.note || null } };
   });
   const total = Math.round(rows.reduce((sum, row) => sum + row.amountSek, 0));
-  return { ...offer, economics: { ...offer.economics, breakdown: rows, total36Sek: total, monthlyEconomicSek: Math.round(total / 36), stressTotal36Sek: Math.round(total * 1.12), stressMonthlySek: Math.round(total * 1.12 / 36) }, reliability: finding.reliability ?? offer.reliability ?? modelReliability[offer.title] ?? null, enrichment: { status: "partially-verified", checkedAt, findingSource: finding.sourceUrl || null } };
+  return { ...offer, economics: { ...offer.economics, breakdown: rows, total36Sek: total, monthlyEconomicSek: Math.round(total / 36), stressTotal36Sek: Math.round(total * 1.12), stressMonthlySek: Math.round(total * 1.12 / 36) }, reliability: finding.reliability ?? offer.reliability ?? modelReliability[offer.title] ?? null, maintenance: { ...offer.maintenance, service: finding.service ?? offer.maintenance?.service ?? null }, enrichment: { status: "partially-verified", checkedAt, findingSource: finding.sourceUrl || null } };
+}
+
+function applyInspectionBenchmark(offer, registry) {
+  if (!registry || offer.kind !== "buy") return offer;
+  const inspections = buildTimelineEvents(offer, registry, checkedAt, 1500).filter((item) => item.type === "inspection");
+  if (!inspections.length) return offer;
+  const count36 = inspections.filter((item) => item.month <= 36).length;
+  const note = `${INSPECTION_PRICE_SEK} kr per planerad kontrollbesiktning. Riktmärket är avrundat från Opus publicerade pris från 699 kr för personbil upp till 3 500 kg; faktiskt pris varierar med station, dag och tid.`;
+  const breakdown = offer.economics.breakdown.map((row) => row.key === "inspection" ? {
+    ...row,
+    amountSek: count36 * INSPECTION_PRICE_SEK,
+    evidence: { status: "estimated", sourceUrl: INSPECTION_PRICE_SOURCE, checkedAt, note: `${count36} planerade besiktningar inom 36 månader. ${note}` },
+  } : row);
+  const inspectionByMonth = new Map(inspections.map((item) => [item.month, item]));
+  const monthlyPlan = offer.economics.monthlyPlan.map((entry) => {
+    const items = entry.items.filter((item) => item.label !== "Besiktning");
+    if (inspectionByMonth.has(entry.month)) items.push({ label: "Besiktning", amountSek: INSPECTION_PRICE_SEK });
+    return { ...entry, items, totalSek: Math.round(items.reduce((sum, item) => sum + item.amountSek, 0)) };
+  });
+  const total = Math.round(breakdown.reduce((sum, row) => sum + row.amountSek, 0));
+  return {
+    ...offer,
+    economics: {
+      ...offer.economics,
+      breakdown,
+      monthlyPlan,
+      total36Sek: total,
+      monthlyEconomicSek: Math.round(total / 36),
+      stressTotal36Sek: Math.round(total * 1.12),
+      stressMonthlySek: Math.round(total * 1.12 / 36),
+      cashPaid36Sek: monthlyPlan.filter((entry) => entry.month <= 36).reduce((sum, entry) => sum + entry.totalSek, 0),
+    },
+  };
 }
 
 export async function buildResearchQueue() {
@@ -80,17 +118,23 @@ export async function buildResearchQueue() {
   const targets = [...report.purchases, ...report.leases];
   const findings = await loadFindings();
   const modelReliability = JSON.parse(await readFile(RELIABILITY_MODELS, "utf8"));
-  const enriched = [...report.purchases, ...report.leases].map((offer) => findings.reduce((current, finding) => applyFinding(current, finding, modelReliability), { ...offer, reliability: offer.reliability ?? modelReliability[offer.title] ?? null }));
+  const registry = { ...JSON.parse(await readFile(REGISTRY_PUBLIC, "utf8")), ...JSON.parse(await readFile(REGISTRY_PUBLIC_EXTRA, "utf8")) };
+  const enriched = [...report.purchases, ...report.leases].map((offer) => {
+    const withFindings = findings.reduce((current, finding) => applyFinding(current, finding, modelReliability), { ...offer, reliability: offer.reliability ?? modelReliability[offer.title] ?? null });
+    return applyInspectionBenchmark(withFindings, registry[String(offer.registrationNumber ?? "").toUpperCase()]);
+  });
   const queue = targets.map(taskFor).map((task) => {
     const finding = findings.find((item) => item.offerId === task.id);
     const reliability = finding?.reliability ?? modelReliability[task.title] ?? null;
     const reliabilityComplete = Boolean(reliability?.summary && reliability?.sources?.length);
-    return { ...task, existingFinding: finding || reliability ? { reliability } : null, missing: { reliability: !reliabilityComplete }, status: finding && reliabilityComplete ? "received" : "pending" };
+    return { ...task, existingFinding: finding || reliability ? { reliability } : null, missing: { reliability: !reliabilityComplete }, status: reliabilityComplete ? "received" : "pending" };
   });
   await mkdir(dirname(QUEUE), { recursive: true });
   await mkdir(FINDINGS_DIR, { recursive: true });
   await writeFile(QUEUE, `${JSON.stringify({ schemaVersion: 1, generatedAt: checkedAt, horizonMonths: 36, annualMileageMil: 1500, tasks: queue }, null, 2)}\n`, "utf8");
-  const next = { ...report, purchases: enriched.filter((offer) => offer.kind === "buy"), leases: enriched.filter((offer) => offer.kind === "lease"), generatedAt: checkedAt };
+  const purchases = enriched.filter((offer) => offer.kind === "buy").sort((a, b) => a.economics.total36Sek - b.economics.total36Sek).map((offer, index) => ({ ...offer, rank: index + 1 }));
+  const leases = enriched.filter((offer) => offer.kind === "lease").sort((a, b) => a.economics.total36Sek - b.economics.total36Sek).map((offer, index) => ({ ...offer, rank: index + 1 }));
+  const next = { ...report, purchases, leases, generatedAt: checkedAt };
   await writeFile(REPORT, `${JSON.stringify(next, null, 2)}\n`, "utf8");
   await writeFile(STATUS, `${JSON.stringify({ generatedAt: checkedAt, pending: queue.filter((task) => task.status === "pending").length, received: queue.filter((task) => task.status === "received").length, scope: "Alla rankbara köp + aktuella leasingerbjudanden" }, null, 2)}\n`, "utf8");
   return { queue, pending: queue.filter((task) => task.status === "pending").length };
