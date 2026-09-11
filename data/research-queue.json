@@ -1,169 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T09:41:43.262Z",
+  "generatedAt": "2026-09-11T19:43:28.753Z",
   "horizonMonths": 36,
   "annualMileageMil": 1500,
   "tasks": [
-    {
-      "id": "wayke:c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-      "title": "Hyundai i30 Kombi",
-      "variant": "1,0T 120hk Automat MHEV Drag Essential B-Kamera Apple Carplay",
-      "registrationNumber": "FNW06P",
-      "modelYear": 2021,
-      "mileageMil": 7501,
-      "sourceUrl": "https://www.wayke.se/objekt/c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-      "enrichmentRequest": {
-        "offerId": "wayke:c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-        "registrationNumber": "FNW06P",
-        "vin": "TMAH381BGMJ093907",
-        "sourceUrl": "https://www.wayke.se/objekt/c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-        "checkedAt": null,
-        "providers": {
-          "registry": {
-            "required": [
-              "annualTaxSek",
-              "co2Gkm",
-              "firstTrafficDate"
-            ]
-          },
-          "manufacturer": {
-            "required": [
-              "serviceInterval",
-              "serviceOperations",
-              "warranty"
-            ]
-          },
-          "insurance": {
-            "required": [
-              "machineDamageMaxAge",
-              "machineDamageMaxMileage",
-              "personalQuote"
-            ]
-          },
-          "tyres": {
-            "required": [
-              "dimension",
-              "loadIndex",
-              "setPrice",
-              "treadLife"
-            ]
-          }
-        }
-      },
-      "status": "received",
-      "requested": {
-        "service": {
-          "manufacturerPlanUrl": "https://www.hyundai.com/se/sv/service-och-underhall.html",
-          "fields": [
-            "interval",
-            "nextDue",
-            "operations",
-            "priceAuthorized",
-            "priceIndependent",
-            "priceIncludesVat",
-            "largeServiceAfter36Months"
-          ]
-        },
-        "insurance": {
-          "fields": [
-            "annualPremiumRange",
-            "machineDamageMaxAge",
-            "machineDamageMaxMileage",
-            "deductible",
-            "coveredComponents",
-            "personalQuoteRequired"
-          ],
-          "sources": [
-            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
-          ]
-        },
-        "tyres": {
-          "fields": [
-            "dimension",
-            "loadIndex",
-            "completeSetPrice",
-            "mountingPrice",
-            "treadLife",
-            "valueAtMonth36"
-          ],
-          "sources": [
-            "https://www.mekonomen.se/",
-            "https://www.dackonline.se/"
-          ]
-        },
-        "repairs": {
-          "fields": [
-            "commonFailures",
-            "partsPrice",
-            "laborPriceAuthorized",
-            "laborPriceIndependent",
-            "threeYearReserve"
-          ]
-        },
-        "reliability": {
-          "fields": [
-            "summary",
-            "comparisons",
-            "knownIssues",
-            "repairCosts",
-            "warranty",
-            "limitations",
-            "sources"
-          ],
-          "sources": [
-            "ADAC Pannenstatistik",
-            "What Car? Reliability Survey",
-            "Warrantywise Reliability Index",
-            "official recalls and warranty terms"
-          ],
-          "rules": [
-            "match model generation and powertrain",
-            "exclude normal wear",
-            "keep markets and survey scopes explicit",
-            "never infer a ranking or repair price",
-            "preserve every completed field and only fill missing fields"
-          ]
-        }
-      },
-      "instruction": "Researchera endast saknade fält för Hyundai i30 Kombi 1,0T 120hk Automat MHEV Drag Essential B-Kamera Apple Carplay (2021, 7501 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
-      "existingFinding": {
-        "reliability": {
-          "status": "partially_verified",
-          "checkedAt": "2026-09-10",
-          "heading": "Bättre än genomsnittet i vägassistansstatistiken",
-          "summary": "Hyundai i30 från 2021 ligger på 8,1 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är ett förhållandevis starkt resultat bland familjebilarna i Bilradarns urval, även om statistiken gäller hela i30-serien och inte bara kombin eller mildhybriden.",
-          "comparisons": [
-            {
-              "source": "ADAC Pannenstatistik",
-              "result": "8,1 stopp per 1 000 bilar",
-              "context": "Registreringsår 2021. Som jämförelse redovisas Golf med 9,6 och Focus med 16,0 i samma årsrad.",
-              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/?filter=NONE"
-            }
-          ],
-          "knownIssues": [
-            {
-              "title": "Kontrollera utförda återkallelser",
-              "description": "ADAC redovisar en återkallelse för vissa i30 byggda 2020–2021 där däcktrycksövervakningen kunde ha begränsad funktion; åtgärden var mjukvaruuppdatering.",
-              "repairCost": "Återkallelser ska normalt åtgärdas av märkesverkstad; kontrollera bilen mot VIN."
-            }
-          ],
-          "limitations": [
-            "ADAC mäter vägassistansstopp, inte alla verkstadsfel.",
-            "Resultatet omfattar flera i30-karosser och motoralternativ."
-          ],
-          "sources": [
-            {
-              "name": "ADAC – Hyundai i30",
-              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/?filter=NONE",
-              "note": "Tysk vägassistansstatistik per registreringsår."
-            }
-          ]
-        }
-      },
-      "missing": {
-        "reliability": false
-      }
-    },
     {
       "id": "wayke:5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
       "title": "Kia Ceed Sportswagon",
@@ -837,160 +677,6 @@
       }
     },
     {
-      "id": "wayke:1b8b4414-a528-46f0-a4f2-c166c9e5069f",
-      "title": "Volkswagen Golf Sportscombi",
-      "variant": "VIII 1.5 eTSI (130hk)",
-      "registrationNumber": "GMH66X",
-      "modelYear": 2021,
-      "mileageMil": 3429,
-      "sourceUrl": "https://www.wayke.se/objekt/1b8b4414-a528-46f0-a4f2-c166c9e5069f",
-      "enrichmentRequest": {
-        "offerId": "wayke:1b8b4414-a528-46f0-a4f2-c166c9e5069f",
-        "registrationNumber": "GMH66X",
-        "vin": "WVWZZZCDZMW803570",
-        "sourceUrl": "https://www.wayke.se/objekt/1b8b4414-a528-46f0-a4f2-c166c9e5069f",
-        "checkedAt": null,
-        "providers": {
-          "registry": {
-            "required": [
-              "annualTaxSek",
-              "co2Gkm",
-              "firstTrafficDate"
-            ]
-          },
-          "manufacturer": {
-            "required": [
-              "serviceInterval",
-              "serviceOperations",
-              "warranty"
-            ]
-          },
-          "insurance": {
-            "required": [
-              "machineDamageMaxAge",
-              "machineDamageMaxMileage",
-              "personalQuote"
-            ]
-          },
-          "tyres": {
-            "required": [
-              "dimension",
-              "loadIndex",
-              "setPrice",
-              "treadLife"
-            ]
-          }
-        }
-      },
-      "status": "received",
-      "requested": {
-        "service": {
-          "manufacturerPlanUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-          "fields": [
-            "interval",
-            "nextDue",
-            "operations",
-            "priceAuthorized",
-            "priceIndependent",
-            "priceIncludesVat",
-            "largeServiceAfter36Months"
-          ]
-        },
-        "insurance": {
-          "fields": [
-            "annualPremiumRange",
-            "machineDamageMaxAge",
-            "machineDamageMaxMileage",
-            "deductible",
-            "coveredComponents",
-            "personalQuoteRequired"
-          ],
-          "sources": [
-            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
-          ]
-        },
-        "tyres": {
-          "fields": [
-            "dimension",
-            "loadIndex",
-            "completeSetPrice",
-            "mountingPrice",
-            "treadLife",
-            "valueAtMonth36"
-          ],
-          "sources": [
-            "https://www.mekonomen.se/",
-            "https://www.dackonline.se/"
-          ]
-        },
-        "repairs": {
-          "fields": [
-            "commonFailures",
-            "partsPrice",
-            "laborPriceAuthorized",
-            "laborPriceIndependent",
-            "threeYearReserve"
-          ]
-        },
-        "reliability": {
-          "fields": [
-            "summary",
-            "comparisons",
-            "knownIssues",
-            "repairCosts",
-            "warranty",
-            "limitations",
-            "sources"
-          ],
-          "sources": [
-            "ADAC Pannenstatistik",
-            "What Car? Reliability Survey",
-            "Warrantywise Reliability Index",
-            "official recalls and warranty terms"
-          ],
-          "rules": [
-            "match model generation and powertrain",
-            "exclude normal wear",
-            "keep markets and survey scopes explicit",
-            "never infer a ranking or repair price",
-            "preserve every completed field and only fill missing fields"
-          ]
-        }
-      },
-      "instruction": "Researchera endast saknade fält för Volkswagen Golf Sportscombi VIII 1.5 eTSI (130hk) (2021, 3429 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
-      "existingFinding": {
-        "reliability": {
-          "status": "partially_verified",
-          "checkedAt": "2026-09-10",
-          "heading": "Mittenresultat bland jämförbara familjebilar",
-          "summary": "Golf-serien från 2021 redovisas med 9,6 vägassistansstopp per 1 000 bilar hos ADAC. Det är bättre än Qashqai, 3008, Focus och Octavia, men bakom T-Roc, Ceed, i30 och Leon. Siffran avser Golf-serien och särredovisar inte Sportscombi.",
-          "comparisons": [
-            {
-              "source": "ADAC Pannenstatistik",
-              "result": "9,6 stopp per 1 000 bilar",
-              "context": "Registreringsår 2021 för Golf-serien.",
-              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/"
-            }
-          ],
-          "knownIssues": [],
-          "limitations": [
-            "Sportscombi och enskilda motor-/DSG-varianter särredovisas inte i totalsiffran.",
-            "Mindre mjukvarufel behöver bedömas från andra källor än vägassistansdata."
-          ],
-          "sources": [
-            {
-              "name": "ADAC – Volkswagen Golf",
-              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/",
-              "note": "Tysk vägassistansstatistik för Golf-serien."
-            }
-          ]
-        }
-      },
-      "missing": {
-        "reliability": false
-      }
-    },
-    {
       "id": "wayke:a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
       "title": "Volkswagen Golf Sportscombi",
       "variant": "1.5 eTSI Cockpit Värmare Apple CarPlay",
@@ -1136,6 +822,166 @@
               "name": "ADAC – Volkswagen Golf",
               "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/golf/",
               "note": "Tysk vägassistansstatistik för Golf-serien."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
+    },
+    {
+      "id": "wayke:dac1e0cf-5507-4a9f-8f65-e69e063547bb",
+      "title": "Ford Focus Active Kombi",
+      "variant": "1.0 EcoBoost SelectShift, 125hk, 2022",
+      "registrationNumber": "ROA45E",
+      "modelYear": 2022,
+      "mileageMil": 8534,
+      "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
+      "enrichmentRequest": {
+        "offerId": "wayke:dac1e0cf-5507-4a9f-8f65-e69e063547bb",
+        "registrationNumber": "ROA45E",
+        "vin": "WF0PXXGCHPMB47923",
+        "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.ford.se/service",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
+        }
+      },
+      "instruction": "Researchera endast saknade fält för Ford Focus Active Kombi 1.0 EcoBoost SelectShift, 125hk, 2022 (2022, 8534 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Svagare stoppresultat än de flesta alternativen",
+          "summary": "Ford Focus från 2021 redovisas med 16,0 vägassistansstopp per 1 000 bilar hos ADAC. I Bilradarns aktuella jämförelse är det svagare än T-Roc, Ceed, i30, Leon, Golf, Tiguan, 3008 och Qashqai, men bättre än Octavia. Startbatteri är den återkommande stopporsak som omfattar årsmodellen.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "16,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; Focus-serien inklusive flera karosser och motorer.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Startbatteri",
+              "description": "ADAC listar startbatteriet som återkommande stopporsak för registreringsår 2016–2023.",
+              "repairCost": "Batteri är normalt slitage och summeras inte som modellfel."
+            }
+          ],
+          "limitations": [
+            "Active Kombi och aktuell motor särredovisas inte.",
+            "Vägassistansstatistik fångar inte alla verkstadsbesök."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Ford Focus",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/focus/",
+              "note": "Tysk vägassistansstatistik och stopporsaker."
             }
           ]
         }
@@ -1296,6 +1142,166 @@
               "name": "ADAC – Nissan Qashqai",
               "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/",
               "note": "Tysk vägassistansstatistik och redovisade stopporsaker."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
+    },
+    {
+      "id": "wayke:a792f07e-a390-4374-a41a-849640ba06e1",
+      "title": "Hyundai i30 Kombi",
+      "variant": "1.5 T-GDI 160hk N-Line Kamera Rattvärme CarPlay",
+      "registrationNumber": "HUB38A",
+      "modelYear": 2022,
+      "mileageMil": 4126,
+      "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
+      "enrichmentRequest": {
+        "offerId": "wayke:a792f07e-a390-4374-a41a-849640ba06e1",
+        "registrationNumber": "HUB38A",
+        "vin": "TMAH381DGNJ108327",
+        "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.hyundai.com/se/sv/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
+        }
+      },
+      "instruction": "Researchera endast saknade fält för Hyundai i30 Kombi 1.5 T-GDI 160hk N-Line Kamera Rattvärme CarPlay (2022, 4126 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Bättre än genomsnittet i vägassistansstatistiken",
+          "summary": "Hyundai i30 från 2021 ligger på 8,1 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är ett förhållandevis starkt resultat bland familjebilarna i Bilradarns urval, även om statistiken gäller hela i30-serien och inte bara kombin eller mildhybriden.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "8,1 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021. Som jämförelse redovisas Golf med 9,6 och Focus med 16,0 i samma årsrad.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/?filter=NONE"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Kontrollera utförda återkallelser",
+              "description": "ADAC redovisar en återkallelse för vissa i30 byggda 2020–2021 där däcktrycksövervakningen kunde ha begränsad funktion; åtgärden var mjukvaruuppdatering.",
+              "repairCost": "Återkallelser ska normalt åtgärdas av märkesverkstad; kontrollera bilen mot VIN."
+            }
+          ],
+          "limitations": [
+            "ADAC mäter vägassistansstopp, inte alla verkstadsfel.",
+            "Resultatet omfattar flera i30-karosser och motoralternativ."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Hyundai i30",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/?filter=NONE",
+              "note": "Tysk vägassistansstatistik per registreringsår."
             }
           ]
         }
@@ -1493,166 +1499,6 @@
               "name": "Kia Sverige – nybilsgaranti",
               "url": "https://www.kia.com/se/service/values-and-benefits/7-year-warranty/",
               "note": "Officiella svenska garantivillkor."
-            }
-          ]
-        }
-      },
-      "missing": {
-        "reliability": false
-      }
-    },
-    {
-      "id": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
-      "title": "Dacia Duster",
-      "variant": "PhII 4x2 TCe 150 Journey A, Backkamera, Automat, Sensorer",
-      "registrationNumber": "KCD10G",
-      "modelYear": 2023,
-      "mileageMil": 4099,
-      "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
-      "enrichmentRequest": {
-        "offerId": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
-        "registrationNumber": "KCD10G",
-        "vin": "VF1HJD20270290285",
-        "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
-        "checkedAt": null,
-        "providers": {
-          "registry": {
-            "required": [
-              "annualTaxSek",
-              "co2Gkm",
-              "firstTrafficDate"
-            ]
-          },
-          "manufacturer": {
-            "required": [
-              "serviceInterval",
-              "serviceOperations",
-              "warranty"
-            ]
-          },
-          "insurance": {
-            "required": [
-              "machineDamageMaxAge",
-              "machineDamageMaxMileage",
-              "personalQuote"
-            ]
-          },
-          "tyres": {
-            "required": [
-              "dimension",
-              "loadIndex",
-              "setPrice",
-              "treadLife"
-            ]
-          }
-        }
-      },
-      "status": "received",
-      "requested": {
-        "service": {
-          "manufacturerPlanUrl": null,
-          "fields": [
-            "interval",
-            "nextDue",
-            "operations",
-            "priceAuthorized",
-            "priceIndependent",
-            "priceIncludesVat",
-            "largeServiceAfter36Months"
-          ]
-        },
-        "insurance": {
-          "fields": [
-            "annualPremiumRange",
-            "machineDamageMaxAge",
-            "machineDamageMaxMileage",
-            "deductible",
-            "coveredComponents",
-            "personalQuoteRequired"
-          ],
-          "sources": [
-            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
-          ]
-        },
-        "tyres": {
-          "fields": [
-            "dimension",
-            "loadIndex",
-            "completeSetPrice",
-            "mountingPrice",
-            "treadLife",
-            "valueAtMonth36"
-          ],
-          "sources": [
-            "https://www.mekonomen.se/",
-            "https://www.dackonline.se/"
-          ]
-        },
-        "repairs": {
-          "fields": [
-            "commonFailures",
-            "partsPrice",
-            "laborPriceAuthorized",
-            "laborPriceIndependent",
-            "threeYearReserve"
-          ]
-        },
-        "reliability": {
-          "fields": [
-            "summary",
-            "comparisons",
-            "knownIssues",
-            "repairCosts",
-            "warranty",
-            "limitations",
-            "sources"
-          ],
-          "sources": [
-            "ADAC Pannenstatistik",
-            "What Car? Reliability Survey",
-            "Warrantywise Reliability Index",
-            "official recalls and warranty terms"
-          ],
-          "rules": [
-            "match model generation and powertrain",
-            "exclude normal wear",
-            "keep markets and survey scopes explicit",
-            "never infer a ranking or repair price",
-            "preserve every completed field and only fill missing fields"
-          ]
-        }
-      },
-      "instruction": "Researchera endast saknade fält för Dacia Duster PhII 4x2 TCe 150 Journey A, Backkamera, Automat, Sensorer (2023, 4099 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
-      "existingFinding": {
-        "reliability": {
-          "status": "partially_verified",
-          "checkedAt": "2026-09-10",
-          "heading": "Bra stoppresultat för årsmodellen",
-          "summary": "Dacia Duster från 2021 ligger på 8,0 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är bättre än Golf, Tiguan, 3008, Qashqai, Focus och Octavia i samma årsrad. Senare års bilar har generatorn som redovisad stopporsak, vilket bör kontrolleras för exemplar från 2022–2023.",
-          "comparisons": [
-            {
-              "source": "ADAC Pannenstatistik",
-              "result": "8,0 stopp per 1 000 bilar",
-              "context": "Registreringsår 2021 för den samlade Duster/Logan/Sandero-gruppen.",
-              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/"
-            }
-          ],
-          "knownIssues": [
-            {
-              "title": "Generator på senare års bilar",
-              "description": "ADAC listar generator som stopporsak för registreringsår 2022–2023 i den samlade Duster/Logan/Sandero-statistiken.",
-              "repairCost": "Ingen styrkt svensk modellkostnad hittad."
-            }
-          ],
-          "limitations": [
-            "ADAC grupperar Duster med Logan och Sandero i stopporsakerna.",
-            "Generatoruppgiften är främst relevant för 2022–2023."
-          ],
-          "sources": [
-            {
-              "name": "ADAC – Dacia Duster",
-              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/",
-              "note": "Tysk vägassistansstatistik."
             }
           ]
         }
@@ -4239,6 +4085,171 @@
       }
     },
     {
+      "id": "wayke:be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
+      "title": "Peugeot 3008",
+      "variant": "1.2 PureTech 130hk EAT GT-Line",
+      "registrationNumber": "HYM78C",
+      "modelYear": 2023,
+      "mileageMil": 6162,
+      "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
+      "enrichmentRequest": {
+        "offerId": "wayke:be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
+        "registrationNumber": "HYM78C",
+        "vin": "VF3MRHNSUPS084470",
+        "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.peugeot.se/service-och-underhall.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
+        }
+      },
+      "instruction": "Researchera endast saknade fält för Peugeot 3008 1.2 PureTech 130hk EAT GT-Line (2023, 6162 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Medelstarkt stoppresultat – drivlinan är avgörande",
+          "summary": "Peugeot 3008 från 2021 redovisas med 13,0 vägassistansstopp per 1 000 bilar hos ADAC. Det placerar modellen bakom flera av de starkaste alternativen i Bilradarns urval. För bilar med 1.2 PureTech är dokumenterad service och kontroll av kamrem särskilt viktig; den risken gäller inte automatiskt andra motorer.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021; högre än T-Roc 3,8, Ceed 7,1 och Golf 9,6 men lägre än Focus 16,0.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "1.2 PureTech: kamrem och oljeförbrukning",
+              "description": "Stellantis har en särskild kompensationspolicy för tidigare PureTech 1.0/1.2-motorer avseende förtida kamremsnedbrytning och överdriven oljeförbrukning. Kontrollera motorvariant, serviceintervall och dokumentation.",
+              "repairCost": "Ingen generell svensk kostnad kan anges; kontroll och offert krävs."
+            }
+          ],
+          "limitations": [
+            "PureTech-risken ska endast visas som relevant när annonsens motor matchar.",
+            "ADAC-siffran omfattar modellserien, inte en enskild drivlina."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Peugeot 3008",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/",
+              "note": "Tysk vägassistansstatistik."
+            },
+            {
+              "name": "Stellantis PureTech policy",
+              "url": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
+              "note": "Tillverkarens information om berörda PureTech-problem."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
+    },
+    {
       "id": "wayke:9dbfc015-5da0-47f6-96e7-d02abb19433b",
       "title": "Volkswagen T-Roc",
       "variant": "1.5 TSI 150 DSG/Pluspkt/elbaklucka/tonade rutor",
@@ -4393,9 +4404,169 @@
       }
     },
     {
+      "id": "wayke:43ae6183-9a73-4f65-9186-8eac7ea99155",
+      "title": "Nissan Qashqai",
+      "variant": "1.3 MHEV (158hk) Tekna Design Pack",
+      "registrationNumber": "RAY156",
+      "modelYear": 2022,
+      "mileageMil": 3615,
+      "sourceUrl": "https://www.wayke.se/objekt/43ae6183-9a73-4f65-9186-8eac7ea99155",
+      "enrichmentRequest": {
+        "offerId": "wayke:43ae6183-9a73-4f65-9186-8eac7ea99155",
+        "registrationNumber": "RAY156",
+        "vin": "SJNTAAJ12U1069618",
+        "sourceUrl": "https://www.wayke.se/objekt/43ae6183-9a73-4f65-9186-8eac7ea99155",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": "https://www.nissan.se/aga/service.html",
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
+        }
+      },
+      "instruction": "Researchera endast saknade fält för Nissan Qashqai 1.3 MHEV (158hk) Tekna Design Pack (2022, 3615 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Svagare än flera vanliga konkurrenter",
+          "summary": "Nissan Qashqai från 2021 har 13,6 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är svagare än Ceed, i30, Leon, Golf och T-Roc i samma årsrad, men bättre än Focus och Octavia. Startbatteriet är det tydligaste återkommande stoppområdet i ADAC:s modellöversikt.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "13,6 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021. ADAC anger startbatteri som återkommande stopporsak för 2016–2023.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Startbatteri",
+              "description": "ADAC listar startbatteriet som återkommande stopporsak för Qashqai 2016–2023. Batteritest före köp är mer relevant än att utgå från åldern ensam.",
+              "repairCost": "Batteribyte är normalt slitage och ingår inte som modellfelskostnad i ekonomiplanen."
+            }
+          ],
+          "limitations": [
+            "Batteri är en slitdel och redovisas här för att det påverkar stoppfrekvensen, inte som konstruktionsfel.",
+            "Statistiken blandar Qashqai-generationer kring modellskiftet 2021."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Nissan Qashqai",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/",
+              "note": "Tysk vägassistansstatistik och redovisade stopporsaker."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
+    },
+    {
       "id": "wayke:68cab897-73a7-4259-b74f-64f51d870bd7",
       "title": "Nissan Qashqai",
-      "variant": "MHEV 158 XTRONIC 2WD N-CONNECTA 12.3\" TFT",
+      "variant": "MHEV N-CONNECTA | DRAG | 360 KAMERA | RATTVÄRME |",
       "registrationNumber": "NEN53A",
       "modelYear": 2022,
       "mileageMil": 8600,
@@ -4513,7 +4684,7 @@
           ]
         }
       },
-      "instruction": "Researchera endast saknade fält för Nissan Qashqai MHEV 158 XTRONIC 2WD N-CONNECTA 12.3\" TFT (2022, 8600 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "instruction": "Researchera endast saknade fält för Nissan Qashqai MHEV N-CONNECTA | DRAG | 360 KAMERA | RATTVÄRME | (2022, 8600 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
       "existingFinding": {
         "reliability": {
           "status": "partially_verified",
@@ -5816,166 +5987,6 @@
               "name": "Stellantis PureTech policy",
               "url": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
               "note": "Tillverkarens information om berörda PureTech-problem."
-            }
-          ]
-        }
-      },
-      "missing": {
-        "reliability": false
-      }
-    },
-    {
-      "id": "wayke:afa4f887-88a1-4db4-9f0e-e966e1e44825",
-      "title": "Peugeot 5008",
-      "variant": "1.2 PureTech (130hk) GT-Line",
-      "registrationNumber": "JAJ07D",
-      "modelYear": 2023,
-      "mileageMil": 4930,
-      "sourceUrl": "https://www.wayke.se/objekt/afa4f887-88a1-4db4-9f0e-e966e1e44825",
-      "enrichmentRequest": {
-        "offerId": "wayke:afa4f887-88a1-4db4-9f0e-e966e1e44825",
-        "registrationNumber": "JAJ07D",
-        "vin": "VF3MRHNSUPL023037",
-        "sourceUrl": "https://www.wayke.se/objekt/afa4f887-88a1-4db4-9f0e-e966e1e44825",
-        "checkedAt": null,
-        "providers": {
-          "registry": {
-            "required": [
-              "annualTaxSek",
-              "co2Gkm",
-              "firstTrafficDate"
-            ]
-          },
-          "manufacturer": {
-            "required": [
-              "serviceInterval",
-              "serviceOperations",
-              "warranty"
-            ]
-          },
-          "insurance": {
-            "required": [
-              "machineDamageMaxAge",
-              "machineDamageMaxMileage",
-              "personalQuote"
-            ]
-          },
-          "tyres": {
-            "required": [
-              "dimension",
-              "loadIndex",
-              "setPrice",
-              "treadLife"
-            ]
-          }
-        }
-      },
-      "status": "received",
-      "requested": {
-        "service": {
-          "manufacturerPlanUrl": "https://www.peugeot.se/service-och-underhall.html",
-          "fields": [
-            "interval",
-            "nextDue",
-            "operations",
-            "priceAuthorized",
-            "priceIndependent",
-            "priceIncludesVat",
-            "largeServiceAfter36Months"
-          ]
-        },
-        "insurance": {
-          "fields": [
-            "annualPremiumRange",
-            "machineDamageMaxAge",
-            "machineDamageMaxMileage",
-            "deductible",
-            "coveredComponents",
-            "personalQuoteRequired"
-          ],
-          "sources": [
-            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
-          ]
-        },
-        "tyres": {
-          "fields": [
-            "dimension",
-            "loadIndex",
-            "completeSetPrice",
-            "mountingPrice",
-            "treadLife",
-            "valueAtMonth36"
-          ],
-          "sources": [
-            "https://www.mekonomen.se/",
-            "https://www.dackonline.se/"
-          ]
-        },
-        "repairs": {
-          "fields": [
-            "commonFailures",
-            "partsPrice",
-            "laborPriceAuthorized",
-            "laborPriceIndependent",
-            "threeYearReserve"
-          ]
-        },
-        "reliability": {
-          "fields": [
-            "summary",
-            "comparisons",
-            "knownIssues",
-            "repairCosts",
-            "warranty",
-            "limitations",
-            "sources"
-          ],
-          "sources": [
-            "ADAC Pannenstatistik",
-            "What Car? Reliability Survey",
-            "Warrantywise Reliability Index",
-            "official recalls and warranty terms"
-          ],
-          "rules": [
-            "match model generation and powertrain",
-            "exclude normal wear",
-            "keep markets and survey scopes explicit",
-            "never infer a ranking or repair price",
-            "preserve every completed field and only fill missing fields"
-          ]
-        }
-      },
-      "instruction": "Researchera endast saknade fält för Peugeot 5008 1.2 PureTech (130hk) GT-Line (2023, 4930 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
-      "existingFinding": {
-        "reliability": {
-          "status": "partially_verified",
-          "checkedAt": "2026-09-10",
-          "heading": "God ägarrapporterad driftsäkerhet, men fel kan bli långdragna",
-          "summary": "Peugeot 5008 (2017–2024) placerades delad åtta i What Car?:s senaste redovisade sjusitsklass med 91,5 procent. 35 procent av de rapporterade bilarna hade något fel, främst motor eller icke-motorelektronik, men 90 procent kunde fortfarande köras och Peugeot stod för de rapporterade reparationskostnaderna.",
-          "comparisons": [
-            {
-              "source": "What Car? Reliability Survey",
-              "result": "Delad 8:a · 91,5 %",
-              "context": "Sjusitsklassen, brittisk ägarundersökning för Peugeot 5008 2017–2024.",
-              "sourceUrl": "https://www.whatcar.com/news/reliability-survey-most-reliable-7-seaters/n26157"
-            }
-          ],
-          "knownIssues": [
-            {
-              "title": "Motor och övrig elektronik",
-              "description": "I undersökningen var motor och icke-motorelektronik de vanligaste felområdena, vardera 8 procent av de rapporterade bilarna.",
-              "repairCost": "Undersökningen redovisade £0 i genomsnitt eftersom Peugeot täckte arbetena; det är inte en prognos efter garanti."
-            }
-          ],
-          "limitations": [
-            "Ägarundersökningen avser brittiska bilar och hela modellperioden 2017–2024.",
-            "Motorvariant måste matchas innan ett specifikt motorfel kopplas till bilen."
-          ],
-          "sources": [
-            {
-              "name": "What Car? – sjusitsiga bilar",
-              "url": "https://www.whatcar.com/news/reliability-survey-most-reliable-7-seaters/n26157",
-              "note": "Brittisk ägarrapporterad undersökning."
             }
           ]
         }

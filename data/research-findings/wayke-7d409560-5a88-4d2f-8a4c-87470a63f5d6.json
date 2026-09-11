@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-  "checkedAt": "2026-09-11T09:41:43.062Z",
+  "checkedAt": "2026-09-11T19:43:28.593Z",
   "sourceUrl": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/CG2147GBR-202211-20230207101401.pdf",
   "notes": "Ford anger huvudservice för Focus 1.0L EcoBoost bensin till 2 år/18 000 miles (cirka 2 år/29 000 km); exakt nästa förfallodatum och åtgärdslista kräver servicebok/FordPass och aktuell mätarställning. Fords svenska testfakta för Focus Active Kombi 1,0T EcoBoost 125 hk redovisar standarddäck 215/55 R17 94H, servicekostnad 16 887 kr till 6 000 mil, skatt 591 kr/år och försäkring 2 448 kr/år under angivna testantaganden. Dessa testbelopp är inte en personlig offert. If anger maskin- och elektronikskydd till 10 år/12 000 mil (halv-/helförsäkring) eller 10 år/15 000 mil (Stor), med exempel på motor, bränslesystem, kraftöverföring och styrväxel; personlig premie och exakt självrisk kräver offert. Dackonline visar vinterdäck i 215/55 R17 94H från cirka 1 625 kr/st inklusive moms/leverans vid kontrollen. Slitbana efter 36 månader, montering, reservdels- och verkstadspriser samt modellunika vanliga fel kan inte verifieras utan exakt däckvariant/verkstadshistorik; Ford hänvisar till registreringsnummer för återkallelsekontroll.",
   "costs": {
@@ -14,7 +14,7 @@
       "amountSek": 18000,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-11T09:41:43.062Z",
+      "checkedAt": "2026-09-11T19:43:28.593Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 500 kr/mån (Ford). Inte personlig offert."
     },
     "tax": {
@@ -47,13 +47,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-11T09:41:43.062Z",
+      "checkedAt": "2026-09-11T19:43:28.593Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "unknown",
       "sourceUrl": "https://www.dackonline.se/",
-      "checkedAt": "2026-09-11T09:41:43.062Z",
+      "checkedAt": "2026-09-11T19:43:28.593Z",
       "note": "Däckdimension saknas i sanerad registerdata."
     }
   }

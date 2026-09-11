@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:a8afb359-cd68-4bb3-a577-3cb7541099db",
-  "checkedAt": "2026-09-11T09:41:43.062Z",
+  "checkedAt": "2026-09-11T19:43:28.593Z",
   "vehicle": {
     "title": "Škoda Octavia Kombi",
     "variant": "Skoda 1.0 TSI e-TEC Style Värmare Dragkrok Carplay",
@@ -152,7 +152,7 @@
       "amountSek": 17244,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-11T09:41:43.062Z",
+      "checkedAt": "2026-09-11T19:43:28.593Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 479 kr/mån (Skoda). Inte personlig offert."
     }
   },
@@ -160,13 +160,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-11T09:41:43.062Z",
+      "checkedAt": "2026-09-11T19:43:28.593Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "unknown",
       "sourceUrl": "https://www.dackonline.se/",
-      "checkedAt": "2026-09-11T09:41:43.062Z",
+      "checkedAt": "2026-09-11T19:43:28.593Z",
       "note": "Däckdimension saknas i sanerad registerdata."
     }
   }

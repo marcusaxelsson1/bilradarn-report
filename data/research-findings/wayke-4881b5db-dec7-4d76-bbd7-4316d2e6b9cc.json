@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
-  "checkedAt": "2026-09-11T09:41:43.062Z",
+  "checkedAt": "2026-09-11T19:43:28.593Z",
   "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
   "notes": "Peugeot 3008 1.2 GT (2023, 4 440 mil). Officiell Peugeot/Stellantis-dokumentation verifierar drivlina, däckdata och PureTech-relaterad support. Exakt skatt, servicehistorik, offertpriser och exemplarens faktiska däck kräver register/VIN/servicebok.",
   "vehicle": {
@@ -208,7 +208,7 @@
       "amountSek": 20016,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-11T09:41:43.062Z",
+      "checkedAt": "2026-09-11T19:43:28.593Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
     },
     "tax": {
@@ -241,13 +241,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-11T09:41:43.062Z",
+      "checkedAt": "2026-09-11T19:43:28.593Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "unknown",
       "sourceUrl": "https://www.dackonline.se/",
-      "checkedAt": "2026-09-11T09:41:43.062Z",
+      "checkedAt": "2026-09-11T19:43:28.593Z",
       "note": "Däckdimension saknas i sanerad registerdata."
     }
   }

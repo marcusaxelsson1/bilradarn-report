@@ -546,5 +546,68 @@
       }
     ],
     "errors": []
+  },
+  {
+    "generatedAt": "2026-09-11T19:42:05.171Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:a792f07e-a390-4374-a41a-849640ba06e1",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-11T19:42:05.171Z"
+      },
+      {
+        "type": "price",
+        "id": "wayke:6ecc9dcd-dab0-4597-be09-c3d725266702",
+        "title": "Peugeot 5008",
+        "before": 249800,
+        "after": 247800,
+        "at": "2026-09-11T19:42:05.171Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:dac1e0cf-5507-4a9f-8f65-e69e063547bb",
+        "title": "Ford Focus Active Kombi",
+        "at": "2026-09-11T19:42:05.171Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
+        "title": "Peugeot 3008",
+        "at": "2026-09-11T19:42:05.171Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:43ae6183-9a73-4f65-9186-8eac7ea99155",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-11T19:42:05.171Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-11T19:43:10.177Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
+        "title": "Dacia Duster",
+        "at": "2026-09-11T19:43:10.177Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:1b8b4414-a528-46f0-a4f2-c166c9e5069f",
+        "title": "Volkswagen Golf Sportscombi",
+        "at": "2026-09-11T19:43:10.177Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:afa4f887-88a1-4db4-9f0e-e966e1e44825",
+        "title": "Peugeot 5008",
+        "at": "2026-09-11T19:43:10.177Z"
+      }
+    ],
+    "errors": []
   }
 ]
