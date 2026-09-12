@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:487d50e9-363e-45dd-a80f-4547d7e8776e",
-  "checkedAt": "2026-09-12T09:22:46.722Z",
+  "checkedAt": "2026-09-12T19:21:00.902Z",
   "sourceUrl": "https://www.hyundai.com/se/sv/service-och-underhaall.html",
   "notes": "Primär källa beskriver service men ingen modell- eller verkstadsoffert kunde verifieras. Personlig försäkring kräver offert; däck kräver registrerings- och offertkontroll.",
   "costs": {
@@ -13,7 +13,7 @@
       "amountSek": 20808,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-12T09:22:46.722Z",
+      "checkedAt": "2026-09-12T19:21:00.902Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
     },
     "winter": {
@@ -37,13 +37,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-12T09:22:46.722Z",
+      "checkedAt": "2026-09-12T19:21:00.902Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "unknown",
       "sourceUrl": "https://www.dackonline.se/",
-      "checkedAt": "2026-09-12T09:22:46.722Z",
+      "checkedAt": "2026-09-12T19:21:00.902Z",
       "note": "Däckdimension saknas i sanerad registerdata."
     }
   }

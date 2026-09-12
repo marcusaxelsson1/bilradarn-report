@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
-  "checkedAt": "2026-09-12T09:22:46.722Z",
+  "checkedAt": "2026-09-12T19:21:00.902Z",
   "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
   "notes": "Peugeot 3008 GT PureTech 130 EAT8 (2023, 9067 mil, UDA99C). Peugeot Servicebox kräver VIN, ålder, körsträcka och användningsprofil för exakt plan; servicehistorik och verkstadsofferter saknas. Peugeot/Stellantis dokumenterar tidigare PureTech-problem med för tidig kamremsnedbrytning/oljetryck och överdriven oljeförbrukning, men det går inte att fastställa om just detta VIN omfattas.",
   "costs": {
@@ -14,7 +14,7 @@
       "amountSek": 20016,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-12T09:22:46.722Z",
+      "checkedAt": "2026-09-12T19:21:00.902Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
     },
     "tax": {
@@ -199,14 +199,14 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-12T09:22:46.722Z",
+      "checkedAt": "2026-09-12T19:21:00.902Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
-      "status": "unknown",
-      "sourceUrl": "https://www.dackonline.se/",
-      "checkedAt": "2026-09-12T09:22:46.722Z",
-      "note": "Däckdimension saknas i sanerad registerdata."
+      "status": "partially_verified",
+      "sourceUrl": "https://www.dackonline.se/search?width=225&profile=55&size=18&searchByCar=true",
+      "checkedAt": "2026-09-12T19:21:00.902Z",
+      "note": "Däckdimension 225/55 R18; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
     }
   }
 }

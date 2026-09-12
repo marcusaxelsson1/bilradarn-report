@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:7d69912a-3c49-41fa-8438-4fb439e898dc",
-  "checkedAt": "2026-09-12T09:22:46.722Z",
+  "checkedAt": "2026-09-12T19:21:00.902Z",
   "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
   "vehicle": {
     "title": "Hyundai i30 Kombi",
@@ -170,7 +170,7 @@
       "amountSek": 20808,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-12T09:22:46.722Z",
+      "checkedAt": "2026-09-12T19:21:00.902Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
     },
     "tax": {
@@ -189,13 +189,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-12T09:22:46.722Z",
+      "checkedAt": "2026-09-12T19:21:00.902Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "unknown",
       "sourceUrl": "https://www.dackonline.se/",
-      "checkedAt": "2026-09-12T09:22:46.722Z",
+      "checkedAt": "2026-09-12T19:21:00.902Z",
       "note": "Däckdimension saknas i sanerad registerdata."
     }
   }

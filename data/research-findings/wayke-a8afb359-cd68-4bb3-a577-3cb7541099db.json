@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:a8afb359-cd68-4bb3-a577-3cb7541099db",
-  "checkedAt": "2026-09-12T09:22:46.722Z",
+  "checkedAt": "2026-09-12T19:21:00.902Z",
   "vehicle": {
     "title": "Škoda Octavia Kombi",
     "variant": "Skoda 1.0 TSI e-TEC Style Värmare Dragkrok Carplay",
@@ -152,7 +152,7 @@
       "amountSek": 17244,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-12T09:22:46.722Z",
+      "checkedAt": "2026-09-12T19:21:00.902Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 479 kr/mån (Skoda). Inte personlig offert."
     }
   },
@@ -160,14 +160,14 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-12T09:22:46.722Z",
+      "checkedAt": "2026-09-12T19:21:00.902Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
-      "status": "unknown",
-      "sourceUrl": "https://www.dackonline.se/",
-      "checkedAt": "2026-09-12T09:22:46.722Z",
-      "note": "Däckdimension saknas i sanerad registerdata."
+      "status": "partially_verified",
+      "sourceUrl": "https://www.dackonline.se/search?width=205&profile=55&size=17&searchByCar=true",
+      "checkedAt": "2026-09-12T19:21:00.902Z",
+      "note": "Däckdimension 205/55 R17 91V; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
     }
   }
 }
