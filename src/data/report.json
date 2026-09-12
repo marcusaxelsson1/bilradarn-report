@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T19:43:28.753Z",
+  "generatedAt": "2026-09-12T09:22:46.919Z",
   "mode": "live",
   "parameters": {
     "horizonMonths": 36,
@@ -14,8 +14,8 @@
     "loanRatePercent": 6.1
   },
   "sourceRuns": {
-    "purchase": "2026-09-11T19:42:05.171Z",
-    "lease": "2026-09-11T19:43:10.289Z"
+    "purchase": "2026-09-12T09:21:18.363Z",
+    "lease": "2026-09-12T09:22:31.706Z"
   },
   "purchases": [
     {
@@ -43,7 +43,7 @@
       "distanceKm": 4,
       "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-08-27T09:06:37.1324804Z",
       "availability": "available",
       "equipment": [
@@ -125,28 +125,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -247,7 +247,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Registreringsnummer saknas."
             }
           },
@@ -258,7 +258,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 508 kr/mån (Kia). Inte personlig offert."
             }
           },
@@ -269,7 +269,7 @@
             "evidence": {
               "status": "observed",
               "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Intervall verifierat på modellnivå; pris kräver variantmatchad offert."
             }
           },
@@ -1884,7 +1884,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/"
       }
     },
@@ -1913,7 +1913,7 @@
       "distanceKm": 127,
       "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-08-31T11:55:37.115863Z",
       "availability": "available",
       "equipment": [
@@ -2009,28 +2009,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -2134,7 +2134,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Registreringsnummer saknas."
             }
           },
@@ -2145,7 +2145,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 508 kr/mån (Seat). Inte personlig offert."
             }
           },
@@ -2156,7 +2156,7 @@
             "evidence": {
               "status": "observed",
               "sourceUrl": "https://www.seat.se/datamanual-manual/leon/my22_w25/se-se/LEON_06_21_SE.pdf",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Serviceplan identifierad; beloppet är fortfarande modellestimat."
             }
           },
@@ -3731,7 +3731,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.seat.se/datamanual-manual/leon/my22_w25/se-se/LEON_06_21_SE.pdf"
       }
     },
@@ -3760,7 +3760,7 @@
       "distanceKm": 23,
       "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-07-17T16:30:42.7608543Z",
       "availability": "available",
       "equipment": [
@@ -3863,28 +3863,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -3938,7 +3938,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/215-55-R17-H",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Dackonline visade flera 215/55 R17 94H vinterdäck cirka 1 625–2 096 kr/st; 6 500 kr är en enkel fyra-däcksprojektion, utan fälg och montering."
             }
           },
@@ -3989,7 +3989,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Treårsprojektion av Fords testfakta 591 kr/år för motsvarande Focus Active 1,0T. Exakt skatt för FKL86D måste kontrolleras i Transportstyrelsens fordonsuppgift."
             }
           },
@@ -4000,7 +4000,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 500 kr/mån (Ford). Inte personlig offert."
             }
           },
@@ -4011,7 +4011,7 @@
             "evidence": {
               "status": "observed",
               "sourceUrl": "https://ford.se/media_assets/a7dfdb9f-9d80-4f86-b59b-ff9b3cb18f08",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Ford-testets kostnad till 6 000 mil för Focus Active Kombi 1,0T EcoBoost 125 hk; inte en variantmatchad offert och bilen i annonsen har gått 7 090 mil. Intervallkälla: 2 år/18 000 miles."
             }
           },
@@ -4022,7 +4022,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/215-55-R17-H",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Montering, skifte och slitagevärde vid månad 36 saknar variant- och verkstadsoffert; beloppet är endast planeringsestimat."
             }
           },
@@ -4033,7 +4033,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.ford.co.uk/support/how-tos/recall/recalls-and-faqs/can-i-check-for-a-safety-recall-before-buying-a-ford-vehicle",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Planeringsreserv, inte ett verifierat reparationspris. Ford kräver registreringsnummer för specifik återkallelsekontroll; primärkälla för variantens typiska fel, delar och arbetskostnad saknas."
             }
           },
@@ -5594,7 +5594,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/CG2147GBR-202211-20230207101401.pdf"
       }
     },
@@ -5623,7 +5623,7 @@
       "distanceKm": 106,
       "sourceUrl": "https://www.wayke.se/objekt/487d50e9-363e-45dd-a80f-4547d7e8776e",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-09T14:52:42.9047875Z",
       "availability": "available",
       "equipment": [
@@ -5685,28 +5685,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/487d50e9-363e-45dd-a80f-4547d7e8776e",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/487d50e9-363e-45dd-a80f-4547d7e8776e",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/487d50e9-363e-45dd-a80f-4547d7e8776e",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/487d50e9-363e-45dd-a80f-4547d7e8776e",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/487d50e9-363e-45dd-a80f-4547d7e8776e",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -5821,7 +5821,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
@@ -7408,7 +7408,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.hyundai.com/se/sv/service-och-underhaall.html"
       }
     },
@@ -7437,7 +7437,7 @@
       "distanceKm": 127,
       "sourceUrl": "https://www.wayke.se/objekt/a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-07-29T10:43:20.1744401Z",
       "availability": "available",
       "equipment": [
@@ -7536,28 +7536,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -7611,7 +7611,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/205-55-R16",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Volkswagen anger 205/55 R16 som standard för Golf eTSI; Dackonline visar prisexempel för dimensionen. 6 500 kr är en uppskattad fyradäcksprojektion utan fälg och montering."
             }
           },
@@ -7662,7 +7662,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Treårsplanering baserad på modellbroschyrns 129 g/km WLTP; exakt skatt för ZBR52C måste kontrolleras i Transportstyrelsens fordonsuppgift."
             }
           },
@@ -7673,7 +7673,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
@@ -7684,7 +7684,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Volkswagens serviceindikering är 30 000 km eller 2 år (flexibel); 15 500 kr är treårsplanering, inte en variantmatchad offert. Servicehistorik saknas."
             }
           },
@@ -7695,7 +7695,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/rshop/Vinterdack/205-55-R16",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Däckslitage, montering och värde vid månad 36 saknar faktisk däckvariant, mönsterdjup och verkstadsoffert; planeringsestimat."
             }
           },
@@ -7706,7 +7706,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Treårsreserv, inte verifierat reparationspris. Primärkälla med variantunika vanliga fel, delar och arbetskostnader saknas."
             }
           },
@@ -9261,7 +9261,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/golf-sportscombi/Golf_Sportscombi_web_juni.pdf"
       }
     },
@@ -9290,7 +9290,7 @@
       "distanceKm": 113,
       "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-11T12:02:55.3305653Z",
       "availability": "available",
       "equipment": [
@@ -9349,6 +9349,15 @@
         "camera"
       ],
       "imageUrls": [
+        "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/01.jpg",
+        "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/02.jpg",
+        "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/03.jpg",
+        "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/04.jpg",
+        "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/05.jpg",
+        "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/06.jpg",
+        "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/07.jpg",
+        "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/08.jpg",
+        "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/09.jpg",
         "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/10.jpg",
         "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/11.jpg",
         "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/12.jpg",
@@ -9368,28 +9377,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -9503,7 +9512,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 500 kr/mån (Ford). Inte personlig offert."
             }
           },
@@ -11094,7 +11103,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb"
       }
     },
@@ -11123,7 +11132,7 @@
       "distanceKm": 130,
       "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-08-31T12:25:43.5091216Z",
       "availability": "available",
       "equipment": [
@@ -11185,28 +11194,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -11321,7 +11330,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
@@ -12912,7 +12921,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343"
       }
     },
@@ -12941,7 +12950,7 @@
       "distanceKm": 3,
       "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-11T11:30:09.0081682Z",
       "availability": "available",
       "equipment": [
@@ -12992,6 +13001,17 @@
         "parking"
       ],
       "imageUrls": [
+        "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/01.jpg",
+        "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/02.jpg",
+        "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/03.jpg",
+        "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/04.jpg",
+        "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/05.jpg",
+        "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/06.jpg",
+        "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/07.jpg",
+        "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/08.jpg",
+        "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/09.jpg",
+        "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/10.jpg",
+        "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/11.jpg",
         "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/30.jpg",
         "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/31.jpg",
         "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/32.jpg",
@@ -13008,28 +13028,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -13143,7 +13163,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
@@ -14734,7 +14754,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1"
       }
     },
@@ -14763,7 +14783,7 @@
       "distanceKm": 19,
       "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-07-17T10:09:09.98058Z",
       "availability": "available",
       "equipment": [
@@ -14839,28 +14859,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -14974,7 +14994,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 508 kr/mån (Kia). Inte personlig offert."
             }
           },
@@ -16602,7 +16622,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225"
       }
     },
@@ -16631,7 +16651,7 @@
       "distanceKm": 137,
       "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-03T14:08:42.9519258Z",
       "availability": "available",
       "equipment": [
@@ -16703,28 +16723,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -16779,7 +16799,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Dimension och offert saknas."
             }
           },
@@ -16830,7 +16850,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Exakt CO2/registeruppgift saknas."
             }
           },
@@ -16841,7 +16861,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
@@ -16852,7 +16872,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dacia.se/aga/service-underhall",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Pris ej publicerat; 0 är null-kompatibelt sentinelvärde, inte påstådd kostnad."
             }
           },
@@ -16863,7 +16883,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Montering/slitage kan inte verifieras."
             }
           },
@@ -16874,7 +16894,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dacia.se/aga/dacia-care-serviceavtal",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Ingen modellstatistik eller offert; ingen exakt reserv uppges."
             }
           },
@@ -18435,7 +18455,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470"
       }
     },
@@ -18464,7 +18484,7 @@
       "distanceKm": 137,
       "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-06-10T09:56:49.3875231Z",
       "availability": "available",
       "equipment": [
@@ -18539,28 +18559,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -18675,7 +18695,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
@@ -20266,7 +20286,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e"
       }
     },
@@ -20295,7 +20315,7 @@
       "distanceKm": 23,
       "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-07-28T15:12:43.5999816Z",
       "availability": "available",
       "equipment": [
@@ -20379,28 +20399,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -20514,7 +20534,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
@@ -22099,7 +22119,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc"
       }
     },
@@ -22128,7 +22148,7 @@
       "distanceKm": 140,
       "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-08-13T14:03:27.641948Z",
       "availability": "available",
       "equipment": [
@@ -22210,28 +22230,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -22346,7 +22366,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
@@ -23937,7 +23957,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc"
       }
     },
@@ -23966,7 +23986,7 @@
       "distanceKm": 20,
       "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-08-24T17:40:58.4522926Z",
       "availability": "available",
       "equipment": [
@@ -24070,28 +24090,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -24205,7 +24225,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 479 kr/mån (Skoda). Inte personlig offert."
             }
           },
@@ -25796,7 +25816,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db"
       }
     },
@@ -25825,7 +25845,7 @@
       "distanceKm": 4,
       "sourceUrl": "https://www.wayke.se/objekt/01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-08T16:06:33.0456302Z",
       "availability": "available",
       "equipment": [
@@ -25876,6 +25896,7 @@
         "/car-images/wayke-01a081c5-5ca2-79e7-b8f8-00b7f75b384b/12.jpg",
         "/car-images/wayke-01a081c5-5ca2-79e7-b8f8-00b7f75b384b/13.jpg",
         "/car-images/wayke-01a081c5-5ca2-79e7-b8f8-00b7f75b384b/14.jpg",
+        "/car-images/wayke-01a081c5-5ca2-79e7-b8f8-00b7f75b384b/15.jpg",
         "/car-images/wayke-01a081c5-5ca2-79e7-b8f8-00b7f75b384b/16.jpg",
         "/car-images/wayke-01a081c5-5ca2-79e7-b8f8-00b7f75b384b/17.jpg"
       ],
@@ -25883,28 +25904,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -26019,7 +26040,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
@@ -27610,7 +27631,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.nissan.se/agarservice/service.html"
       }
     },
@@ -27639,7 +27660,7 @@
       "distanceKm": 138,
       "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-06-02T12:51:28.5879389Z",
       "availability": "available",
       "equipment": [
@@ -27728,28 +27749,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -27860,7 +27881,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
@@ -29456,7 +29477,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd"
       }
     },
@@ -29485,7 +29506,7 @@
       "distanceKm": 127,
       "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-08-24T16:28:58.9087805Z",
       "availability": "available",
       "equipment": [
@@ -29566,28 +29587,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -29701,7 +29722,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
@@ -31292,7 +31313,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24"
       }
     },
@@ -31321,7 +31342,7 @@
       "distanceKm": 20,
       "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-08-28T14:55:21.2759059Z",
       "availability": "available",
       "equipment": [
@@ -31411,28 +31432,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -31546,7 +31567,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
@@ -33142,7 +33163,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317"
       }
     },
@@ -33171,7 +33192,7 @@
       "distanceKm": 49,
       "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-11T06:43:04.0574933Z",
       "availability": "available",
       "equipment": [
@@ -33227,28 +33248,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -33362,7 +33383,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
@@ -34958,7 +34979,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051"
       }
     },
@@ -34987,7 +35008,7 @@
       "distanceKm": 19,
       "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-07-31T10:15:40.8329899Z",
       "availability": "available",
       "equipment": [
@@ -35058,28 +35079,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -35193,7 +35214,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
@@ -36778,7 +36799,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34"
       }
     },
@@ -36807,7 +36828,7 @@
       "distanceKm": 63,
       "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-02T10:57:38.8829545Z",
       "availability": "available",
       "equipment": [
@@ -36891,28 +36912,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -36966,7 +36987,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Komplett vinterhjulspaket, dimension ej verifierad."
             }
           },
@@ -37017,7 +37038,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Annonsens årsskatt × 3; registerkontroll återstår."
             }
           },
@@ -37028,7 +37049,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
@@ -37039,7 +37060,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "36-månaders schablon; ingen offert."
             }
           },
@@ -37050,7 +37071,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Slitage-/bytesreserv, ej offert."
             }
           },
@@ -37061,7 +37082,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Treårig reparationsreserv, inte säker utgift."
             }
           },
@@ -38616,7 +38637,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/t-roc/T-Roc_modellbroschyr_aug2021.pdf"
       }
     },
@@ -38645,7 +38666,7 @@
       "distanceKm": 49,
       "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-07T13:06:52.0456477Z",
       "availability": "available",
       "equipment": [
@@ -38701,28 +38722,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -38836,7 +38857,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
@@ -40432,7 +40453,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2"
       }
     },
@@ -40461,7 +40482,7 @@
       "distanceKm": 127,
       "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-08-19T08:59:29.1844335Z",
       "availability": "available",
       "equipment": [
@@ -40551,28 +40572,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -40683,7 +40704,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
@@ -42279,7 +42300,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29"
       }
     },
@@ -42308,7 +42329,7 @@
       "distanceKm": 131,
       "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-08-31T10:26:27.1663834Z",
       "availability": "available",
       "equipment": [
@@ -42398,28 +42419,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -42470,7 +42491,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Komplett vinterhjulspaket."
             }
           },
@@ -42531,7 +42552,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
@@ -42542,7 +42563,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.peugeot.se/service-och-underhall.html",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "36-månaders schablon."
             }
           },
@@ -42553,7 +42574,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Slitage-/bytesreserv."
             }
           },
@@ -42564,7 +42585,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Treårig reparationsreserv."
             }
           },
@@ -44130,7 +44151,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc"
       }
     },
@@ -44159,7 +44180,7 @@
       "distanceKm": 26,
       "sourceUrl": "https://www.wayke.se/objekt/a0b20001-65db-44cb-8fa4-6bffc12ba91e",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-08T16:57:39.8814622Z",
       "availability": "available",
       "equipment": [
@@ -44249,28 +44270,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a0b20001-65db-44cb-8fa4-6bffc12ba91e",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a0b20001-65db-44cb-8fa4-6bffc12ba91e",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a0b20001-65db-44cb-8fa4-6bffc12ba91e",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a0b20001-65db-44cb-8fa4-6bffc12ba91e",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a0b20001-65db-44cb-8fa4-6bffc12ba91e",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -44381,7 +44402,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
@@ -45977,7 +45998,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.peugeot.se/servicetjanster.html"
       }
     },
@@ -46006,7 +46027,7 @@
       "distanceKm": 20,
       "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-11T11:30:34.8508423Z",
       "availability": "available",
       "equipment": [
@@ -46053,6 +46074,24 @@
         "camera"
       ],
       "imageUrls": [
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/01.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/02.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/03.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/04.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/05.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/06.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/07.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/08.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/09.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/10.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/11.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/12.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/13.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/14.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/15.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/16.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/17.jpg",
+        "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/18.jpg",
         "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/19.jpg",
         "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/20.jpg",
         "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/21.jpg",
@@ -46078,28 +46117,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -46213,7 +46252,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
@@ -47809,7 +47848,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd"
       }
     },
@@ -47838,7 +47877,7 @@
       "distanceKm": 4,
       "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-05T03:08:30.0854247Z",
       "availability": "available",
       "equipment": [
@@ -47920,28 +47959,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -47995,7 +48034,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Dimension och offert saknas."
             }
           },
@@ -48046,7 +48085,7 @@
             "evidence": {
               "status": "unknown",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Registeruppgift saknas."
             }
           },
@@ -48057,7 +48096,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
@@ -48068,7 +48107,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad."
             }
           },
@@ -48079,7 +48118,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Montering/slitage och dimension kan inte verifieras."
             }
           },
@@ -48090,7 +48129,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.volkswagen.se/sv/aga/service-och-underhall.html",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Ingen modellstatistik eller offert."
             }
           },
@@ -49645,7 +49684,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b"
       }
     },
@@ -49674,7 +49713,7 @@
       "distanceKm": 14,
       "sourceUrl": "https://www.wayke.se/objekt/43ae6183-9a73-4f65-9186-8eac7ea99155",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-10T19:11:48.3670345Z",
       "availability": "available",
       "equipment": [
@@ -49723,6 +49762,20 @@
         "camera"
       ],
       "imageUrls": [
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/01.jpg",
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/02.jpg",
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/03.jpg",
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/04.jpg",
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/05.jpg",
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/06.jpg",
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/07.jpg",
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/08.jpg",
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/09.jpg",
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/10.jpg",
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/11.jpg",
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/12.jpg",
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/13.jpg",
+        "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/14.jpg",
         "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/15.jpg",
         "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/16.jpg",
         "/car-images/wayke-43ae6183-9a73-4f65-9186-8eac7ea99155/17.jpg",
@@ -49744,28 +49797,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/43ae6183-9a73-4f65-9186-8eac7ea99155",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/43ae6183-9a73-4f65-9186-8eac7ea99155",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/43ae6183-9a73-4f65-9186-8eac7ea99155",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/43ae6183-9a73-4f65-9186-8eac7ea99155",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/43ae6183-9a73-4f65-9186-8eac7ea99155",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -49880,7 +49933,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
@@ -51471,7 +51524,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/43ae6183-9a73-4f65-9186-8eac7ea99155"
       }
     },
@@ -51500,7 +51553,7 @@
       "distanceKm": 126,
       "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-08-26T07:34:07.8597521Z",
       "availability": "available",
       "equipment": [
@@ -51572,35 +51625,34 @@
         "/car-images/wayke-68cab897-73a7-4259-b74f-64f51d870bd7/22.jpg",
         "/car-images/wayke-68cab897-73a7-4259-b74f-64f51d870bd7/23.jpg",
         "/car-images/wayke-68cab897-73a7-4259-b74f-64f51d870bd7/24.jpg",
-        "/car-images/wayke-68cab897-73a7-4259-b74f-64f51d870bd7/25.jpg",
-        "/car-images/wayke-68cab897-73a7-4259-b74f-64f51d870bd7/26.jpg"
+        "/car-images/wayke-68cab897-73a7-4259-b74f-64f51d870bd7/25.jpg"
       ],
       "evidence": {
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -51654,7 +51706,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Dimension/index och offert saknas."
             }
           },
@@ -51705,7 +51757,7 @@
             "evidence": {
               "status": "unknown",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Registrerade CO2- och datumuppgifter saknas i denna kontroll."
             }
           },
@@ -51716,7 +51768,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
@@ -51727,7 +51779,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.nissan.se/aga/service.html",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad."
             }
           },
@@ -51738,7 +51790,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Montering/slitage och offert saknas."
             }
           },
@@ -51749,7 +51801,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.nissan.se/aga/service.html",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Ingen modellstatistik eller offert."
             }
           },
@@ -53310,7 +53362,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7"
       }
     },
@@ -53339,7 +53391,7 @@
       "distanceKm": 68,
       "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-08T15:44:50.9377809Z",
       "availability": "available",
       "equipment": [
@@ -53393,28 +53445,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -53529,7 +53581,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
@@ -55120,7 +55172,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.nissan.se/agarservice/service.html"
       }
     },
@@ -55149,7 +55201,7 @@
       "distanceKm": 7,
       "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-06-23T17:29:04.7641018Z",
       "availability": "available",
       "equipment": [
@@ -55248,28 +55300,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -55323,7 +55375,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Dimension och offert saknas."
             }
           },
@@ -55374,7 +55426,7 @@
             "evidence": {
               "status": "unknown",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/malus/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "CO2- och registeruppgift saknas."
             }
           },
@@ -55385,7 +55437,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
@@ -55396,7 +55448,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.cupraofficial.se/kopa/finansiering/serviceavtal",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Pris ej publicerat; 0 är sentinelvärde, inte påstådd kostnad."
             }
           },
@@ -55407,7 +55459,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Montering/slitage kan inte verifieras."
             }
           },
@@ -55418,7 +55470,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Ingen modellstatistik eller offert."
             }
           },
@@ -56973,7 +57025,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561"
       }
     },
@@ -57002,7 +57054,7 @@
       "distanceKm": 7,
       "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-06-08T17:16:57.087492Z",
       "availability": "available",
       "equipment": [
@@ -57099,28 +57151,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -57171,7 +57223,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "225/40 R18 modellverifierad; komplett vinterhjulspaket kräver aktuell offert och index."
             }
           },
@@ -57222,7 +57274,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/skattens-storlek/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Skatt beräknas efter registrerat CO2 och eventuell treårig malus; KPS70J är inte registerverifierad. Annonsens 932 kr/år används som estimat."
             }
           },
@@ -57233,7 +57285,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
             }
           },
@@ -57244,7 +57296,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Fast oljeservice är PR-nummerberoende 5 000–15 000 km/1 år eller flexibel enligt indikator; exakt nästa datum/offert saknas."
             }
           },
@@ -57255,7 +57307,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Slitage/montering/värde månad 36 saknar mätning/offert."
             }
           },
@@ -57266,7 +57318,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.cupraofficial.se/kopa/cupra-garantier",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "CUPRA anger 24 mån garanti på delar/arbete i auktoriserat nätverk; reserv är budget, inte felpris."
             }
           },
@@ -58821,7 +58873,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.cupraofficial.se/content/dam/countries/se/cupra-website/instruktionsbocker/cupra-leon-2022-11-se.pdf"
       }
     },
@@ -58850,7 +58902,7 @@
       "distanceKm": 3,
       "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-08-25T15:42:28.6601881Z",
       "availability": "available",
       "equipment": [
@@ -58943,28 +58995,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -59018,7 +59070,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.dackonline.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Dimensionen 215/65 R17 är verifierad för Acenta, men komplett vinterhjulspaket och aktuellt pris kräver offert; ingen exakt prisuppgift påstås."
             }
           },
@@ -59069,7 +59121,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/skatter-och-avgifter/fordonsskatt/malus/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Nissan anger 142–147 g/km WLTP för 158 hk Xtronic 2WD. Transportstyrelsens malusformel ger modellbaserat intervall, men registrerad CO2, första trafikdatum och faktisk drivlina saknas; beloppet är därför inte verifierat."
             }
           },
@@ -59080,7 +59132,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 571 kr/mån (Nissan). Inte personlig offert."
             }
           },
@@ -59091,7 +59143,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.nissan.se/aga/service.html",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Treårsbudget för planerade servicebesök; Nissan publicerar inte en modell-/VIN-specifik svensk prislista här. Beloppet är en budgetuppskattning, inte ett verifierat pris."
             }
           },
@@ -59102,7 +59154,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.mekonomen.se/",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Budget för slitage/montering; faktisk återstående livslängd, montagepris och månad-36-värde är inte verifierade."
             }
           },
@@ -59113,7 +59165,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.nissan.se/aga/garanti.html",
-              "checkedAt": "2026-09-11T19:43:28.753Z",
+              "checkedAt": "2026-09-12T09:22:46.919Z",
               "note": "Treårsreserv som budgetpost. Nissan-källan styrker garanti-/servicekanal, inte sannolikhet eller kostnad för specifika fel."
             }
           },
@@ -60674,7 +60726,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www-europe.nissan-cdn.net/content/dam/Nissan/sk/brochures/Pricelists/New-Qashqai-Pricelist_SK_2022.pdf"
       }
     },
@@ -60703,7 +60755,7 @@
       "distanceKm": 14,
       "sourceUrl": "https://www.wayke.se/objekt/50b26f29-1b35-4bcb-a655-7f7cc667f11c",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-09T19:12:19.3516557Z",
       "availability": "available",
       "equipment": [
@@ -60789,28 +60841,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/50b26f29-1b35-4bcb-a655-7f7cc667f11c",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/50b26f29-1b35-4bcb-a655-7f7cc667f11c",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/50b26f29-1b35-4bcb-a655-7f7cc667f11c",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/50b26f29-1b35-4bcb-a655-7f7cc667f11c",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/50b26f29-1b35-4bcb-a655-7f7cc667f11c",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -60924,7 +60976,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
@@ -62515,7 +62567,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.peugeot.se/servicetjanster.html"
       }
     },
@@ -62544,7 +62596,7 @@
       "distanceKm": 8,
       "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-07-05T11:54:41.6776269Z",
       "availability": "unknown",
       "equipment": [
@@ -62629,28 +62681,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -62761,7 +62813,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
@@ -64346,7 +64398,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665"
       }
     },
@@ -64375,7 +64427,7 @@
       "distanceKm": 49,
       "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-11T06:43:35.6357006Z",
       "availability": "available",
       "equipment": [
@@ -64425,28 +64477,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -64560,7 +64612,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
@@ -66156,7 +66208,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369"
       }
     },
@@ -66185,7 +66237,7 @@
       "distanceKm": 49,
       "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-05T07:33:07.9123876Z",
       "availability": "available",
       "equipment": [
@@ -66241,28 +66293,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -66376,7 +66428,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
@@ -67972,7 +68024,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c"
       }
     },
@@ -68001,7 +68053,7 @@
       "distanceKm": 7,
       "sourceUrl": "https://www.wayke.se/objekt/801f6ac9-2cd3-4243-b79d-1285ca04f633",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-09T17:03:02.3697188Z",
       "availability": "available",
       "equipment": [
@@ -68084,28 +68136,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/801f6ac9-2cd3-4243-b79d-1285ca04f633",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/801f6ac9-2cd3-4243-b79d-1285ca04f633",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/801f6ac9-2cd3-4243-b79d-1285ca04f633",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/801f6ac9-2cd3-4243-b79d-1285ca04f633",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/801f6ac9-2cd3-4243-b79d-1285ca04f633",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -68216,7 +68268,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
@@ -69807,7 +69859,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.volkswagen.se/sv/verkstad-service.html"
       }
     },
@@ -69836,7 +69888,7 @@
       "distanceKm": 68,
       "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-07-07T16:26:44.9211848Z",
       "availability": "available",
       "equipment": [
@@ -69926,28 +69978,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -70058,7 +70110,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
             }
           },
@@ -71649,7 +71701,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702"
       }
     },
@@ -71678,7 +71730,7 @@
       "distanceKm": 3,
       "sourceUrl": "https://www.wayke.se/objekt/4d1bf0f4-5830-4005-a676-c13110c09318",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-11T19:42:05.171Z",
+      "sourceCheckedAt": "2026-09-12T09:21:18.363Z",
       "publishedAt": "2026-09-09T16:17:24.9491954Z",
       "availability": "available",
       "equipment": [
@@ -71774,28 +71826,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/4d1bf0f4-5830-4005-a676-c13110c09318",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/4d1bf0f4-5830-4005-a676-c13110c09318",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4d1bf0f4-5830-4005-a676-c13110c09318",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4d1bf0f4-5830-4005-a676-c13110c09318",
-          "checkedAt": "2026-09-11T19:42:05.171Z",
+          "checkedAt": "2026-09-12T09:21:18.363Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4d1bf0f4-5830-4005-a676-c13110c09318",
-          "checkedAt": "2026-09-11T19:42:05.171Z"
+          "checkedAt": "2026-09-12T09:21:18.363Z"
         },
         "economics": {
           "status": "modelled",
@@ -71906,7 +71958,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
             }
           },
@@ -73491,7 +73543,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.volkswagen.se/sv/verkstad-service.html"
       }
     }
@@ -73521,7 +73573,7 @@
       "distanceKm": null,
       "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
       "termsUrl": "https://easyprivatleasing.toyota.se/konfiguration/modell/corolla-ts",
-      "sourceCheckedAt": "2026-09-11T19:43:10.289Z",
+      "sourceCheckedAt": "2026-09-12T09:22:31.706Z",
       "imageUrls": [
         "/car-images/toyota-corolla-ts-easy-privatleasing/01.jpg"
       ],
@@ -73543,32 +73595,32 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
-          "checkedAt": "2026-09-11T19:43:10.289Z"
+          "checkedAt": "2026-09-12T09:22:31.706Z"
         },
         "monthlyFee": {
           "status": "verified",
           "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
-          "checkedAt": "2026-09-11T19:43:10.289Z"
+          "checkedAt": "2026-09-12T09:22:31.706Z"
         },
         "term": {
           "status": "verified",
           "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
-          "checkedAt": "2026-09-11T19:43:10.289Z"
+          "checkedAt": "2026-09-12T09:22:31.706Z"
         },
         "mileage": {
           "status": "verified",
           "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
-          "checkedAt": "2026-09-11T19:43:10.289Z"
+          "checkedAt": "2026-09-12T09:22:31.706Z"
         },
         "extraMileage": {
           "status": "observed",
           "sourceUrl": "https://easyprivatleasing.toyota.se/konfiguration/modell/corolla-ts",
-          "checkedAt": "2026-09-11T19:43:10.289Z"
+          "checkedAt": "2026-09-12T09:22:31.706Z"
         },
         "tax": {
           "status": "modelled",
           "sourceUrl": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d",
-          "checkedAt": "2026-09-11T19:43:10.289Z",
+          "checkedAt": "2026-09-12T09:22:31.706Z",
           "note": "Kontrolleras mot registreringsnummer vid offert"
         }
       },
@@ -73640,7 +73692,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-11T19:43:28.593Z",
+              "checkedAt": "2026-09-12T09:22:46.722Z",
               "note": "Hedvigs offentliga snitt för helförsäkring: 558 kr/mån (Toyota). Inte personlig offert."
             }
           },
@@ -74703,70 +74755,13 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-11T19:43:28.753Z",
+        "checkedAt": "2026-09-12T09:22:46.919Z",
         "findingSource": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d"
       }
     }
   ],
   "excludedPurchases": [],
-  "changes": [
-    {
-      "type": "new",
-      "id": "wayke:a792f07e-a390-4374-a41a-849640ba06e1",
-      "title": "Hyundai i30 Kombi",
-      "at": "2026-09-11T19:42:05.171Z"
-    },
-    {
-      "type": "price",
-      "id": "wayke:6ecc9dcd-dab0-4597-be09-c3d725266702",
-      "title": "Peugeot 5008",
-      "before": 249800,
-      "after": 247800,
-      "at": "2026-09-11T19:42:05.171Z"
-    },
-    {
-      "type": "new",
-      "id": "wayke:dac1e0cf-5507-4a9f-8f65-e69e063547bb",
-      "title": "Ford Focus Active Kombi",
-      "at": "2026-09-11T19:42:05.171Z"
-    },
-    {
-      "type": "new",
-      "id": "wayke:be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
-      "title": "Peugeot 3008",
-      "at": "2026-09-11T19:42:05.171Z"
-    },
-    {
-      "type": "new",
-      "id": "wayke:43ae6183-9a73-4f65-9186-8eac7ea99155",
-      "title": "Nissan Qashqai",
-      "at": "2026-09-11T19:42:05.171Z"
-    },
-    {
-      "type": "not-in-current-sample",
-      "id": "wayke:c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-      "title": "Hyundai i30 Kombi",
-      "at": "2026-09-11T19:43:10.177Z"
-    },
-    {
-      "type": "not-in-current-sample",
-      "id": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
-      "title": "Dacia Duster",
-      "at": "2026-09-11T19:43:10.177Z"
-    },
-    {
-      "type": "not-in-current-sample",
-      "id": "wayke:1b8b4414-a528-46f0-a4f2-c166c9e5069f",
-      "title": "Volkswagen Golf Sportscombi",
-      "at": "2026-09-11T19:43:10.177Z"
-    },
-    {
-      "type": "not-in-current-sample",
-      "id": "wayke:afa4f887-88a1-4db4-9f0e-e966e1e44825",
-      "title": "Peugeot 5008",
-      "at": "2026-09-11T19:43:10.177Z"
-    }
-  ],
+  "changes": [],
   "sources": [
     {
       "label": "Billån – publicerat marknadsriktmärke",

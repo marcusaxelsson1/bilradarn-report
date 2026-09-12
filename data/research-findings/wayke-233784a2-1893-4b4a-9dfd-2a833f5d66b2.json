@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:233784a2-1893-4b4a-9dfd-2a833f5d66b2",
-  "checkedAt": "2026-09-11T19:43:28.593Z",
+  "checkedAt": "2026-09-12T09:22:46.722Z",
   "sourceUrl": "https://www.volkswagen.se/idhub/content/dam/onehub_pkw/importers/se/hjalp-och-support/broschyrer/t-roc/T-Roc_modellbroschyr_aug2021.pdf",
   "notes": "Officiell Volkswagen Sverige-broschyr verifierar modell/drivlina och WLTP-data. Annonsens registreringsnummer används inte för att anta registerdata; personlig försäkringspremie, serviceoffert, exakt däckdimension och reparationspris kräver VIN/servicebok/verkstadsoffert.",
   "vehicle": {
@@ -211,7 +211,7 @@
       "amountSek": 20376,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-11T19:43:28.593Z",
+      "checkedAt": "2026-09-12T09:22:46.722Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 566 kr/mån (Volkswagen). Inte personlig offert."
     },
     "tax": {
@@ -244,13 +244,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-11T19:43:28.593Z",
+      "checkedAt": "2026-09-12T09:22:46.722Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "unknown",
       "sourceUrl": "https://www.dackonline.se/",
-      "checkedAt": "2026-09-11T19:43:28.593Z",
+      "checkedAt": "2026-09-12T09:22:46.722Z",
       "note": "Däckdimension saknas i sanerad registerdata."
     }
   }

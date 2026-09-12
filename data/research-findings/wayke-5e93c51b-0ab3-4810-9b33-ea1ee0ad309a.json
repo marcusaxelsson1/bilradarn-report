@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
-  "checkedAt": "2026-09-11T19:43:28.593Z",
+  "checkedAt": "2026-09-12T09:22:46.722Z",
   "sourceUrl": "https://www.kia.com/se/aga/service-oversikt/serviceintervaller/",
   "notes": "Kia anger 1 500 mil/12 månader för Ceed/ Ceed SW bensin. Annonsen anger inte registreringsnummer eller servicehistorik, så verkstadspriset förblir estimerat.",
   "costs": {
@@ -14,7 +14,7 @@
       "amountSek": 18288,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-11T19:43:28.593Z",
+      "checkedAt": "2026-09-12T09:22:46.722Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 508 kr/mån (Kia). Inte personlig offert."
     },
     "tax": {
@@ -29,13 +29,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-11T19:43:28.593Z",
+      "checkedAt": "2026-09-12T09:22:46.722Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "unknown",
       "sourceUrl": "https://www.dackonline.se/",
-      "checkedAt": "2026-09-11T19:43:28.593Z",
+      "checkedAt": "2026-09-12T09:22:46.722Z",
       "note": "Däckdimension saknas i sanerad registerdata."
     }
   },

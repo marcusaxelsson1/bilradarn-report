@@ -1,14 +1,14 @@
 {
   "offerId": "wayke:9173151c-a4a3-4cdd-b54b-2a88153d7051",
   "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
-  "checkedAt": "2026-09-11T19:43:28.593Z",
+  "checkedAt": "2026-09-12T09:22:46.722Z",
   "status": "partially_verified",
   "costs": {
     "insurance": {
       "amountSek": 20016,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-11T19:43:28.593Z",
+      "checkedAt": "2026-09-12T09:22:46.722Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
     }
   },
@@ -16,13 +16,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-11T19:43:28.593Z",
+      "checkedAt": "2026-09-12T09:22:46.722Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "unknown",
       "sourceUrl": "https://www.dackonline.se/",
-      "checkedAt": "2026-09-11T19:43:28.593Z",
+      "checkedAt": "2026-09-12T09:22:46.722Z",
       "note": "Däckdimension saknas i sanerad registerdata."
     }
   }
