@@ -627,5 +627,24 @@
     "offers": 40,
     "changes": [],
     "errors": []
+  },
+  {
+    "generatedAt": "2026-09-13T19:27:58.118Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-13T19:27:58.118Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:43ae6183-9a73-4f65-9186-8eac7ea99155",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-13T19:28:58.630Z"
+      }
+    ],
+    "errors": []
   }
 ]
