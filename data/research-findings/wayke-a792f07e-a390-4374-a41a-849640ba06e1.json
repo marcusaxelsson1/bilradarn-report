@@ -1,14 +1,14 @@
 {
   "offerId": "wayke:a792f07e-a390-4374-a41a-849640ba06e1",
   "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
-  "checkedAt": "2026-09-12T19:21:00.902Z",
+  "checkedAt": "2026-09-13T10:18:18.165Z",
   "status": "partially_verified",
   "costs": {
     "insurance": {
       "amountSek": 20808,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-12T19:21:00.902Z",
+      "checkedAt": "2026-09-13T10:18:18.165Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
     }
   },
@@ -16,13 +16,13 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-12T19:21:00.902Z",
+      "checkedAt": "2026-09-13T10:18:18.165Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
       "status": "unknown",
       "sourceUrl": "https://www.dackonline.se/",
-      "checkedAt": "2026-09-12T19:21:00.902Z",
+      "checkedAt": "2026-09-13T10:18:18.165Z",
       "note": "Däckdimension saknas i sanerad registerdata."
     }
   }

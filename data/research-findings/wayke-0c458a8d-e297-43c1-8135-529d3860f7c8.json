@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:0c458a8d-e297-43c1-8135-529d3860f7c8",
-  "checkedAt": "2026-09-12T19:21:00.902Z",
+  "checkedAt": "2026-09-13T10:18:18.165Z",
   "sourceUrl": "https://www.seat.se/datamanual-manual/leon/my22_w25/se-se/LEON_06_21_SE.pdf",
   "notes": "SEAT:s officiella MY22-manual och serviceinformation är rätt primärkälla för Leon Sportstourer. Exakt verkstadspris, skatt och däck kräver registreringsnummer/servicehistorik/dimension.",
   "costs": {
@@ -14,7 +14,7 @@
       "amountSek": 18288,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-12T19:21:00.902Z",
+      "checkedAt": "2026-09-13T10:18:18.165Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 508 kr/mån (Seat). Inte personlig offert."
     },
     "tax": {
@@ -29,14 +29,14 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-12T19:21:00.902Z",
+      "checkedAt": "2026-09-13T10:18:18.165Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
-      "status": "partially_verified",
-      "sourceUrl": "https://www.dackonline.se/search?width=205&profile=55&size=16&searchByCar=true",
-      "checkedAt": "2026-09-12T19:21:00.902Z",
-      "note": "Däckdimension 205/55 R16 91V; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/",
+      "checkedAt": "2026-09-13T10:18:18.165Z",
+      "note": "Däckdimension saknas i sanerad registerdata."
     }
   }
 }

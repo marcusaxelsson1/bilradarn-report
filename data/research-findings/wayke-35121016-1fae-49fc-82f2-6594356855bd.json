@@ -1,6 +1,6 @@
 {
   "offerId": "wayke:35121016-1fae-49fc-82f2-6594356855bd",
-  "checkedAt": "2026-09-12T19:21:00.902Z",
+  "checkedAt": "2026-09-13T10:18:18.165Z",
   "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
   "vehicle": {
     "title": "Peugeot 3008",
@@ -164,7 +164,7 @@
       "amountSek": 20016,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-      "checkedAt": "2026-09-12T19:21:00.902Z",
+      "checkedAt": "2026-09-13T10:18:18.165Z",
       "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
     }
   },
@@ -172,14 +172,14 @@
     "tyreSwap": {
       "status": "unknown",
       "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
-      "checkedAt": "2026-09-12T19:21:00.902Z",
+      "checkedAt": "2026-09-13T10:18:18.165Z",
       "note": "Pris kunde inte läsas."
     },
     "tyreSearch": {
-      "status": "partially_verified",
-      "sourceUrl": "https://www.dackonline.se/search?width=225&profile=55&size=18&searchByCar=true",
-      "checkedAt": "2026-09-12T19:21:00.902Z",
-      "note": "Däckdimension 225/55 R18; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/",
+      "checkedAt": "2026-09-13T10:18:18.165Z",
+      "note": "Däckdimension saknas i sanerad registerdata."
     }
   }
 }
