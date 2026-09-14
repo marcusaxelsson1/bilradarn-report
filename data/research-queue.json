@@ -1,9 +1,170 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T19:29:01.686Z",
+  "generatedAt": "2026-09-14T10:39:03.386Z",
   "horizonMonths": 36,
   "annualMileageMil": 1500,
   "tasks": [
+    {
+      "id": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
+      "title": "Dacia Duster",
+      "variant": "PhII 4x2 TCe 150 Journey A, Backkamera, Automat, Sensorer",
+      "registrationNumber": "KCD10G",
+      "modelYear": 2023,
+      "mileageMil": 4099,
+      "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
+      "enrichmentRequest": {
+        "offerId": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
+        "registrationNumber": "KCD10G",
+        "vin": "VF1HJD20270290285",
+        "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
+        "checkedAt": null,
+        "providers": {
+          "registry": {
+            "required": [
+              "annualTaxSek",
+              "co2Gkm",
+              "firstTrafficDate"
+            ]
+          },
+          "manufacturer": {
+            "required": [
+              "serviceInterval",
+              "serviceOperations",
+              "warranty"
+            ]
+          },
+          "insurance": {
+            "required": [
+              "machineDamageMaxAge",
+              "machineDamageMaxMileage",
+              "personalQuote"
+            ]
+          },
+          "tyres": {
+            "required": [
+              "dimension",
+              "loadIndex",
+              "setPrice",
+              "treadLife"
+            ]
+          }
+        }
+      },
+      "status": "received",
+      "requested": {
+        "service": {
+          "manufacturerPlanUrl": null,
+          "fields": [
+            "interval",
+            "nextDue",
+            "operations",
+            "priceAuthorized",
+            "priceIndependent",
+            "priceIncludesVat",
+            "largeServiceAfter36Months"
+          ]
+        },
+        "insurance": {
+          "fields": [
+            "annualPremiumRange",
+            "machineDamageMaxAge",
+            "machineDamageMaxMileage",
+            "deductible",
+            "coveredComponents",
+            "personalQuoteRequired"
+          ],
+          "sources": [
+            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
+          ]
+        },
+        "tyres": {
+          "fields": [
+            "dimension",
+            "loadIndex",
+            "completeSetPrice",
+            "mountingPrice",
+            "treadLife",
+            "valueAtMonth36"
+          ],
+          "sources": [
+            "https://www.mekonomen.se/",
+            "https://www.dackonline.se/"
+          ]
+        },
+        "repairs": {
+          "fields": [
+            "commonFailures",
+            "partsPrice",
+            "laborPriceAuthorized",
+            "laborPriceIndependent",
+            "threeYearReserve"
+          ]
+        },
+        "reliability": {
+          "fields": [
+            "summary",
+            "comparisons",
+            "knownIssues",
+            "repairCosts",
+            "warranty",
+            "vehicleDamageWarranty",
+            "limitations",
+            "sources"
+          ],
+          "sources": [
+            "ADAC Pannenstatistik",
+            "What Car? Reliability Survey",
+            "Warrantywise Reliability Index",
+            "official recalls and warranty terms"
+          ],
+          "rules": [
+            "match model generation and powertrain",
+            "exclude normal wear",
+            "keep markets and survey scopes explicit",
+            "never infer a ranking or repair price",
+            "preserve every completed field and only fill missing fields"
+          ]
+        }
+      },
+      "instruction": "Researchera endast saknade fält för Dacia Duster PhII 4x2 TCe 150 Journey A, Backkamera, Automat, Sensorer (2023, 4099 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
+      "existingFinding": {
+        "reliability": {
+          "status": "partially_verified",
+          "checkedAt": "2026-09-10",
+          "heading": "Bra stoppresultat för årsmodellen",
+          "summary": "Dacia Duster från 2021 ligger på 8,0 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är bättre än Golf, Tiguan, 3008, Qashqai, Focus och Octavia i samma årsrad. Senare års bilar har generatorn som redovisad stopporsak, vilket bör kontrolleras för exemplar från 2022–2023.",
+          "comparisons": [
+            {
+              "source": "ADAC Pannenstatistik",
+              "result": "8,0 stopp per 1 000 bilar",
+              "context": "Registreringsår 2021 för den samlade Duster/Logan/Sandero-gruppen.",
+              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/"
+            }
+          ],
+          "knownIssues": [
+            {
+              "title": "Generator på senare års bilar",
+              "description": "ADAC listar generator som stopporsak för registreringsår 2022–2023 i den samlade Duster/Logan/Sandero-statistiken.",
+              "repairCost": "Ingen styrkt svensk modellkostnad hittad."
+            }
+          ],
+          "limitations": [
+            "ADAC grupperar Duster med Logan och Sandero i stopporsakerna.",
+            "Generatoruppgiften är främst relevant för 2022–2023."
+          ],
+          "sources": [
+            {
+              "name": "ADAC – Dacia Duster",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/",
+              "note": "Tysk vägassistansstatistik."
+            }
+          ]
+        }
+      },
+      "missing": {
+        "reliability": false
+      }
+    },
     {
       "id": "wayke:c9fdeb16-0d54-4140-961b-43568350b470",
       "title": "Dacia Duster",
@@ -4913,167 +5074,6 @@
               "name": "Stellantis PureTech policy",
               "url": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
               "note": "Tillverkarens information om berörda PureTech-problem."
-            }
-          ]
-        }
-      },
-      "missing": {
-        "reliability": false
-      }
-    },
-    {
-      "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
-      "title": "Nissan Qashqai",
-      "variant": "DIG-T 160 TEKNA 2WD DCT",
-      "registrationNumber": "XJB81T",
-      "modelYear": 2021,
-      "mileageMil": 3600,
-      "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
-      "enrichmentRequest": {
-        "offerId": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
-        "registrationNumber": "XJB81T",
-        "vin": "SJNFFAJ11U2882229",
-        "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
-        "checkedAt": null,
-        "providers": {
-          "registry": {
-            "required": [
-              "annualTaxSek",
-              "co2Gkm",
-              "firstTrafficDate"
-            ]
-          },
-          "manufacturer": {
-            "required": [
-              "serviceInterval",
-              "serviceOperations",
-              "warranty"
-            ]
-          },
-          "insurance": {
-            "required": [
-              "machineDamageMaxAge",
-              "machineDamageMaxMileage",
-              "personalQuote"
-            ]
-          },
-          "tyres": {
-            "required": [
-              "dimension",
-              "loadIndex",
-              "setPrice",
-              "treadLife"
-            ]
-          }
-        }
-      },
-      "status": "received",
-      "requested": {
-        "service": {
-          "manufacturerPlanUrl": "https://www.nissan.se/aga/service.html",
-          "fields": [
-            "interval",
-            "nextDue",
-            "operations",
-            "priceAuthorized",
-            "priceIndependent",
-            "priceIncludesVat",
-            "largeServiceAfter36Months"
-          ]
-        },
-        "insurance": {
-          "fields": [
-            "annualPremiumRange",
-            "machineDamageMaxAge",
-            "machineDamageMaxMileage",
-            "deductible",
-            "coveredComponents",
-            "personalQuoteRequired"
-          ],
-          "sources": [
-            "https://www.konsumenternas.se/forsakringar/fordonsforsakringar/bilforsakringar/"
-          ]
-        },
-        "tyres": {
-          "fields": [
-            "dimension",
-            "loadIndex",
-            "completeSetPrice",
-            "mountingPrice",
-            "treadLife",
-            "valueAtMonth36"
-          ],
-          "sources": [
-            "https://www.mekonomen.se/",
-            "https://www.dackonline.se/"
-          ]
-        },
-        "repairs": {
-          "fields": [
-            "commonFailures",
-            "partsPrice",
-            "laborPriceAuthorized",
-            "laborPriceIndependent",
-            "threeYearReserve"
-          ]
-        },
-        "reliability": {
-          "fields": [
-            "summary",
-            "comparisons",
-            "knownIssues",
-            "repairCosts",
-            "warranty",
-            "vehicleDamageWarranty",
-            "limitations",
-            "sources"
-          ],
-          "sources": [
-            "ADAC Pannenstatistik",
-            "What Car? Reliability Survey",
-            "Warrantywise Reliability Index",
-            "official recalls and warranty terms"
-          ],
-          "rules": [
-            "match model generation and powertrain",
-            "exclude normal wear",
-            "keep markets and survey scopes explicit",
-            "never infer a ranking or repair price",
-            "preserve every completed field and only fill missing fields"
-          ]
-        }
-      },
-      "instruction": "Researchera endast saknade fält för Nissan Qashqai DIG-T 160 TEKNA 2WD DCT (2021, 3600 mil) mot primärkällor och etablerade oberoende index. Bevara befintlig text, verifierade värden och källor ordagrant. Svara bara med uppgifter som kan styrkas med URL och kontrolltid. Håll service, försäkring, däck, reparationer och driftsäkerhet separata. För driftsäkerhet: matcha modellgeneration och drivlina, jämför med relevanta konkurrenter, skilj vanliga modellfel från normalt slitage och ange reparationspris som intervall eller okänt. Markera osäkra uppgifter som estimated eller unknown och hitta aldrig på rankingar.",
-      "existingFinding": {
-        "reliability": {
-          "status": "partially_verified",
-          "checkedAt": "2026-09-10",
-          "heading": "Svagare än flera vanliga konkurrenter",
-          "summary": "Nissan Qashqai från 2021 har 13,6 vägassistansstopp per 1 000 bilar i ADAC:s statistik. Det är svagare än Ceed, i30, Leon, Golf och T-Roc i samma årsrad, men bättre än Focus och Octavia. Startbatteriet är det tydligaste återkommande stoppområdet i ADAC:s modellöversikt.",
-          "comparisons": [
-            {
-              "source": "ADAC Pannenstatistik",
-              "result": "13,6 stopp per 1 000 bilar",
-              "context": "Registreringsår 2021. ADAC anger startbatteri som återkommande stopporsak för 2016–2023.",
-              "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/"
-            }
-          ],
-          "knownIssues": [
-            {
-              "title": "Startbatteri",
-              "description": "ADAC listar startbatteriet som återkommande stopporsak för Qashqai 2016–2023. Batteritest före köp är mer relevant än att utgå från åldern ensam.",
-              "repairCost": "Batteribyte är normalt slitage och ingår inte som modellfelskostnad i ekonomiplanen."
-            }
-          ],
-          "limitations": [
-            "Batteri är en slitdel och redovisas här för att det påverkar stoppfrekvensen, inte som konstruktionsfel.",
-            "Statistiken blandar Qashqai-generationer kring modellskiftet 2021."
-          ],
-          "sources": [
-            {
-              "name": "ADAC – Nissan Qashqai",
-              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/",
-              "note": "Tysk vägassistansstatistik och redovisade stopporsaker."
             }
           ]
         }

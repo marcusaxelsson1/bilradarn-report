@@ -646,5 +646,24 @@
       }
     ],
     "errors": []
+  },
+  {
+    "generatedAt": "2026-09-14T10:37:41.262Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
+        "title": "Dacia Duster",
+        "at": "2026-09-14T10:37:41.262Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-14T10:38:59.373Z"
+      }
+    ],
+    "errors": []
   }
 ]
