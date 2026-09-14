@@ -665,5 +665,48 @@
       }
     ],
     "errors": []
+  },
+  {
+    "generatedAt": "2026-09-14T20:56:51.029Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:385838a8-6272-4e8e-93d6-1067296d8d51",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-14T20:56:51.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:91386249-51d6-46b7-8887-db7304548dcb",
+        "title": "Peugeot 3008",
+        "at": "2026-09-14T20:56:51.029Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-14T20:56:51.029Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:801f6ac9-2cd3-4243-b79d-1285ca04f633",
+        "title": "Volkswagen Tiguan",
+        "at": "2026-09-14T20:58:05.782Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:50b26f29-1b35-4bcb-a655-7f7cc667f11c",
+        "title": "Peugeot 5008",
+        "at": "2026-09-14T20:58:05.782Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
+        "title": "Volkswagen Golf Sportscombi",
+        "at": "2026-09-14T20:58:05.782Z"
+      }
+    ],
+    "errors": []
   }
 ]

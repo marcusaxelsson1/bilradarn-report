@@ -1,8 +1,106 @@
 {
-  "generatedAt": "2026-09-14T10:39:16.467Z",
-  "downloaded": 1131,
-  "failed": 28,
+  "generatedAt": "2026-09-14T20:59:29.328Z",
+  "downloaded": 1018,
+  "failed": 86,
   "offers": {
+    "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9": [
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/18df44565f99444b8a2d0e9ef683d316/2289b6c05f874950a96a31b925a1fd1a",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/01.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/f257a4a8a8ae431b9b00f5697a13e5ff/d33d41de7d5c49a6b9fde4566c19565f",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/02.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/9ee2308a99b0444681b2a5fdba68ed5d/72954033f6dc40bd9ccfafca8bb4472f",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/03.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/08abb66c-df98-499f-b9bb-a6f4291268b8",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/04.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/37d465749286437da00bc3e6ff929f85/587189069a6846ba8d677334430101eb",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/05.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/ea13886072854dc1b8810096578a78b2/bcd0bd13b4cc42ba8a93073ba9c3a24b",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/06.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/f8c0aa7d73644272b4624650db82a043/7bfaf3582bd34b59946074d441de74d3",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/07.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/c7a69e8834404a4d92ab5092db3cb1f0/5d903b9ef2a44f79a528d1a6f3157a0f",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/08.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/90f0d8fb5006432bb0c86253f171ff3c/8ae8b1dc6872433482058f3910097af8",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/09.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/2a8c8072f4444750b87b0ea97f229674/a05718f398db482e8da4f0589330005d",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/10.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/3e86afb71f16419890e1e31d6d739b5f/495e33c8a31b464fa7de573b61a068ec",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/11.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/803c1db516a341e8b5ea34d7bf93b7f0/dde5043d81b5403997d93c5cb6237ebe",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/12.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/7941c58fb400451085289db6f813b149/ac1adaf244084493951a5c3405c79235",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/13.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/bf9ac038a28d4bf7879d3ba8a6f5c0d0/1f2ca0b5c727476297e8c7136f5a5c87",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/14.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/77eb0a05f9d645839f400106fbe507d4/3ca42756825f4890bad196663af1f3ab",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/15.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/18df44565f99444b8a2d0e9ef683d316/2289b6c05f874950a96a31b925a1fd1a?format=jpeg&w=1170",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/16.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/f257a4a8a8ae431b9b00f5697a13e5ff/d33d41de7d5c49a6b9fde4566c19565f?format=jpeg&w=1170",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/17.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/9ee2308a99b0444681b2a5fdba68ed5d/72954033f6dc40bd9ccfafca8bb4472f?format=jpeg&w=1170",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/18.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/37d465749286437da00bc3e6ff929f85/587189069a6846ba8d677334430101eb?format=jpeg&w=1170",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/19.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/ea13886072854dc1b8810096578a78b2/bcd0bd13b4cc42ba8a93073ba9c3a24b?format=jpeg&w=1170",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/20.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/f8c0aa7d73644272b4624650db82a043/7bfaf3582bd34b59946074d441de74d3?format=jpeg&w=1170",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/21.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/c7a69e8834404a4d92ab5092db3cb1f0/5d903b9ef2a44f79a528d1a6f3157a0f?format=jpeg&w=1170",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/22.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/90f0d8fb5006432bb0c86253f171ff3c/8ae8b1dc6872433482058f3910097af8?format=jpeg&w=1170",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/23.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/2a8c8072f4444750b87b0ea97f229674/a05718f398db482e8da4f0589330005d?format=jpeg&w=1170",
+        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/24.jpg"
+      }
+    ],
     "wayke:68cab897-73a7-4259-b74f-64f51d870bd7": [
       {
         "url": "https://cdn.wayke.se/cfit/v3/6dd497f4a1b94d3a93f97a0128b4ade1/a00a8816828a4a749060daf7ec05f07e",
@@ -203,64 +301,6 @@
         "path": "/car-images/wayke-c9fdeb16-0d54-4140-961b-43568350b470/23.jpg"
       }
     ],
-    "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9": [
-      {
-        "url": "https://cdn.wayke.se/media/3e86afb71f16419890e1e31d6d739b5f/495e33c8a31b464fa7de573b61a068ec",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/11.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/803c1db516a341e8b5ea34d7bf93b7f0/dde5043d81b5403997d93c5cb6237ebe",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/12.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/7941c58fb400451085289db6f813b149/ac1adaf244084493951a5c3405c79235",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/13.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/bf9ac038a28d4bf7879d3ba8a6f5c0d0/1f2ca0b5c727476297e8c7136f5a5c87",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/14.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/77eb0a05f9d645839f400106fbe507d4/3ca42756825f4890bad196663af1f3ab",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/15.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/18df44565f99444b8a2d0e9ef683d316/2289b6c05f874950a96a31b925a1fd1a?format=jpeg&w=1170",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/16.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/f257a4a8a8ae431b9b00f5697a13e5ff/d33d41de7d5c49a6b9fde4566c19565f?format=jpeg&w=1170",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/17.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/9ee2308a99b0444681b2a5fdba68ed5d/72954033f6dc40bd9ccfafca8bb4472f?format=jpeg&w=1170",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/18.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/37d465749286437da00bc3e6ff929f85/587189069a6846ba8d677334430101eb?format=jpeg&w=1170",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/19.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/ea13886072854dc1b8810096578a78b2/bcd0bd13b4cc42ba8a93073ba9c3a24b?format=jpeg&w=1170",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/20.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/f8c0aa7d73644272b4624650db82a043/7bfaf3582bd34b59946074d441de74d3?format=jpeg&w=1170",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/21.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c7a69e8834404a4d92ab5092db3cb1f0/5d903b9ef2a44f79a528d1a6f3157a0f?format=jpeg&w=1170",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/22.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/90f0d8fb5006432bb0c86253f171ff3c/8ae8b1dc6872433482058f3910097af8?format=jpeg&w=1170",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/23.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/2a8c8072f4444750b87b0ea97f229674/a05718f398db482e8da4f0589330005d?format=jpeg&w=1170",
-        "path": "/car-images/wayke-6a0121fc-c77d-4e02-8693-f214b571a8a9/24.jpg"
-      }
-    ],
     "wayke:9dbfc015-5da0-47f6-96e7-d02abb19433b": [
       {
         "url": "https://cdn.wayke.se/media/b891c43bdb964a6d96ffe60714ad6391/cad31f3f4d1c4c998d37fb1fce6bae81",
@@ -305,10 +345,6 @@
       {
         "url": "https://cdn.wayke.se/cfit/v3/68c3326c650e4463bed380d032de4218/ade94d0dfe1b4d928c64acd55ab941cd",
         "path": "/car-images/wayke-9dbfc015-5da0-47f6-96e7-d02abb19433b/11.jpg"
-      },
-      {
-        "url": "https://dinbil-new.cust.se.phyron.com/repo/NRX13F/1920x1080.mp4",
-        "path": "/car-images/wayke-9dbfc015-5da0-47f6-96e7-d02abb19433b/12.jpg"
       },
       {
         "url": "https://cdn.wayke.se/media/c7e2e29021794280bc3219260f618f69/4eefbf6e85cb4f0184b4b5506a36caa5",
@@ -697,7 +733,7 @@
     ],
     "wayke:0c458a8d-e297-43c1-8135-529d3860f7c8": [
       {
-        "url": "https://cdn.wayke.se/media/f40543ed39954cab82cff2efd9770ae8/388c91431db843a7a1752420d5d0fc7b",
+        "url": "https://cdn.wayke.se/cfit/v3/f40543ed39954cab82cff2efd9770ae8/388c91431db843a7a1752420d5d0fc7b",
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/01.jpg"
       },
       {
@@ -705,7 +741,7 @@
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/02.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/media/846743c7d58a4dbda15399c2c0015dc1/49c4aa1d1f904ba7a69766e9e409f6c8",
+        "url": "https://cdn.wayke.se/cfit/v3/846743c7d58a4dbda15399c2c0015dc1/49c4aa1d1f904ba7a69766e9e409f6c8",
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/03.jpg"
       },
       {
@@ -817,43 +853,43 @@
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/30.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/e70dea70fa7c4f8fbc82b66f9fa98bdc/077d5680755c4639b5ee5e8845f103eb?format=jpeg&w=1170",
+        "url": "https://cdn.wayke.se/cfit/v3/f40543ed39954cab82cff2efd9770ae8/388c91431db843a7a1752420d5d0fc7b?format=jpeg&w=1170",
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/31.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/23dd91d476344f678221a3ab30f64ca4/e5801172b555490aa43bc6dce8d29b79?format=jpeg&w=1170",
+        "url": "https://cdn.wayke.se/cfit/v3/e70dea70fa7c4f8fbc82b66f9fa98bdc/077d5680755c4639b5ee5e8845f103eb?format=jpeg&w=1170",
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/32.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/a3501e5d38cb4245b4289b4e5bbf5d5c/c0510a7d642744bc8a8410fe4a4dd9d8?format=jpeg&w=1170",
+        "url": "https://cdn.wayke.se/cfit/v3/846743c7d58a4dbda15399c2c0015dc1/49c4aa1d1f904ba7a69766e9e409f6c8?format=jpeg&w=1170",
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/33.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/3bc5bb6ae61046a99169db2f26baebee/229ecf3504264d46b225968b6ad3f05e?format=jpeg&w=1170",
+        "url": "https://cdn.wayke.se/cfit/v3/23dd91d476344f678221a3ab30f64ca4/e5801172b555490aa43bc6dce8d29b79?format=jpeg&w=1170",
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/34.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/a9f01d72b28e4bb1a61980cfecd130d8/9a742fe7ece64138a28dce7a70ae2b7a?format=jpeg&w=1170",
+        "url": "https://cdn.wayke.se/cfit/v3/a3501e5d38cb4245b4289b4e5bbf5d5c/c0510a7d642744bc8a8410fe4a4dd9d8?format=jpeg&w=1170",
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/35.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/06ba10078ff84eec971df53c12d36e9e/c251c23814ea4fa5afdbc2fea1107823?format=jpeg&w=1170",
+        "url": "https://cdn.wayke.se/cfit/v3/3bc5bb6ae61046a99169db2f26baebee/229ecf3504264d46b225968b6ad3f05e?format=jpeg&w=1170",
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/36.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/ec277f3b2b0442f9a89b44236eb8a687/2902d7ba15514ac0b80f19e14342c2be?format=jpeg&w=1170",
+        "url": "https://cdn.wayke.se/cfit/v3/a9f01d72b28e4bb1a61980cfecd130d8/9a742fe7ece64138a28dce7a70ae2b7a?format=jpeg&w=1170",
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/37.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/14575e2a5ac2497794a1ebba3e974499/a9801ee72f164f09aad79231d63a687f?format=jpeg&w=1170",
+        "url": "https://cdn.wayke.se/cfit/v3/06ba10078ff84eec971df53c12d36e9e/c251c23814ea4fa5afdbc2fea1107823?format=jpeg&w=1170",
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/38.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/ea3c13839c21484b8f20b1fe55fb9467/d6d903a32e204723b2df7811c23d4093?format=jpeg&w=1170",
+        "url": "https://cdn.wayke.se/cfit/v3/ec277f3b2b0442f9a89b44236eb8a687/2902d7ba15514ac0b80f19e14342c2be?format=jpeg&w=1170",
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/39.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/925c7f750d034be69d6c7fe3cf2cf7ab/3a0c0ae00692403296b2f9c908499f35?format=jpeg&w=1170",
+        "url": "https://cdn.wayke.se/cfit/v3/14575e2a5ac2497794a1ebba3e974499/a9801ee72f164f09aad79231d63a687f?format=jpeg&w=1170",
         "path": "/car-images/wayke-0c458a8d-e297-43c1-8135-529d3860f7c8/40.jpg"
       }
     ],
@@ -1125,42 +1161,6 @@
     ],
     "wayke:dac1e0cf-5507-4a9f-8f65-e69e063547bb": [
       {
-        "url": "https://cdn.wayke.se/cfit/v3/379c2afdef214e27a16efa344542a76c/a079654a8db04df485aae4c07bb62dba",
-        "path": "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/01.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/95c7c526fe3a4b3e8a88672d44a86d3e/596ab36e207d4599b1abb721e1c34e9f",
-        "path": "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/02.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/2a299385bf944fbc9d22f113e6612af6/6e0849552af842d7b3d6cb76f271c01f",
-        "path": "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/03.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/d7defd8c4b41462986e7a5ec9aefb47a/189c415bfe86497bab305c76921719d6",
-        "path": "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/04.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/4b221927ecf946c39967fd9a93b97ac9/f4645185a12049d7988d24c58f36d6cd",
-        "path": "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/05.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/6dfecd02c33747d1a88889b9f2faecc8/fbd7779fcfd74c2897f490d19662238b",
-        "path": "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/06.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/8343193306804e41b36f1337b2bb014f/e738ae752df3489a955236f297b9f0c8",
-        "path": "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/07.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/7d6a9205590940b9acb06665df9f0712/f13f339f1c524d63b4c62400b3212a7e",
-        "path": "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/08.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/abdad73e33064765a3fb49c1b60fb2ba/564e7e95c524469f927eb38e8b09e46a",
-        "path": "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/09.jpg"
-      },
-      {
         "url": "https://cdn.wayke.se/media/e6f616b7d2764b37b46c5fba9f23ca88/747d38f9cfe94962a28aa959bfa6b2e4",
         "path": "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/10.jpg"
       },
@@ -1217,166 +1217,70 @@
         "path": "/car-images/wayke-dac1e0cf-5507-4a9f-8f65-e69e063547bb/23.jpg"
       }
     ],
-    "wayke:a249260c-9c2d-4e92-91ef-9cde64cbfb2d": [
+    "wayke:385838a8-6272-4e8e-93d6-1067296d8d51": [
       {
-        "url": "https://cdn.wayke.se/cfit/v3/d3c45b70babe48a0b5a68ae899def7d9/89416c4caa064b90ae02af380494d606",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/01.jpg"
+        "url": "https://cdn.wayke.se/media/5ae7785d95d34c33b2d425d659d45e0d/285db6bddf6744d9923d30244cf8c7f7",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/15.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/9467f02bceda4987a0f062eb6f17b505/bb5dbb7c12424e1e8befcedb0ef6d721",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/02.jpg"
+        "url": "https://cdn.wayke.se/media/cf77d75fdcc44b2db628aaf9107ec4e8/6b6d4deee51d45cd8906b2ed1b46b7b6",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/16.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/01e3948ae6ab4d3b8737b64404247b96/92cf2940c80e4af18f9a0cdf0b7f7ea4",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/03.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/d44da23778a24985bf0396856a931292/f6529af0276d46498c55993243131f89?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/17.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/a0d4a843a54e4363ba35056be40ca111/7b318ab1a8d04d439bfe59b6f658ba2c",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/04.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/1c13f3fd0903496a90178957f198feed/9e30e94adcc14ed8b2c5448a3d29508d?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/18.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/c85551f24aed4916b8814c99ec5bdd41/69a58a4768e14ce8a3a395f240726120",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/05.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/0b98a01ce0f1443e882e3c129643c22a/ef1dd0d339ce40e390882ea78a574dfb?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/19.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/622ba7f4542741fb85246e620154609f/cae1453291044427b90af87b0d47cfde",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/06.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/30b2e9ad077d46b48fe5de5f4e9f5833/83e49b4fa88d40b19824085c4e8dddbe?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/20.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/f8b063c252784a1c977b55ae22a0819b/5c30691ba93548d59d9d3c94f754bee6",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/07.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/3266925d43df4984a07be54b40694297/ff2c43055a2a43e4ace57309b7fa431e?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/21.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/dfe29268d5f0480bbb5e9b1d5fc01a65/a82862fd17944ecfadb48b749b0430d6",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/08.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/fed684a9946449178e53ebd823b5f37b/19a5f508e2d947a9aa48a6303b13de4d?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/22.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/8c1086d781364f0799fcc0d2adeb68aa/ef447869558742df970984a7620c54b7",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/09.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/1878aaf064a842b6b4ae4f42663cede7/0e48baed1ed54ed59608cf05dad26936?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/23.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/6ca58a609a0345c7bf5aefe90ee3d82b/3c4bf83997e94963a7370c7983ae9c3c",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/10.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/543af81a8ff24ba5868d4e5e0b764acb/51f80a410ad24f3c9e9aecb1b84bed19?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/24.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/2e7b29a278994ae287a17438082de51d/f6e9e2cc9a8e4cfebd4b2a4626063379",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/11.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/a2b175fec18f472bb00db7fc7e620ee2/324288b63b824ce6bc43907e1fdca913?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/25.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/b2c152431bff4e368b9d8c84a2abc866/e0db807e6def44cfb28361d820d4217e",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/12.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/259cc5e0ad5f4e37a7448b3507bc764a/709b16bf3bcd4699bb91531ecdd628ed?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/26.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/2f0cf780e1d445718a9b9cb8a2b439b4/10bf9bd4029b456cb2029b355717b71b",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/13.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/7473cec0b7d149c2aab6b8c7193672ef/f7796be318234f2e98f5e0d650609259?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/27.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/67da68567654439db451d296867c7c2b/54ed2ae9c9584633ab42a0a45460bb1f",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/14.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/6ac097d6d0a5429e8a10cd3dbedab299/13698223888b4630aaa03f74a8b53048?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/28.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/1b1a521ca7f0463793dae459c9ccafc3/3726f93054844170b839853dbdc08c17",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/15.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/11764b5de6b749cd9aa54c576c3e563d/a2e2ea113ad94d4bb928bf3d00501924?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/29.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/7b5fb7d6afa74d00be3c22424aca9e75/cf4ddd9beb92400ab2f1157fcad2f520",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/16.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/e8e53d3a3d5e4c378ceaff83879c86a4/7be7b8eea8924d24a68b5e477119beb9",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/17.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/0128016ce60b43d8af488959ae0ca273/ea6887e239964e1db5042f9b7f8894db",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/18.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/7d7be201d92841948cec07c687c9b706/737a1594963446d7964f264aca666b71",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/19.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/368a6c8736144fb09ee17afbd2a0b7a9/a28c83a32ac94a07be8cb7a71a5e9433",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/20.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/810f02c1b59246adab4e45293be693d9/56e40ed3240247b89bdfde5d2ef30a61",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/21.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/9fd2c93ab7bb41e5b993564b7e5f5c8d/7c132233992c449b89e242d9e88ce27a",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/22.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/68725eeb997340f18bc8ec0e6b88eb43/7cfd0c5df34846ef87e7010016d98f93",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/23.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/b3bf6b0d25e24892916f9f65c3d1fb76/2057baf13d1c4306a3dccf473efb4136",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/24.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/a03133d75d1f4490888a0ede87c42dbe/48b4657080864d1da2904b574976d343",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/25.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/708f5c260cb04e3cab8ce95a2833a915/8d5608faac8a47c39336f5c07045fe02",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/26.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/9ce63ea3105d4b5a9a4f6710f462ca66/a1c80a4964fc402498f938a04bfa4e8e",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/27.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/20aaf48cdcfd4f8a979d8af359ac243f/f12619cac5b342d697b311db3b887870",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/28.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/af3ed520218f45d2b08a1ecc3720fdce/7cbce4b05c344c22b5cb58f7d346cf78",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/29.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/48e653db7e97499cae69c50b68f4425e/aad6797a6c9d4f74aa3f0ffdf2f348ba",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/30.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/d3c45b70babe48a0b5a68ae899def7d9/89416c4caa064b90ae02af380494d606?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/31.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/9467f02bceda4987a0f062eb6f17b505/bb5dbb7c12424e1e8befcedb0ef6d721?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/32.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/01e3948ae6ab4d3b8737b64404247b96/92cf2940c80e4af18f9a0cdf0b7f7ea4?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/33.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/a0d4a843a54e4363ba35056be40ca111/7b318ab1a8d04d439bfe59b6f658ba2c?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/34.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c85551f24aed4916b8814c99ec5bdd41/69a58a4768e14ce8a3a395f240726120?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/35.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/622ba7f4542741fb85246e620154609f/cae1453291044427b90af87b0d47cfde?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/36.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/f8b063c252784a1c977b55ae22a0819b/5c30691ba93548d59d9d3c94f754bee6?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/37.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/dfe29268d5f0480bbb5e9b1d5fc01a65/a82862fd17944ecfadb48b749b0430d6?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/38.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/8c1086d781364f0799fcc0d2adeb68aa/ef447869558742df970984a7620c54b7?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/39.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/6ca58a609a0345c7bf5aefe90ee3d82b/3c4bf83997e94963a7370c7983ae9c3c?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a249260c-9c2d-4e92-91ef-9cde64cbfb2d/40.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/2d4f756f57394e14b1bc5743da451467/5e14c38cce18450bbf25010b852a0f68?format=jpeg&w=1170",
+        "path": "/car-images/wayke-385838a8-6272-4e8e-93d6-1067296d8d51/30.jpg"
       }
     ],
     "wayke:fa01452b-4ff5-43b2-910b-6dd397b09343": [
@@ -1639,50 +1543,6 @@
     ],
     "wayke:a792f07e-a390-4374-a41a-849640ba06e1": [
       {
-        "url": "https://cdn.wayke.se/cfit/v3/cc4e71f12508404f88c4bbbaec8fedf6/fe9041d3373f4582923e30645cebd987",
-        "path": "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/12.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/eb614354d95645809ea4b20491dcd02b/7744c2187c904647927d7fa0a255eba6",
-        "path": "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/13.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/3e348b832b6640c2bc6263704d8c4f1a/0fa494e8d8914b9c976d01ba4ec0114c",
-        "path": "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/14.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/22f7c5e35fe346a18e6ba9a3a91c173b/689a737d0a9e4146b71851e7f967cae5",
-        "path": "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/15.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/f6a24def566941b38d2548a42fd97fd0/fecc90b708524a4da043e284e9fca055",
-        "path": "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/16.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/e3c2402e147945909a215e86b8971077/397f560ab1624c1d95618ff5075be7dd",
-        "path": "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/17.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/ece9fa82ed1d488fbb49af36c620db26/32bbc49e563848529c13d2deb0ad08a4",
-        "path": "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/18.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/afd61879bfe84d57a8c2f84fbd34ca8e/85b8fc301b1b4b488aee133b223c65f5",
-        "path": "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/19.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/1267ec2722a34be383ad16f5ade8ad8a/5a1287b2303a4151aa0eb1c73091cbf3",
-        "path": "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/20.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/6af120be824042dbbdd883c515bd71c2/eca504bf0a654a61a30d49501fd42a98",
-        "path": "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/21.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/4a273b7f73864154bfca04504beb78a1/bf6086093bcd4042b2f31c30544b25fa",
-        "path": "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/22.jpg"
-      },
-      {
         "url": "https://cdn.wayke.se/media/30032bed8c59473196ac0414e370241c/84d5f6302ce64b1a9df69133d6339a68",
         "path": "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/30.jpg"
       },
@@ -1725,6 +1585,164 @@
       {
         "url": "https://cdn.wayke.se/cfit/v3/17088e48429849498023f91ad1b35824/7f90238bffcb4ecb99748ba6dec87922?format=jpeg&w=1170",
         "path": "/car-images/wayke-a792f07e-a390-4374-a41a-849640ba06e1/40.jpg"
+      }
+    ],
+    "wayke:35121016-1fae-49fc-82f2-6594356855bd": [
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/548b7f6f70c04ca2bc4a7671e88f1ea0/f2f66751d59c475388136b3f8c6825f5",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/01.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/f333ad6413bf4f6a8dcb12cae6705fd1/7ea816b2ddb44735bef59de32c4f8018",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/02.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/d52b1fb61d4f408ea5f9922da31eb4c4/48d36e4b96d7457ba23761449656657c",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/03.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/04cc2f74ff4d4f00bc8ffd9dcb61ff40/067ad6d2508a4521ba3e2467dbca786e",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/04.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/75d2258fd493406fbf7eaf5951e47e87/ece90b14f4204230a6bdc747ae4c9427",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/05.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/23fc5661e3b442649027e4eba9d3558e/e9d9bef4c25e4f509cdfada89af9c7b5",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/06.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/c563018f94e94d608fbe49d60f50c9c9/3e847499f2ab48bfac41dc2d5dd5d4d6",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/07.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/9bd9444b2d4948a7b3572a67a57fa307/0cf59276e8134cbca7d48ea9f361ca82",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/08.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/0b0b5ef9975f4a22a176bef89f923c96/42b8e63eb2db40f2b1f4cb2d68eb49f7",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/09.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/554a1d500c2b485190b556988240a6e5/7bd1601446ef4645ae2c52b045c5c840",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/10.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/0b4f55939ad04e71882f41d3b584c782/48b69dd6d1c5406dba8a6d8357d7c313",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/11.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/80e2163214a64166b21651abeaa04c78/96eb0f8d50be42d79a48b6e735458e74",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/12.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/9ae0e9bf0fe1477eb9ef02cce479afd6/c05ff9f01049496e9c3fa33de0aa9c84",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/13.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/d4615b74045a4f2c8b4388e577098368/c782cf5379c041f3be0925fe34fb7dbb",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/14.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/20c94edc5d0a46898cd45a4fd5e778a3/9bb13f43f2714b7da90fe67af2cae998",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/15.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/f12db2e036bb4e60bc5576d9fc3755f8/ceca15df65ea4a58ba4b0e034771a29d",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/16.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/cd173463c3e541aaa7439801a2a95bf1/e01c26d1ea964c61bdca5c77f3a42223",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/17.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/a49f514c324a4c8fad3f8e91afddc89d/ff9b5006599c48b0bf8a5744133ed595",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/18.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/8f41133314384f7aa22908d4ef8e7479/c3c11d7c2cf541e2f34a08d4ef8e748b",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/19.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/def83a8a16a944eb3f2b08d5906d0b39/8cdb754016234bcb4b1e08d59089adaa",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/20.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/faa6607c63d54797a1822ec865f460a3/55f6fb9db1c941e3ac41a37693a0576e",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/21.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/548b7f6f70c04ca2bc4a7671e88f1ea0/f2f66751d59c475388136b3f8c6825f5?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/22.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/f333ad6413bf4f6a8dcb12cae6705fd1/7ea816b2ddb44735bef59de32c4f8018?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/23.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/d52b1fb61d4f408ea5f9922da31eb4c4/48d36e4b96d7457ba23761449656657c?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/24.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/04cc2f74ff4d4f00bc8ffd9dcb61ff40/067ad6d2508a4521ba3e2467dbca786e?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/25.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/75d2258fd493406fbf7eaf5951e47e87/ece90b14f4204230a6bdc747ae4c9427?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/26.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/23fc5661e3b442649027e4eba9d3558e/e9d9bef4c25e4f509cdfada89af9c7b5?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/27.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/c563018f94e94d608fbe49d60f50c9c9/3e847499f2ab48bfac41dc2d5dd5d4d6?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/28.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/9bd9444b2d4948a7b3572a67a57fa307/0cf59276e8134cbca7d48ea9f361ca82?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/29.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/0b0b5ef9975f4a22a176bef89f923c96/42b8e63eb2db40f2b1f4cb2d68eb49f7?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/30.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/554a1d500c2b485190b556988240a6e5/7bd1601446ef4645ae2c52b045c5c840?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/31.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/0b4f55939ad04e71882f41d3b584c782/48b69dd6d1c5406dba8a6d8357d7c313?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/32.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/80e2163214a64166b21651abeaa04c78/96eb0f8d50be42d79a48b6e735458e74?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/33.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/9ae0e9bf0fe1477eb9ef02cce479afd6/c05ff9f01049496e9c3fa33de0aa9c84?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/34.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/d4615b74045a4f2c8b4388e577098368/c782cf5379c041f3be0925fe34fb7dbb?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/35.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/20c94edc5d0a46898cd45a4fd5e778a3/9bb13f43f2714b7da90fe67af2cae998?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/36.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/f12db2e036bb4e60bc5576d9fc3755f8/ceca15df65ea4a58ba4b0e034771a29d?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/37.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/cd173463c3e541aaa7439801a2a95bf1/e01c26d1ea964c61bdca5c77f3a42223?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/38.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/a49f514c324a4c8fad3f8e91afddc89d/ff9b5006599c48b0bf8a5744133ed595?format=jpeg&w=1170",
+        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/39.jpg"
       }
     ],
     "wayke:a8afb359-cd68-4bb3-a577-3cb7541099db": [
@@ -1889,164 +1907,6 @@
         "path": "/car-images/wayke-a8afb359-cd68-4bb3-a577-3cb7541099db/40.jpg"
       }
     ],
-    "wayke:35121016-1fae-49fc-82f2-6594356855bd": [
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/548b7f6f70c04ca2bc4a7671e88f1ea0/f2f66751d59c475388136b3f8c6825f5",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/01.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/f333ad6413bf4f6a8dcb12cae6705fd1/7ea816b2ddb44735bef59de32c4f8018",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/02.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/d52b1fb61d4f408ea5f9922da31eb4c4/48d36e4b96d7457ba23761449656657c",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/03.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/04cc2f74ff4d4f00bc8ffd9dcb61ff40/067ad6d2508a4521ba3e2467dbca786e",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/04.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/75d2258fd493406fbf7eaf5951e47e87/ece90b14f4204230a6bdc747ae4c9427",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/05.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/23fc5661e3b442649027e4eba9d3558e/e9d9bef4c25e4f509cdfada89af9c7b5",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/06.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c563018f94e94d608fbe49d60f50c9c9/3e847499f2ab48bfac41dc2d5dd5d4d6",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/07.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/9bd9444b2d4948a7b3572a67a57fa307/0cf59276e8134cbca7d48ea9f361ca82",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/08.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/0b0b5ef9975f4a22a176bef89f923c96/42b8e63eb2db40f2b1f4cb2d68eb49f7",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/09.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/554a1d500c2b485190b556988240a6e5/7bd1601446ef4645ae2c52b045c5c840",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/10.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/0b4f55939ad04e71882f41d3b584c782/48b69dd6d1c5406dba8a6d8357d7c313",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/11.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/80e2163214a64166b21651abeaa04c78/96eb0f8d50be42d79a48b6e735458e74",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/12.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/9ae0e9bf0fe1477eb9ef02cce479afd6/c05ff9f01049496e9c3fa33de0aa9c84",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/13.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/d4615b74045a4f2c8b4388e577098368/c782cf5379c041f3be0925fe34fb7dbb",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/14.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/20c94edc5d0a46898cd45a4fd5e778a3/9bb13f43f2714b7da90fe67af2cae998",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/15.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/f12db2e036bb4e60bc5576d9fc3755f8/ceca15df65ea4a58ba4b0e034771a29d",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/16.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/cd173463c3e541aaa7439801a2a95bf1/e01c26d1ea964c61bdca5c77f3a42223",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/17.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/a49f514c324a4c8fad3f8e91afddc89d/ff9b5006599c48b0bf8a5744133ed595",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/18.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/8f41133314384f7aa22908d4ef8e7479/c3c11d7c2cf541e2f34a08d4ef8e748b",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/19.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/def83a8a16a944eb3f2b08d5906d0b39/8cdb754016234bcb4b1e08d59089adaa",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/20.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/faa6607c63d54797a1822ec865f460a3/55f6fb9db1c941e3ac41a37693a0576e",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/21.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/548b7f6f70c04ca2bc4a7671e88f1ea0/f2f66751d59c475388136b3f8c6825f5?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/22.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/f333ad6413bf4f6a8dcb12cae6705fd1/7ea816b2ddb44735bef59de32c4f8018?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/23.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/d52b1fb61d4f408ea5f9922da31eb4c4/48d36e4b96d7457ba23761449656657c?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/24.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/04cc2f74ff4d4f00bc8ffd9dcb61ff40/067ad6d2508a4521ba3e2467dbca786e?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/25.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/75d2258fd493406fbf7eaf5951e47e87/ece90b14f4204230a6bdc747ae4c9427?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/26.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/23fc5661e3b442649027e4eba9d3558e/e9d9bef4c25e4f509cdfada89af9c7b5?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/27.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c563018f94e94d608fbe49d60f50c9c9/3e847499f2ab48bfac41dc2d5dd5d4d6?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/28.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/9bd9444b2d4948a7b3572a67a57fa307/0cf59276e8134cbca7d48ea9f361ca82?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/29.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/0b0b5ef9975f4a22a176bef89f923c96/42b8e63eb2db40f2b1f4cb2d68eb49f7?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/30.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/554a1d500c2b485190b556988240a6e5/7bd1601446ef4645ae2c52b045c5c840?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/31.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/0b4f55939ad04e71882f41d3b584c782/48b69dd6d1c5406dba8a6d8357d7c313?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/32.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/80e2163214a64166b21651abeaa04c78/96eb0f8d50be42d79a48b6e735458e74?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/33.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/9ae0e9bf0fe1477eb9ef02cce479afd6/c05ff9f01049496e9c3fa33de0aa9c84?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/34.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/d4615b74045a4f2c8b4388e577098368/c782cf5379c041f3be0925fe34fb7dbb?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/35.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/20c94edc5d0a46898cd45a4fd5e778a3/9bb13f43f2714b7da90fe67af2cae998?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/36.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/f12db2e036bb4e60bc5576d9fc3755f8/ceca15df65ea4a58ba4b0e034771a29d?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/37.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/cd173463c3e541aaa7439801a2a95bf1/e01c26d1ea964c61bdca5c77f3a42223?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/38.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/a49f514c324a4c8fad3f8e91afddc89d/ff9b5006599c48b0bf8a5744133ed595?format=jpeg&w=1170",
-        "path": "/car-images/wayke-35121016-1fae-49fc-82f2-6594356855bd/39.jpg"
-      }
-    ],
     "wayke:01a081c5-5ca2-79e7-b8f8-00b7f75b384b": [
       {
         "url": "https://cdn.wayke.se/cfit/v3/9ce5ef69-bca3-45f3-ba8e-c499d40e9421",
@@ -2167,10 +2027,6 @@
         "path": "/car-images/wayke-4aa40c00-8083-46d7-b7db-9e9c452e02bc/12.jpg"
       },
       {
-        "url": "https://dinbil-new.cust.se.phyron.com/repo/GDS58D/1920x1080.mp4",
-        "path": "/car-images/wayke-4aa40c00-8083-46d7-b7db-9e9c452e02bc/13.jpg"
-      },
-      {
         "url": "https://cdn.wayke.se/media/1f421982104544b99e0f27205edbb55a/ae2dab9be1194761a93578717038c611",
         "path": "/car-images/wayke-4aa40c00-8083-46d7-b7db-9e9c452e02bc/14.jpg"
       },
@@ -2237,112 +2093,6 @@
       {
         "url": "https://cdn.wayke.se/cfit/v3/f876d799eaab41a2a94f780def9a0e32/50a7116588644de1b9fb0e59cd28891a?format=jpeg&w=1170",
         "path": "/car-images/wayke-4aa40c00-8083-46d7-b7db-9e9c452e02bc/30.jpg"
-      }
-    ],
-    "wayke:7d69912a-3c49-41fa-8438-4fb439e898dc": [
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/261fb60f14424bce8d442cf8b563a4fd/89554de5129b490ba2fb98e6b5022ba0",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/01.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/7871521910e14377b7f5d659af30e3ab/84147bc09ee546069b11cca86d23a1c4",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/02.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/8bc37aafdacd474e8ad9cca0f00bc074/3153c6afb5874dda83b16372c13d08c7",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/03.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c8f383afcb2b4b589c7266390d13c896/efcf1d7de1254eecb0b726f6bec5422e",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/04.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/f699d5671cb54879b66ff067c3e56dc5/f9ce87e0c0ef4b5fb5e9edb2805f3fc6",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/05.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/d0403ed1d5fd49fbb2d1c4acf1548669/a77487c2bcda47a5b81d82183957cbe1",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/06.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/1904a693743249fda2c86b8008840399/5fcd1841a38d45188a2de9aab5822360",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/07.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/1b3f7d78f557404099f471548f0c6caa/ebc02ff8a1de47cd8e55227572ebebf7",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/08.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/b21b5e3cf2eb4619b16498d8ee29c8aa/0006622a63a743ae8b4c609f22cc48ae",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/09.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/12f152a559d94a81b2be237832ed6a3a/feec5d5744274107a23ab1f571b1dbeb",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/10.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/8d64ab5c90f241ec9de1fe7485cf5da0/2cca930d735e4bd9a90f2e8385580c94",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/11.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/4e50ab77e8594fe728ef08d4f931add4/611f3f31bcd4443e421508d4f931adfb",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/12.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/5265adfc4e624c0b8e6872b4695493bf/0ab6772766af4f11901efb85128ff63c",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/13.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/a54ad519c4774162abe8515009202865/0e3655635ebc4d898876019c1e909acf",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/14.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/ad0fd59584a24a0b3bc008d5c6f54432/c29a1309ba4a4598176508d5c630141c",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/15.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/261fb60f14424bce8d442cf8b563a4fd/89554de5129b490ba2fb98e6b5022ba0?format=jpeg&w=1170",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/16.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/7871521910e14377b7f5d659af30e3ab/84147bc09ee546069b11cca86d23a1c4?format=jpeg&w=1170",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/17.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/8bc37aafdacd474e8ad9cca0f00bc074/3153c6afb5874dda83b16372c13d08c7?format=jpeg&w=1170",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/18.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c8f383afcb2b4b589c7266390d13c896/efcf1d7de1254eecb0b726f6bec5422e?format=jpeg&w=1170",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/19.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/f699d5671cb54879b66ff067c3e56dc5/f9ce87e0c0ef4b5fb5e9edb2805f3fc6?format=jpeg&w=1170",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/20.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/d0403ed1d5fd49fbb2d1c4acf1548669/a77487c2bcda47a5b81d82183957cbe1?format=jpeg&w=1170",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/21.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/1904a693743249fda2c86b8008840399/5fcd1841a38d45188a2de9aab5822360?format=jpeg&w=1170",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/22.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/1b3f7d78f557404099f471548f0c6caa/ebc02ff8a1de47cd8e55227572ebebf7?format=jpeg&w=1170",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/23.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/b21b5e3cf2eb4619b16498d8ee29c8aa/0006622a63a743ae8b4c609f22cc48ae?format=jpeg&w=1170",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/24.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/12f152a559d94a81b2be237832ed6a3a/feec5d5744274107a23ab1f571b1dbeb?format=jpeg&w=1170",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/25.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/8d64ab5c90f241ec9de1fe7485cf5da0/2cca930d735e4bd9a90f2e8385580c94?format=jpeg&w=1170",
-        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/26.jpg"
       }
     ],
     "wayke:fc4ceed3-d6b3-40d4-831f-ba94abb76e24": [
@@ -2677,6 +2427,112 @@
       {
         "url": "https://cdn.wayke.se/media/f6f0e2b5053949a3a82f03d9ae60acfa/36f966ef227e4f50a014c511d49572ec",
         "path": "/car-images/wayke-9173151c-a4a3-4cdd-b54b-2a88153d7051/04.jpg"
+      }
+    ],
+    "wayke:7d69912a-3c49-41fa-8438-4fb439e898dc": [
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/261fb60f14424bce8d442cf8b563a4fd/89554de5129b490ba2fb98e6b5022ba0",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/01.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/7871521910e14377b7f5d659af30e3ab/84147bc09ee546069b11cca86d23a1c4",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/02.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/8bc37aafdacd474e8ad9cca0f00bc074/3153c6afb5874dda83b16372c13d08c7",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/03.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/c8f383afcb2b4b589c7266390d13c896/efcf1d7de1254eecb0b726f6bec5422e",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/04.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/f699d5671cb54879b66ff067c3e56dc5/f9ce87e0c0ef4b5fb5e9edb2805f3fc6",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/05.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/d0403ed1d5fd49fbb2d1c4acf1548669/a77487c2bcda47a5b81d82183957cbe1",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/06.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/1904a693743249fda2c86b8008840399/5fcd1841a38d45188a2de9aab5822360",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/07.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/1b3f7d78f557404099f471548f0c6caa/ebc02ff8a1de47cd8e55227572ebebf7",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/08.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/b21b5e3cf2eb4619b16498d8ee29c8aa/0006622a63a743ae8b4c609f22cc48ae",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/09.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/12f152a559d94a81b2be237832ed6a3a/feec5d5744274107a23ab1f571b1dbeb",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/10.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/8d64ab5c90f241ec9de1fe7485cf5da0/2cca930d735e4bd9a90f2e8385580c94",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/11.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/4e50ab77e8594fe728ef08d4f931add4/611f3f31bcd4443e421508d4f931adfb",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/12.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/5265adfc4e624c0b8e6872b4695493bf/0ab6772766af4f11901efb85128ff63c",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/13.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/a54ad519c4774162abe8515009202865/0e3655635ebc4d898876019c1e909acf",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/14.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/ad0fd59584a24a0b3bc008d5c6f54432/c29a1309ba4a4598176508d5c630141c",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/15.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/261fb60f14424bce8d442cf8b563a4fd/89554de5129b490ba2fb98e6b5022ba0?format=jpeg&w=1170",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/16.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/7871521910e14377b7f5d659af30e3ab/84147bc09ee546069b11cca86d23a1c4?format=jpeg&w=1170",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/17.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/8bc37aafdacd474e8ad9cca0f00bc074/3153c6afb5874dda83b16372c13d08c7?format=jpeg&w=1170",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/18.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/c8f383afcb2b4b589c7266390d13c896/efcf1d7de1254eecb0b726f6bec5422e?format=jpeg&w=1170",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/19.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/f699d5671cb54879b66ff067c3e56dc5/f9ce87e0c0ef4b5fb5e9edb2805f3fc6?format=jpeg&w=1170",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/20.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/d0403ed1d5fd49fbb2d1c4acf1548669/a77487c2bcda47a5b81d82183957cbe1?format=jpeg&w=1170",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/21.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/1904a693743249fda2c86b8008840399/5fcd1841a38d45188a2de9aab5822360?format=jpeg&w=1170",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/22.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/1b3f7d78f557404099f471548f0c6caa/ebc02ff8a1de47cd8e55227572ebebf7?format=jpeg&w=1170",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/23.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/b21b5e3cf2eb4619b16498d8ee29c8aa/0006622a63a743ae8b4c609f22cc48ae?format=jpeg&w=1170",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/24.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/12f152a559d94a81b2be237832ed6a3a/feec5d5744274107a23ab1f571b1dbeb?format=jpeg&w=1170",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/25.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/8d64ab5c90f241ec9de1fe7485cf5da0/2cca930d735e4bd9a90f2e8385580c94?format=jpeg&w=1170",
+        "path": "/car-images/wayke-7d69912a-3c49-41fa-8438-4fb439e898dc/26.jpg"
       }
     ],
     "wayke:faa05a10-2f78-444e-a27a-157e59cf9a34": [
@@ -3051,304 +2907,166 @@
         "path": "/car-images/wayke-233784a2-1893-4b4a-9dfd-2a833f5d66b2/30.jpg"
       }
     ],
-    "wayke:be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd": [
+    "wayke:a0b20001-65db-44cb-8fa4-6bffc12ba91e": [
       {
-        "url": "https://cdn.wayke.se/cfit/v3/8a598787319849f8a9e867a8ed8611a8/be3f6f95298e4b438a18f769540469ae",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/01.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/c00fc7b65ce54d1595229572be230c4b/c64a8b5e006647c1ae4c3fd0c4f0b11c",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/01.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/3911fae996d24d72b9b04434efa55129/d6d03a1c2f314d169a16338aee09023c",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/02.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/b75d2a2470244e3a92163bd23b80ec32/963e3dec26174d7382fd3e83824d94fd",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/02.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/967942b0fc1f46a690add8b4a4a208d4/8ea1d6051ef34975bd1c259b950036c4",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/03.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/59736e378dc8478eba6ed34e69c03bdd/fc448c2b95b54dcdb18bbb7b59a053f5",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/03.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/a2ff7a54037244c5b4587c4729b574ff/a465bef8a65c45c0ab77165905755d0b",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/04.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/8a4164a94fc14cf8b740fd7ad05f20b3/bfb3f5dccbd1408cbd2be8e1002fcc00",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/04.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/69a314b4ebd54acfa153f49e4f34b668/a59aacce923e48059565fff7bf3629d3",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/05.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/7e16963850ce4334a6ae83e348c950fa/47aa706b8641469380f9ca9467211c7d",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/05.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/d523c716e027477aad94265253e4f5dd/def809219e5b4fe39082fdea20da1cfa",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/06.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/6e49772dc1bb48cc95d1e7518002831b/4a8cc37ff7eb487aa893771446a9e2d4",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/06.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/7823b78a7b16453cba1169e7d3c7f434/ee1ea448289f4d28895245cf87bb3028",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/07.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/b4bc9b5163b84596b0543ef36c337333/346553b7909d481caea4106d02e9a487",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/07.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/b1c6970fa7044606b5b0bb31fad59ffc/03c8a0699dbe4e72878c10c87d752c19",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/08.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/970c198e0536479e9e59b32a59c298be/46c343dd3b2d4551be237ed568087127",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/08.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/e12a548b6d474db8aacfbaf3f2ccd7e3/0945b5095ccb4aff8952a5ee93e73873",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/09.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/9b7335a395c84514aeb4f8d693b8b3b2/3168d3e0ef1c44d7a6c33a8c28cccc3f",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/09.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/a35485f81ecc4a54872b43338ea7b783/045c62f4dda440c6b2edc6be12d15915",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/10.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/0a9edcde11b640c4803478147c0dd6d9/9909ca7b90d546559e98d1cb54c2639b",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/10.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/5ba8c228791546488ad5a366ea9b8b34/a4b4ee9ae9b7451f97573383c2605ff7",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/11.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/14d6bdf9d9414fb992ae4aa4c6f8581f/2c01ee65ccad4fe6994a842e0f0bc3c8",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/11.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/f10cd8454a9346459878993fa4965909/6107cd6d89014dfd8c79e5ec71be0622",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/12.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/66a22966d20d40dfbd36e757775d9e31/2c1825eeca5f4e23882ad16add008d7e",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/12.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/6b407322093b42ad86d8cf92d438bc3f/563ede0230b14d7e9e01096af4227756",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/13.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/22fe683525784dee991bd4d559ad7456/261f544b7c5d4f7fa33b5ade17f1b61d",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/13.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/a0f2b1a849e941c286fbb7abfaf88500/6a19bd22c8aa40d4911fd6d1b4b0c254",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/14.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/f577bcd1df2e41bfb9e4f4a58f052caf/edf0f825ea2e4553adcaec33bbed25ea",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/14.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/33833386571b45cebe8b36bb8fccf9df/c719ad8561ad422f88fa2f34e80ae571",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/15.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/2a3e9d46c8d74e4290fe8546cdd446e8/e28519854cc149d9bc51735826c75c37",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/15.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/e7276d443b1e4c639d13e13fa8d59093/fa55dc1ba87f48ae933f16b19020aa0a",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/16.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/78e476ca90ec47bbae05fc421046c8d5/d7343a8e15d14f49b48ae72b606204ac",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/16.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/728264c47b384027844fb83d0691c751/5b8ad03dcc4c45809f037b00598e363c",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/17.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/66c64707ed9845e6813a70f16d780a1d/3ed0cacd52444c83b19f0f48b3eb9dc3",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/17.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/6cb7b3158ee54426b0df2a7bebde7d37/744335e49000497f8fa6ebfccdf68188",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/18.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/b863bf9726104848a2fe256b73d92459/88290072f99443bb9911350421d8a046",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/18.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/media/4151bda9638049a28280276018e9619b/5a63f568f8114591989b979e80c99045",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/19.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/00f9980e54cd468ca3521592cc168de2/4f95f9d43e7a412da16b2e42fbe10d92",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/19.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/media/61051a9788014c68a7344da4afbc76ba/481c740418b144b8b148f51a9b6d4c25",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/20.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/fea2ccc73bfa41ae9060e30f35a3693f/88f3b71c8734402cacaf7d4659e75729",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/20.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/8a598787319849f8a9e867a8ed8611a8/be3f6f95298e4b438a18f769540469ae?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/21.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/a63e5747956f40ff93e7c07c93ec2e2d/8098f9a272174a968561387c17e443bf",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/21.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/3911fae996d24d72b9b04434efa55129/d6d03a1c2f314d169a16338aee09023c?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/22.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/66c4328641914e7b9cb6e8ecfed8753e/b705dc5841ee460782adf725ea5154a1",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/22.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/967942b0fc1f46a690add8b4a4a208d4/8ea1d6051ef34975bd1c259b950036c4?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/23.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/d9fa5f95f7a34c5fb9a7604abb070594/ece6dda6668f4719aa71644c07c59aa4",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/23.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/a2ff7a54037244c5b4587c4729b574ff/a465bef8a65c45c0ab77165905755d0b?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/24.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/9e9ab926d48b40019243be64a545f65f/f138f38b8e194c4db9732bf3583058ec",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/24.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/69a314b4ebd54acfa153f49e4f34b668/a59aacce923e48059565fff7bf3629d3?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/25.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/4fcaaf5fafd148f2895f753afa45b912/624edd0c4c884c82b669ff1a3f5b4210",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/25.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/d523c716e027477aad94265253e4f5dd/def809219e5b4fe39082fdea20da1cfa?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/26.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/fefe742199b34032acabbd21f256a25d/c3e5baef96e54635ad8a1ac9c1e00912",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/26.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/7823b78a7b16453cba1169e7d3c7f434/ee1ea448289f4d28895245cf87bb3028?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/27.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/95e09ba655dc40aa9d39758d872d1567/694f8958d16e45b19fa86be8959a81e9",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/27.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/b1c6970fa7044606b5b0bb31fad59ffc/03c8a0699dbe4e72878c10c87d752c19?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/28.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/c45351a7f35f411a9f71cabea3899e42/fcc054fc68f5448a8b972f54012ac57b",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/28.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/e12a548b6d474db8aacfbaf3f2ccd7e3/0945b5095ccb4aff8952a5ee93e73873?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/29.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/86dfb8d3e3c64bb69419d2745850e0f1/ced5824bca0b46f29db5c11f0d57ce7b",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/29.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/a35485f81ecc4a54872b43338ea7b783/045c62f4dda440c6b2edc6be12d15915?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/30.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/5f504821e96e4392933d309993fa5ede/27651d24234a42fab66718928a05d113",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/30.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/5ba8c228791546488ad5a366ea9b8b34/a4b4ee9ae9b7451f97573383c2605ff7?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/31.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/cf4b44b352514beeb11faa6d1165fec3/d68aebf0bfa54f2888c43447c7aafa30",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/31.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/f10cd8454a9346459878993fa4965909/6107cd6d89014dfd8c79e5ec71be0622?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/32.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/a86962dd0005474ba18840c03b0f60ce/f0d878cf8796470e88be7724fcd66a0f",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/32.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/6b407322093b42ad86d8cf92d438bc3f/563ede0230b14d7e9e01096af4227756?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/33.jpg"
+        "url": "https://cdn.wayke.se/media/96cdb0817af64d4e835356f6bdfc2bfb/3c6f02a9d7014ed68092a0fa9f4b96b9",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/33.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/a0f2b1a849e941c286fbb7abfaf88500/6a19bd22c8aa40d4911fd6d1b4b0c254?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/34.jpg"
+        "url": "https://cdn.wayke.se/media/386b55ed7a804be399716a6a12fda453/7e8e6d84ac0143e6843c300ce3899c8a",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/34.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/33833386571b45cebe8b36bb8fccf9df/c719ad8561ad422f88fa2f34e80ae571?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/35.jpg"
+        "url": "https://cdn.wayke.se/media/3d3f0dea2026494ca5d03ecdc1f4654a/17b1600a074746b0b9ea3eedd6c9238e",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/35.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/e7276d443b1e4c639d13e13fa8d59093/fa55dc1ba87f48ae933f16b19020aa0a?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/36.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/c00fc7b65ce54d1595229572be230c4b/c64a8b5e006647c1ae4c3fd0c4f0b11c?format=jpeg&w=1170",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/36.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/728264c47b384027844fb83d0691c751/5b8ad03dcc4c45809f037b00598e363c?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/37.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/b75d2a2470244e3a92163bd23b80ec32/963e3dec26174d7382fd3e83824d94fd?format=jpeg&w=1170",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/37.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/6cb7b3158ee54426b0df2a7bebde7d37/744335e49000497f8fa6ebfccdf68188?format=jpeg&w=1170",
-        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/38.jpg"
-      }
-    ],
-    "wayke:50b26f29-1b35-4bcb-a655-7f7cc667f11c": [
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c64da5191fbd4a61b6dc586a1335afb4/f3748d98ba0e411dbb4fb80a9d8ca43d",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/01.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/0b22896bfd5f4d8697c24125a8b457b2/e8af7808de4743a1a359a180c23f005c",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/02.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/b5bec6180c084344b3d4c59877fbe145/ef3caa5d2a314918b4779f1b22a26399",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/03.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/8d87ea84b2e749aca661003086b80605/9fa055bf916745d69aba1ad2d37700b3",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/04.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/865225efcf6e4b449a1e009f1419c759/75a9b1dbf8ab41e78fddaed5ab751198",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/05.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/f49eb78f4eef40fd8bf76162ea1340dc/9722ae58058a4b5ea4534bde5430473a",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/06.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/513aae2880064c55851e7fc3af407765/09a866c8225c4136970454c96525c10e",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/07.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/41388e8f0ed1434ead3e555de98fff37/8d9c883734974352b627ac6f0e7689c5",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/08.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/18a13c37ca8d4c3c90513b5a9c88aab1/878aa2b448c047e59345b3160b129097",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/09.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/2dde1a4aa11046f5b1eabf192c959efd/9ad3ed952e2d4a3e9265b42500813c96",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/10.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/be35aa5e2c8f431ba4f13347ba1452dd/23136c8a73a54d6da56bbfbf3afc0a9f",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/11.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/b6e5fd60fccd4911a4b4002e5b08d91a/42e464f34d554d9a91e7f31699899d6a",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/12.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/2ea5b4503c4b45fcb6fe8891a514fdeb/e3147a190aa84387b1664a0a5707f60a",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/13.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/644453cd2aa54b9cb2a688b5640b1736/303cdbcbbdb24dca9dd6fb63985ee8cf",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/14.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/6cabd4afdd9d41a9adbaf458fb64daa6/ba438b1719e3443f8ced234ffea1cb9e",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/15.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/5eeadb701a5f460bb9154f95b6ed2773/6936a5e2c6764bc6b4e723bb9444eca1",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/16.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/ec8994d4ec8143028bd7686bbf1ebc43/1e4dc428eb304dc588b10332228c4afd",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/17.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/fa4e0dda8bef47bd438c08d511697498/d502cde5bc1444c3402f08d5116976a4",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/18.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/f40c68929bf94eb5818ba5e172be0972/b45af0a3ccab4fd9a1bad0d040860705",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/19.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c64da5191fbd4a61b6dc586a1335afb4/f3748d98ba0e411dbb4fb80a9d8ca43d?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/20.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/0b22896bfd5f4d8697c24125a8b457b2/e8af7808de4743a1a359a180c23f005c?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/21.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/b5bec6180c084344b3d4c59877fbe145/ef3caa5d2a314918b4779f1b22a26399?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/22.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/8d87ea84b2e749aca661003086b80605/9fa055bf916745d69aba1ad2d37700b3?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/23.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/865225efcf6e4b449a1e009f1419c759/75a9b1dbf8ab41e78fddaed5ab751198?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/24.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/f49eb78f4eef40fd8bf76162ea1340dc/9722ae58058a4b5ea4534bde5430473a?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/25.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/513aae2880064c55851e7fc3af407765/09a866c8225c4136970454c96525c10e?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/26.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/41388e8f0ed1434ead3e555de98fff37/8d9c883734974352b627ac6f0e7689c5?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/27.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/18a13c37ca8d4c3c90513b5a9c88aab1/878aa2b448c047e59345b3160b129097?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/28.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/2dde1a4aa11046f5b1eabf192c959efd/9ad3ed952e2d4a3e9265b42500813c96?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/29.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/be35aa5e2c8f431ba4f13347ba1452dd/23136c8a73a54d6da56bbfbf3afc0a9f?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/30.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/b6e5fd60fccd4911a4b4002e5b08d91a/42e464f34d554d9a91e7f31699899d6a?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/31.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/2ea5b4503c4b45fcb6fe8891a514fdeb/e3147a190aa84387b1664a0a5707f60a?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/32.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/644453cd2aa54b9cb2a688b5640b1736/303cdbcbbdb24dca9dd6fb63985ee8cf?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/33.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/6cabd4afdd9d41a9adbaf458fb64daa6/ba438b1719e3443f8ced234ffea1cb9e?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/34.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/59736e378dc8478eba6ed34e69c03bdd/fc448c2b95b54dcdb18bbb7b59a053f5?format=jpeg&w=1170",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/38.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/5eeadb701a5f460bb9154f95b6ed2773/6936a5e2c6764bc6b4e723bb9444eca1?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/35.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/8a4164a94fc14cf8b740fd7ad05f20b3/bfb3f5dccbd1408cbd2be8e1002fcc00?format=jpeg&w=1170",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/39.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/ec8994d4ec8143028bd7686bbf1ebc43/1e4dc428eb304dc588b10332228c4afd?format=jpeg&w=1170",
-        "path": "/car-images/wayke-50b26f29-1b35-4bcb-a655-7f7cc667f11c/36.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/7e16963850ce4334a6ae83e348c950fa/47aa706b8641469380f9ca9467211c7d?format=jpeg&w=1170",
+        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/40.jpg"
       }
     ],
     "wayke:4881b5db-dec7-4d76-bbd7-4316d2e6b9cc": [
@@ -3513,166 +3231,112 @@
         "path": "/car-images/wayke-4881b5db-dec7-4d76-bbd7-4316d2e6b9cc/40.jpg"
       }
     ],
-    "wayke:a0b20001-65db-44cb-8fa4-6bffc12ba91e": [
+    "wayke:be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd": [
       {
-        "url": "https://cdn.wayke.se/cfit/v3/c00fc7b65ce54d1595229572be230c4b/c64a8b5e006647c1ae4c3fd0c4f0b11c",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/01.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/c8ac3c04856d4015a3b8f7dc42f99fe9/5a0a7c7b117b4ae08815093a40d216ac",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/19.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/b75d2a2470244e3a92163bd23b80ec32/963e3dec26174d7382fd3e83824d94fd",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/02.jpg"
+        "url": "https://cdn.wayke.se/media/4151bda9638049a28280276018e9619b/5a63f568f8114591989b979e80c99045",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/20.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/59736e378dc8478eba6ed34e69c03bdd/fc448c2b95b54dcdb18bbb7b59a053f5",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/03.jpg"
+        "url": "https://cdn.wayke.se/media/61051a9788014c68a7344da4afbc76ba/481c740418b144b8b148f51a9b6d4c25",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/21.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/8a4164a94fc14cf8b740fd7ad05f20b3/bfb3f5dccbd1408cbd2be8e1002fcc00",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/04.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/41a9e5f715e24f0ea2aeee212e74cb34/9edac8a0e8fa44f0b85ec97289943f83?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/22.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/7e16963850ce4334a6ae83e348c950fa/47aa706b8641469380f9ca9467211c7d",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/05.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/dbd940152e82444687ad4d3736dd9f48/f8e1460429d349128073f0761733850b?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/23.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/6e49772dc1bb48cc95d1e7518002831b/4a8cc37ff7eb487aa893771446a9e2d4",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/06.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/13e1c4a4a27541e0888798da834225db/26c57989136842f4a799ffc49d516e41?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/24.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/b4bc9b5163b84596b0543ef36c337333/346553b7909d481caea4106d02e9a487",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/07.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/1161bb5d1bf846d892dc9a17f7047d28/588dff2bef7547c781b1b7cda699b1b8?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/25.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/970c198e0536479e9e59b32a59c298be/46c343dd3b2d4551be237ed568087127",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/08.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/2bf42c60447a44e688ec8e6de58a800b/039494f3c0cf4d05a7d53a1665aaf096?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/26.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/9b7335a395c84514aeb4f8d693b8b3b2/3168d3e0ef1c44d7a6c33a8c28cccc3f",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/09.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/604b623376ba41899923686510ff3224/e1d92a30a8ed4c438da38f145226f2b3?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/27.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/0a9edcde11b640c4803478147c0dd6d9/9909ca7b90d546559e98d1cb54c2639b",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/10.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/2b4aba412168411c9654c7ed410c34b6/e5d105382e6c4a11abe89f7ed9477ea5?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/28.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/14d6bdf9d9414fb992ae4aa4c6f8581f/2c01ee65ccad4fe6994a842e0f0bc3c8",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/11.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/db567d0f7ff4479a8303a24b9e65e307/f3092b0da2954da3bb6452989aa9e819?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/29.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/66a22966d20d40dfbd36e757775d9e31/2c1825eeca5f4e23882ad16add008d7e",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/12.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/979ac84b3f2d46f3bec4b14bc74e7870/2889c55534974829b82d625c3e127ada?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/30.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/22fe683525784dee991bd4d559ad7456/261f544b7c5d4f7fa33b5ade17f1b61d",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/13.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/957683c1da2849ffada9e0f18498b893/9321964846fb4d589b914a864816c186?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/31.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/f577bcd1df2e41bfb9e4f4a58f052caf/edf0f825ea2e4553adcaec33bbed25ea",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/14.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/665c26a513a84e36b4da09f5bba2e30b/0515e2d3757e40b0a60ae2fd1a5f3c81?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/32.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/2a3e9d46c8d74e4290fe8546cdd446e8/e28519854cc149d9bc51735826c75c37",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/15.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/ca1ca23e77ee4e65b27ce6701bfd7c38/ba9431573fe24966aacc31b092ffcfa5?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/33.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/78e476ca90ec47bbae05fc421046c8d5/d7343a8e15d14f49b48ae72b606204ac",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/16.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/e343180971114fd7b391ff5f559e53b2/52f3abbb576f4535baea3c56287c8e45?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/34.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/66c64707ed9845e6813a70f16d780a1d/3ed0cacd52444c83b19f0f48b3eb9dc3",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/17.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/e97e7d8d5bb946cf89f59a928a3709cc/68eee9d69790446083d11106e0dab358?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/35.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/b863bf9726104848a2fe256b73d92459/88290072f99443bb9911350421d8a046",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/18.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/65d37d77a00344268e016e60da2503a1/f5b5a602cc5b46fbad4b000e3c76239a?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/36.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/00f9980e54cd468ca3521592cc168de2/4f95f9d43e7a412da16b2e42fbe10d92",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/19.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/e728295a8d384d408407c4d098624d17/51222a99e919425698c2e1fdf087086d?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/37.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/fea2ccc73bfa41ae9060e30f35a3693f/88f3b71c8734402cacaf7d4659e75729",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/20.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/adcfd003fa9e4b67abef37333dfc0ba7/a076ab6c39274710b3d95009325a2f8a?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/38.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/a63e5747956f40ff93e7c07c93ec2e2d/8098f9a272174a968561387c17e443bf",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/21.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/6aade641800e44fbbfd2a6018740b847/52fc9e2d72fd4d66916c62cc7cbf9cfc?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/39.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/66c4328641914e7b9cb6e8ecfed8753e/b705dc5841ee460782adf725ea5154a1",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/22.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/c8ac3c04856d4015a3b8f7dc42f99fe9/5a0a7c7b117b4ae08815093a40d216ac?format=jpeg&w=1170",
+        "path": "/car-images/wayke-be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd/40.jpg"
+      }
+    ],
+    "wayke:91386249-51d6-46b7-8887-db7304548dcb": [
+      {
+        "url": "https://cdn.wayke.se/media/c4a504efb4e34b508017ce45f0733358/c60da0dc36354e5b8191a3c82b78f661",
+        "path": "/car-images/wayke-91386249-51d6-46b7-8887-db7304548dcb/03.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/d9fa5f95f7a34c5fb9a7604abb070594/ece6dda6668f4719aa71644c07c59aa4",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/23.jpg"
+        "url": "https://cdn.wayke.se/media/c18f379942894befb0997ad3265e7631/fb8f60bf020d422caf266f2648afde4c",
+        "path": "/car-images/wayke-91386249-51d6-46b7-8887-db7304548dcb/04.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/9e9ab926d48b40019243be64a545f65f/f138f38b8e194c4db9732bf3583058ec",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/24.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/948ede980246487288e82cf6d237513c/0c0d05ea2c5f45e899644ccb8d01f65a?format=jpeg&w=1170",
+        "path": "/car-images/wayke-91386249-51d6-46b7-8887-db7304548dcb/05.jpg"
       },
       {
-        "url": "https://cdn.wayke.se/cfit/v3/4fcaaf5fafd148f2895f753afa45b912/624edd0c4c884c82b669ff1a3f5b4210",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/25.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/fefe742199b34032acabbd21f256a25d/c3e5baef96e54635ad8a1ac9c1e00912",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/26.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/95e09ba655dc40aa9d39758d872d1567/694f8958d16e45b19fa86be8959a81e9",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/27.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c45351a7f35f411a9f71cabea3899e42/fcc054fc68f5448a8b972f54012ac57b",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/28.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/86dfb8d3e3c64bb69419d2745850e0f1/ced5824bca0b46f29db5c11f0d57ce7b",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/29.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/5f504821e96e4392933d309993fa5ede/27651d24234a42fab66718928a05d113",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/30.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/cf4b44b352514beeb11faa6d1165fec3/d68aebf0bfa54f2888c43447c7aafa30",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/31.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/a86962dd0005474ba18840c03b0f60ce/f0d878cf8796470e88be7724fcd66a0f",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/32.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/96cdb0817af64d4e835356f6bdfc2bfb/3c6f02a9d7014ed68092a0fa9f4b96b9",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/33.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/386b55ed7a804be399716a6a12fda453/7e8e6d84ac0143e6843c300ce3899c8a",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/34.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/3d3f0dea2026494ca5d03ecdc1f4654a/17b1600a074746b0b9ea3eedd6c9238e",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/35.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c00fc7b65ce54d1595229572be230c4b/c64a8b5e006647c1ae4c3fd0c4f0b11c?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/36.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/b75d2a2470244e3a92163bd23b80ec32/963e3dec26174d7382fd3e83824d94fd?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/37.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/59736e378dc8478eba6ed34e69c03bdd/fc448c2b95b54dcdb18bbb7b59a053f5?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/38.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/8a4164a94fc14cf8b740fd7ad05f20b3/bfb3f5dccbd1408cbd2be8e1002fcc00?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/39.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/7e16963850ce4334a6ae83e348c950fa/47aa706b8641469380f9ca9467211c7d?format=jpeg&w=1170",
-        "path": "/car-images/wayke-a0b20001-65db-44cb-8fa4-6bffc12ba91e/40.jpg"
+        "url": "https://cdn.wayke.se/cfit/v3/5b1a31501e434831ab045033e10d9286/7fc5d03d739540e5b50c7aef313fdf73?format=jpeg&w=1170",
+        "path": "/car-images/wayke-91386249-51d6-46b7-8887-db7304548dcb/06.jpg"
       }
     ],
     "wayke:9b8f0f9c-6c29-428e-8127-2d5c66527369": [
@@ -3693,6 +3357,155 @@
         "path": "/car-images/wayke-9b8f0f9c-6c29-428e-8127-2d5c66527369/04.jpg"
       }
     ],
+    "wayke:e0b10e00-47ef-4f1e-b009-86cfb9cb059c": [
+      {
+        "url": "https://cdn.wayke.se/media/cbc1993f265a4affb882a29e9538d9a8/251616ab73d54bd0b652d09775e6ba5b",
+        "path": "/car-images/wayke-e0b10e00-47ef-4f1e-b009-86cfb9cb059c/01.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/72354ae4149b46379684b08e13b05bc7/2ab125798f634d4497ae5c5e01085692",
+        "path": "/car-images/wayke-e0b10e00-47ef-4f1e-b009-86cfb9cb059c/02.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/62b4a5b4065148dcb1b1b41967a8fea7/d34e5a69351d4508a7efaa8de184e48f",
+        "path": "/car-images/wayke-e0b10e00-47ef-4f1e-b009-86cfb9cb059c/03.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/f6f0e2b5053949a3a82f03d9ae60acfa/36f966ef227e4f50a014c511d49572ec",
+        "path": "/car-images/wayke-e0b10e00-47ef-4f1e-b009-86cfb9cb059c/04.jpg"
+      }
+    ],
+    "wayke:c91274a9-dba4-4628-a022-685347f85665": [
+      {
+        "url": "https://cdn.wayke.se/media/6628d482457b46e59a7eb50b722d4bd5/f049b2086af24029b83ce393feff3692",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/01.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/c25bf1ec45da4d168cbc1fa442071b22/ebb4811efd6c4c128e7d3d2ee66456e4",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/02.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/221ab87230bd4401996d9e7a58c79937/f4fdac9be8dd4044953f148783127c47",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/03.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/cdc80bf9b734483f81dcad17b639bb21/859c2aac128a4622a898acbdebd63d6b",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/04.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/d9197a248aad42bd87fe94ee0312df45/0a783c8e66774aecb0cf28246756599f",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/05.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/83a4048de25d4d779ae68e7b3ebde8fb/c3461b21f56c42dd83773b34af0806c8",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/06.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/713ced3f99344543abbd6bf4c7ebc6b9/2c6339f8fb0e44eeabe5974050659884",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/07.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/ffcbd3a9a2dc4ed281727744e38fe183/a6332db20aa44f4b8a2ed1c7438dc370",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/08.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/6e6c1920f10348c28e372991b03fcb9b/520ff0f3ac544c2bba44b3b40d221a04",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/09.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/b404fde09ceb429488b1f3d242072d16/a937ecf39deb4addb95069473e752cd2",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/10.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/406f9e7bfd7a4d3eb47618bb823a0db8/bfb740c848a54904957f904645aa65ee",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/11.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/4315420329444303ac9d1863e6c10ea6/59fa43965c3348cf939e5f90c8bcc996",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/12.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/46cf89bdd4f348a7995d80748bad64e1/19a280622e4241b08236c52d2df60ceb",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/13.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/324efb9624d64f21b926adcde60e0e16/87648dafa7404244a2975391b5490218",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/14.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/4db0d34fd636433a82608047f0fcd03c/1210b46120b041d88e911937fad86ef0",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/15.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/cf81ab31e23147ac8dc328b8d77a67cf/cdaae5ff256a48e599430fdf1462d8cf",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/16.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/media/fc11b5efda584e4581ca8d79d02078fb/7a0dfc28843647f78d43ec103d8a257b",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/17.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/c25bf1ec45da4d168cbc1fa442071b22/ebb4811efd6c4c128e7d3d2ee66456e4?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/18.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/221ab87230bd4401996d9e7a58c79937/f4fdac9be8dd4044953f148783127c47?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/19.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/cdc80bf9b734483f81dcad17b639bb21/859c2aac128a4622a898acbdebd63d6b?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/20.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/d9197a248aad42bd87fe94ee0312df45/0a783c8e66774aecb0cf28246756599f?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/21.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/83a4048de25d4d779ae68e7b3ebde8fb/c3461b21f56c42dd83773b34af0806c8?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/22.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/713ced3f99344543abbd6bf4c7ebc6b9/2c6339f8fb0e44eeabe5974050659884?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/23.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/ffcbd3a9a2dc4ed281727744e38fe183/a6332db20aa44f4b8a2ed1c7438dc370?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/24.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/6e6c1920f10348c28e372991b03fcb9b/520ff0f3ac544c2bba44b3b40d221a04?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/25.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/b404fde09ceb429488b1f3d242072d16/a937ecf39deb4addb95069473e752cd2?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/26.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/406f9e7bfd7a4d3eb47618bb823a0db8/bfb740c848a54904957f904645aa65ee?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/27.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/4315420329444303ac9d1863e6c10ea6/59fa43965c3348cf939e5f90c8bcc996?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/28.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/46cf89bdd4f348a7995d80748bad64e1/19a280622e4241b08236c52d2df60ceb?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/29.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/324efb9624d64f21b926adcde60e0e16/87648dafa7404244a2975391b5490218?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/30.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/4db0d34fd636433a82608047f0fcd03c/1210b46120b041d88e911937fad86ef0?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/31.jpg"
+      },
+      {
+        "url": "https://cdn.wayke.se/cfit/v3/cf81ab31e23147ac8dc328b8d77a67cf/cdaae5ff256a48e599430fdf1462d8cf?format=jpeg&w=1170",
+        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/32.jpg"
+      }
+    ],
+    "wayke:01a081b1-7f50-74b1-ace7-526d523843af": [],
     "wayke:08063b58-4845-4f59-849b-30ae0d51f536": [
       {
         "url": "https://cdn.wayke.se/cfit/v3/079d67913f594d55ad1ff0295ad09b53/a4ff22cd7fcb4980a9141df44e85d9d6",
@@ -3853,154 +3666,6 @@
       {
         "url": "https://cdn.wayke.se/cfit/v3/e87fd9cfc1274cb19c5b59c859b4deee/0073dc55ece7455f9776bd13210fae73?format=jpeg&w=1170",
         "path": "/car-images/wayke-08063b58-4845-4f59-849b-30ae0d51f536/40.jpg"
-      }
-    ],
-    "wayke:e0b10e00-47ef-4f1e-b009-86cfb9cb059c": [
-      {
-        "url": "https://cdn.wayke.se/media/cbc1993f265a4affb882a29e9538d9a8/251616ab73d54bd0b652d09775e6ba5b",
-        "path": "/car-images/wayke-e0b10e00-47ef-4f1e-b009-86cfb9cb059c/01.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/72354ae4149b46379684b08e13b05bc7/2ab125798f634d4497ae5c5e01085692",
-        "path": "/car-images/wayke-e0b10e00-47ef-4f1e-b009-86cfb9cb059c/02.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/62b4a5b4065148dcb1b1b41967a8fea7/d34e5a69351d4508a7efaa8de184e48f",
-        "path": "/car-images/wayke-e0b10e00-47ef-4f1e-b009-86cfb9cb059c/03.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/f6f0e2b5053949a3a82f03d9ae60acfa/36f966ef227e4f50a014c511d49572ec",
-        "path": "/car-images/wayke-e0b10e00-47ef-4f1e-b009-86cfb9cb059c/04.jpg"
-      }
-    ],
-    "wayke:c91274a9-dba4-4628-a022-685347f85665": [
-      {
-        "url": "https://cdn.wayke.se/media/6628d482457b46e59a7eb50b722d4bd5/f049b2086af24029b83ce393feff3692",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/01.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c25bf1ec45da4d168cbc1fa442071b22/ebb4811efd6c4c128e7d3d2ee66456e4",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/02.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/221ab87230bd4401996d9e7a58c79937/f4fdac9be8dd4044953f148783127c47",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/03.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/cdc80bf9b734483f81dcad17b639bb21/859c2aac128a4622a898acbdebd63d6b",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/04.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/d9197a248aad42bd87fe94ee0312df45/0a783c8e66774aecb0cf28246756599f",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/05.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/83a4048de25d4d779ae68e7b3ebde8fb/c3461b21f56c42dd83773b34af0806c8",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/06.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/713ced3f99344543abbd6bf4c7ebc6b9/2c6339f8fb0e44eeabe5974050659884",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/07.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/ffcbd3a9a2dc4ed281727744e38fe183/a6332db20aa44f4b8a2ed1c7438dc370",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/08.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/6e6c1920f10348c28e372991b03fcb9b/520ff0f3ac544c2bba44b3b40d221a04",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/09.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/b404fde09ceb429488b1f3d242072d16/a937ecf39deb4addb95069473e752cd2",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/10.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/406f9e7bfd7a4d3eb47618bb823a0db8/bfb740c848a54904957f904645aa65ee",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/11.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/4315420329444303ac9d1863e6c10ea6/59fa43965c3348cf939e5f90c8bcc996",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/12.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/46cf89bdd4f348a7995d80748bad64e1/19a280622e4241b08236c52d2df60ceb",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/13.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/324efb9624d64f21b926adcde60e0e16/87648dafa7404244a2975391b5490218",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/14.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/4db0d34fd636433a82608047f0fcd03c/1210b46120b041d88e911937fad86ef0",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/15.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/cf81ab31e23147ac8dc328b8d77a67cf/cdaae5ff256a48e599430fdf1462d8cf",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/16.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/fc11b5efda584e4581ca8d79d02078fb/7a0dfc28843647f78d43ec103d8a257b",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/17.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c25bf1ec45da4d168cbc1fa442071b22/ebb4811efd6c4c128e7d3d2ee66456e4?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/18.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/221ab87230bd4401996d9e7a58c79937/f4fdac9be8dd4044953f148783127c47?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/19.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/cdc80bf9b734483f81dcad17b639bb21/859c2aac128a4622a898acbdebd63d6b?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/20.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/d9197a248aad42bd87fe94ee0312df45/0a783c8e66774aecb0cf28246756599f?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/21.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/83a4048de25d4d779ae68e7b3ebde8fb/c3461b21f56c42dd83773b34af0806c8?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/22.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/713ced3f99344543abbd6bf4c7ebc6b9/2c6339f8fb0e44eeabe5974050659884?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/23.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/ffcbd3a9a2dc4ed281727744e38fe183/a6332db20aa44f4b8a2ed1c7438dc370?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/24.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/6e6c1920f10348c28e372991b03fcb9b/520ff0f3ac544c2bba44b3b40d221a04?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/25.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/b404fde09ceb429488b1f3d242072d16/a937ecf39deb4addb95069473e752cd2?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/26.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/406f9e7bfd7a4d3eb47618bb823a0db8/bfb740c848a54904957f904645aa65ee?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/27.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/4315420329444303ac9d1863e6c10ea6/59fa43965c3348cf939e5f90c8bcc996?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/28.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/46cf89bdd4f348a7995d80748bad64e1/19a280622e4241b08236c52d2df60ceb?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/29.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/324efb9624d64f21b926adcde60e0e16/87648dafa7404244a2975391b5490218?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/30.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/4db0d34fd636433a82608047f0fcd03c/1210b46120b041d88e911937fad86ef0?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/31.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/cf81ab31e23147ac8dc328b8d77a67cf/cdaae5ff256a48e599430fdf1462d8cf?format=jpeg&w=1170",
-        "path": "/car-images/wayke-c91274a9-dba4-4628-a022-685347f85665/32.jpg"
       }
     ],
     "wayke:95f94d28-6d83-41e9-a01a-e00eebb23222": [
@@ -4483,124 +4148,6 @@
       {
         "url": "https://cdn.wayke.se/cfit/v3/9e6ad9621c6b4b01a095b935c7fb4091/2ce701f500614dfa9e8ecc716d522165?format=jpeg&w=1170",
         "path": "/car-images/wayke-4d1bf0f4-5830-4005-a676-c13110c09318/40.jpg"
-      }
-    ],
-    "wayke:801f6ac9-2cd3-4243-b79d-1285ca04f633": [
-      {
-        "url": "https://cdn.wayke.se/media/e6f0a4420c5b42d49f584dc3ec5061cf/e9f9655649544fc5ba52be5208212d95",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/01.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/2be02bae96334642823f3c8a049f96be/27c6783e7e1547b3a5e0836c6120ee8e",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/02.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/b3ee9697acb9483fbb2fe2ccdeb8d9bb/9546582944f44717a5f970a3a2d1e39b",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/03.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/77005e2610ce41a184bb383edb9dc632/c75010879abd49d39b5ff069be50cc84",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/04.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c07f6bfa236246baa5b1d07844f10010/4e9772a7d2b14b65a7505e43bd1a0654",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/05.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/251789feef024e5bb4b3613476e484ab/3b554dfe2b1a4f6b98332831eaf3bed6",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/06.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/1b37c9060e41443cb2488c9d3cc77b4d/c2f63fe831a442fe997faf08488dc303",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/07.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/2b2cdf1506cb442ab449e30e2b6a80d2/b4d030c5632d4793b519e2c228c1af61",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/08.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/009b67ec12f348bab46c8abb20cc3f72/87635c851a5d46e7946fa8de027d2f83",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/09.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/02b147a76d3f44d9a145aa3e38a4d054/86ee0bce4772415eb6c87281101deede",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/10.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/e28a966a3a0d4946ae9b89c1246ee9f0/90aadb4553794381b9ecb6acc4fc395d",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/11.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/a4d38ebeedc24af090844ad1bde6fb3e/685048f7eb9940eaa86fa9153a0655ef",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/12.jpg"
-      },
-      {
-        "url": "https://dinbil-new.cust.se.phyron.com/repo/RCD54B/1920x1080.mp4",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/13.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/624dc16a4b44444d8a226939c7b9bbea/b9a9e76acc4149dd99d952be92bb60e2",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/14.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/955f184b051b48b74fc908d511697498/8edd1a9634d1449d4c5808d5116976a4",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/15.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/f0565746ce28456b9370b8c763b789c8/22771c1a81704a52a7be2a4e3febd4fa",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/16.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/5ce9bc2345c3423450b308d511697498/a0327ae5c4ba41514d4208d5116976a4",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/17.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/media/bf157d965a5d4e1c507108d511697498/c0e3f3f4651c475e4d0208d5116976a4",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/18.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/2be02bae96334642823f3c8a049f96be/27c6783e7e1547b3a5e0836c6120ee8e?format=jpeg&w=1170",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/19.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/b3ee9697acb9483fbb2fe2ccdeb8d9bb/9546582944f44717a5f970a3a2d1e39b?format=jpeg&w=1170",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/20.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/77005e2610ce41a184bb383edb9dc632/c75010879abd49d39b5ff069be50cc84?format=jpeg&w=1170",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/21.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/c07f6bfa236246baa5b1d07844f10010/4e9772a7d2b14b65a7505e43bd1a0654?format=jpeg&w=1170",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/22.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/251789feef024e5bb4b3613476e484ab/3b554dfe2b1a4f6b98332831eaf3bed6?format=jpeg&w=1170",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/23.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/1b37c9060e41443cb2488c9d3cc77b4d/c2f63fe831a442fe997faf08488dc303?format=jpeg&w=1170",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/24.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/2b2cdf1506cb442ab449e30e2b6a80d2/b4d030c5632d4793b519e2c228c1af61?format=jpeg&w=1170",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/25.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/009b67ec12f348bab46c8abb20cc3f72/87635c851a5d46e7946fa8de027d2f83?format=jpeg&w=1170",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/26.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/02b147a76d3f44d9a145aa3e38a4d054/86ee0bce4772415eb6c87281101deede?format=jpeg&w=1170",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/27.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/e28a966a3a0d4946ae9b89c1246ee9f0/90aadb4553794381b9ecb6acc4fc395d?format=jpeg&w=1170",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/28.jpg"
-      },
-      {
-        "url": "https://cdn.wayke.se/cfit/v3/a4d38ebeedc24af090844ad1bde6fb3e/685048f7eb9940eaa86fa9153a0655ef?format=jpeg&w=1170",
-        "path": "/car-images/wayke-801f6ac9-2cd3-4243-b79d-1285ca04f633/29.jpg"
       }
     ],
     "toyota:corolla-ts:easy-privatleasing": [
