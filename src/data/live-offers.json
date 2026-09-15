@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T20:56:51.029Z",
+  "generatedAt": "2026-09-15T10:04:13.596Z",
   "mode": "live",
   "source": {
     "name": "Wayke",
     "role": "Upptäckts- och detaljkälla för svenska bilhandlarannonser",
     "searchUrl": "https://www.wayke.se/sok?lat=57.7089&lon=11.9746&position.location=150&position.name=G%C3%B6teborg&price.min=120000&price.max=250000&modelYear.min=2021&modelYear.max=2023&mileage.max=10000&gearboxType=Automat&offset=0&sort=itemSortDesc&fuelType=Bensin&fuelType=Diesel&chassis=Kombi&chassis=SUV&chassis=Halvkombi",
     "searchPagesRead": 8,
-    "reportedHits": 202,
+    "reportedHits": 201,
     "documentsRead": 192,
     "detailPagesRead": 40
   },
@@ -47,7 +47,7 @@
       "distanceKm": 127,
       "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-08-31T11:55:37.115863Z",
       "availability": "available",
       "equipment": [
@@ -143,28 +143,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/0c458a8d-e297-43c1-8135-529d3860f7c8",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -211,7 +211,7 @@
       "distanceKm": 113,
       "sourceUrl": "https://www.wayke.se/objekt/c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-05-18T13:00:54.2532534Z",
       "availability": "available",
       "equipment": [
@@ -292,28 +292,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -360,7 +360,7 @@
       "distanceKm": 137,
       "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-05-18T10:48:30.8589361Z",
       "availability": "available",
       "equipment": [
@@ -434,28 +434,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/6a0121fc-c77d-4e02-8693-f214b571a8a9",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -502,7 +502,7 @@
       "distanceKm": 138,
       "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-06-02T12:51:28.5879389Z",
       "availability": "available",
       "equipment": [
@@ -591,28 +591,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/35121016-1fae-49fc-82f2-6594356855bd",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -657,7 +657,7 @@
       "distanceKm": 26,
       "sourceUrl": "https://www.wayke.se/objekt/a0b20001-65db-44cb-8fa4-6bffc12ba91e",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-08T16:57:39.8814622Z",
       "availability": "available",
       "equipment": [
@@ -747,28 +747,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a0b20001-65db-44cb-8fa4-6bffc12ba91e",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a0b20001-65db-44cb-8fa4-6bffc12ba91e",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a0b20001-65db-44cb-8fa4-6bffc12ba91e",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a0b20001-65db-44cb-8fa4-6bffc12ba91e",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a0b20001-65db-44cb-8fa4-6bffc12ba91e",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -813,7 +813,7 @@
       "distanceKm": 127,
       "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-08-19T08:59:29.1844335Z",
       "availability": "available",
       "equipment": [
@@ -903,28 +903,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/8f935ae8-8293-4ad7-82fd-3a73de4cff29",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -969,7 +969,7 @@
       "distanceKm": 131,
       "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-08-31T10:26:27.1663834Z",
       "availability": "available",
       "equipment": [
@@ -1059,28 +1059,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4881b5db-dec7-4d76-bbd7-4316d2e6b9cc",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -1125,7 +1125,7 @@
       "distanceKm": 127,
       "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-08-24T16:28:58.9087805Z",
       "availability": "available",
       "equipment": [
@@ -1206,28 +1206,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/fc4ceed3-d6b3-40d4-831f-ba94abb76e24",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -1274,7 +1274,7 @@
       "distanceKm": 3,
       "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-11T11:30:09.0081682Z",
       "availability": "available",
       "equipment": [
@@ -1370,28 +1370,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/a792f07e-a390-4374-a41a-849640ba06e1",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -1438,7 +1438,7 @@
       "distanceKm": 4,
       "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-08-27T09:06:37.1324804Z",
       "availability": "available",
       "equipment": [
@@ -1520,28 +1520,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/5e93c51b-0ab3-4810-9b33-ea1ee0ad309a",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -1586,7 +1586,7 @@
       "distanceKm": 126,
       "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-08-26T07:34:07.8597521Z",
       "availability": "available",
       "equipment": [
@@ -1665,28 +1665,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/68cab897-73a7-4259-b74f-64f51d870bd7",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -1702,6 +1702,153 @@
         "nonBlockingUnverified": [
           "parking"
         ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "wayke:066059ef-c113-4b3f-94c2-6da8226b0ec8",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "observed",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.5 TSI 150HK DSG BACKKAMERA",
+      "registrationNumber": "DLF51D",
+      "vin": "WVGZZZA1ZPV714929",
+      "priceSek": 239900,
+      "modelYear": 2023,
+      "mileageMil": 6000,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": "SUV",
+      "color": "Vit",
+      "consumptionL100Km": 6.2,
+      "annualTaxSek": 954,
+      "malusTaxSek": 7426,
+      "dealer": "Svenstigs Värnamo",
+      "dealerUrl": null,
+      "place": "Värnamo",
+      "distanceKm": 137,
+      "sourceUrl": "https://www.wayke.se/objekt/066059ef-c113-4b3f-94c2-6da8226b0ec8",
+      "sourceOwner": "Wayke / angiven bilhandlare",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
+      "publishedAt": "2026-09-15T09:06:03.1811635Z",
+      "availability": "available",
+      "equipment": [
+        "Automatisk växellåda",
+        "Låsningsfritt bromssystem (ABS)",
+        "Autonom nödbromsning (AEB)",
+        "Elektronisk bromsassistans",
+        "Stabilitetskontrollsystem (TCS)",
+        "Krockkudde avstängningsbrytare",
+        "Krockkudde front förare",
+        "Krockkudde front",
+        "Krockkudde sido-huvud",
+        "Krockkudde front passagerare",
+        "Krockkudde sido-bröst",
+        "Krockkudde gardin",
+        "Föraruppmärksamhetsvarning (DAW)",
+        "Parkeringssensorer fram",
+        "Parkeringssensorer bak",
+        "Regnsensorer",
+        "Centrallåsning",
+        "Nödsamtal (eCall)",
+        "Barnstol ISOFIX bak",
+        "Filhållningsassistent (LKA)",
+        "Parkeringsassistans",
+        "Android Auto",
+        "Smartphoneintegration",
+        "Apple CarPlay",
+        "Bluetooth-anslutning",
+        "Bluetooth ljud",
+        "Bluetooth telefon",
+        "Display mittkonsol",
+        "Display mittkontroller",
+        "Färddator",
+        "USB",
+        "Uppvärmd ratt",
+        "Takrails",
+        "Farthållare",
+        "Motor start-stopp"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": true,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [],
+      "imageUrls": [
+        "https://cdn.wayke.se/cfit/v3/cbd68a63dd7048a38918975bc5cbabd5/9663fcf30f8743a895a1263ebc552e80",
+        "https://cdn.wayke.se/cfit/v3/7964642361cf44198a6c4009c4e0c345/03da660c167a4e87bfbaf89a807ba805",
+        "https://cdn.wayke.se/cfit/v3/4da1ed4987bb44ffbf9458166134512f/c974240dd16543e0a9ddec31725011a1",
+        "https://cdn.wayke.se/cfit/v3/f7e1c3c26cd045acab4c1eab20684566/1f6f1703e83e43e38223729c595229cd",
+        "https://cdn.wayke.se/cfit/v3/14793d643d9f40aab4be0caa0f4fcf38/ea107f3e372d4a9f99abef39a936b69c",
+        "https://cdn.wayke.se/cfit/v3/b3bf5cac2bdc42ea93498bb99d8d6bd6/aeae8f4504684d668d931a7762add875",
+        "https://cdn.wayke.se/cfit/v3/e77350bfbb6d4a91a4be522394f523c2/c874340afef34950b78496814e5b9c1e",
+        "https://cdn.wayke.se/cfit/v3/bd3e516493424a308fe82ce31fe8341b/e0ece930d8524c7e996b7a178cf743f8",
+        "https://cdn.wayke.se/cfit/v3/4198deca42f64e6fa23f2077730844c8/acf5dc6c7a354c32b9a96312bcf91e62",
+        "https://cdn.wayke.se/cfit/v3/3a04f69e05a34f339c730a77359cb7a4/f2466d541d6f47f8b29c74e6b56225ee",
+        "https://cdn.wayke.se/cfit/v3/7fc212f05aa246d8b8f112b04b8a61e0/fc45c893d7454afc9dffb4cfc916953c",
+        "https://cdn.wayke.se/cfit/v3/7e1dc5d769494a1f95d2d7d08cfea3fc/3e7e5a9eaa0549fa90b7688bed57e136",
+        "https://cdn.wayke.se/cfit/v3/91f54a569c1441b89782c8855c56a732/e447f0977fa746a2bb88cffd075f0f43",
+        "https://cdn.wayke.se/media/acca0315bdcc4f368c73ab9cf630db39/91b8b37d09f24cd5b6ba037daf2bc66b",
+        "https://cdn.wayke.se/media/34532ed53fea413eb1eb2800ad1e90d2/e7bcc021aaac41c78659cad769450710",
+        "https://cdn.wayke.se/cfit/v3/cbd68a63dd7048a38918975bc5cbabd5/9663fcf30f8743a895a1263ebc552e80?format=jpeg&w=1170",
+        "https://cdn.wayke.se/cfit/v3/7964642361cf44198a6c4009c4e0c345/03da660c167a4e87bfbaf89a807ba805?format=jpeg&w=1170",
+        "https://cdn.wayke.se/cfit/v3/4da1ed4987bb44ffbf9458166134512f/c974240dd16543e0a9ddec31725011a1?format=jpeg&w=1170",
+        "https://cdn.wayke.se/cfit/v3/f7e1c3c26cd045acab4c1eab20684566/1f6f1703e83e43e38223729c595229cd?format=jpeg&w=1170",
+        "https://cdn.wayke.se/cfit/v3/14793d643d9f40aab4be0caa0f4fcf38/ea107f3e372d4a9f99abef39a936b69c?format=jpeg&w=1170",
+        "https://cdn.wayke.se/cfit/v3/b3bf5cac2bdc42ea93498bb99d8d6bd6/aeae8f4504684d668d931a7762add875?format=jpeg&w=1170",
+        "https://cdn.wayke.se/cfit/v3/e77350bfbb6d4a91a4be522394f523c2/c874340afef34950b78496814e5b9c1e?format=jpeg&w=1170",
+        "https://cdn.wayke.se/cfit/v3/bd3e516493424a308fe82ce31fe8341b/e0ece930d8524c7e996b7a178cf743f8?format=jpeg&w=1170",
+        "https://cdn.wayke.se/cfit/v3/4198deca42f64e6fa23f2077730844c8/acf5dc6c7a354c32b9a96312bcf91e62?format=jpeg&w=1170",
+        "https://cdn.wayke.se/cfit/v3/3a04f69e05a34f339c730a77359cb7a4/f2466d541d6f47f8b29c74e6b56225ee?format=jpeg&w=1170",
+        "https://cdn.wayke.se/cfit/v3/7fc212f05aa246d8b8f112b04b8a61e0/fc45c893d7454afc9dffb4cfc916953c?format=jpeg&w=1170",
+        "https://cdn.wayke.se/cfit/v3/7e1dc5d769494a1f95d2d7d08cfea3fc/3e7e5a9eaa0549fa90b7688bed57e136?format=jpeg&w=1170",
+        "https://cdn.wayke.se/cfit/v3/91f54a569c1441b89782c8855c56a732/e447f0977fa746a2bb88cffd075f0f43?format=jpeg&w=1170"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.wayke.se/objekt/066059ef-c113-4b3f-94c2-6da8226b0ec8",
+          "checkedAt": "2026-09-15T10:04:13.596Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.wayke.se/objekt/066059ef-c113-4b3f-94c2-6da8226b0ec8",
+          "checkedAt": "2026-09-15T10:04:13.596Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.wayke.se/objekt/066059ef-c113-4b3f-94c2-6da8226b0ec8",
+          "checkedAt": "2026-09-15T10:04:13.596Z"
+        },
+        "tax": {
+          "status": "observed",
+          "sourceUrl": "https://www.wayke.se/objekt/066059ef-c113-4b3f-94c2-6da8226b0ec8",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "observed",
+          "sourceUrl": "https://www.wayke.se/objekt/066059ef-c113-4b3f-94c2-6da8226b0ec8",
+          "checkedAt": "2026-09-15T10:04:13.596Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [],
         "rankBlockers": [
           "Skatt behöver registerverifieras",
           "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
@@ -1733,7 +1880,7 @@
       "distanceKm": 7,
       "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-06-08T17:16:57.087492Z",
       "availability": "available",
       "equipment": [
@@ -1830,28 +1977,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/08063b58-4845-4f59-849b-30ae0d51f536",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -1896,7 +2043,7 @@
       "distanceKm": 23,
       "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-07-17T16:30:42.7608543Z",
       "availability": "available",
       "equipment": [
@@ -1999,28 +2146,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/7d409560-5a88-4d2f-8a4c-87470a63f5d6",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -2067,7 +2214,7 @@
       "distanceKm": 8,
       "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-07-05T11:54:41.6776269Z",
       "availability": "unknown",
       "equipment": [
@@ -2152,28 +2299,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/c91274a9-dba4-4628-a022-685347f85665",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -2187,6 +2334,155 @@
         "passesRequiredEquipment": true,
         "rankable": false,
         "nonBlockingUnverified": [],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "wayke:01a0a45c-2d7e-7afd-91bc-0f8907cf239b",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "observed",
+      "title": "Ford Focus Active Kombi",
+      "variant": "1.0 EcoBoost, 125hk Automat",
+      "registrationNumber": "MGK73L",
+      "vin": "WF0PXXGCHPNL23833",
+      "priceSek": 179900,
+      "modelYear": 2022,
+      "mileageMil": 7660,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": "Sedan",
+      "color": "Vit",
+      "consumptionL100Km": 6.3,
+      "annualTaxSek": 1064,
+      "malusTaxSek": null,
+      "dealer": "Hedin Automotive Ford Eklanda",
+      "dealerUrl": "https://hedinautomotive.se/anlaggningar/hedin-automotive-ford-eklanda",
+      "place": "Mölndal",
+      "distanceKm": 7,
+      "sourceUrl": "https://www.wayke.se/objekt/01a0a45c-2d7e-7afd-91bc-0f8907cf239b",
+      "sourceOwner": "Wayke / angiven bilhandlare",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
+      "publishedAt": "2026-09-15T09:18:21.1615743Z",
+      "availability": "available",
+      "equipment": [
+        "Automatisk växellåda",
+        "Låsningsfritt bromssystem (ABS)",
+        "Autonom nödbromsning (AEB)",
+        "Elektronisk bromsassistans",
+        "Stabilitetskontrollsystem (TCS)",
+        "Krockkudde avstängningsbrytare",
+        "Krockkudde front förare",
+        "Krockkudde front",
+        "Krockkudde sido-huvud",
+        "Krockkudde front passagerare",
+        "Krockkudde sido-bröst",
+        "Krockkudde sido-bäcken",
+        "Krockkudde gardin",
+        "Parkeringssensorer fram",
+        "Parkeringssensorer bak",
+        "Regnsensorer",
+        "Centrallåsning",
+        "Barnsäkerhetslås",
+        "Nödsamtal (eCall)",
+        "Barnstol ISOFIX bak",
+        "Filhållningsassistent (LKA)",
+        "Parkeringsassistans",
+        "Trafikskyltskanning",
+        "Android Auto",
+        "Smartphoneintegration",
+        "Apple CarPlay",
+        "Bluetooth-anslutning",
+        "Bluetooth ljud",
+        "Bluetooth telefon",
+        "Display mittkonsol",
+        "Display mittkontroller",
+        "Färddator",
+        "Strömuttag 12V bagageutrymme",
+        "USB",
+        "WiFi-hotspot",
+        "Uppvärmd ratt",
+        "Takrails",
+        "Tonade fönster",
+        "Farthållare",
+        "Nyckelfri access",
+        "Nyckelfri start",
+        "Motor start-stopp"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": true,
+        "parking": true,
+        "camera": false
+      },
+      "missingRequirements": [
+        "camera"
+      ],
+      "imageUrls": [
+        "https://cdn.wayke.se/cfit/v3/e0f4c643-50b9-4c37-a468-9483c9f0f97a",
+        "https://cdn.wayke.se/cfit/v3/0ad0247d-6544-4aa9-b562-db4c0b92590e",
+        "https://cdn.wayke.se/cfit/v3/7e5de18d-3ae0-4ca5-81a8-c784c4fd914b",
+        "https://cdn.wayke.se/cfit/v3/f1ecedab-fde5-4294-987e-53c2525d8062",
+        "https://cdn.wayke.se/cfit/v3/d08e6de9-2949-4722-9ba9-507e47a1f2a6",
+        "https://cdn.wayke.se/cfit/v3/0920122c-b5a6-4477-ad40-41ba33e922f3",
+        "https://cdn.wayke.se/cfit/v3/381e4ef9-77c3-4ed9-9a7a-18a4a93c65e4",
+        "https://cdn.wayke.se/cfit/v3/518f8b07-1962-4192-a346-33a952a14ba7",
+        "https://cdn.wayke.se/cfit/v3/0160cb82-40c8-425c-9219-58e954cfce4b",
+        "https://cdn.wayke.se/cfit/v3/186b990f-1759-4191-8abc-0553ea129c29",
+        "https://cdn.wayke.se/cfit/v3/84e4820c-cafb-4b11-a4c1-4aa4522ad1db",
+        "https://cdn.wayke.se/cfit/v3/658a856a-6e1a-492c-ab48-6497e86de72e",
+        "https://cdn.wayke.se/cfit/v3/a5dbb2e5-fd6e-4dfb-ae26-ce6a018da7a1",
+        "https://cdn.wayke.se/cfit/v3/72bd0d01-bc54-4e46-bb56-ba6704fa2f19",
+        "https://cdn.wayke.se/cfit/v3/f1b4836f-a093-488f-a77e-6aa263348681",
+        "https://cdn.wayke.se/cfit/v3/26ad1877-17a4-4fa0-9a89-8dfb1e9e6030",
+        "https://cdn.wayke.se/cfit/v3/aacfeb0d-e475-47cd-ba81-c18440264f58",
+        "https://cdn.wayke.se/media/358f05e7466d4c4aba788f0f54abfff8/d8c684f6748042b78e2afdcdb17a952e",
+        "https://cdn.wayke.se/media/cf15df6d99264e02af601cea9e86ee2b/5c6e1c3632504f4986d94c6d11bd4126"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.wayke.se/objekt/01a0a45c-2d7e-7afd-91bc-0f8907cf239b",
+          "checkedAt": "2026-09-15T10:04:13.596Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.wayke.se/objekt/01a0a45c-2d7e-7afd-91bc-0f8907cf239b",
+          "checkedAt": "2026-09-15T10:04:13.596Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.wayke.se/objekt/01a0a45c-2d7e-7afd-91bc-0f8907cf239b",
+          "checkedAt": "2026-09-15T10:04:13.596Z"
+        },
+        "tax": {
+          "status": "observed",
+          "sourceUrl": "https://www.wayke.se/objekt/01a0a45c-2d7e-7afd-91bc-0f8907cf239b",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.wayke.se/objekt/01a0a45c-2d7e-7afd-91bc-0f8907cf239b",
+          "checkedAt": "2026-09-15T10:04:13.596Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "camera"
+        ],
         "rankBlockers": [
           "Skatt behöver registerverifieras",
           "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
@@ -2218,7 +2514,7 @@
       "distanceKm": 68,
       "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-07-07T16:26:44.9211848Z",
       "availability": "available",
       "equipment": [
@@ -2308,28 +2604,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/6ecc9dcd-dab0-4597-be09-c3d725266702",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -2374,7 +2670,7 @@
       "distanceKm": 3,
       "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-08-25T15:42:28.6601881Z",
       "availability": "available",
       "equipment": [
@@ -2467,28 +2763,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/95f94d28-6d83-41e9-a01a-e00eebb23222",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -2535,7 +2831,7 @@
       "distanceKm": 137,
       "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-03T14:08:42.9519258Z",
       "availability": "available",
       "equipment": [
@@ -2607,28 +2903,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/c9fdeb16-0d54-4140-961b-43568350b470",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -2676,7 +2972,7 @@
       "distanceKm": 3,
       "sourceUrl": "https://www.wayke.se/objekt/4d1bf0f4-5830-4005-a676-c13110c09318",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-09T16:17:24.9491954Z",
       "availability": "available",
       "equipment": [
@@ -2772,28 +3068,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/4d1bf0f4-5830-4005-a676-c13110c09318",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/4d1bf0f4-5830-4005-a676-c13110c09318",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4d1bf0f4-5830-4005-a676-c13110c09318",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4d1bf0f4-5830-4005-a676-c13110c09318",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4d1bf0f4-5830-4005-a676-c13110c09318",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -2838,7 +3134,7 @@
       "distanceKm": 113,
       "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-11T12:02:55.3305653Z",
       "availability": "available",
       "equipment": [
@@ -2925,28 +3221,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -2993,7 +3289,7 @@
       "distanceKm": 137,
       "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-06-10T09:56:49.3875231Z",
       "availability": "available",
       "equipment": [
@@ -3068,28 +3364,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/1d05ce3e-9401-4e5f-b4e9-c02390fe6a7e",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -3137,7 +3433,7 @@
       "distanceKm": 134,
       "sourceUrl": "https://www.wayke.se/objekt/385838a8-6272-4e8e-93d6-1067296d8d51",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-14T14:04:45.8009724Z",
       "availability": "available",
       "equipment": [
@@ -3223,28 +3519,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/385838a8-6272-4e8e-93d6-1067296d8d51",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/385838a8-6272-4e8e-93d6-1067296d8d51",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/385838a8-6272-4e8e-93d6-1067296d8d51",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/385838a8-6272-4e8e-93d6-1067296d8d51",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/385838a8-6272-4e8e-93d6-1067296d8d51",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -3292,7 +3588,7 @@
       "distanceKm": 20,
       "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-08-28T14:55:21.2759059Z",
       "availability": "available",
       "equipment": [
@@ -3382,28 +3678,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/fb478a7c-4a9f-4340-89ce-94c68f439317",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -3450,7 +3746,7 @@
       "distanceKm": 130,
       "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-08-31T12:25:43.5091216Z",
       "availability": "available",
       "equipment": [
@@ -3512,28 +3808,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/fa01452b-4ff5-43b2-910b-6dd397b09343",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -3581,7 +3877,7 @@
       "distanceKm": 49,
       "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-11T06:43:04.0574933Z",
       "availability": "available",
       "equipment": [
@@ -3637,28 +3933,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -3705,7 +4001,7 @@
       "distanceKm": 49,
       "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-07T13:06:52.0456477Z",
       "availability": "available",
       "equipment": [
@@ -3761,28 +4057,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/b3322c88-5f3b-4490-ac39-5e62b7c724f2",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -3829,7 +4125,7 @@
       "distanceKm": 49,
       "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-11T06:43:35.6357006Z",
       "availability": "available",
       "equipment": [
@@ -3879,28 +4175,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -3947,7 +4243,7 @@
       "distanceKm": 106,
       "sourceUrl": "https://www.wayke.se/objekt/487d50e9-363e-45dd-a80f-4547d7e8776e",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-09T14:52:42.9047875Z",
       "availability": "available",
       "equipment": [
@@ -4009,28 +4305,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/487d50e9-363e-45dd-a80f-4547d7e8776e",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/487d50e9-363e-45dd-a80f-4547d7e8776e",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/487d50e9-363e-45dd-a80f-4547d7e8776e",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/487d50e9-363e-45dd-a80f-4547d7e8776e",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/487d50e9-363e-45dd-a80f-4547d7e8776e",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -4078,7 +4374,7 @@
       "distanceKm": 49,
       "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-05T07:33:07.9123876Z",
       "availability": "available",
       "equipment": [
@@ -4134,28 +4430,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -4202,7 +4498,7 @@
       "distanceKm": 60,
       "sourceUrl": "https://www.wayke.se/objekt/91386249-51d6-46b7-8887-db7304548dcb",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-14T11:12:10.3324264Z",
       "availability": "available",
       "equipment": [
@@ -4260,28 +4556,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/91386249-51d6-46b7-8887-db7304548dcb",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/91386249-51d6-46b7-8887-db7304548dcb",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/91386249-51d6-46b7-8887-db7304548dcb",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/91386249-51d6-46b7-8887-db7304548dcb",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/91386249-51d6-46b7-8887-db7304548dcb",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -4328,7 +4624,7 @@
       "distanceKm": 23,
       "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-07-28T15:12:43.5999816Z",
       "availability": "available",
       "equipment": [
@@ -4412,28 +4708,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/4aa40c00-8083-46d7-b7db-9e9c452e02bc",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -4480,7 +4776,7 @@
       "distanceKm": 20,
       "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-11T11:30:34.8508423Z",
       "availability": "available",
       "equipment": [
@@ -4572,28 +4868,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -4640,7 +4936,7 @@
       "distanceKm": 4,
       "sourceUrl": "https://www.wayke.se/objekt/01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-08T16:06:33.0456302Z",
       "availability": "available",
       "equipment": [
@@ -4699,28 +4995,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/01a081c5-5ca2-79e7-b8f8-00b7f75b384b",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -4768,7 +5064,7 @@
       "distanceKm": 140,
       "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-08-13T14:03:27.641948Z",
       "availability": "available",
       "equipment": [
@@ -4850,28 +5146,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/7d69912a-3c49-41fa-8438-4fb439e898dc",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -4919,7 +5215,7 @@
       "distanceKm": 19,
       "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-07-31T10:15:40.8329899Z",
       "availability": "available",
       "equipment": [
@@ -4990,28 +5286,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/faa05a10-2f78-444e-a27a-157e59cf9a34",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -5058,7 +5354,7 @@
       "distanceKm": 20,
       "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-08-24T17:40:58.4522926Z",
       "availability": "available",
       "equipment": [
@@ -5162,28 +5458,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/a8afb359-cd68-4bb3-a577-3cb7541099db",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -5230,7 +5526,7 @@
       "distanceKm": 63,
       "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-02T10:57:38.8829545Z",
       "availability": "available",
       "equipment": [
@@ -5314,28 +5610,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/233784a2-1893-4b4a-9dfd-2a833f5d66b2",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -5382,7 +5678,7 @@
       "distanceKm": 19,
       "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-07-17T10:09:09.98058Z",
       "availability": "available",
       "equipment": [
@@ -5458,28 +5754,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/b27fdcad-e911-437d-8b49-f3fd2469e225",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -5526,7 +5822,7 @@
       "distanceKm": 4,
       "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
       "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
+      "sourceCheckedAt": "2026-09-15T10:04:13.596Z",
       "publishedAt": "2026-09-05T03:08:30.0854247Z",
       "availability": "available",
       "equipment": [
@@ -5608,28 +5904,28 @@
         "listing": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "price": {
           "status": "verified",
           "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "identity": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "tax": {
           "status": "observed",
           "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
+          "checkedAt": "2026-09-15T10:04:13.596Z",
           "note": "Exakt registerkontroll återstår"
         },
         "equipment": {
           "status": "incomplete",
           "sourceUrl": "https://www.wayke.se/objekt/9dbfc015-5da0-47f6-96e7-d02abb19433b",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
+          "checkedAt": "2026-09-15T10:04:13.596Z"
         },
         "economics": {
           "status": "missing",
@@ -5643,296 +5939,6 @@
         "passesRequiredEquipment": true,
         "rankable": false,
         "nonBlockingUnverified": [
-          "camera"
-        ],
-        "rankBlockers": [
-          "Skatt behöver registerverifieras",
-          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
-        ]
-      }
-    },
-    {
-      "id": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
-      "kind": "purchase",
-      "live": true,
-      "lifecycle": "observed",
-      "title": "CUPRA Leon Sportstourer",
-      "variant": "1.5/CUPRA Paket/Vision Plus/Full Link/",
-      "registrationNumber": "JUS52N",
-      "vin": "VSSZZZKLXPR062695",
-      "priceSek": 234900,
-      "modelYear": 2023,
-      "mileageMil": 7520,
-      "fuelType": "Bensin",
-      "transmission": "Automat",
-      "bodyType": "Sedan",
-      "color": "Vit",
-      "consumptionL100Km": 5.9,
-      "annualTaxSek": 910,
-      "malusTaxSek": 7162,
-      "dealer": "Frontbilar i Göteborg",
-      "dealerUrl": null,
-      "place": "Hissings Kärra",
-      "distanceKm": 7,
-      "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
-      "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
-      "publishedAt": "2026-06-23T17:29:04.7641018Z",
-      "availability": "available",
-      "equipment": [
-        "Mild hybridsystem",
-        "Automatisk växellåda",
-        "Låsningsfritt bromssystem (ABS)",
-        "Autonom nödbromsning (AEB)",
-        "Elektronisk bromsassistans",
-        "Stabilitetskontrollsystem (TCS)",
-        "Krockkudde avstängningsbrytare",
-        "Krockkudde front förare",
-        "Krockkudde front",
-        "Krockkudde sido-huvud",
-        "Krockkudde front passagerare",
-        "Krockkudde sido-bröst",
-        "Krockkudde sido-bäcken",
-        "Krockkudde gardin",
-        "Centrallåsning",
-        "Barnsäkerhetslås",
-        "Nödsamtal (eCall)",
-        "Barnstol ISOFIX bak",
-        "Föraruppmärksamhetsvarning (DAW)",
-        "Parkeringssensorer bak",
-        "Regnsensorer",
-        "Filhållningsassistent (LKA)",
-        "Smartphoneintegration",
-        "Bluetooth-anslutning",
-        "Bluetooth ljud",
-        "Bluetooth telefon",
-        "Display mittkonsol",
-        "Display mittkontroller",
-        "Färddator",
-        "Strömuttag 12V bagageutrymme",
-        "USB",
-        "Uppvärmd ratt",
-        "Takrails",
-        "Tonade fönster",
-        "Farthållare",
-        "Nyckelfri access",
-        "Nyckelfri start",
-        "Trådlös laddning",
-        "Motor start-stopp"
-      ],
-      "requiredEquipment": {
-        "antisladd": true,
-        "isofix": true,
-        "parking": true,
-        "camera": false
-      },
-      "missingRequirements": [
-        "camera"
-      ],
-      "imageUrls": [
-        "https://cdn.wayke.se/cfit/v3/0ea9ee835f864c2a8e6c3e219d9f4557/5526252d69834c4ca17f1935e38420f6",
-        "https://cdn.wayke.se/cfit/v3/0a4c741e42be4a30928af94577254f8d/d7c8cdeb72fd45b5893a5340e3e36096",
-        "https://cdn.wayke.se/cfit/v3/46cdac5903ac47d89b33e3580d4a7ce6/d6a102d8a20b431d8489930c248c9670",
-        "https://cdn.wayke.se/cfit/v3/56adfb678f564f02894b1368b16a9219/1cfa012e59514cc28ad9444beee4f644",
-        "https://cdn.wayke.se/cfit/v3/4309de0e0b0e4c86849eb7127b448ade/7dda6156984f4eb1a7090f89acea45f9",
-        "https://cdn.wayke.se/cfit/v3/628ca7e98b004e249c7847baf2186dcf/54a32630c5164986a52b210bd83fea4a",
-        "https://cdn.wayke.se/cfit/v3/0804fb02aac84f36af0de546f7a0c0fc/73146d4758b54294930419b28fd98589",
-        "https://cdn.wayke.se/cfit/v3/92f4b7a3d4024d4b8993eb54f1f4f50b/d72a8a1feda0448ea1a6c498d6ba4294",
-        "https://cdn.wayke.se/cfit/v3/bd48ff77ff214350b4cfd4cb64118335/582260e25f594ecbbe0dc8d879bd76c7",
-        "https://cdn.wayke.se/cfit/v3/e4a78ced13dd44f5b3dd1988b0489e1c/bbdd0515cee2482c921afc77ba333435",
-        "https://cdn.wayke.se/cfit/v3/a27b254d02ee4dfe9fac7b936d8626a8/f3d2b39ee025422b887193ca9192911b",
-        "https://cdn.wayke.se/cfit/v3/647e2de9405c40f696ed226d3757b26e/98ff595430d143f29ec62a77befc8e16",
-        "https://cdn.wayke.se/cfit/v3/5fc30331f63644a89fbd151b1bf632c8/e104b878f2cc4e0a93a502c96a9cc515",
-        "https://cdn.wayke.se/cfit/v3/26319c8286d647b29a8252603ec71471/b9bd2cbe0f6049f0a93dfd641d0a605d",
-        "https://cdn.wayke.se/cfit/v3/82d3f7ea8c204b8f9db87138e9dc7f45/b4d506f0b4004eccb1ab2a21502aea2e",
-        "https://cdn.wayke.se/cfit/v3/2a9dee2072e3478583e8d40f612473b3/fa3a7178c2fc49868669611210e7b880",
-        "https://cdn.wayke.se/cfit/v3/9ef7e1fcbedb4990825bb96af0098004/6ace8bfcc01348c2b1cdbf37a4a617fe",
-        "https://cdn.wayke.se/cfit/v3/fd26a090720d46a6ab9f9c242eef05cc/08214889186842daa0e2290b42594257",
-        "https://cdn.wayke.se/cfit/v3/a8a3c5aaafef4a8ea7189ab68783acd1/4c068d095a5e4828a8ca31be29964477",
-        "https://cdn.wayke.se/cfit/v3/24f42dbdde5346ef8da1648a04b5993e/473192cc34014258892708761b541e64",
-        "https://cdn.wayke.se/cfit/v3/f773a79c5e3646ce8f7021fc8956c751/2a42a181921b453ba258fa11fbd05dd7",
-        "https://cdn.wayke.se/cfit/v3/3b2a8da88bc54e24a664b22f9f1d0e01/e94902b737cd4dd49d858b3599689f0a",
-        "https://cdn.wayke.se/cfit/v3/d83820396059488ab9cbfeb9cafbf00a/466394269f0b4c128b6727f590570797",
-        "https://cdn.wayke.se/media/aa62f31549f94ff4ba985149cbf3fc62/c4043a8a371d4e07af61ab099ed6217b",
-        "https://cdn.wayke.se/media/9c32b69700424546b443e1c91b15d006/fb09839b63624b578f968758a7f0f90f",
-        "https://cdn.wayke.se/media/3061de7101c74c69bfbde4c134180b78/ace1e5c63a9c4f4e9b91cc21852929bc",
-        "https://cdn.wayke.se/cfit/v3/0ea9ee835f864c2a8e6c3e219d9f4557/5526252d69834c4ca17f1935e38420f6?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/0a4c741e42be4a30928af94577254f8d/d7c8cdeb72fd45b5893a5340e3e36096?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/46cdac5903ac47d89b33e3580d4a7ce6/d6a102d8a20b431d8489930c248c9670?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/56adfb678f564f02894b1368b16a9219/1cfa012e59514cc28ad9444beee4f644?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/4309de0e0b0e4c86849eb7127b448ade/7dda6156984f4eb1a7090f89acea45f9?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/628ca7e98b004e249c7847baf2186dcf/54a32630c5164986a52b210bd83fea4a?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/0804fb02aac84f36af0de546f7a0c0fc/73146d4758b54294930419b28fd98589?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/92f4b7a3d4024d4b8993eb54f1f4f50b/d72a8a1feda0448ea1a6c498d6ba4294?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/bd48ff77ff214350b4cfd4cb64118335/582260e25f594ecbbe0dc8d879bd76c7?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/e4a78ced13dd44f5b3dd1988b0489e1c/bbdd0515cee2482c921afc77ba333435?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/a27b254d02ee4dfe9fac7b936d8626a8/f3d2b39ee025422b887193ca9192911b?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/647e2de9405c40f696ed226d3757b26e/98ff595430d143f29ec62a77befc8e16?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/5fc30331f63644a89fbd151b1bf632c8/e104b878f2cc4e0a93a502c96a9cc515?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/26319c8286d647b29a8252603ec71471/b9bd2cbe0f6049f0a93dfd641d0a605d?format=jpeg&w=1170"
-      ],
-      "evidence": {
-        "listing": {
-          "status": "verified",
-          "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
-        },
-        "price": {
-          "status": "verified",
-          "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
-        },
-        "identity": {
-          "status": "observed",
-          "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
-        },
-        "tax": {
-          "status": "observed",
-          "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
-          "note": "Exakt registerkontroll återstår"
-        },
-        "equipment": {
-          "status": "incomplete",
-          "sourceUrl": "https://www.wayke.se/objekt/ecb85a25-eefe-4ecb-b212-e699120d4561",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
-        },
-        "economics": {
-          "status": "missing",
-          "sourceUrl": null,
-          "checkedAt": null,
-          "note": "Ej rankningsbar före kostnadsberikning"
-        }
-      },
-      "quality": {
-        "passesListingFilters": true,
-        "passesRequiredEquipment": true,
-        "rankable": false,
-        "nonBlockingUnverified": [
-          "camera"
-        ],
-        "rankBlockers": [
-          "Skatt behöver registerverifieras",
-          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
-        ]
-      }
-    },
-    {
-      "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
-      "kind": "purchase",
-      "live": true,
-      "lifecycle": "observed",
-      "title": "Nissan Qashqai",
-      "variant": "DIG-T 160 TEKNA 2WD DCT",
-      "registrationNumber": "XJB81T",
-      "vin": "SJNFFAJ11U2882229",
-      "priceSek": 234900,
-      "modelYear": 2021,
-      "mileageMil": 3600,
-      "fuelType": "Bensin",
-      "transmission": "Automat",
-      "bodyType": "SUV",
-      "color": "Grå",
-      "consumptionL100Km": 7,
-      "annualTaxSek": 1394,
-      "malusTaxSek": null,
-      "dealer": "Hedin Automotive Varberg Holmagärde",
-      "dealerUrl": "https://hedinautomotive.se/anlaggningar/hedin-automotive-varberg-holmagarde",
-      "place": "Varberg",
-      "distanceKm": 68,
-      "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
-      "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-14T20:56:51.029Z",
-      "publishedAt": "2026-09-08T15:44:50.9377809Z",
-      "availability": "available",
-      "equipment": [
-        "Automatisk växellåda",
-        "Låsningsfritt bromssystem (ABS)",
-        "Elektronisk bromsassistans",
-        "Stabilitetskontrollsystem (TCS)",
-        "Krockkudde avstängningsbrytare",
-        "Krockkudde front förare",
-        "Krockkudde front",
-        "Krockkudde sido-huvud",
-        "Krockkudde front passagerare",
-        "Krockkudde sido-bröst",
-        "Centrallåsning",
-        "Barnsäkerhetslås",
-        "Barnstol ISOFIX bak",
-        "Regnsensorer",
-        "AUX",
-        "Bluetooth-anslutning",
-        "Bluetooth telefon",
-        "Display mittkonsol",
-        "Display mittkontroller",
-        "Färddator",
-        "USB"
-      ],
-      "requiredEquipment": {
-        "antisladd": true,
-        "isofix": true,
-        "parking": false,
-        "camera": false
-      },
-      "missingRequirements": [
-        "parking",
-        "camera"
-      ],
-      "imageUrls": [
-        "https://cdn.wayke.se/cfit/v3/91328121-feef-41dd-a0bc-8176efadf49d",
-        "https://cdn.wayke.se/cfit/v3/fc9a6b36-3c4e-45a5-83cd-bdbb31043a1e",
-        "https://cdn.wayke.se/cfit/v3/9a20e359-76fc-44b5-af26-0cfa21a01eb2",
-        "https://cdn.wayke.se/cfit/v3/2aa1cbf2-753e-4bd6-a60a-8a00998b9085",
-        "https://cdn.wayke.se/cfit/v3/bb9a8d06-be89-4b56-9f96-e606ec829973",
-        "https://cdn.wayke.se/cfit/v3/a21a7401-f32c-48a0-ac8a-ef8be001120f",
-        "https://cdn.wayke.se/cfit/v3/bd89039b-2f0c-43ea-ab9c-ee28ef86eae1",
-        "https://cdn.wayke.se/cfit/v3/c248c6d7-8b43-4de3-b56e-81b5f883f7c1",
-        "https://cdn.wayke.se/cfit/v3/05000a2b-bd0b-4861-ae59-29ca3b0ef449",
-        "https://cdn.wayke.se/cfit/v3/f15288b1-9228-4dfe-b119-009bf2b944dc",
-        "https://cdn.wayke.se/cfit/v3/939b5e32-51bc-4aa9-9f49-5fddd368af79",
-        "https://cdn.wayke.se/cfit/v3/dc419b44-10d6-4eba-920a-3e40c02c8b96"
-      ],
-      "evidence": {
-        "listing": {
-          "status": "verified",
-          "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
-        },
-        "price": {
-          "status": "verified",
-          "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
-        },
-        "identity": {
-          "status": "observed",
-          "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
-        },
-        "tax": {
-          "status": "observed",
-          "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
-          "checkedAt": "2026-09-14T20:56:51.029Z",
-          "note": "Exakt registerkontroll återstår"
-        },
-        "equipment": {
-          "status": "incomplete",
-          "sourceUrl": "https://www.wayke.se/objekt/01a081b1-7f50-74b1-ace7-526d523843af",
-          "checkedAt": "2026-09-14T20:56:51.029Z"
-        },
-        "economics": {
-          "status": "missing",
-          "sourceUrl": null,
-          "checkedAt": null,
-          "note": "Ej rankningsbar före kostnadsberikning"
-        }
-      },
-      "quality": {
-        "passesListingFilters": true,
-        "passesRequiredEquipment": true,
-        "rankable": false,
-        "nonBlockingUnverified": [
-          "parking",
           "camera"
         ],
         "rankBlockers": [
@@ -5945,39 +5951,27 @@
   "changes": [
     {
       "type": "new",
-      "id": "wayke:385838a8-6272-4e8e-93d6-1067296d8d51",
-      "title": "Hyundai i30 Kombi",
-      "at": "2026-09-14T20:56:51.029Z"
+      "id": "wayke:066059ef-c113-4b3f-94c2-6da8226b0ec8",
+      "title": "Volkswagen T-Roc",
+      "at": "2026-09-15T10:04:13.596Z"
     },
     {
       "type": "new",
-      "id": "wayke:91386249-51d6-46b7-8887-db7304548dcb",
-      "title": "Peugeot 3008",
-      "at": "2026-09-14T20:56:51.029Z"
+      "id": "wayke:01a0a45c-2d7e-7afd-91bc-0f8907cf239b",
+      "title": "Ford Focus Active Kombi",
+      "at": "2026-09-15T10:04:13.596Z"
     },
     {
-      "type": "new",
+      "type": "not-in-current-sample",
+      "id": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
+      "title": "CUPRA Leon Sportstourer",
+      "at": "2026-09-15T10:05:33.248Z"
+    },
+    {
+      "type": "not-in-current-sample",
       "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
       "title": "Nissan Qashqai",
-      "at": "2026-09-14T20:56:51.029Z"
-    },
-    {
-      "type": "not-in-current-sample",
-      "id": "wayke:801f6ac9-2cd3-4243-b79d-1285ca04f633",
-      "title": "Volkswagen Tiguan",
-      "at": "2026-09-14T20:58:05.782Z"
-    },
-    {
-      "type": "not-in-current-sample",
-      "id": "wayke:50b26f29-1b35-4bcb-a655-7f7cc667f11c",
-      "title": "Peugeot 5008",
-      "at": "2026-09-14T20:58:05.782Z"
-    },
-    {
-      "type": "not-in-current-sample",
-      "id": "wayke:a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
-      "title": "Volkswagen Golf Sportscombi",
-      "at": "2026-09-14T20:58:05.782Z"
+      "at": "2026-09-15T10:05:33.248Z"
     }
   ],
   "errors": []

@@ -708,5 +708,36 @@
       }
     ],
     "errors": []
+  },
+  {
+    "generatedAt": "2026-09-15T10:04:13.596Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:066059ef-c113-4b3f-94c2-6da8226b0ec8",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-15T10:04:13.596Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:01a0a45c-2d7e-7afd-91bc-0f8907cf239b",
+        "title": "Ford Focus Active Kombi",
+        "at": "2026-09-15T10:04:13.596Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-15T10:05:33.248Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-15T10:05:33.248Z"
+      }
+    ],
+    "errors": []
   }
 ]
