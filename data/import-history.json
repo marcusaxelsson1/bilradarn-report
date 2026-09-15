@@ -739,5 +739,24 @@
       }
     ],
     "errors": []
+  },
+  {
+    "generatedAt": "2026-09-15T20:15:04.616Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-15T20:15:04.616Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
+        "title": "Dacia Duster",
+        "at": "2026-09-15T20:16:19.465Z"
+      }
+    ],
+    "errors": []
   }
 ]
