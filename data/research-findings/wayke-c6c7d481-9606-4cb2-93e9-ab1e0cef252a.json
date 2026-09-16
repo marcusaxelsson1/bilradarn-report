@@ -1,15 +1,15 @@
 {
-  "offerId": "wayke:dac1e0cf-5507-4a9f-8f65-e69e063547bb",
-  "sourceUrl": "https://www.wayke.se/objekt/dac1e0cf-5507-4a9f-8f65-e69e063547bb",
+  "offerId": "wayke:c6c7d481-9606-4cb2-93e9-ab1e0cef252a",
+  "sourceUrl": "https://www.wayke.se/objekt/c6c7d481-9606-4cb2-93e9-ab1e0cef252a",
   "checkedAt": "2026-09-16T09:57:53.896Z",
   "status": "partially_verified",
   "costs": {
     "insurance": {
-      "amountSek": 18000,
+      "amountSek": 20016,
       "status": "estimated",
       "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
       "checkedAt": "2026-09-16T09:57:53.896Z",
-      "note": "Hedvigs offentliga snitt för helförsäkring: 500 kr/mån (Ford). Inte personlig offert."
+      "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
     }
   },
   "evidence": {

@@ -758,5 +758,24 @@
       }
     ],
     "errors": []
+  },
+  {
+    "generatedAt": "2026-09-16T09:56:41.834Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:c6c7d481-9606-4cb2-93e9-ab1e0cef252a",
+        "title": "Peugeot 3008",
+        "at": "2026-09-16T09:56:41.834Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-16T09:57:44.452Z"
+      }
+    ],
+    "errors": []
   }
 ]
