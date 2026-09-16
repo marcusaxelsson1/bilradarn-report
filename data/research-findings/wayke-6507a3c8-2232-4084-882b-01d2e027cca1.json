@@ -1,0 +1,29 @@
+{
+  "offerId": "wayke:6507a3c8-2232-4084-882b-01d2e027cca1",
+  "sourceUrl": "https://www.wayke.se/objekt/6507a3c8-2232-4084-882b-01d2e027cca1",
+  "checkedAt": "2026-09-16T20:08:51.114Z",
+  "status": "partially_verified",
+  "costs": {
+    "insurance": {
+      "amountSek": 20808,
+      "status": "estimated",
+      "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+      "checkedAt": "2026-09-16T20:08:51.114Z",
+      "note": "Hedvigs offentliga snitt för helförsäkring: 578 kr/mån (Västra Götaland/helförsäkring). Inte personlig offert."
+    }
+  },
+  "evidence": {
+    "tyreSwap": {
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
+      "checkedAt": "2026-09-16T20:08:51.114Z",
+      "note": "Pris kunde inte läsas."
+    },
+    "tyreSearch": {
+      "status": "unknown",
+      "sourceUrl": "https://www.dackonline.se/",
+      "checkedAt": "2026-09-16T20:08:51.114Z",
+      "note": "Däckdimension saknas i sanerad registerdata."
+    }
+  }
+}

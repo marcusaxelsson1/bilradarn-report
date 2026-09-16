@@ -777,5 +777,36 @@
       }
     ],
     "errors": []
+  },
+  {
+    "generatedAt": "2026-09-16T20:07:38.347Z",
+    "offers": 40,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:fff16efb-a4f3-4ad2-bcfe-83f231eeefa1",
+        "title": "Peugeot 3008",
+        "at": "2026-09-16T20:07:38.347Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:6507a3c8-2232-4084-882b-01d2e027cca1",
+        "title": "Dacia Duster",
+        "at": "2026-09-16T20:07:38.347Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:0c458a8d-e297-43c1-8135-529d3860f7c8",
+        "title": "SEAT Leon Sportstourer",
+        "at": "2026-09-16T20:08:47.447Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-16T20:08:47.447Z"
+      }
+    ],
+    "errors": []
   }
 ]
