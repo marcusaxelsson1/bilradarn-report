@@ -21,23 +21,33 @@ test("every ranked offer reconciles breakdown and monthly horizon", () => {
   }
 });
 
-test("purchase ranking has the required source and equipment evidence", () => {
+test("purchase ranking keeps standard and soft-exception cars with clear evidence", () => {
+  let exceptions = 0;
   for (const offer of report.purchases) {
     assert.equal(offer.quality.rankable, true);
     assert.equal(offer.quality.rankBlockers.length, 0);
     assert.ok(offer.sourceUrl.startsWith("https://"));
     assert.equal(offer.quality.rankBlockers.length, 0);
     if (offer.quality.selection) {
-      assert.equal(offer.quality.selection.lane, "standard");
+      assert.ok(["standard", "exception"].includes(offer.quality.selection.lane));
       assert.deepEqual(offer.quality.selection.verificationReasons, []);
+      if (offer.quality.selection.lane === "exception") exceptions += 1;
     }
   }
+  assert.ok(exceptions > 0, "mjuka undantag ska vara synliga i rankningen");
 });
 
-test("every visible offer has a sourced reliability summary", () => {
+test("missing reliability is visible as pending instead of removing the offer", () => {
+  let pending = 0;
   for (const offer of [...report.purchases, ...report.leases]) {
-    assert.ok(offer.reliability?.summary, `${offer.title} saknar driftsäkerhetstext`);
-    assert.ok(offer.reliability?.sources?.length, `${offer.title} saknar driftsäkerhetskälla`);
+    if (!offer.reliability?.summary) {
+      pending += 1;
+      assert.equal(offer.enrichment?.status, "pending-reliability");
+      assert.ok(offer.quality?.warnings?.some((warning) => /Driftsäkerhetsanalys väntar/.test(warning)));
+      continue;
+    }
+    assert.ok(offer.reliability.sources?.length, `${offer.title} saknar driftsäkerhetskälla`);
     for (const source of offer.reliability.sources) assert.match(source.url, /^https?:\/\//);
   }
+  assert.ok(pending > 0, "testdatan ska omfatta synliga bilar med väntande research");
 });

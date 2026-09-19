@@ -133,11 +133,19 @@ export async function buildResearchQueue() {
   await mkdir(FINDINGS_DIR, { recursive: true });
   await writeFile(QUEUE, `${JSON.stringify({ schemaVersion: 1, generatedAt: checkedAt, horizonMonths: 36, annualMileageMil: 1500, tasks: queue }, null, 2)}\n`, "utf8");
   const enrichedPurchases = enriched.filter((offer) => offer.kind === "buy");
-  const pendingReliability = enrichedPurchases.filter((offer) => !(offer.reliability?.summary && offer.reliability?.sources?.length));
-  const purchases = enrichedPurchases.filter((offer) => offer.reliability?.summary && offer.reliability?.sources?.length).sort((a, b) => a.economics.total36Sek - b.economics.total36Sek).map((offer, index) => ({ ...offer, rank: index + 1 }));
+  const purchases = enrichedPurchases.map((offer) => {
+    if (offer.reliability?.summary && offer.reliability?.sources?.length) return offer;
+    return {
+      ...offer,
+      quality: {
+        ...offer.quality,
+        warnings: [...new Set([...(offer.quality?.warnings ?? []), "Driftsäkerhetsanalys väntar – bilen visas men underlaget är ännu inte källverifierat"])]
+      },
+      enrichment: { ...offer.enrichment, status: "pending-reliability", checkedAt },
+    };
+  }).sort((a, b) => a.economics.total36Sek - b.economics.total36Sek).map((offer, index) => ({ ...offer, rank: index + 1 }));
   const leases = enriched.filter((offer) => offer.kind === "lease").sort((a, b) => a.economics.total36Sek - b.economics.total36Sek).map((offer, index) => ({ ...offer, rank: index + 1 }));
-  const reliabilityExclusions = pendingReliability.map((offer) => ({ id: offer.id, title: offer.title, sourceUrl: offer.sourceUrl, missingRequirements: ["sourced-reliability"], selection: offer.quality?.selection ?? null }));
-  const next = { ...report, purchases, leases, excludedPurchases: [...(report.excludedPurchases ?? []), ...reliabilityExclusions], generatedAt: checkedAt };
+  const next = { ...report, purchases, leases, excludedPurchases: report.excludedPurchases ?? [], generatedAt: checkedAt };
   await writeFile(REPORT, `${JSON.stringify(next, null, 2)}\n`, "utf8");
   await writeFile(STATUS, `${JSON.stringify({ generatedAt: checkedAt, pending: queue.filter((task) => task.status === "pending").length, received: queue.filter((task) => task.status === "received").length, scope: "Alla rankbara köp + aktuella leasingerbjudanden" }, null, 2)}\n`, "utf8");
   return { queue, pending: queue.filter((task) => task.status === "pending").length };

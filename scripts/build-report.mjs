@@ -126,7 +126,7 @@ function purchaseEconomics(offer, assumptions = {}) {
     brand: brandFor(offer.title),
     economics: { total36Sek: total, monthlyEconomicSek: round(total / 36), stressTotal36Sek: stressTotal, stressMonthlySek: round(stressTotal / 36), upfrontSek: down + winter.acquisition + 550, residual36Sek: residual, tradeIn36Sek: tradeIn, debt36Sek: 0, loanPrincipalSek: principal, loanRatePercent: loanRate * 100, cashPaid36Sek: monthlyPlan.filter((x) => x.month <= 36).reduce((s, x) => s + x.totalSek, 0), breakdown: rows, monthlyPlan, events },
     evidence: { ...offer.evidence, economics: status("modelled", null, "Alla poster är synliga; annonsdata är källbelagd och antaganden märkta.") },
-    quality: { ...offer.quality, rankable: true, rankBlockers: [], warnings: ["Skatt är annonsuppgift tills registerkontroll", "Försäkring kräver personlig offert", "Restvärde, service och reparationsreserv är modellberäknade", ...(offer.quality.nonBlockingUnverified?.length ? [`Ej uttryckligen utskrivet i annonsen (ej krav): ${offer.quality.nonBlockingUnverified.join(", ")}`] : [])] },
+    quality: { ...offer.quality, rankable: true, rankBlockers: [], warnings: ["Skatt är annonsuppgift tills registerkontroll", "Försäkring kräver personlig offert", "Restvärde, service och reparationsreserv är modellberäknade", ...(offer.quality.nonBlockingUnverified?.length ? [`Ej uttryckligen utskrivet i annonsen (ej krav): ${offer.quality.nonBlockingUnverified.join(", ")}`] : []), ...(offer.quality.selection?.exceptionReasons?.length ? [`Mjuk kravavvikelse: ${offer.quality.selection.exceptionReasons.join(", ")}`] : [])] },
   };
 }
 
@@ -170,7 +170,7 @@ export async function buildReport() {
     const selection = offer.quality?.selection;
     return offer.live
       && offer.quality?.passesRequiredEquipment
-      && (!selection || (selection.lane === "standard" && selection.verificationReasons?.length === 0));
+      && (!selection || (selection.included && selection.verificationReasons?.length === 0));
   };
   const purchases = purchaseFeed.offers.filter(isSharpCandidate).map(economics.purchase).sort((a, b) => a.economics.total36Sek - b.economics.total36Sek).map((x, i) => ({ ...x, rank: i + 1 }));
   const leases = leaseFeed.offers.map(economics.lease).sort((a, b) => a.economics.total36Sek - b.economics.total36Sek).map((x, i) => ({ ...x, rank: i + 1 }));
