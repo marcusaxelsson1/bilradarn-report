@@ -1,0 +1,3279 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-19T10:59:54.254Z",
+  "mode": "live",
+  "source": {
+    "key": "dinbil",
+    "name": "Din Bil",
+    "role": "Handlaradapter för Din Bils publika begagnadlager (webbläsar-paginering)",
+    "detailPagesRead": 31,
+    "list": "https://dinbil.se/bilar-i-lager/begagnat",
+    "discovered": 492,
+    "funnel": {
+      "discovered": 492,
+      "prefiltered": 492,
+      "detailPagesRequested": 0,
+      "evaluated": 492,
+      "included": 31,
+      "standard": 10,
+      "exception": 21,
+      "rejected": 461,
+      "rejectionReasons": {
+        "fel storleks-/modellfamilj": 275,
+        "elbil": 71,
+        "pris över 250 000 kr": 328,
+        "årsmodell utanför 2020–2024": 256,
+        "laddhybrid": 71,
+        "miltal över 10 000 mil": 42
+      },
+      "verificationReasons": {
+        "karosstyp saknas": 492,
+        "drivmedel saknas": 23
+      }
+    }
+  },
+  "filters": {
+    "priceMin": 0,
+    "priceMax": 250000,
+    "modelYearMin": 2020,
+    "modelYearMax": 2024,
+    "mileageMaxMil": 10000
+  },
+  "offers": [
+    {
+      "id": "dinbil:FNG16J",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen Tiguan",
+      "variant": "TSI150 DSG Drag/Värmare",
+      "registrationNumber": "FNG16J",
+      "vin": null,
+      "priceSek": 249900,
+      "modelYear": 2021,
+      "mileageMil": 9350,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Täby",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fng16j",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/FNG16J/FNG16J.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fng16j",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fng16j",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fng16j",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fng16j",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fng16j",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:LWA24C",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "TSI150 DSG",
+      "registrationNumber": "LWA24C",
+      "vin": null,
+      "priceSek": 249900,
+      "modelYear": 2023,
+      "mileageMil": 4579,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Täby",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/lwa24c",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/LWA24C/LWA24C.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/lwa24c",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/lwa24c",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/lwa24c",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/lwa24c",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/lwa24c",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:RCK93G",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "TSI110 P-värmare/Backkamera",
+      "registrationNumber": "RCK93G",
+      "vin": null,
+      "priceSek": 209900,
+      "modelYear": 2023,
+      "mileageMil": 4878,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Täby",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rck93g",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/RCK93G/RCK93G.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rck93g",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rck93g",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rck93g",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rck93g",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rck93g",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:PBG445",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Toyota Corolla Touring Sports Hybrid",
+      "variant": "Hybrid e-CVT 122hk Style/backkamera/S+V-hjul",
+      "registrationNumber": "PBG445",
+      "vin": null,
+      "priceSek": 219900,
+      "modelYear": 2021,
+      "mileageMil": 7060,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Göteborg",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/pbg445",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/PBG445/PBG445.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/pbg445",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/pbg445",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/pbg445",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/pbg445",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/pbg445",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:CBJ02F",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "TSI150 DSG P-sensorer/Digital cockpit pro",
+      "registrationNumber": "CBJ02F",
+      "vin": null,
+      "priceSek": 229500,
+      "modelYear": 2023,
+      "mileageMil": 6498,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Kista",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/cbj02f",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/CBJ02F/CBJ02F.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/cbj02f",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/cbj02f",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/cbj02f",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/cbj02f",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/cbj02f",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:GDS30E",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.0 TSI 110 hk P-sensorer/Assistans/Digital cockpi",
+      "registrationNumber": "GDS30E",
+      "vin": null,
+      "priceSek": 199500,
+      "modelYear": 2023,
+      "mileageMil": 1809,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Kista",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gds30e",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/GDS30E/GDS30E.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gds30e",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gds30e",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gds30e",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gds30e",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gds30e",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:AJG81P",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "TSI150 DSG",
+      "registrationNumber": "AJG81P",
+      "vin": null,
+      "priceSek": 239500,
+      "modelYear": 2023,
+      "mileageMil": 4559,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Täby",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ajg81p",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/AJG81P/AJG81P.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ajg81p",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ajg81p",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ajg81p",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ajg81p",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ajg81p",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:ELM36G",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen Passat Sportscombi",
+      "variant": "1.5 TSI DSG | Fram&baksensorer",
+      "registrationNumber": "ELM36G",
+      "vin": null,
+      "priceSek": 219900,
+      "modelYear": 2020,
+      "mileageMil": 8560,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Skoda Sätra",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/elm36g",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/ELM36G/ELM36G.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/elm36g",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/elm36g",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/elm36g",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/elm36g",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/elm36g",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:AGG27J",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "TSI150 DSG",
+      "registrationNumber": "AGG27J",
+      "vin": null,
+      "priceSek": 234900,
+      "modelYear": 2023,
+      "mileageMil": 5593,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Täby",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/agg27j",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/AGG27J/AGG27J.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/agg27j",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/agg27j",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/agg27j",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/agg27j",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/agg27j",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:YOR00Y",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "TSI150 DSG",
+      "registrationNumber": "YOR00Y",
+      "vin": null,
+      "priceSek": 249900,
+      "modelYear": 2023,
+      "mileageMil": 3614,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Täby",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/yor00y",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/YOR00Y/YOR00Y.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/yor00y",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/yor00y",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/yor00y",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/yor00y",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/yor00y",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:ETH44Z",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "TSI110 P-sensorer",
+      "registrationNumber": "ETH44Z",
+      "vin": null,
+      "priceSek": 199900,
+      "modelYear": 2023,
+      "mileageMil": 4271,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Täby",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/eth44z",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/ETH44Z/ETH44Z.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/eth44z",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/eth44z",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/eth44z",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/eth44z",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/eth44z",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:GYJ01E",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "TSI150 DSG Sensorer/Carplay",
+      "registrationNumber": "GYJ01E",
+      "vin": null,
+      "priceSek": 239500,
+      "modelYear": 2023,
+      "mileageMil": 4190,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Täby",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gyj01e",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/GYJ01E/GYJ01E.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gyj01e",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gyj01e",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gyj01e",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gyj01e",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gyj01e",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:KTJ26F",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "TSI150 DSG",
+      "registrationNumber": "KTJ26F",
+      "vin": null,
+      "priceSek": 239500,
+      "modelYear": 2023,
+      "mileageMil": 4430,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Täby",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ktj26f",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/KTJ26F/KTJ26F.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ktj26f",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ktj26f",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ktj26f",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ktj26f",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ktj26f",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:GHP89K",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "SEAT Leon",
+      "variant": "1.5 TSI 130 STYLE/S+V-hjul",
+      "registrationNumber": "GHP89K",
+      "vin": null,
+      "priceSek": 149900,
+      "modelYear": 2020,
+      "mileageMil": 7359,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Göteborg",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ghp89k",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/GHP89K/GHP89K.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ghp89k",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ghp89k",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ghp89k",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ghp89k",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ghp89k",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:WAK22Z",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "110hk CarPlay/Adaptiv farthållare",
+      "registrationNumber": "WAK22Z",
+      "vin": null,
+      "priceSek": 225900,
+      "modelYear": 2023,
+      "mileageMil": 4558,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Lund",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/wak22z",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/WAK22Z/WAK22Z.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/wak22z",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/wak22z",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/wak22z",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/wak22z",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/wak22z",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:OSK43L",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "SEAT Leon",
+      "variant": "1,0 TSI 110 HK STYLE",
+      "registrationNumber": "OSK43L",
+      "vin": null,
+      "priceSek": 169900,
+      "modelYear": 2023,
+      "mileageMil": 1973,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "SEAT Göteborg",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/osk43l",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/OSK43L/OSK43L.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/osk43l",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/osk43l",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/osk43l",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/osk43l",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/osk43l",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:NLB43B",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Skoda Octavia Kombi",
+      "variant": "1.0 TSI 110hk Ambition Drag MoK-Värmare",
+      "registrationNumber": "NLB43B",
+      "vin": null,
+      "priceSek": 189900,
+      "modelYear": 2021,
+      "mileageMil": 7920,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Skoda Borlänge",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/nlb43b",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/NLB43B/NLB43B.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/nlb43b",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/nlb43b",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/nlb43b",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/nlb43b",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/nlb43b",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil",
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:UOK79K",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.0 TSI 110hk",
+      "registrationNumber": "UOK79K",
+      "vin": null,
+      "priceSek": 174900,
+      "modelYear": 2021,
+      "mileageMil": 7290,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Sisjön",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/uok79k",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/UOK79K/UOK79K.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/uok79k",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/uok79k",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/uok79k",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/uok79k",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/uok79k",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:GDS58D",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.5 TSI 150 HK | DSG | Adaptiv FH",
+      "registrationNumber": "GDS58D",
+      "vin": null,
+      "priceSek": 199500,
+      "modelYear": 2021,
+      "mileageMil": 9279,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Kungsbacka",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gds58d",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/GDS58D/GDS58D.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gds58d",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gds58d",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gds58d",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gds58d",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gds58d",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:RRA45Y",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "SEAT Leon Sportstourer",
+      "variant": "/ 1.5 eTSI / 150 hk / DSG7 / FR / Parkeringsvärmar",
+      "registrationNumber": "RRA45Y",
+      "vin": null,
+      "priceSek": 249900,
+      "modelYear": 2024,
+      "mileageMil": 2670,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "SEAT Göteborg",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rra45y",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/RRA45Y/RRA45Y.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rra45y",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rra45y",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rra45y",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rra45y",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rra45y",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:FNG35T",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.0 TSI 110HK  6 Vxl Carplay & Android Auto",
+      "registrationNumber": "FNG35T",
+      "vin": null,
+      "priceSek": 214900,
+      "modelYear": 2023,
+      "mileageMil": 3887,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Backa",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fng35t",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/FNG35T/FNG35T.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fng35t",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fng35t",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fng35t",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fng35t",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fng35t",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:KPH80J",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.0 TSI 110HK 6 vxl / Carplay & Android Auto",
+      "registrationNumber": "KPH80J",
+      "vin": null,
+      "priceSek": 219900,
+      "modelYear": 2023,
+      "mileageMil": 4230,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Backa",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/kph80j",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/KPH80J/KPH80J.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/kph80j",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/kph80j",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/kph80j",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/kph80j",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/kph80j",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:GKB48W",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Audi A4 Avant 40 TDI quattro",
+      "variant": "40 TDI 190 HK Q S-Tr Proline / Alpin",
+      "registrationNumber": "GKB48W",
+      "vin": null,
+      "priceSek": 239000,
+      "modelYear": 2020,
+      "mileageMil": 10000,
+      "fuelType": "Diesel",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Audi Center Smista",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gkb48w",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/GKB48W/GKB48W.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gkb48w",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gkb48w",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gkb48w",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gkb48w",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/gkb48w",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:RAK79S",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.0 TSI 110hk Keyless & Klimatanläggning",
+      "registrationNumber": "RAK79S",
+      "vin": null,
+      "priceSek": 214800,
+      "modelYear": 2023,
+      "mileageMil": 3104,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Sisjön",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rak79s",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/RAK79S/RAK79S.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rak79s",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rak79s",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rak79s",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rak79s",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/rak79s",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:ZPD827",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen Tiguan",
+      "variant": "TSI 150HK DSG Drag/p-värmare",
+      "registrationNumber": "ZPD827",
+      "vin": null,
+      "priceSek": 249900,
+      "modelYear": 2021,
+      "mileageMil": 8444,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Hammarby",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/zpd827",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/ZPD827/ZPD827.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/zpd827",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/zpd827",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/zpd827",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/zpd827",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/zpd827",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:DMW01G",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.0 TSI 110 hk Assistans/Digital cockpit",
+      "registrationNumber": "DMW01G",
+      "vin": null,
+      "priceSek": 189500,
+      "modelYear": 2023,
+      "mileageMil": 2354,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Kista",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/dmw01g",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/DMW01G/DMW01G.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/dmw01g",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/dmw01g",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/dmw01g",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/dmw01g",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/dmw01g",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:BMN12H",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Skoda Karoq",
+      "variant": "Style 1,0 TSI 110 HK 6 Vxl",
+      "registrationNumber": "BMN12H",
+      "vin": null,
+      "priceSek": 210000,
+      "modelYear": 2022,
+      "mileageMil": 6012,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Skoda Bäckebol",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/bmn12h",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/BMN12H/BMN12H.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/bmn12h",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/bmn12h",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/bmn12h",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/bmn12h",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/bmn12h",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:FWD15M",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.5 TSI 150hk P-sensorer/Adaptiv farthållare",
+      "registrationNumber": "FWD15M",
+      "vin": null,
+      "priceSek": 234900,
+      "modelYear": 2023,
+      "mileageMil": 6404,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Södertälje",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fwd15m",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/FWD15M/FWD15M.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fwd15m",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fwd15m",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fwd15m",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fwd15m",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/fwd15m",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:CCG12X",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.5 TSI 150hk DSG P-sensorer",
+      "registrationNumber": "CCG12X",
+      "vin": null,
+      "priceSek": 234900,
+      "modelYear": 2023,
+      "mileageMil": 5771,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Södertälje",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ccg12x",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/CCG12X/CCG12X.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ccg12x",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ccg12x",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ccg12x",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ccg12x",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/ccg12x",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:CGN85F",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Skoda Karoq",
+      "variant": "Style 1.0 TSI 110hk / Drag / Backkamera",
+      "registrationNumber": "CGN85F",
+      "vin": null,
+      "priceSek": 205000,
+      "modelYear": 2022,
+      "mileageMil": 4001,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Skoda Södertälje",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/cgn85f",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/CGN85F/CGN85F.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/cgn85f",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/cgn85f",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/cgn85f",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/cgn85f",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/cgn85f",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "dinbil:ESP34E",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc",
+      "variant": "1.0 TSI 110hk /P-sensorer",
+      "registrationNumber": "ESP34E",
+      "vin": null,
+      "priceSek": 192900,
+      "modelYear": 2023,
+      "mileageMil": 4451,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": null,
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Din Bil",
+      "dealerUrl": null,
+      "place": "Volkswagen Södertälje",
+      "distanceKm": null,
+      "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/esp34e",
+      "sourceOwner": "Din Bil",
+      "sourceCheckedAt": "2026-09-19T10:59:54.254Z",
+      "publishedAt": null,
+      "availability": "unknown",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://pics.vwgroup.se/prod/ESP34E/ESP34E.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/esp34e",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/esp34e",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/esp34e",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/esp34e",
+          "checkedAt": "2026-09-19T10:59:54.254Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://dinbil.se/bilar-i-lager/begagnat/esp34e",
+          "checkedAt": "2026-09-19T10:59:54.254Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "karosstyp saknas"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    }
+  ],
+  "changes": [],
+  "errors": []
+}

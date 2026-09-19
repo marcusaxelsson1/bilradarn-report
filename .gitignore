@@ -1,6 +1,7 @@
 node_modules/
 dist/
 data/registry-results/raw/
+data/import-cache/
 .DS_Store
 *.log
 .env

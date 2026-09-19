@@ -1,0 +1,2324 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-19T10:57:57.207Z",
+  "mode": "live",
+  "source": {
+    "key": "bilia",
+    "name": "Bilia",
+    "role": "Handlaradapter för Bilias publika begagnadlager",
+    "detailPagesRead": 0,
+    "sitemap": "https://www.bilia.se/sitemap_index.xml",
+    "vehicleSitemap": "https://www.bilia.se/cars-sitemap.xml",
+    "sitemapNotModified": false,
+    "unavailableListings": 0,
+    "funnel": {
+      "discovered": 1780,
+      "prefiltered": 0,
+      "detailPagesRequested": 0,
+      "reusedCachedDetails": 1763,
+      "incrementalReasons": {},
+      "unavailableListings": 0,
+      "evaluated": 1763,
+      "included": 22,
+      "standard": 4,
+      "exception": 18,
+      "rejected": 1741,
+      "rejectionReasons": {
+        "fel storleks-/modellfamilj": 418,
+        "pris över 250 000 kr": 1382,
+        "opraktisk karosstyp": 70,
+        "årsmodell utanför 2020–2024": 1189,
+        "elbil": 170,
+        "miltal över 10 000 mil": 504,
+        "laddhybrid": 314,
+        "otillåtet drivmedel: El+Etanol": 2,
+        "otillåtet drivmedel: Etanol": 1
+      },
+      "verificationReasons": {
+        "hybridtyp måste verifieras": 531
+      }
+    }
+  },
+  "filters": {
+    "priceMin": 0,
+    "priceMax": 250000,
+    "modelYearMin": 2020,
+    "modelYearMax": 2024,
+    "mileageMaxMil": 10000
+  },
+  "offers": [
+    {
+      "id": "bilia:FUJ03B",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen Golf Sportscombi 1.5 eTSI ACT OPF",
+      "variant": "Volkswagen Golf",
+      "registrationNumber": "FUJ03B",
+      "vin": "WVWZZZCD9RW861011",
+      "priceSek": 239900,
+      "modelYear": 2024,
+      "mileageMil": 7396,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": "Kombi",
+      "color": "Svart",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/vasteras-bmw#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/golf/fuj03b/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-vasteras-bmw/fuj03b/c41eccf1-1bf4-400b-8383-ddfc9f504aaf_8892c6eb4c11.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/golf/fuj03b/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/golf/fuj03b/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/golf/fuj03b/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/golf/fuj03b/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/golf/fuj03b/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:WOX59K",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Hyundai i30 Kombi 1.0 T-GDI blue",
+      "variant": "Hyundai i30",
+      "registrationNumber": "WOX59K",
+      "vin": "TMAH3811ALJ051808",
+      "priceSek": 144900,
+      "modelYear": 2020,
+      "mileageMil": 9020,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "Kombi",
+      "color": "Silver",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/sodertalje-volvo#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/hyundai/i30/wox59k/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-sodertalje-volvo/wox59k/d1ab2275-de37-44f7-b803-3d24a3a52e36_e8dd9c0aec6c.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/hyundai/i30/wox59k/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/hyundai/i30/wox59k/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/hyundai/i30/wox59k/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/hyundai/i30/wox59k/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/hyundai/i30/wox59k/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "miltal över normaltaket 7 500 mil",
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:HAW00W",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "CUPRA Leon Sportstourer 1.5 eTSI",
+      "variant": "CUPRA Leon",
+      "registrationNumber": "HAW00W",
+      "vin": "VSSZZZKL8PR038718",
+      "priceSek": 244900,
+      "modelYear": 2023,
+      "mileageMil": 4939,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": "Kombi",
+      "color": "Vit",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/haninge-beg-bilar#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/cupra/leon/haw00w/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-haninge-begagnade-bilar/haw00w/ee2f3710-dd5a-4325-83dd-12618b1420b6_bf0c4a4d59fa.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/cupra/leon/haw00w/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/cupra/leon/haw00w/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/cupra/leon/haw00w/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/cupra/leon/haw00w/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/cupra/leon/haw00w/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:FJE47W",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Dacia Duster 1.5 Blue dCi 4x4",
+      "variant": "Dacia Duster",
+      "registrationNumber": "FJE47W",
+      "vin": "VF1HJD40667238225",
+      "priceSek": 154800,
+      "modelYear": 2022,
+      "mileageMil": 8788,
+      "fuelType": "Diesel",
+      "transmission": "Manuell",
+      "bodyType": "SUV",
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/https://www.biliaoutlet.se/anlaggningar/outlet-kungens-kurva#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/fje47w/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-outlet-bilhall-kungens-kurva/fje47w/196ed470-0ff4-4e64-ac75-ca72577c49c6_8204439ff2ef.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/fje47w/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/fje47w/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/fje47w/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/fje47w/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/fje47w/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil",
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:WNX60J",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "SEAT Leon Sportstourer 1.0 eTSI",
+      "variant": "SEAT Leon",
+      "registrationNumber": "WNX60J",
+      "vin": "VSSZZZKLZNR015560",
+      "priceSek": 209900,
+      "modelYear": 2022,
+      "mileageMil": 2791,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": "Kombi",
+      "color": "Grå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/norrkoping-seat#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/seat/leon/wnx60j/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-norrkoping-seat/wnx60j/f054e062-21bd-4b1e-bc7a-00a934fc2208_f5f2127d6395.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/seat/leon/wnx60j/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/seat/leon/wnx60j/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/seat/leon/wnx60j/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/seat/leon/wnx60j/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/seat/leon/wnx60j/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:BJP94A",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "BMW X1 sDrive18i",
+      "variant": "BMW X1",
+      "registrationNumber": "BJP94A",
+      "vin": "WBA31AA01L3L39543",
+      "priceSek": 179900,
+      "modelYear": 2020,
+      "mileageMil": 9700,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "SUV",
+      "color": "Blå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/eskilstuna-volvo#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/bmw/x1/bjp94a/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-eskilstuna-volvo/bjp94a/db35ab94-14a7-4d12-b6d5-699174aed26a_c16a5d0ba9be.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/bmw/x1/bjp94a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/bmw/x1/bjp94a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/bmw/x1/bjp94a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/bmw/x1/bjp94a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/bmw/x1/bjp94a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "miltal över normaltaket 7 500 mil",
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:FDT38C",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Opel Grandland Hybrid4 300",
+      "variant": "Opel Grandland X",
+      "registrationNumber": "FDT38C",
+      "vin": "W0VZ45GB8LS046156",
+      "priceSek": 189000,
+      "modelYear": 2020,
+      "mileageMil": 8718,
+      "fuelType": "Bensin+El",
+      "transmission": "Automat",
+      "bodyType": "CUV",
+      "color": "Vit",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/haga-norra-volvo#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/opel/grandland-x/fdt38c/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-haga-norra-volvo/fdt38c/ad5f547a-d2f1-44b0-9a6b-03bc1a6b2a48_7a95bc4e4b0c.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/opel/grandland-x/fdt38c/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/opel/grandland-x/fdt38c/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/opel/grandland-x/fdt38c/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/opel/grandland-x/fdt38c/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/opel/grandland-x/fdt38c/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": [
+            "hybridtyp måste verifieras"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:RWJ96H",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volvo XC40 T3",
+      "variant": "Volvo XC40",
+      "registrationNumber": "RWJ96H",
+      "vin": "YV1XZ15BDL2238117",
+      "priceSek": 249000,
+      "modelYear": 2020,
+      "mileageMil": 9223,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": "SUV",
+      "color": "Svart",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/segeltorp-volvo#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volvo/xc40/rwj96h/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-segeltorp-volvo/rwj96h/e9e6cf42-0dc9-40c0-8f7c-126eca59d3fe_5ab4d0807ae1.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volvo/xc40/rwj96h/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volvo/xc40/rwj96h/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volvo/xc40/rwj96h/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volvo/xc40/rwj96h/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volvo/xc40/rwj96h/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:EMH35A",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Peugeot 3008 GT HYBRID4",
+      "variant": "Peugeot 3008",
+      "registrationNumber": "EMH35A",
+      "vin": "VF3M45GBULS136578",
+      "priceSek": 194900,
+      "modelYear": 2020,
+      "mileageMil": 9822,
+      "fuelType": "Bensin+El",
+      "transmission": "Automat",
+      "bodyType": "SUV",
+      "color": "Svart",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/https://www.biliaoutlet.se/anlaggningar/outlet-vasteras#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/emh35a/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-outlet-bilhall-vasteras/emh35a/15cbd56f-cad5-4ef8-9c73-898afc4c1a08_99bf09cc15f6.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/emh35a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/emh35a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/emh35a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/emh35a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/emh35a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": [
+            "hybridtyp måste verifieras"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:HEP38A",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Peugeot 3008 GT HYBRID4",
+      "variant": "Peugeot 3008",
+      "registrationNumber": "HEP38A",
+      "vin": "VF3M45GBULS177185",
+      "priceSek": 229000,
+      "modelYear": 2020,
+      "mileageMil": 5987,
+      "fuelType": "Bensin+El",
+      "transmission": "Automat",
+      "bodyType": "SUV",
+      "color": "Röd",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/trelleborg-volvo#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/hep38a/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-trelleborg-volvo/hep38a/f812cd80-2d17-463d-90e2-e6df99aaafe1_b544d0d2508e.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/hep38a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/hep38a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/hep38a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/hep38a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/hep38a/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet"
+          ],
+          "verificationReasons": [
+            "hybridtyp måste verifieras"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:EUL34G",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Nissan Qashqai 1.3 DIG-T",
+      "variant": "Nissan Qashqai",
+      "registrationNumber": "EUL34G",
+      "vin": "SJNFFAJ11U2952717",
+      "priceSek": 209000,
+      "modelYear": 2021,
+      "mileageMil": 9498,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": "SUV",
+      "color": "Blå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/jagersro-renault#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/nissan/qashqai/eul34g/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-jagersro-nissan/eul34g/0cc1355c-faa0-4320-9096-4e20692c153a_a63c930cf86b.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/nissan/qashqai/eul34g/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/nissan/qashqai/eul34g/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/nissan/qashqai/eul34g/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/nissan/qashqai/eul34g/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/nissan/qashqai/eul34g/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:FJY56D",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Dacia Duster 1.0 TCe",
+      "variant": "Dacia Duster",
+      "registrationNumber": "FJY56D",
+      "vin": "VF1HJD20X71162869",
+      "priceSek": 144900,
+      "modelYear": 2023,
+      "mileageMil": 5811,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "SUV",
+      "color": "Grå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/segeltorp-volvo#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/fjy56d/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-segeltorp-volvo/fjy56d/ff703395-1dc4-42d8-ba43-5b6d658fed00_60d8b7ff1779.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/fjy56d/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/fjy56d/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/fjy56d/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/fjy56d/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/fjy56d/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:RBH86B",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen Tiguan 2.0 TSI OPF 4Motion",
+      "variant": "Volkswagen Tiguan",
+      "registrationNumber": "RBH86B",
+      "vin": "WVGZZZ5NZLW389378",
+      "priceSek": 239900,
+      "modelYear": 2020,
+      "mileageMil": 8336,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": "SUV",
+      "color": "Vit",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/sodertalje-volvo#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/tiguan/rbh86b/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-sodertalje-volvo/rbh86b/2a968400-1ac1-426d-8ed2-e63ad975d7a4_7d1312dac01c.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/tiguan/rbh86b/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/tiguan/rbh86b/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/tiguan/rbh86b/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/tiguan/rbh86b/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/tiguan/rbh86b/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:AGS23E",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Škoda Octavia Kombi 1.0 TSI",
+      "variant": "Škoda Octavia",
+      "registrationNumber": "AGS23E",
+      "vin": "TMBJP9NE9L0102653",
+      "priceSek": 179900,
+      "modelYear": 2020,
+      "mileageMil": 7400,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "Kombi",
+      "color": "Grå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/norrkoping-skoda#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/skoda/octavia/ags23e/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-norrkoping-skoda/ags23e/a461dd67-10da-4e46-a381-b6e63edc822a_538ae32b1536.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/skoda/octavia/ags23e/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/skoda/octavia/ags23e/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/skoda/octavia/ags23e/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/skoda/octavia/ags23e/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/skoda/octavia/ags23e/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:CYM15H",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Ford Focus Active Kombi 1.0 EcoBoost",
+      "variant": "Ford Focus",
+      "registrationNumber": "CYM15H",
+      "vin": "WF0PXXGCHPMR51356",
+      "priceSek": 184900,
+      "modelYear": 2022,
+      "mileageMil": 5763,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": "Kombi",
+      "color": "Vit",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/https://www.biliaoutlet.se/anlaggningar/outlet-vasteras#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/ford/focus/cym15h/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-outlet-bilhall-vasteras/cym15h/61c48c88-a9de-42ae-9945-60347cb90b32_5984942e307a.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/ford/focus/cym15h/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/ford/focus/cym15h/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/ford/focus/cym15h/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/ford/focus/cym15h/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/ford/focus/cym15h/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:RGC39U",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volkswagen T-Roc 1.5 TSI ACT OPF",
+      "variant": "Volkswagen T-Roc",
+      "registrationNumber": "RGC39U",
+      "vin": "WVGZZZA1ZPV695696",
+      "priceSek": 249900,
+      "modelYear": 2023,
+      "mileageMil": 7987,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": "SUV",
+      "color": "Grå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/https://www.biliaoutlet.se/anlaggningar/outlet-jagersro#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/t-roc/rgc39u/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-outlet-bilhall-jagersro/rgc39u/aae53c7d-cddb-4a0e-a261-49462b72e64b_fa299dcac313.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/t-roc/rgc39u/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/t-roc/rgc39u/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/t-roc/rgc39u/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/t-roc/rgc39u/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volkswagen/t-roc/rgc39u/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:CFM74M",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Kia Niro P-HEV",
+      "variant": "Kia Niro",
+      "registrationNumber": "CFM74M",
+      "vin": "KNACD81DGN5533880",
+      "priceSek": 249900,
+      "modelYear": 2022,
+      "mileageMil": 4382,
+      "fuelType": "Bensin+El",
+      "transmission": "Automat",
+      "bodyType": "SUV",
+      "color": "Blå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/koping-volvo#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/kia/niro/cfm74m/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-koping-volvo/cfm74m/f30d160a-4acc-4991-8357-c451859c5fc1_da8345f97931.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/kia/niro/cfm74m/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/kia/niro/cfm74m/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/kia/niro/cfm74m/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/kia/niro/cfm74m/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/kia/niro/cfm74m/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:SPE37E",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Volvo XC40 T2",
+      "variant": "Volvo XC40",
+      "registrationNumber": "SPE37E",
+      "vin": "YV1XZL4VDM2539992",
+      "priceSek": 249000,
+      "modelYear": 2021,
+      "mileageMil": 9500,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": "SUV",
+      "color": "Grå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/trelleborg-volvo#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volvo/xc40/spe37e/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-trelleborg-volvo/spe37e/2a70fa1b-d0c4-44e5-99b9-f8c2a6c54023_d1368f5dbdf8.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volvo/xc40/spe37e/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volvo/xc40/spe37e/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volvo/xc40/spe37e/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volvo/xc40/spe37e/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/volvo/xc40/spe37e/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:RKK75Y",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Dacia Duster 1.0 TCe",
+      "variant": "Dacia Duster",
+      "registrationNumber": "RKK75Y",
+      "vin": "VF1HJD20768547182",
+      "priceSek": 139000,
+      "modelYear": 2022,
+      "mileageMil": 8007,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "SUV",
+      "color": null,
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/jagersro-renault#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/rkk75y/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-jagersro-nissan/rkk75y/a6a9953e-1fe3-4c88-87b3-dc58ac6d834b_2e3194c493d9.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/rkk75y/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/rkk75y/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/rkk75y/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/rkk75y/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/dacia/duster/rkk75y/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil",
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:ZMA41D",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Audi A4 Avant 40 TDI quattro",
+      "variant": "Audi A4",
+      "registrationNumber": "ZMA41D",
+      "vin": "WAUZZZF42LA010911",
+      "priceSek": 239000,
+      "modelYear": 2020,
+      "mileageMil": 9753,
+      "fuelType": "Diesel",
+      "transmission": "Automat",
+      "bodyType": "Kombi",
+      "color": "Svart",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/jagersro-volvo#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/audi/a4/zma41d/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-jagersro-volvo/zma41d/100a756d-fa61-4264-b8ec-0cc40d3a50df_9ee05a6fc01c.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/audi/a4/zma41d/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/audi/a4/zma41d/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/audi/a4/zma41d/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/audi/a4/zma41d/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/audi/a4/zma41d/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:CTB25U",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Nissan Qashqai 1.3 DIG-T",
+      "variant": "Nissan Qashqai",
+      "registrationNumber": "CTB25U",
+      "vin": "SJNFFAJ11U2783536",
+      "priceSek": 184900,
+      "modelYear": 2020,
+      "mileageMil": 7522,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": "SUV",
+      "color": "Grå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/https://www.biliaoutlet.se/anlaggningar/outlet-kungsbacka#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/nissan/qashqai/ctb25u/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-outlet-bilhall-kungsbacka/ctb25u/9ea323de-e264-4d03-a4b2-a7eae59ff381_8564a5aa3fda.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/nissan/qashqai/ctb25u/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/nissan/qashqai/ctb25u/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/nissan/qashqai/ctb25u/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/nissan/qashqai/ctb25u/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/nissan/qashqai/ctb25u/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "bilia:ELM06K",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Peugeot 3008 1.2 PureTech 130",
+      "variant": "Peugeot 3008",
+      "registrationNumber": "ELM06K",
+      "vin": "VF3MRHNSUNS089877",
+      "priceSek": 204900,
+      "modelYear": 2022,
+      "mileageMil": 7913,
+      "fuelType": "Bensin",
+      "transmission": "Automat",
+      "bodyType": "SUV",
+      "color": "Grå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "https://www.bilia.se/anlaggningar/https://www.biliaoutlet.se/anlaggningar/outlet-kungsbacka#dealer",
+      "dealerUrl": null,
+      "place": null,
+      "distanceKm": null,
+      "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/elm06k/",
+      "sourceOwner": "Bilia",
+      "sourceCheckedAt": "2026-09-19T10:46:20.897Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://www.bilia.se/files/abf17d64-b241-45cd-f9a3-08d8a32f3a7f/carfiles/bilia-outlet-bilhall-kungsbacka/elm06k/c00fc7b6-5ce5-4d15-9522-9572be230c4b_b4a24392c933.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/elm06k/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/elm06k/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/elm06k/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/elm06k/",
+          "checkedAt": "2026-09-19T10:46:20.897Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://www.bilia.se/bilar/sok-bil/peugeot/3008/elm06k/",
+          "checkedAt": "2026-09-19T10:46:20.897Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    }
+  ],
+  "changes": [],
+  "errors": []
+}

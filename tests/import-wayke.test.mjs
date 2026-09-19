@@ -9,6 +9,46 @@ test("extracts Wayke search documents from the published query payload", () => {
   assert.equal(result.documents[0]._id, "abc");
 });
 
+test("extracts Wayke search documents from the current search-ads payload", () => {
+  const payload = {
+    queries: [{
+      queryKey: ["search-ads", "wayke", "page=1"],
+      state: { data: { found: 1, hits: [{
+        ad: {
+          id: "new-id",
+          branch: { city: "Göteborg", displayName: "Handlaren" },
+          pricing: { cash: { price: { amount: "219000", currency: "SEK" } } },
+          salesDescription: { title: "Kia Ceed Sportswagon Advance" },
+        },
+        iteration: {
+          item: {
+            displayName: "Kia Ceed Sportswagon",
+            modelYear: { intValue: 2022 },
+            driveline: { fuelTypesString: { stringValue: "Bensin" } },
+            attributes: { transmission: { formattedValue: "Automat" } },
+          },
+          logistics: { odometerReading: { unit: "SCANDINAVIAN_MILE", value: 4180 } },
+        },
+      }] } },
+    }],
+  };
+  const html = `<script>window["__RQ_R_lb_"] = [];</script><script>window["__RQ_R_lb_"].push(${JSON.stringify(payload)});</script>`;
+  const result = extractSearchDocuments(html);
+  assert.equal(result.totalHits, 1);
+  assert.deepEqual(result.documents[0], {
+    _id: "new-id",
+    title: "Kia Ceed Sportswagon",
+    shortDescription: "Kia Ceed Sportswagon Advance",
+    modelYear: 2022,
+    price: 219000,
+    mileage: 4180,
+    fuelType: "Bensin",
+    gearboxType: "Automat",
+    branches: [{ name: "Handlaren" }],
+    position: { city: "Göteborg" },
+  });
+});
+
 test("normalizes detail evidence without making the offer rankable", () => {
   const car = {
     "@context": "https://schema.org",

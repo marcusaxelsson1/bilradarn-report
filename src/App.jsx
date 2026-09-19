@@ -81,11 +81,11 @@ function LegacyRanking({ selected, toggle, openOffer, setPage, query }) {
   const match = (o) => `${o.title} ${o.variant} ${o.dealer}`.toLowerCase().includes(query.toLowerCase());
   return <>
     <header className="page-heading"><div><span className="eyebrow">AKTUELLA ERBJUDANDEN</span><h1>Familjebilar med hela ekonomin synlig</h1><p>Separata listor för köp och leasing. Endast levande källor – inga exempelfordon.</p></div><button className="primary-action" onClick={() => setPage("compare")}><Scales />Jämför valda ({selected.length})</button></header>
-    <div className="filter-strip"><span>Göteborg +150 km</span><span>Automat</span><span>Bensin/diesel/ej laddbar hybrid</span><span>2021–2023</span><span>120–250 tkr</span><span>Utrustning kontrolleras men blockerar inte rankning</span></div>
+    <div className="filter-strip"><span>Göteborg +150 km prioriteras</span><span>Automat normalfall</span><span>Bensin/diesel/ej laddbar hybrid</span><span>2021–2023 normalt · 2020/2024 undantag</span><span>Högst 250 tkr</span><span>Högst 7 500 mil normalt · 10 000 undantag</span></div>
     {report.changes.length > 0 && <div className="change-banner"><Bell weight="fill" /><div><strong>{report.changes.length} förändringar i senaste kontrollen</strong><span>Nya, borttagna eller prisändrade annonser upptäcktes.</span></div></div>}
     <div className="ranking-grid">
       <section className="ranking-panel"><div className="panel-title"><div><span>PRIVATLEASING</span><h2>Aktuella tillverkarerbjudanden</h2></div><p>36 mån · 1 500 mil/år</p></div>{report.leases.filter(match).map((o) => <OfferCard key={o.id} offer={o} selected={selected.includes(o.id)} toggle={toggle} openOffer={openOffer} />)}{report.leases.length === 1 && <p className="list-note">Enbart erbjudanden där 1 500 mil/år kan verifieras tas med i den skarpa listan.</p>}</section>
-      <section className="ranking-panel"><div className="panel-title"><div><span>KÖP HOS HANDLARE</span><h2>Kravgodkända liveannonser</h2></div><p>Riskjusterad treårskostnad</p></div>{report.purchases.filter(match).map((o) => <OfferCard key={o.id} offer={o} selected={selected.includes(o.id)} toggle={toggle} openOffer={openOffer} />)}</section>
+      <section className="ranking-panel"><div className="panel-title"><div><span>KÖP HOS HANDLARE</span><h2>Filtrerade liveannonser</h2></div><p>Riskjusterad treårskostnad</p></div>{report.purchases.filter(match).map((o) => <OfferCard key={o.id} offer={o} selected={selected.includes(o.id)} toggle={toggle} openOffer={openOffer} />)}</section>
     </div>
   </>;
 }

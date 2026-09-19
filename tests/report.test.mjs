@@ -27,6 +27,10 @@ test("purchase ranking has the required source and equipment evidence", () => {
     assert.equal(offer.quality.rankBlockers.length, 0);
     assert.ok(offer.sourceUrl.startsWith("https://"));
     assert.equal(offer.quality.rankBlockers.length, 0);
+    if (offer.quality.selection) {
+      assert.equal(offer.quality.selection.lane, "standard");
+      assert.deepEqual(offer.quality.selection.verificationReasons, []);
+    }
   }
 });
 

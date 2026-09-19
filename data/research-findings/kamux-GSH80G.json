@@ -1,0 +1,29 @@
+{
+  "offerId": "kamux:GSH80G",
+  "sourceUrl": "https://www.kamux.se/cars/peugeot/5008/GSH80G",
+  "checkedAt": "2026-09-19T11:02:43.897Z",
+  "status": "partially_verified",
+  "costs": {
+    "insurance": {
+      "amountSek": 20016,
+      "status": "estimated",
+      "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
+      "checkedAt": "2026-09-19T11:02:43.897Z",
+      "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
+    }
+  },
+  "evidence": {
+    "tyreSwap": {
+      "status": "unknown",
+      "sourceUrl": "https://www.mekonomen.se/bilverkstad/dackbyte",
+      "checkedAt": "2026-09-19T11:02:43.897Z",
+      "note": "Pris kunde inte läsas."
+    },
+    "tyreSearch": {
+      "status": "partially_verified",
+      "sourceUrl": "https://www.dackonline.se/search?width=215&profile=65&size=17&searchByCar=true",
+      "checkedAt": "2026-09-19T11:02:43.897Z",
+      "note": "Däckdimension 215/65 R17; exakt setpris beror på valt fabrikat, säsong och lagerstatus."
+    }
+  }
+}

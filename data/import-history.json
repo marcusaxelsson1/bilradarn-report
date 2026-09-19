@@ -617,196 +617,364 @@
     "errors": []
   },
   {
-    "generatedAt": "2026-09-12T19:19:59.490Z",
-    "offers": 40,
-    "changes": [],
-    "errors": []
-  },
-  {
-    "generatedAt": "2026-09-13T10:17:07.500Z",
-    "offers": 40,
-    "changes": [],
-    "errors": []
-  },
-  {
-    "generatedAt": "2026-09-13T19:27:58.118Z",
-    "offers": 40,
-    "changes": [
-      {
-        "type": "new",
-        "id": "wayke:c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-        "title": "Hyundai i30 Kombi",
-        "at": "2026-09-13T19:27:58.118Z"
-      },
-      {
-        "type": "not-in-current-sample",
-        "id": "wayke:43ae6183-9a73-4f65-9186-8eac7ea99155",
-        "title": "Nissan Qashqai",
-        "at": "2026-09-13T19:28:58.630Z"
-      }
-    ],
-    "errors": []
-  },
-  {
-    "generatedAt": "2026-09-14T10:37:41.262Z",
-    "offers": 40,
-    "changes": [
-      {
-        "type": "new",
-        "id": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
-        "title": "Dacia Duster",
-        "at": "2026-09-14T10:37:41.262Z"
-      },
-      {
-        "type": "not-in-current-sample",
-        "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
-        "title": "Nissan Qashqai",
-        "at": "2026-09-14T10:38:59.373Z"
-      }
-    ],
-    "errors": []
-  },
-  {
-    "generatedAt": "2026-09-14T20:56:51.029Z",
-    "offers": 40,
-    "changes": [
-      {
-        "type": "new",
-        "id": "wayke:385838a8-6272-4e8e-93d6-1067296d8d51",
-        "title": "Hyundai i30 Kombi",
-        "at": "2026-09-14T20:56:51.029Z"
-      },
-      {
-        "type": "new",
-        "id": "wayke:91386249-51d6-46b7-8887-db7304548dcb",
-        "title": "Peugeot 3008",
-        "at": "2026-09-14T20:56:51.029Z"
-      },
-      {
-        "type": "new",
-        "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
-        "title": "Nissan Qashqai",
-        "at": "2026-09-14T20:56:51.029Z"
-      },
-      {
-        "type": "not-in-current-sample",
-        "id": "wayke:801f6ac9-2cd3-4243-b79d-1285ca04f633",
-        "title": "Volkswagen Tiguan",
-        "at": "2026-09-14T20:58:05.782Z"
-      },
-      {
-        "type": "not-in-current-sample",
-        "id": "wayke:50b26f29-1b35-4bcb-a655-7f7cc667f11c",
-        "title": "Peugeot 5008",
-        "at": "2026-09-14T20:58:05.782Z"
-      },
-      {
-        "type": "not-in-current-sample",
-        "id": "wayke:a249260c-9c2d-4e92-91ef-9cde64cbfb2d",
-        "title": "Volkswagen Golf Sportscombi",
-        "at": "2026-09-14T20:58:05.782Z"
-      }
-    ],
-    "errors": []
-  },
-  {
-    "generatedAt": "2026-09-15T10:04:13.596Z",
-    "offers": 40,
-    "changes": [
-      {
-        "type": "new",
-        "id": "wayke:066059ef-c113-4b3f-94c2-6da8226b0ec8",
-        "title": "Volkswagen T-Roc",
-        "at": "2026-09-15T10:04:13.596Z"
-      },
-      {
-        "type": "new",
-        "id": "wayke:01a0a45c-2d7e-7afd-91bc-0f8907cf239b",
-        "title": "Ford Focus Active Kombi",
-        "at": "2026-09-15T10:04:13.596Z"
-      },
-      {
-        "type": "not-in-current-sample",
-        "id": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
-        "title": "CUPRA Leon Sportstourer",
-        "at": "2026-09-15T10:05:33.248Z"
-      },
-      {
-        "type": "not-in-current-sample",
-        "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
-        "title": "Nissan Qashqai",
-        "at": "2026-09-15T10:05:33.248Z"
-      }
-    ],
-    "errors": []
-  },
-  {
-    "generatedAt": "2026-09-15T20:15:04.616Z",
-    "offers": 40,
-    "changes": [
-      {
-        "type": "new",
-        "id": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
-        "title": "CUPRA Leon Sportstourer",
-        "at": "2026-09-15T20:15:04.616Z"
-      },
-      {
-        "type": "not-in-current-sample",
-        "id": "wayke:6a0121fc-c77d-4e02-8693-f214b571a8a9",
-        "title": "Dacia Duster",
-        "at": "2026-09-15T20:16:19.465Z"
-      }
-    ],
-    "errors": []
-  },
-  {
-    "generatedAt": "2026-09-16T09:56:41.834Z",
-    "offers": 40,
-    "changes": [
-      {
-        "type": "new",
-        "id": "wayke:c6c7d481-9606-4cb2-93e9-ab1e0cef252a",
-        "title": "Peugeot 3008",
-        "at": "2026-09-16T09:56:41.834Z"
-      },
-      {
-        "type": "not-in-current-sample",
-        "id": "wayke:c6ab56e8-e7c4-447f-9125-7d61d4f6d65f",
-        "title": "Hyundai i30 Kombi",
-        "at": "2026-09-16T09:57:44.452Z"
-      }
-    ],
-    "errors": []
-  },
-  {
-    "generatedAt": "2026-09-16T20:07:38.347Z",
-    "offers": 40,
+    "generatedAt": "2026-09-19T09:37:31.631Z",
+    "mode": "live",
+    "offers": 21,
     "changes": [
       {
         "type": "new",
         "id": "wayke:fff16efb-a4f3-4ad2-bcfe-83f231eeefa1",
         "title": "Peugeot 3008",
-        "at": "2026-09-16T20:07:38.347Z"
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:066059ef-c113-4b3f-94c2-6da8226b0ec8",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:dac1e0cf-5507-4a9f-8f65-e69e063547bb",
+        "title": "Ford Focus Active Kombi",
+        "at": "2026-09-19T09:37:31.631Z"
       },
       {
         "type": "new",
         "id": "wayke:6507a3c8-2232-4084-882b-01d2e027cca1",
         "title": "Dacia Duster",
-        "at": "2026-09-16T20:07:38.347Z"
+        "at": "2026-09-19T09:37:31.631Z"
       },
       {
-        "type": "not-in-current-sample",
-        "id": "wayke:0c458a8d-e297-43c1-8135-529d3860f7c8",
-        "title": "SEAT Leon Sportstourer",
-        "at": "2026-09-16T20:08:47.447Z"
+        "type": "new",
+        "id": "wayke:385838a8-6272-4e8e-93d6-1067296d8d51",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-19T09:37:31.631Z"
       },
       {
-        "type": "not-in-current-sample",
-        "id": "wayke:ecb85a25-eefe-4ecb-b212-e699120d4561",
+        "type": "new",
+        "id": "wayke:487d50e9-363e-45dd-a80f-4547d7e8776e",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:cb339c08-ba2a-478d-92fa-1b1e578943b0",
+        "title": "Peugeot 3008",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:9173151c-a4a3-4cdd-b54b-2a88153d7051",
+        "title": "Peugeot 3008",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:b3322c88-5f3b-4490-ac39-5e62b7c724f2",
+        "title": "Peugeot 3008",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:78315382-e2bb-4170-8a23-f16555424a90",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:9b8f0f9c-6c29-428e-8127-2d5c66527369",
+        "title": "Peugeot 3008",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
+        "title": "Peugeot 3008",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:91386249-51d6-46b7-8887-db7304548dcb",
+        "title": "Peugeot 3008",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:c6c7d481-9606-4cb2-93e9-ab1e0cef252a",
+        "title": "Peugeot 3008",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd",
+        "title": "Peugeot 3008",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:1ea61c4d-853d-4cf9-94b6-097198500572",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:797e9d6d-b091-433a-bb1e-ec5f04b91f73",
         "title": "CUPRA Leon Sportstourer",
-        "at": "2026-09-16T20:08:47.447Z"
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:01a0b32d-570c-79e0-8826-ba83fc9a8284",
+        "title": "SEAT Leon Sportstourer",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:86192ae6-dca7-46c6-8c87-ad27f0d1e940",
+        "title": "Renault Mégane Sport Tourer",
+        "at": "2026-09-19T09:37:31.631Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:01a08118-ec17-7cb8-872f-8808f9fc29bb",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-19T09:37:31.631Z"
       }
     ],
+    "errors": [
+      {
+        "url": "https://www.wayke.se/sok?lat=57.7089&lon=11.9746&position.location=150&position.name=G%C3%B6teborg&price.min=120000&price.max=250000&modelYear.min=2021&modelYear.max=2023&mileage.max=10000&gearboxType=Automat&offset=72&sort=itemSortDesc&fuelType=Bensin&fuelType=Diesel&chassis=Kombi&chassis=SUV&chassis=Halvkombi",
+        "stage": "search",
+        "message": "Waykes fordonslista saknas i söksvaret"
+      }
+    ]
+  },
+  {
+    "generatedAt": "2026-09-19T09:56:54.996Z",
+    "mode": "live",
+    "offers": 30,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:704a4957-62ea-402d-949c-2ab80c5efe67",
+        "title": "Peugeot 3008",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:ee939a1f-5d49-43f9-b536-29856cce626e",
+        "title": "Dacia Duster",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:3dbc213b-7e0d-47a3-8968-27a07251c171",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:a0b20001-65db-44cb-8fa4-6bffc12ba91e",
+        "title": "Peugeot 3008",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:9288444e-aee2-48e9-ab32-4539b0c6779f",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:862f54f6-5209-4e6f-8101-adef5306896b",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:b7e82eb0-5936-48f2-ab0a-e7d901adc1fb",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:2cb948f5-7b2b-4620-b833-99901c02fbff",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:e3349345-8ff4-494e-bab6-2d343c248a39",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:4d1bf0f4-5830-4005-a676-c13110c09318",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:d161846e-02d9-4fbe-9f65-063c7c5d4150",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:cf028c7e-0f84-4232-a6a5-b479e377d33a",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:379bb90e-9793-4d47-aef7-0f6018f3e78d",
+        "title": "Dacia Duster",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:21848a7b-5bc5-43ab-9da5-9c7baea6f349",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:e883a9a5-791f-4381-99e4-a9354d2420f9",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:eb3caae3-d6c4-420e-850f-8141259cb786",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:cf946276-d0a3-4474-8d5e-02ec430b42b4",
+        "title": "Dacia Duster",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:0622ca1f-6c23-45b9-b2a1-c9b7fac682a6",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:144851ef-103e-4c11-b31b-fb19652ed611",
+        "title": "Volkswagen T-Roc",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "new",
+        "id": "wayke:b07aa33f-744c-467e-987a-486f82f1e6ae",
+        "title": "Volvo XC40",
+        "at": "2026-09-19T09:56:54.996Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:dac1e0cf-5507-4a9f-8f65-e69e063547bb",
+        "title": "Ford Focus Active Kombi",
+        "at": "2026-09-19T09:57:36.227Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:385838a8-6272-4e8e-93d6-1067296d8d51",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-19T09:57:36.227Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:487d50e9-363e-45dd-a80f-4547d7e8776e",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-19T09:57:36.227Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:b3322c88-5f3b-4490-ac39-5e62b7c724f2",
+        "title": "Peugeot 3008",
+        "at": "2026-09-19T09:57:36.227Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:78315382-e2bb-4170-8a23-f16555424a90",
+        "title": "Hyundai i30 Kombi",
+        "at": "2026-09-19T09:57:36.227Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:e0b10e00-47ef-4f1e-b009-86cfb9cb059c",
+        "title": "Peugeot 3008",
+        "at": "2026-09-19T09:57:36.227Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:797e9d6d-b091-433a-bb1e-ec5f04b91f73",
+        "title": "CUPRA Leon Sportstourer",
+        "at": "2026-09-19T09:57:36.227Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:01a0b32d-570c-79e0-8826-ba83fc9a8284",
+        "title": "SEAT Leon Sportstourer",
+        "at": "2026-09-19T09:57:36.227Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:01a081b1-7f50-74b1-ace7-526d523843af",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-19T09:57:36.227Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:86192ae6-dca7-46c6-8c87-ad27f0d1e940",
+        "title": "Renault Mégane Sport Tourer",
+        "at": "2026-09-19T09:57:36.227Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:01a08118-ec17-7cb8-872f-8808f9fc29bb",
+        "title": "Nissan Qashqai",
+        "at": "2026-09-19T09:57:36.227Z"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "generatedAt": "2026-09-19T10:12:24.194Z",
+    "mode": "live",
+    "offers": 30,
+    "changes": [
+      {
+        "type": "new",
+        "id": "wayke:a5ce5638-7937-4c87-97dd-47df529a8b39",
+        "title": "Citroën C5 Aircross",
+        "at": "2026-09-19T10:12:24.194Z"
+      },
+      {
+        "type": "not-in-current-sample",
+        "id": "wayke:cb339c08-ba2a-478d-92fa-1b1e578943b0",
+        "title": "Peugeot 3008",
+        "at": "2026-09-19T10:13:02.108Z"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "generatedAt": "2026-09-19T10:57:09.783Z",
+    "mode": "live",
+    "offers": 30,
+    "changes": [],
     "errors": []
   }
 ]

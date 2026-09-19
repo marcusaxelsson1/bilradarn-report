@@ -1,0 +1,3597 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-19T10:59:31.173Z",
+  "mode": "live",
+  "source": {
+    "key": "hedin",
+    "name": "Hedin Automotive",
+    "role": "Handlaradapter för Hedins publika begagnadlager (sitemap + publika SSR-filter, aldrig /data/)",
+    "detailPagesRead": 0,
+    "sitemap": "https://hedinautomotive.se/sitemap.xml",
+    "vehicleSitemaps": [
+      "https://hedinautomotive.se/car_0.xml",
+      "https://hedinautomotive.se/car_1.xml"
+    ],
+    "unchangedSitemaps": 0,
+    "funnel": {
+      "discovered": 1492,
+      "prefiltered": 585,
+      "publicFilterCandidates": 108,
+      "publicFilterRequests": 30,
+      "publicFilterModels": 23,
+      "detailPagesRequested": 0,
+      "reusedCachedDetails": 585,
+      "incrementalReasons": {},
+      "evaluated": 585,
+      "included": 26,
+      "standard": 5,
+      "exception": 21,
+      "rejected": 559,
+      "rejectionReasons": {
+        "pris över 250 000 kr": 373,
+        "fel storleks-/modellfamilj": 452,
+        "laddhybrid": 316,
+        "elbil": 31,
+        "årsmodell utanför 2020–2024": 23,
+        "miltal över 10 000 mil": 76,
+        "opraktisk karosstyp": 4,
+        "otillåtet drivmedel: Etanol": 5
+      },
+      "verificationReasons": {
+        "hybridtyp måste verifieras": 73,
+        "drivmedel saknas": 2
+      }
+    }
+  },
+  "filters": {
+    "priceMin": 0,
+    "priceMax": 250000,
+    "modelYearMin": 2020,
+    "modelYearMax": 2024,
+    "mileageMaxMil": 10000
+  },
+  "offers": [
+    {
+      "id": "hedin:107141",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "FOCUS 1.0 ACTIVE HGV AUTOMAT Active Kombi 1.0 Automat",
+      "variant": "1.0 ACTIVE HGV AUTOMAT",
+      "registrationNumber": "ODE50K",
+      "vin": "WF0PXXGCHPPJ39727",
+      "priceSek": 249900,
+      "modelYear": 2024,
+      "mileageMil": 5319,
+      "fuelType": "Hybrid",
+      "transmission": "Automatisk",
+      "bodyType": "Kombi",
+      "color": "Svart",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Österhaninge",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/107141/pc-uc-ford-focus-2024",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "ABS-bromsar",
+        "AC",
+        "AGATE BLACK METALLIC",
+        "Airbag förare",
+        "Airbag passagerare fram",
+        "Android Auto",
+        "Antisladd",
+        "Antispinn",
+        "Apple Carplay",
+        "Autobroms",
+        "Automatisk parkering",
+        "Avstängningsbar airbag",
+        "Backkamera",
+        "Backstartshjälp",
+        "Bluetooth",
+        "Bluetooth (handsfree)",
+        "Bromsassistans",
+        "Centrallås",
+        "Centrallås (fjärrstyrt)",
+        "Digital hastighetsmätare",
+        "Digitalradio (DAB)",
+        "Döda vinkel-varning",
+        "Elhissar (bak)",
+        "Elhissar (Fram och Bak)",
+        "Elhissar (Fram)",
+        "Euro 6fällbara baksäten",
+        "Färddator",
+        "Farthållare",
+        "GPSIsofix-fästen bak",
+        "Insynsskydd",
+        "Klädsel (tyg",
+        "Körfilsassistans",
+        "Läslampa",
+        "Lättmetallfälgar",
+        "LED (halvljus)",
+        "LED (helljus)",
+        "LED Strålkastare",
+        "Mattor (gummi)",
+        "Multifunktionsratt",
+        "Parkeringssensorer",
+        "Rails",
+        "Rattvärme",
+        "Regnsensor",
+        "Sätesvärme (fram)",
+        "Servostyrning",
+        "Skyltigenkänning",
+        "Sminkspegel",
+        "Start-/stoppfunktion",
+        "Svankstöd",
+        "Tonade rutor",
+        "Touch-/Pekskärm",
+        "Vägfilsassistans"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": true,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06be5-6215-741e-8d45-091aa9144bdd-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06be5-6249-7c96-b2c7-12b13f7c3958-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06be5-6288-723f-a1d3-eb5a797b5ff4-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06be5-62c4-7284-a3cd-3a1471bf2fe6-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06be5-6316-71f9-ba7d-60c0026134b3-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06be5-634b-7afd-8efb-dcc38b7650cc-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06be5-637a-731f-a6ee-9c98fc5f32da-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06be5-63ad-7ad3-b219-50e016f9bd8b-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06be5-63e4-7e30-92c6-2b079dc900c7-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/107141/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/107141/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/107141/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/107141/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/107141/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet"
+          ],
+          "verificationReasons": [
+            "hybridtyp måste verifieras"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:122820",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "FOCUS ACTIVE 1.0T ECOBOOST 125HK EDITION A7 KOMBI",
+      "variant": "ACTIVE 1.0T ECOBOOST 125HK EDITION A7 KOMBI",
+      "registrationNumber": "HLA67R",
+      "vin": "WF0PXXGCHPPJ37784",
+      "priceSek": 234900,
+      "modelYear": 2024,
+      "mileageMil": 4110,
+      "fuelType": "Hybrid",
+      "transmission": "Automatisk",
+      "bodyType": "Kombi",
+      "color": "Vit",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Brämhult",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/122820/pc-uc-ford-focus-2024",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "Adaptiv farthållare",
+        "Aktiv körfältsassistent",
+        "Autonom nödbromsning",
+        "Backkamera",
+        "Backstartsassistans",
+        "Bluetooth",
+        "Färddator",
+        "Farthållare",
+        "Frozen white",
+        "GPS-Navigation",
+        "Keyless Start",
+        "Klimatanläggning-Automatisk",
+        "Körfilsassistans",
+        "Ljussensor",
+        "Multifunktionsratt",
+        "Nödfallsassistans",
+        "Parkeringsassist",
+        "Parkeringssensorer -Fram&Bak",
+        "Rear Cross-Traffic Alert",
+        "Regnsensor",
+        "Röststyrning-",
+        "Skyltigenkänning",
+        "Uppvärmd - Ratt",
+        "USB-AUX",
+        "Vägfilsassistans"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08dfd-b9c3-75ed-a632-8c9042949c28-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08dfd-ba0f-7fa0-9d66-713bee39aa46-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08dfd-ba40-7ee7-a928-a56c7e671b7c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08dfd-ba9c-7735-aa0f-93ec5789557e-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08dfd-bad5-7654-8edd-4aa82b9b749c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08dfd-bb0e-7dd5-b930-b6ad60866645-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08dfd-bb3b-7063-be74-1d765815ae69-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08dfd-bb8a-73c7-a410-7dbb20614701-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08dfd-bbd6-73d0-88b0-c3e1a6a3565f-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/122820/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/122820/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/122820/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/122820/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/122820/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet"
+          ],
+          "verificationReasons": [
+            "hybridtyp måste verifieras"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:234115",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "MONDEO 2021.75 KOMBI TITANIUM HEV 2.0 HYBRID 187HK",
+      "variant": "2021.75 KOMBI TITANIUM HEV 2.0 HYBRID 187HK",
+      "registrationNumber": "SBK96H",
+      "vin": "WF0FXXWPCHMK02241",
+      "priceSek": 189900,
+      "modelYear": 2022,
+      "mileageMil": 8100,
+      "fuelType": "Hybrid",
+      "transmission": "Automatisk",
+      "bodyType": "Kombi",
+      "color": "Grå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Mölndal",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/234115/pc-uc-ford-mondeo-2022",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "ABS",
+        "ACC Klimat automatiskt",
+        "Airbag huvud fram",
+        "Airbag sida bak",
+        "Backkamera",
+        "Backspeglar el-infällbara",
+        "Backspeglar el-ställbar",
+        "Backspeglar el-uppvärmda",
+        "Bromsassistans (Panikbroms)",
+        "Centrallås fjärrstyrt",
+        "Elmanövrerad baklucka",
+        "Färddator",
+        "Fönsterhiss el. bak",
+        "Fönsterhiss el. fram",
+        "Klädsel delläder",
+        "Klädsel lyxtyg",
+        "Ljudanläggning",
+        "Parkeringssensor bak"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a013d9-5775-72b8-be6f-3491729d9f03-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a013d9-57cb-752e-b62a-116a83cf0e09-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a013d9-583e-753e-87b2-ecab357dd938-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a013d9-58c3-7cbd-adaf-92e057090c6e-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a013d9-5937-7fd2-889d-fa4e46242769-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a013d9-598d-71ea-9949-d932de365fd8-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a013d9-59e3-7202-a514-b42dbe39fd9e-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a013d9-5a3b-766c-a932-c221da081088-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a013d9-5ab4-7209-93e0-5f5b5746045c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a013d9-5b10-70e8-846e-949f2114289c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a013d9-5b77-7b28-bb5e-fc0152bfbcdb-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a013d9-5bbb-7692-8511-863a9f265d3a-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a013d9-5c41-7a64-8f2e-c85032ab7d28-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/234115/pc-uc-ford-mondeo-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/234115/pc-uc-ford-mondeo-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/234115/pc-uc-ford-mondeo-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/234115/pc-uc-ford-mondeo-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/234115/pc-uc-ford-mondeo-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:23492",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Duster essential TCE 4X2",
+      "variant": "essential TCE 4X2",
+      "registrationNumber": "NDO578",
+      "vin": "VF1HJD20271447064",
+      "priceSek": 179000,
+      "modelYear": 2023,
+      "mileageMil": 4566,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "SUV",
+      "color": "Vit",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Segeltorp",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/23492/pc-uc-dacia-duster-2023",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "AC",
+        "Airbag passagerare fram",
+        "Bagagerumsmatta",
+        "Bluetooth",
+        "Elhissar (Fram)",
+        "Eljusterbar ratt",
+        "Euro 6",
+        "fällbara baksäten",
+        "Farthållare",
+        "Isofix-fästen bak",
+        "LED Strålkastare",
+        "Nödsamtal",
+        "Parkeringssensorer",
+        "Parkeringssensorer (bak)",
+        "Regnsensor",
+        "Reservhjul",
+        "Sätesvärme (fram)",
+        "Sminkspegel",
+        "Tonade rutor",
+        "USB-uttag",
+        "Vit"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": true,
+        "parking": true,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08c00-140e-7e7e-b5db-60da7d08febd-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08c00-144b-7127-a175-d8e4f7be89dc-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08c00-147d-7fe4-b39b-cf2b2e4b80ec-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08c00-14bd-7a6b-a430-53d6206e24a3-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08c00-14ef-7c82-b127-397b9edaf295-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08c00-1524-7e4e-867a-ac079a71c6fc-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08c00-155a-77eb-a6d1-116a43b02ca9-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08c00-15a8-7bb6-a240-94b8de479eaf-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08c00-15d3-7f42-9076-3ff11e24a8e1-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08c00-1611-7df2-8b27-7bf1e9dddfc7-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08c00-1645-7ef3-8e69-f9db88a7bef3-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a08c00-16b0-73d3-b55b-df8658561144-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/23492/pc-uc-dacia-duster-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/23492/pc-uc-dacia-duster-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/23492/pc-uc-dacia-duster-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/23492/pc-uc-dacia-duster-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/23492/pc-uc-dacia-duster-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:235366",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "DUSTER",
+      "variant": "",
+      "registrationNumber": "OZF24D",
+      "vin": "VF1HJD20667256825",
+      "priceSek": 139900,
+      "modelYear": 2021,
+      "mileageMil": 6200,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "SUV",
+      "color": "Vit",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Försäljning transportbilar",
+      "dealerUrl": null,
+      "place": "Borås",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/235366/pc-uc-dacia-duster-2021",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "Backsensorer",
+        "Elhissar fram",
+        "Isofix",
+        "Stolvärme fram"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": true,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a47c-7d76-a65a-19762f481fde-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a4d5-7acf-90f7-00d44529083f-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a523-7b12-9c2f-118ed2220ab2-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a5b5-7b58-9565-c81ab3da2c76-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a604-7c99-88e9-5d24d1d00ee9-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a65c-7773-aa46-72a99a3050d3-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a69d-7d2b-8db5-e74ad807e8e2-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a6eb-73d1-8209-8ff875e94f5c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a726-771d-896d-61118e90ec42-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a775-7f38-8477-75a692d507c0-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a7cb-7348-8fac-2a27a4150a0a-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a843-74cd-ac43-4edc3ae9b269-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a8bb-742c-95de-dc39357d3c9b-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a925-74a5-8333-d426595c316d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a967-7ac0-8650-99d07b84c7eb-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019e9691-a9b3-77bf-90ab-346c4fc5bd61-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/235366/pc-uc-dacia-duster-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/235366/pc-uc-dacia-duster-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/235366/pc-uc-dacia-duster-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/235366/pc-uc-dacia-duster-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/235366/pc-uc-dacia-duster-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:240470",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "FOCUS ACTIVE KOMBI  Privatleasing från 3595kr/mån",
+      "variant": "ACTIVE KOMBI  Privatleasing från 3595kr/mån",
+      "registrationNumber": "PDH07M",
+      "vin": "WF0PXXGCHPRC16741",
+      "priceSek": 239900,
+      "modelYear": 2024,
+      "mileageMil": 2943,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "Kombi",
+      "color": "Vit",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Enköping",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/240470/pc-uc-ford-focus-2024",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "ABS-bromsar",
+        "AC",
+        "Airbag bak",
+        "Airbag förare",
+        "Airbag passagerare fram",
+        "Android Auto",
+        "Antisladd",
+        "Antispinn",
+        "Apple Carplay",
+        "Autobroms",
+        "Avstängningsbar airbag",
+        "Backkamera",
+        "Backstartshjälp",
+        "Bluetooth",
+        "Bluetooth (handsfree)",
+        "Bromsassistans",
+        "Centrallås",
+        "Centrallås (fjärrstyrt)",
+        "Digital hastighetsmätare",
+        "EL-Fram Ruta",
+        "Elhissar (bak)",
+        "Elhissar (Fram och Bak)",
+        "Elhissar (Fram)",
+        "EL-Uppvärmd Ratt",
+        "Euro 6",
+        "Fällbara baksäten",
+        "Farthållare",
+        "Frozen white",
+        "GPS",
+        "Insynsskydd",
+        "Isofix-fästen bak",
+        "Körfilsassistans",
+        "Lättmetallfälgar",
+        "LED (halvljus)",
+        "LED (helljus)",
+        "Multifunktionsratt",
+        "Parkeringssensorer",
+        "Regnsensor",
+        "Sätesvärme (fram)",
+        "Skyltigenkänning",
+        "Start-/stoppfunktion",
+        "Svankstöd",
+        "Touch-/Pekskärm",
+        "Vägfilsassistans"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": true,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fcc57-e026-7c33-a350-09adaa432103-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fcc57-e059-7ad6-8960-111481bfaa4b-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fcc57-e088-7abb-8999-aad275bd408a-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fcc57-e0c5-759a-be3e-6dba6059a5a6-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fcc57-e0f7-7dd3-851a-e44ee2ae370f-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fcc57-e12a-7fb0-b9d8-de881949ed52-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fcc57-e157-7ba8-be87-209d5f21ad2d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fcc57-e189-74ea-a946-45f41b804de9-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fcc57-e1b6-7765-93fb-bc762900f72d-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/240470/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/240470/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/240470/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/240470/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/240470/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:241340",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "QASHQAI MHEV 158 XTRONIC 2WD ACENTA",
+      "variant": "MHEV 158 XTRONIC 2WD ACENTA",
+      "registrationNumber": "PYO057",
+      "vin": "SJNTAAJ12U1110544",
+      "priceSek": 249900,
+      "modelYear": 2022,
+      "mileageMil": 5661,
+      "fuelType": "Hybrid",
+      "transmission": "Automatisk",
+      "bodyType": "SUV",
+      "color": "Svart",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Kista",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/241340/pc-uc-nissan-qashqai-2022",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "1.3 DIG-T Mild Hybrid",
+        "7\" digital TFT-instrumentdisplay",
+        "8\" NissanConnect pekskärm",
+        "Android Auto",
+        "Automatisk klimatanläggning",
+        "Backkamera",
+        "Black",
+        "Bluetooth för telefoni och musik",
+        "Carplay",
+        "Framhjulsdrift (2WD)",
+        "ISOFIX-fästen bak",
+        "Lättmetallfälgar 17\"",
+        "LED-strålkastare",
+        "Lm fälgar",
+        "Nyckelfritt startssystem",
+        "Parkeringssensorer fram och bak",
+        "Rattvärme",
+        "Uppvärmd vindruta",
+        "USB-uttag"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": true,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a02523-4ae6-7829-a614-f309dedd7cee-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a02523-4b15-7ead-ab28-b1c4ae2f37b4-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a02523-4b43-7dfa-b185-e87de6b9aa4b-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a02523-4b7d-7d16-8bfa-815b4167fb2e-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a02523-4baf-7e4c-b5bd-f800c8381445-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a02523-4bdf-76d5-81f1-5c98cbf6719f-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a02523-4c09-794a-91d9-0170a8459b2f-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a02523-4c31-7d9f-a3bf-335a890ebc5c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a02523-4c5e-7f40-9102-cef8f13451af-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a02523-4c8e-712e-9baf-62a070167fbe-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a02523-4cb8-7a1d-b4a3-91fa63a9eae2-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a02523-4cf1-7ed0-8d03-1578c4a3ba6c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a02523-4d2b-711f-ae1b-bdf4a7002e8e-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/241340/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/241340/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/241340/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/241340/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/241340/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:241651",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "FOCUS ACTIVE KOMBI - Privatleasing",
+      "variant": "ACTIVE KOMBI - Privatleasing",
+      "registrationNumber": null,
+      "vin": "707712C8-D522-432F-A264-6925A6195B60",
+      "priceSek": 214900,
+      "modelYear": 2023,
+      "mileageMil": 4000,
+      "fuelType": "Hybrid",
+      "transmission": "Manuell",
+      "bodyType": "Kombi",
+      "color": "Vit",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Bromma",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/241651/pc-uc-ford-focus-2023",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "13-tums pekskärm och navigation",
+        "17-tums aluminiumfälgar",
+        "6 st högtalare",
+        "Android Auto och Apple CarPlay.",
+        "bak samt trösklar",
+        "Bluetooth",
+        "DAB",
+        "DEATC tvåzons klimatanläggning",
+        "farthållare med speed limiter",
+        "förhöjd markfrigång med 30 mm",
+        "hasplåtar fram",
+        "Hill Assist",
+        "ISOFIX-fästen bak",
+        "nyckelfri start",
+        "parkeringssensorer fram & bak",
+        "unik klädsel med blåa detaljer",
+        "unik SUV-inspirerad look",
+        "USB"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": true,
+        "parking": true,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fa3a0-983d-70a0-9039-02d739ff278b-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fa3a0-987f-7090-a788-a0803e280d3d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fa3a0-98c4-7017-8984-49f906e48c77-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fa3a0-98fc-783e-93c4-4e79d084b89b-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fa3a0-9934-707a-b4be-1e993b299b04-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fa3a0-996f-7662-b9d1-c21d40058b10-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fa3a0-999d-71dd-a488-4146f37ef55a-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fa3a0-99d1-7722-880c-ba2ef1169ae7-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fa3a0-99fd-7f9b-96a9-01085908aefa-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fa3a0-9a2c-7ce2-b6da-10fd8a1efa07-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fa3a0-9a59-7ec5-9d30-783aa4830e9c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fa3a0-9a81-7a3c-a5ef-721915eed26c-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/241651/pc-uc-ford-focus-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/241651/pc-uc-ford-focus-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/241651/pc-uc-ford-focus-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/241651/pc-uc-ford-focus-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/241651/pc-uc-ford-focus-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": [
+            "hybridtyp måste verifieras"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:242528",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "MEGANE SPORT TOURER (MY23) EQUILIBRE TCE 140 GPF",
+      "variant": "SPORT TOURER (MY23) EQUILIBRE TCE 140 GPF",
+      "registrationNumber": "UBG25T",
+      "vin": "VF1RFB00671036036",
+      "priceSek": 219900,
+      "modelYear": 2023,
+      "mileageMil": 4060,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "Kombi",
+      "color": "Vit",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Kista",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/242528/pc-uc-renault-megane-2023",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "12v uttag fram/ bak",
+        "42t skärm",
+        "ABS-bromsar",
+        "Aktiv filvarningsassist",
+        "Aktivt nödbromssyst. AEBS",
+        "Aut 2-zon luftkondition.",
+        "Aut vindrutetork/regnsens",
+        "Avståndsvarnare",
+        "Bältespåminnare",
+        "C-shape varselljus LED",
+        "Däckreparationssats",
+        "Däcktryck monitor",
+        "Dimljus",
+        "Easy Link 7tMultimediasys",
+        "El ytterspegel uppvärmd",
+        "El.p-broms Auto hold",
+        "Elhiss bak m barnspärr",
+        "Elhissar fr m impulsfunk.",
+        "Eluppvärmda framstolar",
+        "ESC - antisladdsystem",
+        "Fällbart baksäte 1/3-2/3",
+        "Farthållare",
+        "Förarstol m höjdjustering",
+        "Glaciär vit",
+        "Inv.dag/natt spegel",
+        "Isofixfästen ytterpl. bak",
+        "Justerbart nackstöd",
+        "Komfort förarsäte",
+        "Krockkudde förar+passager",
+        "LED bromsljus",
+        "Mittkonsoll med armstöd",
+        "Nackskydd bak",
+        "Nyckelkort med handsfree",
+        "Panikbromsassistans",
+        "Parkeringssensor bak",
+        "Parkeringssensor fram",
+        "Pure Vision LED strålkast",
+        "Sidoairbag bröst/huvud fr",
+        "Ställb. svankstöd förarp.",
+        "Svart textilklädsel",
+        "Trötthetsvarning"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": true,
+        "parking": true,
+        "camera": false
+      },
+      "missingRequirements": [
+        "camera"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fe6a0-e100-7156-8a9f-0e17d4151344-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fe6a0-e132-7325-ae6a-5c07f801de88-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fe6a0-e181-707d-84cf-e1f56fe7e2a0-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fe6a0-e1b3-7892-a024-62014f65e500-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fe6a0-e1e6-7687-a74b-4eaee8f39410-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fe6a0-e21e-7611-93e0-edd7737ed118-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fe6a0-e248-757c-946d-d25b0aa1d57d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fe6a0-e275-7d5c-96be-2cc99f76591b-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019fe6a0-e29f-75c3-9c30-dda8a7b85d03-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/242528/pc-uc-renault-megane-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/242528/pc-uc-renault-megane-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/242528/pc-uc-renault-megane-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/242528/pc-uc-renault-megane-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/242528/pc-uc-renault-megane-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:244445",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "MEGANE SPORT TOURER (MY23) EQUILIBRE TCE 140 GPF",
+      "variant": "SPORT TOURER (MY23) EQUILIBRE TCE 140 GPF",
+      "registrationNumber": "HAW01J",
+      "vin": "VF1RFB00971036032",
+      "priceSek": 209900,
+      "modelYear": 2023,
+      "mileageMil": 4530,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "Kombi",
+      "color": "Vit",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Kista",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/244445/pc-uc-renault-megane-2023",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "12v uttag fram/ bak",
+        "42t skärm",
+        "ABS-bromsar",
+        "Aktiv filvarningsassist",
+        "Aktivt nödbromssyst. AEBS",
+        "Aut 2-zon luftkondition.",
+        "Aut vindrutetork/regnsens",
+        "Avståndsvarnare",
+        "Bältespåminnare",
+        "C-shape varselljus LED",
+        "Däckreparationssats",
+        "Däcktryck monitor",
+        "Dimljus",
+        "Easy Link 7tMultimediasys",
+        "El ytterspegel uppvärmd",
+        "El.p-broms Auto hold",
+        "Elhiss bak m barnspärr",
+        "Elhissar fr m impulsfunk.",
+        "Eluppvärmda framstolar",
+        "ESC - antisladdsystem",
+        "Fällbart baksäte 1/3-2/3",
+        "Farthållare",
+        "Förarstol m höjdjustering",
+        "Glaciär vit",
+        "Inv.dag/natt spegel",
+        "Isofixfästen ytterpl. bak",
+        "Justerbart nackstöd",
+        "Komfort förarsäte",
+        "Krockkudde förar+passager",
+        "LED bromsljus",
+        "Mittkonsoll med armstöd",
+        "Nackskydd bak",
+        "Nyckelkort med handsfree",
+        "Panikbromsassistans",
+        "Parkeringssensor bak",
+        "Parkeringssensor fram",
+        "Pure Vision LED strålkast",
+        "Sidoairbag bröst/huvud fr",
+        "Ställb. svankstöd förarp.",
+        "Svart textilklädsel",
+        "Trötthetsvarning"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": true,
+        "parking": true,
+        "camera": false
+      },
+      "missingRequirements": [
+        "camera"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019feab9-e36c-7983-99c7-383521a0f61b-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019feab9-e39f-78dd-87ee-987b70ce7d15-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019feab9-e3ca-76b2-8154-76d6b3717fc8-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019feab9-e3fe-7181-a429-c67746d0d1cf-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019feab9-e430-7889-ba69-720cb20954ac-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019feab9-e45f-7a7d-b2f8-d07059453b58-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019feab9-e487-7e08-9386-5a483a1ddc8a-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019feab9-e4b1-7b66-bf40-c4b994bc165b-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019feab9-e4db-7246-8fec-e86183886947-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019feab9-e50d-7d27-af4a-ee60eaa3d941-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/019feab9-e542-7b36-907b-8561599e363c-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/244445/pc-uc-renault-megane-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/244445/pc-uc-renault-megane-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/244445/pc-uc-renault-megane-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/244445/pc-uc-renault-megane-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/244445/pc-uc-renault-megane-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:246122",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "3008",
+      "variant": "",
+      "registrationNumber": "XES99A",
+      "vin": "VF3MRHNSULS038553",
+      "priceSek": 194900,
+      "modelYear": 2020,
+      "mileageMil": 6156,
+      "fuelType": "Bensin",
+      "transmission": "Automatisk",
+      "bodyType": "SUV",
+      "color": "Svart",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Borås",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246122/pc-uc-peugeot-3008-2020",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "360 kamera",
+        "Backkamera",
+        "Dragkrok",
+        "Elhissar fram och bak",
+        "Färddator",
+        "Isofix",
+        "Multiratt",
+        "Sätesvärme fram"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": true,
+        "parking": false,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd",
+        "parking"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-c782-78f3-b184-0f66f3996dfb-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-c7be-78e9-85f9-f1a00d45c780-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-c7fa-7b73-8d6c-1e048f7c060d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-c83e-7853-9bf8-711338de891b-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-c884-7688-826e-e1e37f214998-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-c8dc-772d-ae07-038f6d2385da-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-c927-7661-bcfb-88357a0bead9-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-c97b-74ce-9b76-1af6d41cb308-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-c9c6-73e7-945f-3011a040b272-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-ca17-7c01-9daa-17f8df472bb0-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-ca64-7bde-b3f5-0926523b95a0-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-cab8-7158-a161-ddf82a468b76-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-cb04-78ea-acf3-58926f61ea4c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-cb4e-700f-903b-cee1d3c34de7-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-cbe6-77aa-b972-50febd1df5fb-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a01a31-cc44-7204-b33c-fa252487f2f6-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246122/pc-uc-peugeot-3008-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246122/pc-uc-peugeot-3008-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246122/pc-uc-peugeot-3008-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246122/pc-uc-peugeot-3008-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246122/pc-uc-peugeot-3008-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "parking"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:246380",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "QASHQAI MHEV N-CONNECTA | DRAG | 360 KAMERA | RATTVÄRME |",
+      "variant": "MHEV N-CONNECTA | DRAG | 360 KAMERA | RATTVÄRME |",
+      "registrationNumber": "NEN53A",
+      "vin": "SJNTAAJ12U1133583",
+      "priceSek": 224900,
+      "modelYear": 2022,
+      "mileageMil": 8600,
+      "fuelType": "Hybrid",
+      "transmission": "Automatisk",
+      "bodyType": "SUV",
+      "color": "Grå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Halmstad",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246380/pc-uc-nissan-qashqai-2022",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "360 kamera",
+        "Adaptiv farthållare",
+        "Android Auto",
+        "Apple CarPlay",
+        "Automatisk nödbromsning",
+        "Black",
+        "Bluetooth",
+        "Bromsassistans",
+        "Dark metal grey",
+        "Döda vinkeln-varning",
+        "Elinfällbara backspeglar",
+        "Färddator",
+        "Farthållare",
+        "ISOFIX",
+        "Nödsamtal",
+        "Rattvärme",
+        "Regnsensor",
+        "Start/stopp-funktion",
+        "Tonade rutor",
+        "Trådlös laddning",
+        "Trötthetsvarnare",
+        "Uppvärmda framsäten",
+        "USB-uttag"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": true,
+        "parking": false,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd",
+        "parking"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03bc9-a60d-776e-b618-9fb6ca08399d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03bc9-a641-7afb-ab0c-e200d801c87c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03bc9-a66d-7de4-b406-ec63658c8cde-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03bc9-a6a1-7e7e-b15b-8260785b456c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03bc9-a6d1-7ece-a3de-7c581d15083c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03bc9-a706-76a6-983d-dcd83d85f9e6-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03bc9-a730-7e2a-a65f-02e140e54eea-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03bc9-a75b-766f-9a53-94c0142c6b71-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03bc9-a788-7ea5-b66a-99b9876b0a2d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03bc9-a7b9-7ec0-af38-9c5a3432f839-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03bc9-a806-79e4-9573-135253979489-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03bc9-a837-72d4-869d-a3cc451f9ad1-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246380/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246380/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246380/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246380/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246380/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "parking"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:246760",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "QASHQAI MHEV N-CONNECTA",
+      "variant": "MHEV N-CONNECTA",
+      "registrationNumber": "GRO628",
+      "vin": "SJNTAAJ12U1147521",
+      "priceSek": 249900,
+      "modelYear": 2022,
+      "mileageMil": 5746,
+      "fuelType": "Hybrid",
+      "transmission": "Automatisk",
+      "bodyType": "SUV",
+      "color": "Blå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Mölndal",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246760/pc-uc-nissan-qashqai-2022",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "2 klimatzoner",
+        "360° kamera",
+        "Android Auto",
+        "Apple carplay",
+        "Autobroms",
+        "Automatisk parkering",
+        "Backstartshjälp",
+        "Black",
+        "Bluetooth",
+        "Bluetooth (handsfree)",
+        "Bromsassistans",
+        "Dark metal grey",
+        "Döda vinkel-varning",
+        "Elhissar (Fram och Bak)",
+        "Elinfällbara Sidospeglar",
+        "Färddator",
+        "Fartbegränsare",
+        "Farthållare",
+        "Farthållare (adaptiv)",
+        "Fotgängardetektion",
+        "GPS",
+        "Helljusassistans",
+        "Isofix-fästen bak",
+        "Klädsel (tyg)",
+        "Kollisionsvarning",
+        "LED (halvljus)",
+        "LED (helljus)",
+        "Magnetic blue",
+        "Mattor (gummi)",
+        "Nödsamtal",
+        "Parkeringssensorer fram & bak",
+        "Rattvärme",
+        "Rear Traffic Alert",
+        "Regnsensor",
+        "Röststyrning",
+        "Sätesvärme (fram)",
+        "Skyltigenkänning",
+        "Start-/stoppfunktion",
+        "Tonade rutor",
+        "Trådlös telefonladdare",
+        "Trötthetsvarnare",
+        "USB-uttag"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": true,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-31ab-7193-a33e-3a8204c4349f-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-31de-7918-8efe-ae98a7fd82eb-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-3214-7702-9281-27b61daaf2ca-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-3253-7683-b885-c66fd4b05266-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-3284-7263-bdca-b463db708fef-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-32b4-70f3-8b76-a3fe152901c8-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-32ec-7aeb-8967-0be5ab0dcd7e-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-3318-7124-ac44-45e686330876-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-3342-7f17-8032-cf7646e0a98e-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-3378-7c35-b977-777fd0839fbf-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-33bb-7864-82cc-fa498d8b007d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-33ea-73a9-9154-7aafc9548b37-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-3417-7c10-b3b4-8c1e226b7216-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-3447-7fd1-815e-e84bc2c8291f-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-3477-7a68-8733-92bf0cb18979-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0813e-34c1-7dbf-a5d9-774f2c74e96f-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246760/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246760/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246760/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246760/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/246760/pc-uc-nissan-qashqai-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:247162",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Focus Active Kombi 1.0 125HK",
+      "variant": "Active Kombi 1.0 125HK",
+      "registrationNumber": "FWW76W",
+      "vin": "WF0PXXGCHPLL45433",
+      "priceSek": 159900,
+      "modelYear": 2021,
+      "mileageMil": 9535,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "Kombi",
+      "color": "Blå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Mölndal",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247162/pc-uc-ford-focus-2021",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "Android Auto",
+        "Antisladd",
+        "Antispinn",
+        "Apple carplay",
+        "Autobroms",
+        "Bluetooth",
+        "Chrome blue",
+        "Delbart baksäte",
+        "Digital hastighetsmätare",
+        "Elhissar (Fram och Bak)",
+        "Eluppvärmd vindruta",
+        "Färddator",
+        "Farthållare",
+        "GPS",
+        "Insynsskydd",
+        "Keyless Nyckelfri Start",
+        "Klädsel (tyg)",
+        "maria.blomqvist@hedinautomotive",
+        "Mörktonade bakre rutor",
+        "Non local svp",
+        "Parkeringssensorer fram & bak",
+        "Plant lastutrymme",
+        "Rattvärme",
+        "Regnsensor",
+        "Säkerhetspaket",
+        "Sätesvärme (fram)",
+        "Start-/stoppfunktion",
+        "Svart tyg",
+        "Touch-/Pekskärm",
+        "USB-uttag",
+        "Vinterpaket"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": false,
+        "parking": true,
+        "camera": false
+      },
+      "missingRequirements": [
+        "isofix",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a086e0-ac9f-7f6f-9429-b9a021b6c423-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a086e0-acdd-742f-836d-6e60e20c5f69-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a086e0-ad0b-7659-be26-32c98907f607-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a086e0-ad39-7b2a-8790-893a5e13caab-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a086e0-ad67-74bb-b4e8-e77df3c88acf-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a086e0-ad9d-714e-92f7-c92b5bd13cd2-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a086e0-add0-74a5-81ee-20ef60b882cc-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a086e0-ae00-7c57-a1d6-cdc486d00ebb-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a086e0-ae32-761c-979b-7193ddeaa92f-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a086e0-ae64-7a5f-b80b-75b68d1c47c8-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a086e0-ae95-7cf0-b44c-53d8837facab-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a086e0-aeca-71f2-8128-89a40c3df0d9-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247162/pc-uc-ford-focus-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247162/pc-uc-ford-focus-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247162/pc-uc-ford-focus-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247162/pc-uc-ford-focus-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247162/pc-uc-ford-focus-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil",
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "isofix",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:247710",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "NYA FOCUS C519 TITANIUM KOMBI 1.0T ECOBOOST 125H",
+      "variant": "NYA FOCUS C519 TITANIUM KOMBI 1.0T ECOBOOST 125H",
+      "registrationNumber": "MDA84A",
+      "vin": "WF0PXXGCHPKJ22737",
+      "priceSek": 149000,
+      "modelYear": 2020,
+      "mileageMil": 8700,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "Kombi",
+      "color": "Vit",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Nacka",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247710/pc-uc-ford-focus-2020",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "Frozen white",
+        "Non local svp",
+        "Parkpaket",
+        "Säkerhetspaket",
+        "Svart tyg",
+        "Vinterpaket"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06ca2-751c-7ba5-983f-864c1677b374-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06ca2-7548-7117-b3b6-86a7c6078167-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06ca2-7577-79e8-823a-6e24fa785eb0-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06ca2-75ad-73c1-aacf-8358384273b4-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06ca2-75e1-79f0-a0bb-3a1c0eb74f30-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06ca2-7611-7716-b05e-4ab438952381-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06ca2-7642-75f9-bba8-fb5cc89bf094-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06ca2-76e5-7283-abb7-5c62695f04bf-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06ca2-7720-7ba2-b9b4-7516546578ed-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247710/pc-uc-ford-focus-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247710/pc-uc-ford-focus-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247710/pc-uc-ford-focus-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247710/pc-uc-ford-focus-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247710/pc-uc-ford-focus-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet",
+            "miltal över normaltaket 7 500 mil",
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:247899",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "QASHQAI DIG-T 160 TEKNA 2WD DCT",
+      "variant": "DIG-T 160 TEKNA 2WD DCT",
+      "registrationNumber": "XJB81T",
+      "vin": "SJNFFAJ11U2882229",
+      "priceSek": 234900,
+      "modelYear": 2020,
+      "mileageMil": 3600,
+      "fuelType": "Bensin",
+      "transmission": "Automatisk",
+      "bodyType": "SUV",
+      "color": "Grå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Hedin Automotive",
+      "dealerUrl": null,
+      "place": "Varberg",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247899/pc-uc-nissan-qashqai-2020",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "360 kamera",
+        "6 högtalare",
+        "ACC - klimatanläggning",
+        "Ambient interiör kupébelysning",
+        "Apple CarPlay",
+        "Auto hold-funktion",
+        "AUX-ingång",
+        "AVM - Around View Monitor",
+        "Backspegelkåpor",
+        "Bagageutrymme med belysning",
+        "Baksäte delat - nedfällbart 60/40",
+        "Black",
+        "Cross Traffic Alert",
+        "Däcktrycksövervakning (TPMS)",
+        "Dark metal grey",
+        "Dimljus fram med kromad dekorring",
+        "Elektrisk servostyrning",
+        "Elektronisk parkeringsbroms",
+        "Eluppvärmd vindruta",
+        "Eluppvärmda säten fram",
+        "ESP - elektroniskt antisladdsystem",
+        "Färddator",
+        "Följ-mig-hem-belysning",
+        "Förarstol elektriskt justerbar",
+        "Förarstol med svankstöd",
+        "Handsfree-telefon via Bluetooth®",
+        "Helljus-assistans",
+        "Hjälp vid start i backe",
+        "Identifiering av vägskyltar",
+        "Intelligent adaptiv farthållare",
+        "Intelligent autobroms",
+        "Intelligent dödvinkelvarnare",
+        "Intelligent filbytesvarnare",
+        "Intelligent körfältsstyrning",
+        "Intelligent motorbroms",
+        "Intelligent parkeringsassistans",
+        "Intelligent trötthetsvarningssystem",
+        "ISOFIX-fästen bak",
+        "Karossfärgade",
+        "Kromad dekorlist runt sidorutorna",
+        "Lastsystem med bagageskiva",
+        "LED dimljus bak",
+        "Parkeringssensorer fram och bak",
+        "Passagerarstol höjdjusterbar",
+        "Silverlackerade",
+        "Stänkskydd fram och bak",
+        "Stop/Start-system",
+        "Stötfångare - övre i karossfärg",
+        "Strålkastarspolare",
+        "Takrails",
+        "Tonat glas från rad 2",
+        "Traffic Jam Pilot",
+        "Varselljus",
+        "Vindrutetorkare med regnsensor"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": true,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a081dc-04e6-7326-9a5a-7e0d1c2d58a2-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a081dc-0524-7923-9250-9d70d61323b8-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a081dc-0554-770c-95af-17c75a717246-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a081dc-0588-7ec8-bd11-55eccd85cd0f-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a081dc-05c0-79cf-a10b-23d77b85dc8d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a081dc-0608-76a5-8f79-0671c816bf5a-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a081dc-0635-71d2-8b2e-7149177cad00-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a081dc-0660-750e-9f51-82c448187eec-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a081dc-0693-7718-971a-752121483e36-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a081dc-06cb-7b31-8fb3-17d9590a71e5-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a081dc-0709-76b5-9ec9-8ea81ccc9ffc-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a081dc-074e-783f-bbbf-ed39b7eb0007-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247899/pc-uc-nissan-qashqai-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247899/pc-uc-nissan-qashqai-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247899/pc-uc-nissan-qashqai-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247899/pc-uc-nissan-qashqai-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247899/pc-uc-nissan-qashqai-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:247920",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "KUGA CX482E 2022.00 TITANIUM 2.5 FULL HYBRID AUT 4",
+      "variant": "CX482E 2022.00 TITANIUM 2.5 FULL HYBRID AUT 4",
+      "registrationNumber": "FUP16C",
+      "vin": "WF0FXXWPMHNJ46234",
+      "priceSek": 249900,
+      "modelYear": 2022,
+      "mileageMil": 5100,
+      "fuelType": "Hybrid",
+      "transmission": "Automatisk",
+      "bodyType": "SUV",
+      "color": "Svart",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Helsingborg",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247920/pc-uc-ford-kuga-2022",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "2 klimatzoner",
+        "Android Auto",
+        "Antisladd",
+        "Antispinn",
+        "Apple carplay",
+        "Bluetooth (handsfree)",
+        "Centrallås (fjärrstyrt)",
+        "Dragkrok (elutfällbar)",
+        "Dragkrok /elinfällbar)",
+        "Farthållare",
+        "GPS (i instrumentbrädan)",
+        "Handbroms (elektronisk)",
+        "Insynsskydd",
+        "Klädsel (tyg)",
+        "Mattor (gummi)",
+        "Parkeringssensorer fram & bak",
+        "Rattvärme",
+        "Sätesvärme (bak)",
+        "Sätesvärme (fram)",
+        "Touch-/Pekskärm"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": false,
+        "parking": true,
+        "camera": false
+      },
+      "missingRequirements": [
+        "isofix",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06250-fdca-7141-bee5-2188dd6fad72-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06250-fe30-7061-9279-275f3814f018-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06250-fe83-7af9-a6fe-bd77084fa543-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06250-feef-79b4-a4bd-69d6b6f392c3-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06250-ff5f-7475-b60e-65f1a716e9d1-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06250-ffa4-752f-a553-98ef7b9c6fce-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06250-ffe8-7f85-8e0b-35dc30d16101-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06251-0036-702d-ac54-785d2387e304-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06251-006c-7f5b-954f-3dd6b8d8d2d5-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06251-00c2-7150-985a-7f76857cec92-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06251-010e-73f8-ba05-6e0b9f77a166-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a06251-030c-71ca-b446-4d9576f10bad-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247920/pc-uc-ford-kuga-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247920/pc-uc-ford-kuga-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247920/pc-uc-ford-kuga-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247920/pc-uc-ford-kuga-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/247920/pc-uc-ford-kuga-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": [
+            "hybridtyp måste verifieras"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "isofix",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:248334",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "FOCUS ACTIVE KOMBI 1.0T ECOBOOST MHEV 125HK E85 ED",
+      "variant": "ACTIVE KOMBI 1.0T ECOBOOST MHEV 125HK E85 ED",
+      "registrationNumber": "TSL68G",
+      "vin": "WF0PXXGCHPPP58523",
+      "priceSek": 214900,
+      "modelYear": 2024,
+      "mileageMil": 3998,
+      "fuelType": "Hybrid",
+      "transmission": "Automatisk",
+      "bodyType": "Kombi",
+      "color": "Svart",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Nacka",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/248334/pc-uc-ford-focus-2024",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "ABS-bromsar",
+        "AC",
+        "Agate black metallic",
+        "Airbag bak",
+        "Airbag förare",
+        "Airbag passagerare fram",
+        "Android Auto",
+        "Antisladd",
+        "Antispinn",
+        "Apple Carplay",
+        "Autobroms",
+        "Avstängningsbar airbag",
+        "Backkamera",
+        "Backstartshjälp",
+        "Bluetooth",
+        "Bluetooth (handsfree)",
+        "Bromsassistans",
+        "Centrallås",
+        "Centrallås (fjärrstyrt)",
+        "Digital hastighetsmätare",
+        "Digitalradio (DAB)",
+        "Elhissar (bak)",
+        "Elhissar (Fram och Bak)",
+        "Elhissar (Fram)",
+        "Euro 6fällbara baksäten",
+        "Färddator",
+        "Farthållare",
+        "GPS",
+        "Insynsskydd",
+        "Isofix-fästen bak",
+        "Klädsel (tyg",
+        "Läslampa",
+        "Lättmetallfälgar",
+        "LED (halvljus)",
+        "Multifunktionsratt",
+        "Parkeringssensorer",
+        "Rails",
+        "Rattvärme",
+        "Regnsensor",
+        "Sätesvärme (fram)",
+        "Servostyrning",
+        "Sminkspegel",
+        "Start-/stoppfunktion",
+        "Svankstöd",
+        "Tonade rutor",
+        "Touch-/Pekskärm"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": true,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [],
+      "imageUrls": [],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/248334/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/248334/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/248334/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/248334/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/248334/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:248637",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "Focus 1.0T 125hk Kombi Rattvärme Privatleasa 3795kr/mån",
+      "variant": "1.0T 125hk Kombi Rattvärme Privatleasa 3795kr/mån",
+      "registrationNumber": "AGA81T",
+      "vin": "WF0PXXGCHPPD63003",
+      "priceSek": 239900,
+      "modelYear": 2023,
+      "mileageMil": 2820,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "Kombi",
+      "color": "Blå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Eskilstuna",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/248637/pc-uc-ford-focus-2023",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "2 klimatzoner",
+        "Airbag passagerare fram",
+        "Android Auto",
+        "Antisladd",
+        "Antispinn",
+        "Apple carplay",
+        "Autobroms",
+        "Avbländande backspegel",
+        "Backkamera",
+        "Bluetooth (handsfree)",
+        "Centrallås (fjärrstyrt)",
+        "Chrome blue met",
+        "Elhissar (Fram och Bak)",
+        "Eluppvärmd vindruta",
+        "Farthållare (adaptiv)",
+        "Isofix-fästen bak",
+        "Keyless Nyckelfri Start",
+        "Klädsel (tyg)",
+        "Lättmetallfälgar",
+        "LED Strålkastare",
+        "Parkeringssensorer fram & bak",
+        "Rattvärme",
+        "Röststyrning",
+        "Sätesvärme (fram)",
+        "Sidoairbags",
+        "Tonade rutor",
+        "USB-uttag",
+        "Vägfilsassistans"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": true,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0660f-4138-7e1d-87a3-baf06a38a142-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0660f-419f-753c-9a23-74664ec350fc-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0660f-41ea-7725-807e-4b0755f7b88a-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0660f-423d-79f6-8123-7e5cab6a0ae3-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0660f-4290-783c-9422-3db225637714-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0660f-42ec-7227-a4e4-b7e748a9b986-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0660f-432c-7fca-9c31-e5d605c48da5-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0660f-4378-7711-82b8-04bcb05a8081-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0660f-43c6-7e8d-870d-fa113c6ec891-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/248637/pc-uc-ford-focus-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/248637/pc-uc-ford-focus-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/248637/pc-uc-ford-focus-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/248637/pc-uc-ford-focus-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/248637/pc-uc-ford-focus-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:249932",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "GRANDLAND X",
+      "variant": "",
+      "registrationNumber": "RJJ96F",
+      "vin": "W0VZ45GF3M6813697",
+      "priceSek": 189900,
+      "modelYear": 2021,
+      "mileageMil": 9922,
+      "fuelType": "Bensin",
+      "transmission": "Automatisk",
+      "bodyType": "Kombi",
+      "color": "Röd",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Alingsås",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/249932/pc-uc-opel-grandland-x-2021",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "12V-uttag fram",
+        "Adaptiv farthållare",
+        "Android Auto",
+        "Antisladdsystem (ESC)",
+        "Backstartsassistans (HSA)",
+        "bak (RCW)",
+        "Bluetooth",
+        "Carplay",
+        "Döda vinkel-varnare",
+        "Fartbegränsare",
+        "fram (FCW)",
+        "Kollisionsvarning",
+        "LED halvljus",
+        "LED-strålkastare ",
+        "Regnsensor",
+        "Skyltigenkänning"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": false,
+        "parking": false,
+        "camera": false
+      },
+      "missingRequirements": [
+        "isofix",
+        "parking",
+        "camera"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-5186-728b-9506-51dac4c3fc70-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-51c6-7ea3-96f1-32b17a2474f2-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-51f2-7d2b-b236-b51c713c472e-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-522c-748a-a0f5-d0d3020d0245-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-5259-7899-8bfd-0f11be57d274-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-528f-7b14-b437-3be6ee8ac057-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-52c6-705c-ba86-0769088a0250-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-52f0-708e-a1f4-4cea9c56e162-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-531c-7fef-874d-c0dc02bd618f-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-534b-73de-af04-2d27db5298f3-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-53a5-714e-9e1f-67a61e002c6d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-53d3-7996-af92-40ee0eb711aa-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-5405-7518-85f1-932c1e9606d1-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-5437-7710-a4f1-882187ff402a-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-545e-70f4-a533-460b59d4cbfc-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b45b-549d-7d1a-a355-bb1c32b30aac-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/249932/pc-uc-opel-grandland-x-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/249932/pc-uc-opel-grandland-x-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/249932/pc-uc-opel-grandland-x-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/249932/pc-uc-opel-grandland-x-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/249932/pc-uc-opel-grandland-x-2021",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "isofix",
+          "parking",
+          "camera"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:250092",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "ARKANA TECHNO HEV 145 E-TECH",
+      "variant": "TECHNO HEV 145 E-TECH",
+      "registrationNumber": "CLN49S",
+      "vin": "VF1RJL007UC430780",
+      "priceSek": 209900,
+      "modelYear": 2023,
+      "mileageMil": 6000,
+      "fuelType": "Hybrid",
+      "transmission": "Automatisk",
+      "bodyType": "SUV",
+      "color": "Grå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Halmstad",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250092/pc-uc-renault-arkana-2023",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "Airbag förare",
+        "Airbag passagerare fram",
+        "Android Auto",
+        "Apple CarPlay",
+        "Autobroms",
+        "Backkamera",
+        "Döda vinkel-varning",
+        "Elhissar (Fram och Bak)",
+        "Farthållare",
+        "Grå metal",
+        "Isofix-fästen bak",
+        "Keyless Nyckelfri Dörrar",
+        "Keyless Nyckelfri Start",
+        "LED Strålkastare",
+        "Multifunktionsratt",
+        "Parkeringssensorer fram & bak",
+        "Regnsensor",
+        "Sätesvärme (fram)",
+        "Tonade rutor",
+        "Touch-/Pekskärm",
+        "USB-uttag"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": true,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b2e9-14c3-7921-8183-882f70b1a828-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b2e9-14fd-7fa1-9b84-94dfd3c952cb-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b2e9-1528-7d75-b006-31494ce9105a-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b2e9-1558-7359-82bc-bdde5c74b1c7-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b2e9-1582-7b32-a64a-be752fa7b8af-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b2e9-15b0-79f6-b870-5818fe405d35-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b2e9-15da-7c3d-8112-d20f2efd0787-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b2e9-1608-7118-9cf6-a22f845ad6f1-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b2e9-1633-787a-8e02-353c2830d579-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b2e9-1663-7ea0-83d5-3e75c1f5d7e0-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b2e9-1693-76e5-b6b8-8787925a3e0d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b2e9-16c4-786b-85dc-84978fc77d9e-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250092/pc-uc-renault-arkana-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250092/pc-uc-renault-arkana-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250092/pc-uc-renault-arkana-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250092/pc-uc-renault-arkana-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250092/pc-uc-renault-arkana-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:250410",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "X-TRAIL 1.3 160hk N-Tec Automat LED Elbaklucka 360-kamera",
+      "variant": "1.3 160hk N-Tec Automat",
+      "registrationNumber": "JYD08N",
+      "vin": "JN1TGAT32U0061296",
+      "priceSek": 229000,
+      "modelYear": 2020,
+      "mileageMil": 5245,
+      "fuelType": "Bensin",
+      "transmission": "Automatisk",
+      "bodyType": "SUV",
+      "color": "Silver",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Eskilstuna",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250410/pc-uc-nissan-x-trail-2020",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "360° kamera",
+        "Antisladd",
+        "Antispinn",
+        "Backkamera",
+        "Bagagelucka (automatisk)",
+        "Bluetooth (handsfree)",
+        "Centrallås (fjärrstyrt)",
+        "Elhissar (Fram och Bak)",
+        "Farthållare",
+        "GPS (i instrumentbrädan)",
+        "Keyless Nyckelfri Dörrar",
+        "Keyless Nyckelfri Start",
+        "Lättmetallfälgar",
+        "LED Strålkastare",
+        "Parkeringssensorer fram & bak",
+        "Rattvärme",
+        "Sidoairbags",
+        "Tonade rutor",
+        "Vägfilsassistans"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": false,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [
+        "isofix"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0a3fe-4c70-7622-a4cb-ce21abb45976-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0a3fe-4cb4-78a5-93d5-0ff5bf5a06d5-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0a3fe-4cff-79d8-8323-b6b7a9ae70c6-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0a3fe-4d38-7721-bdb8-d57d726257e6-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0a3fe-4d6d-7bf2-bdca-a853943345ee-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0a3fe-4da2-7030-87d2-b188e9cf7f11-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0a3fe-4dd1-769c-8117-f0d4d515711e-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0a3fe-4dfb-7180-9c57-2dee6a45e34a-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0a3fe-4e31-77c2-a3a4-b2175dfbc71e-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0a3fe-4e67-71e9-85a4-57e8aff1dcc1-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0a3fe-4ea0-7a98-90b3-1cff1fb0e2f7-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250410/pc-uc-nissan-x-trail-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250410/pc-uc-nissan-x-trail-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250410/pc-uc-nissan-x-trail-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250410/pc-uc-nissan-x-trail-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250410/pc-uc-nissan-x-trail-2020",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "isofix"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:250800",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "FOCUS ACTIVE KOMBI 1.0T ECOBOOST MHEV 125HK E85 ED",
+      "variant": "ACTIVE KOMBI 1.0T ECOBOOST MHEV 125HK E85 ED",
+      "registrationNumber": "WAU13R",
+      "vin": "WF0PXXGCHPPS17206",
+      "priceSek": 219900,
+      "modelYear": 2024,
+      "mileageMil": 4855,
+      "fuelType": "Hybrid",
+      "transmission": "Automatisk",
+      "bodyType": "Kombi",
+      "color": "Röd",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Lund",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250800/pc-uc-ford-focus-2024",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "2 klimatzoner",
+        "Android Auto",
+        "Apple carplay",
+        "Backkamera",
+        "Backstartshjälp",
+        "Bluetooth (handsfree)",
+        "Centrallås (fjärrstyrt)",
+        "Döda vinkel-varning",
+        "Elhissar (Fram och Bak)",
+        "Farthållare",
+        "GPS",
+        "Klädsel (tyg)",
+        "LED Strålkastare",
+        "Parkeringssensorer fram & bak",
+        "Start-/stoppfunktion",
+        "Tonade rutor",
+        "Touch-/Pekskärm",
+        "USB-uttag"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": false,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd",
+        "isofix"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b3c6-2c62-799e-8e35-3081b43d464f-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b3c6-2ce4-74d6-bb91-9ecfe23beb4f-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b3c6-2d64-7cac-a895-4a62c151f222-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b3c6-2dbb-70e4-878e-07f96f278733-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b3c6-2e1f-7b71-88b1-e42fec5625e1-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b3c6-2e60-76b8-a6bc-b98f77e7b16a-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b3c6-2ea9-799d-9556-fbc87683286d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b3c6-2edc-71d0-a824-ad845e93fb2f-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b3c6-2f19-7582-8266-9f1738c04d48-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b3c6-2f58-798c-9542-51855ea51e02-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b3c6-2f9b-7fb1-b8b6-b3167d443edb-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b3c6-2ff0-7740-b4f0-1661b0471f80-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250800/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250800/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250800/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250800/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250800/pc-uc-ford-focus-2024",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "årsmodell utanför normalspannet"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "isofix"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:250901",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "ARKANA TECHNO E-TECH HYBRID",
+      "variant": "TECHNO E-TECH HYBRID",
+      "registrationNumber": "YMP05S",
+      "vin": "VF1RJL004UC421681",
+      "priceSek": 219900,
+      "modelYear": 2023,
+      "mileageMil": 3900,
+      "fuelType": "Hybrid",
+      "transmission": "Automatisk",
+      "bodyType": "SUV",
+      "color": "Vit",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Mölndal",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250901/pc-uc-renault-arkana-2023",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "2 klimatzoner",
+        "Airbag bak",
+        "Airbag förare",
+        "Airbag passagerare fram",
+        "Android Auto",
+        "Antisladd",
+        "Antispinn",
+        "Apple carplay",
+        "Autobroms",
+        "AUX-ingång",
+        "Backkamera",
+        "Barnlås",
+        "Bluetooth",
+        "Digital hastighetsmätare",
+        "Elstol Förare",
+        "Färddator",
+        "Farthållare (adaptiv)",
+        "GPS",
+        "Insynsskydd",
+        "Isofix-fästen bak",
+        "Klädsel (tyg)",
+        "Ljussensor",
+        "Mattor (textil)",
+        "Parkeringssensorer fram & bak",
+        "Regnsensor",
+        "Touch-/Pekskärm",
+        "Vit glacier"
+      ],
+      "requiredEquipment": {
+        "antisladd": true,
+        "isofix": true,
+        "parking": true,
+        "camera": true
+      },
+      "missingRequirements": [],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b49e-fb00-731b-aa5a-f440ee6292d9-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b49e-fb3a-7e96-9edb-c93f7aac38cd-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b49e-fb74-794d-bf0d-6b69413d0b44-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b49e-fbd5-7b26-a3ff-b0f45b44f398-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b49e-fc25-7cea-a393-522e256829f0-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b49e-fc77-7311-88ec-5b8163a2af3e-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b49e-fcb3-712b-8d78-3c3f1f1deac2-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b49e-fcea-7569-97b9-3fc51e7e01bd-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a0b49e-fd2e-74fa-8e6c-f3a459c85aca-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250901/pc-uc-renault-arkana-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250901/pc-uc-renault-arkana-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250901/pc-uc-renault-arkana-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250901/pc-uc-renault-arkana-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/250901/pc-uc-renault-arkana-2023",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "standard",
+          "rejectReasons": [],
+          "exceptionReasons": [],
+          "verificationReasons": [
+            "hybridtyp måste verifieras"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:74396",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "KUGA 1.5T ECOBOOST 150HK",
+      "variant": "1.5T ECOBOOST 150HK",
+      "registrationNumber": "OMB97B",
+      "vin": "WF0FXXWPMFNB29090",
+      "priceSek": 214900,
+      "modelYear": 2022,
+      "mileageMil": 5121,
+      "fuelType": "Bensin",
+      "transmission": "Manuell",
+      "bodyType": "SUV",
+      "color": "Svart",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Österhaninge",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/74396/pc-uc-ford-kuga-2022",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "2 klimatzoner",
+        "AGATE BLACK METALLIC",
+        "Android Auto",
+        "Apple carplay",
+        "Backkamera",
+        "Bluetooth (handsfree)",
+        "Centrallås (fjärrstyrt)",
+        "Digital hastighetsmätare",
+        "Döda vinkeln varnare",
+        "Dörruppslagsskydd",
+        "Elhissar (Fram och Bak)",
+        "Elinfällbara Sidospeglar",
+        "Eluppvärmd vindruta",
+        "Farthållare (adaptiv)",
+        "Fjärrstyrd start",
+        "Isofix-fästen bak",
+        "Kamera fram",
+        "Key-less",
+        "Keyless Nyckelfri Dörrar",
+        "Keyless Nyckelfri Start",
+        "Klädsel (tyg)",
+        "Mattor (gummi)",
+        "Rattvärme",
+        "Rear Traffic Alert",
+        "Regnsensor",
+        "Röststyrning",
+        "Sätesvärme (bak)",
+        "Sätesvärme (fram)",
+        "Touch-/Pekskärm",
+        "Trötthetsvarnare"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": true,
+        "parking": false,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd",
+        "parking"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03889-6f07-7641-b53b-5de80d89af21-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03889-6f36-79cd-9d8c-24ddbd00dd0c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03889-6f8b-7fec-bafb-64d92acc19f7-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03889-6fbd-7a38-a7d6-081f2f879a6d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03889-6ff4-7e4c-baff-9c5bc27ca112-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03889-702b-7706-bc87-30bddfc5761b-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03889-705a-7182-a5f7-445ced500978-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03889-7086-7ea7-9423-18a8f9eaacf1-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03889-70b1-762f-bdca-a387703ff207-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03889-70e0-75a1-abad-e7fbbba37374-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03889-7115-797d-b6d0-b83f1b4ab9bf-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/01a03889-7141-7c1b-aa03-5d88229edfbe-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/74396/pc-uc-ford-kuga-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/74396/pc-uc-ford-kuga-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/74396/pc-uc-ford-kuga-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/74396/pc-uc-ford-kuga-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/74396/pc-uc-ford-kuga-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "manuell växellåda"
+          ],
+          "verificationReasons": []
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "parking"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    },
+    {
+      "id": "hedin:98284",
+      "kind": "purchase",
+      "live": true,
+      "lifecycle": "preliminary",
+      "title": "FOCUS WAGON ACTIVE 1.0T 125HK  Privatleasa från 3795:-",
+      "variant": "WAGON ACTIVE 1.0T 125HK",
+      "registrationNumber": "OFD06B",
+      "vin": "WF0PXXGCHPNA20566",
+      "priceSek": 199900,
+      "modelYear": 2022,
+      "mileageMil": 7704,
+      "fuelType": "Hybrid",
+      "transmission": "Automatisk",
+      "bodyType": "Kombi",
+      "color": "Blå",
+      "consumptionL100Km": null,
+      "annualTaxSek": null,
+      "malusTaxSek": null,
+      "dealer": "Bilförsäljning",
+      "dealerUrl": null,
+      "place": "Södertälje",
+      "distanceKm": null,
+      "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/98284/pc-uc-ford-focus-2022",
+      "sourceOwner": "Hedin Automotive",
+      "sourceCheckedAt": "2026-09-19T10:05:33.085Z",
+      "publishedAt": null,
+      "availability": "available",
+      "equipment": [
+        "17 tum alumiumfälgar",
+        "6st högtalare",
+        "Android Auto",
+        "Apple carplay",
+        "Backkamera",
+        "Blue metallic",
+        "Bluetooth",
+        "Centrallås (fjärrstyrt)",
+        "DAB",
+        "Döda vinkel-varning",
+        "eldriven motorvärmare",
+        "Eluppvärmd vindruta",
+        "fällbara baksäten",
+        "Färddator",
+        "Farthållare (adaptiv)",
+        "Ford Pass App",
+        "GPS",
+        "Handbroms (elektronisk)",
+        "Helljusassistans",
+        "Isofix-fästen bak",
+        "Keyless Nyckelfri Start",
+        "Körfilsassistans",
+        "Lättmetallfälgar",
+        "LED (helljus)",
+        "motorvärmare",
+        "Multifunktionsratt",
+        "Nyckelfri start",
+        "pekskärm & navigation",
+        "Rattvärme",
+        "Regnsensor",
+        "Sidoairbags",
+        "Start-/stoppfunktion",
+        "SYNC 4 med 13”",
+        "Två zons klimatanläggning",
+        "USB",
+        "USB-uttag",
+        "Vägfilsassistans"
+      ],
+      "requiredEquipment": {
+        "antisladd": false,
+        "isofix": true,
+        "parking": false,
+        "camera": true
+      },
+      "missingRequirements": [
+        "antisladd",
+        "parking"
+      ],
+      "imageUrls": [
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/9bda146e-118d-4f60-89c9-61f5b2ff6b64-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/59b50ad9-e6bd-4d63-ba93-8a8c98b12798-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/7c97c9e3-e19b-4435-b7de-eef2eb17b2d3-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/a62c1f7c-000a-4423-b791-5f0ae835027c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/3869631b-feec-4b39-9f13-c1a419ff5beb-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/b27ef304-9c37-494d-8e20-f362fda0a48d-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/9d98dc07-cc3e-4443-bed9-8ad79b8eaf7c-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/f8ae4e34-8313-4974-9e60-ed5bda8284ff-enlarged.jpg",
+        "https://cdne-cdn-prod-polaris-prod.azureedge.net/vehicles/4b08e6ba-743f-4019-88d9-2ac995a28ab1-enlarged.jpg"
+      ],
+      "evidence": {
+        "listing": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/98284/pc-uc-ford-focus-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "price": {
+          "status": "verified",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/98284/pc-uc-ford-focus-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "identity": {
+          "status": "observed",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/98284/pc-uc-ford-focus-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "tax": {
+          "status": "missing",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/98284/pc-uc-ford-focus-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z",
+          "note": "Exakt registerkontroll återstår"
+        },
+        "equipment": {
+          "status": "incomplete",
+          "sourceUrl": "https://hedinautomotive.se/bilar/kop-bil/98284/pc-uc-ford-focus-2022",
+          "checkedAt": "2026-09-19T10:05:33.085Z"
+        },
+        "economics": {
+          "status": "missing",
+          "sourceUrl": null,
+          "checkedAt": null,
+          "note": "Ej rankningsbar före kostnadsberikning"
+        }
+      },
+      "quality": {
+        "passesListingFilters": true,
+        "selection": {
+          "included": true,
+          "lane": "exception",
+          "rejectReasons": [],
+          "exceptionReasons": [
+            "miltal över normaltaket 7 500 mil"
+          ],
+          "verificationReasons": [
+            "hybridtyp måste verifieras"
+          ]
+        },
+        "passesRequiredEquipment": true,
+        "rankable": false,
+        "nonBlockingUnverified": [
+          "antisladd",
+          "parking"
+        ],
+        "rankBlockers": [
+          "Skatt behöver registerverifieras",
+          "Försäkring, service, reparationer, vinterhjul, finansiering och restvärde saknas"
+        ]
+      }
+    }
+  ],
+  "changes": [],
+  "errors": []
+}
