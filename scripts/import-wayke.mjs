@@ -116,7 +116,9 @@ export function normalizeDetail(document, html, checkedAt = new Date().toISOStri
     dealer: car.offers?.seller?.name || document.branches?.[0]?.name || "Okänd handlare",
     dealerUrl: car.offers?.seller?.url ?? null,
     place: document.position?.city ?? null,
-    distanceKm: Math.round(Number(document.distance ?? 0)),
+    distanceKm: document.distance != null && Number.isFinite(Number(document.distance)) && Number(document.distance) >= 0
+      ? Math.round(Number(document.distance))
+      : null,
     sourceUrl,
     sourceOwner: "Wayke / angiven bilhandlare",
     sourceCheckedAt: checkedAt,

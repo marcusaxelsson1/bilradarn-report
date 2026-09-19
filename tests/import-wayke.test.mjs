@@ -71,6 +71,14 @@ test("normalizes detail evidence without making the offer rankable", () => {
   assert.equal(result.registrationNumber, "ABC123");
   assert.equal(result.annualTaxSek, 1130);
   assert.equal(result.consumptionL100Km, 6.1);
+  assert.equal(result.distanceKm, 9);
   assert.equal(result.quality.passesRequiredEquipment, true);
   assert.equal(result.quality.rankable, false);
+});
+
+test("keeps a missing Wayke distance unknown instead of turning it into zero", () => {
+  const car = { "@type": "Car", name: "Kia Ceed", offers: { price: 219900 } };
+  const html = `<script type="application/ld+json">${JSON.stringify(car)}</script>`;
+  const result = normalizeDetail({ _id: "abc", mileage: 4180, modelYear: 2022 }, html);
+  assert.equal(result.distanceKm, null);
 });
