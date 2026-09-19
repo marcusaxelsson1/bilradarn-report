@@ -67,3 +67,7 @@ export function travelDistanceBand(distance) {
   if (distance.km <= 150) return { className: "near-15", label: "10–15 mil", description: "Mellan 10 och 15 mil från Göteborg" };
   return null;
 }
+
+export function hasNearbyMarker(offer) {
+  return Boolean(travelDistanceBand(resolveTravelDistance(offer)));
+}
