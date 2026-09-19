@@ -1,4 +1,4 @@
-export const PRICE_MIN = 0;
+export const PRICE_MIN = 50000;
 export const PRICE_MAX = 250000;
 export const MODEL_YEAR_MIN = 2020;
 export const MODEL_YEAR_MAX = 2024;
@@ -110,8 +110,16 @@ export function evaluateCandidate(candidate = {}) {
   const rejectReasons = [];
   const exceptionReasons = [];
   const verificationReasons = [];
+  const monthlyPriceMatch = title.match(/(\d{1,3}(?:[ .]\d{3})*|\d+)\s*kr\s*\/\s*m[åa]n/i);
+  const advertisedMonthlyPrice = monthlyPriceMatch
+    ? Number(monthlyPriceMatch[1].replace(/[^\d]/g, ""))
+    : null;
 
   if (!matchesFamily(title)) rejectReasons.push("fel storleks-/modellfamilj");
+  if (price != null && price < PRICE_MIN) rejectReasons.push(`kontantpris under ${PRICE_MIN.toLocaleString("sv-SE")} kr`);
+  if (price != null && advertisedMonthlyPrice != null && price === advertisedMonthlyPrice) {
+    rejectReasons.push("annonsens månadsbelopp har lagts in som kontantpris");
+  }
   if (price != null && price > PRICE_MAX) rejectReasons.push("pris över 250 000 kr");
   if (year != null && (year < MODEL_YEAR_MIN || year > MODEL_YEAR_MAX)) rejectReasons.push("årsmodell utanför 2020–2024");
   if (mileage != null && mileage > MILEAGE_MAX_MIL) rejectReasons.push("miltal över 10 000 mil");

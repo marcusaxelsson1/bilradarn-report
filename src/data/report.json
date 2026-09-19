@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T15:34:27.616Z",
+  "generatedAt": "2026-09-19T15:51:07.097Z",
   "mode": "live",
   "parameters": {
     "horizonMonths": 36,
@@ -18,1884 +18,6 @@
     "lease": "2026-09-19T11:02:37.336Z"
   },
   "purchases": [
-    {
-      "id": "wayke:704a4957-62ea-402d-949c-2ab80c5efe67",
-      "kind": "buy",
-      "live": true,
-      "lifecycle": "observed",
-      "title": "Peugeot 3008",
-      "variant": "2495kr/mån GT 1.2/Aut B-KAMERA CARPLAY",
-      "registrationNumber": "PPL34S",
-      "vin": "VF3MRHNSUPS100135",
-      "priceSek": 2495,
-      "modelYear": 2023,
-      "mileageMil": 3150,
-      "fuelType": "Bensin",
-      "transmission": "Automat",
-      "bodyType": "SUV",
-      "color": "Grå",
-      "consumptionL100Km": 6.4,
-      "annualTaxSek": 1130,
-      "malusTaxSek": null,
-      "dealer": "Biltjänst Västgötagatan",
-      "dealerUrl": null,
-      "place": "Lidköping",
-      "distanceKm": 0,
-      "sourceUrl": "https://www.wayke.se/objekt/704a4957-62ea-402d-949c-2ab80c5efe67",
-      "sourceOwner": "Wayke / angiven bilhandlare",
-      "sourceCheckedAt": "2026-09-19T10:57:09.783Z",
-      "publishedAt": "2026-09-15T12:06:15.99Z",
-      "availability": "available",
-      "equipment": [
-        "Automatisk växellåda",
-        "Varning för frontalkollision (FCW)",
-        "Filavvikningsvarning (LDW)",
-        "Filhållningsassistent (LKA)",
-        "Barnstol ISOFIX",
-        "Barnstol ISOFIX passagerare",
-        "Barnstol ISOFIX bak",
-        "Centrallåsning",
-        "Centrallåsning automatisk",
-        "Centrallåsning fjärr",
-        "Barnsäkerhetslås",
-        "Barnsäkerhetslås manuella",
-        "Döda vinkel-övervakning (BLIS)",
-        "Parkeringssensorer",
-        "Parkeringssensorer fram",
-        "Parkeringssensorer bak",
-        "Regnsensorer",
-        "Låsningsfritt bromssystem (ABS)",
-        "Autonom nödbromsning (AEB)",
-        "Autonom nödbromsning (AEB) stad",
-        "Autonom nödbromsning (AEB) cyklist",
-        "Autonom nödbromsning (AEB) fotgängare",
-        "Elektronisk bromsassistans",
-        "Stabilitetskontrollsystem (TCS)",
-        "Krockkudde gardin",
-        "Krockkudde gardin förare",
-        "Krockkudde gardin passagerare",
-        "Krockkudde gardin bak",
-        "Krockkudde avstängningsbrytare",
-        "Krockkudde avstängningsbrytare passagerare",
-        "Krockkudde front",
-        "Krockkudde front förare",
-        "Krockkudde front passagerare",
-        "Krockkudde sido-bröst",
-        "Krockkudde sido-bröst förare",
-        "Krockkudde sido-bröst passagerare",
-        "Krockkudde sido-huvud",
-        "Krockkudde sido-huvud förare",
-        "Krockkudde sido-huvud passagerare",
-        "Krockkudde sido-huvud bak",
-        "Bluetooth ljud",
-        "Bluetooth-anslutning",
-        "Bluetooth telefon",
-        "Display mittkonsol",
-        "Smartphoneintegration",
-        "Färddator",
-        "Färddator display",
-        "WiFi-hotspot",
-        "Dimljus",
-        "Dimljus bak",
-        "Tonade fönster",
-        "Motor start-stopp",
-        "Farthållare",
-        "Nyckelfri start"
-      ],
-      "requiredEquipment": {
-        "antisladd": true,
-        "isofix": true,
-        "parking": true,
-        "camera": true
-      },
-      "missingRequirements": [],
-      "imageUrls": [
-        "https://cdn.wayke.se/cfit/v3/314adcef69614fdf8ce509605e49db78/36a0130c183349c9913fedbfe6cd6f70",
-        "https://cdn.wayke.se/cfit/v3/92d0f94f00324a8db56daf34c29292f0/74a535b0bb134de892e83696e3c1bc89",
-        "https://cdn.wayke.se/cfit/v3/5516942ab75e4ca2bd4835798f0dc098/2ea2f99c609f4fb38c7daa6e86d10d2a",
-        "https://cdn.wayke.se/cfit/v3/15d540c6b3ed409db398d9df491fdff5/6ed63706940349438bfc3ec56c6a4ce7",
-        "https://cdn.wayke.se/cfit/v3/026a67f044c24b66bd9aca0c1ffebd94/a1b3d6efdd24458389ee944377ac4317",
-        "https://cdn.wayke.se/cfit/v3/dbb2bab74ad24d898779ecb0ba17b73a/1dcbf0d4744e499a9a05a9d67e7e57dd",
-        "https://cdn.wayke.se/cfit/v3/3052a56a036643ba84ce175ffc2681a6/d1e492550da64ad1a9a606d5c8b32645",
-        "https://cdn.wayke.se/cfit/v3/b0fde05d570742449679e24d373f4007/8f9495f8f1344a9c9240b4d361d70f63",
-        "https://cdn.wayke.se/cfit/v3/6cc7f77482844c22b49f33245bb05180/4fe371115f3e458686e6303ffbbcccc9",
-        "https://cdn.wayke.se/cfit/v3/7f3a86defa0d4281abbb18ba53eef6ca/8667b552f027415a9becf56b3fe2800c",
-        "https://cdn.wayke.se/cfit/v3/c641a8806bd448b9bfbeab99dffcd235/a0707ceca8c7459881e867f435bc7cd7",
-        "https://cdn.wayke.se/cfit/v3/c31bb158c5344d4395a01538040e940b/9dea76fa62b748488bda7d0b513ecf55",
-        "https://cdn.wayke.se/cfit/v3/893c8081086a44c29c28132cfbf0c0cf/d7a0febd62b343dc84c20ffef491806f",
-        "https://cdn.wayke.se/cfit/v3/b1d1b63b457a4820bed4388774576b4c/a65cdcf6d31548ea88a435434a744fd4",
-        "https://cdn.wayke.se/cfit/v3/e0710c270d0e4a4db79de1a88f392c8d/d2befaf5558e4699b1192ae61ee6e024",
-        "https://cdn.wayke.se/cfit/v3/9d8bc62f31c1493299d24698e91cfbff/a8f295cce1384cfebdb1f7aaa78c76ee",
-        "https://cdn.wayke.se/cfit/v3/64c8545661804316ac9b17497dc996dd/4c8ebe788a3a446cb8a92d5cc28a6a5c",
-        "https://cdn.wayke.se/cfit/v3/cb287d9d442e4663a8b39fa9fec83722/53dff646cae943c59c781c14e92ef9fb",
-        "https://cdn.wayke.se/cfit/v3/a5754211b62148129b40d39c0c3d7153/413fc1f41f204bd2a2ae1aeafee28ecc",
-        "https://cdn.wayke.se/media/47f0f9eff27240fe95db6041bab26528/ddcd2b9898774eb3a209db2e9d8ada93",
-        "https://cdn.wayke.se/cfit/v3/314adcef69614fdf8ce509605e49db78/36a0130c183349c9913fedbfe6cd6f70?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/92d0f94f00324a8db56daf34c29292f0/74a535b0bb134de892e83696e3c1bc89?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/5516942ab75e4ca2bd4835798f0dc098/2ea2f99c609f4fb38c7daa6e86d10d2a?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/15d540c6b3ed409db398d9df491fdff5/6ed63706940349438bfc3ec56c6a4ce7?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/026a67f044c24b66bd9aca0c1ffebd94/a1b3d6efdd24458389ee944377ac4317?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/dbb2bab74ad24d898779ecb0ba17b73a/1dcbf0d4744e499a9a05a9d67e7e57dd?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/3052a56a036643ba84ce175ffc2681a6/d1e492550da64ad1a9a606d5c8b32645?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/b0fde05d570742449679e24d373f4007/8f9495f8f1344a9c9240b4d361d70f63?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/6cc7f77482844c22b49f33245bb05180/4fe371115f3e458686e6303ffbbcccc9?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/7f3a86defa0d4281abbb18ba53eef6ca/8667b552f027415a9becf56b3fe2800c?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/c641a8806bd448b9bfbeab99dffcd235/a0707ceca8c7459881e867f435bc7cd7?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/c31bb158c5344d4395a01538040e940b/9dea76fa62b748488bda7d0b513ecf55?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/893c8081086a44c29c28132cfbf0c0cf/d7a0febd62b343dc84c20ffef491806f?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/b1d1b63b457a4820bed4388774576b4c/a65cdcf6d31548ea88a435434a744fd4?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/e0710c270d0e4a4db79de1a88f392c8d/d2befaf5558e4699b1192ae61ee6e024?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/9d8bc62f31c1493299d24698e91cfbff/a8f295cce1384cfebdb1f7aaa78c76ee?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/64c8545661804316ac9b17497dc996dd/4c8ebe788a3a446cb8a92d5cc28a6a5c?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/cb287d9d442e4663a8b39fa9fec83722/53dff646cae943c59c781c14e92ef9fb?format=jpeg&w=1170",
-        "https://cdn.wayke.se/cfit/v3/a5754211b62148129b40d39c0c3d7153/413fc1f41f204bd2a2ae1aeafee28ecc?format=jpeg&w=1170"
-      ],
-      "evidence": {
-        "listing": {
-          "status": "verified",
-          "sourceUrl": "https://www.wayke.se/objekt/704a4957-62ea-402d-949c-2ab80c5efe67",
-          "checkedAt": "2026-09-19T10:57:09.783Z"
-        },
-        "price": {
-          "status": "verified",
-          "sourceUrl": "https://www.wayke.se/objekt/704a4957-62ea-402d-949c-2ab80c5efe67",
-          "checkedAt": "2026-09-19T10:57:09.783Z"
-        },
-        "identity": {
-          "status": "observed",
-          "sourceUrl": "https://www.wayke.se/objekt/704a4957-62ea-402d-949c-2ab80c5efe67",
-          "checkedAt": "2026-09-19T10:57:09.783Z"
-        },
-        "tax": {
-          "status": "observed",
-          "sourceUrl": "https://www.wayke.se/objekt/704a4957-62ea-402d-949c-2ab80c5efe67",
-          "checkedAt": "2026-09-19T10:57:09.783Z",
-          "note": "Exakt registerkontroll återstår"
-        },
-        "equipment": {
-          "status": "observed",
-          "sourceUrl": "https://www.wayke.se/objekt/704a4957-62ea-402d-949c-2ab80c5efe67",
-          "checkedAt": "2026-09-19T10:57:09.783Z"
-        },
-        "economics": {
-          "status": "modelled",
-          "sourceUrl": null,
-          "note": "Alla poster är synliga; annonsdata är källbelagd och antaganden märkta."
-        }
-      },
-      "quality": {
-        "passesListingFilters": true,
-        "selection": {
-          "included": true,
-          "lane": "standard",
-          "rejectReasons": [],
-          "exceptionReasons": [],
-          "verificationReasons": []
-        },
-        "passesRequiredEquipment": true,
-        "rankable": true,
-        "nonBlockingUnverified": [],
-        "rankBlockers": [],
-        "warnings": [
-          "Skatt är annonsuppgift tills registerkontroll",
-          "Försäkring kräver personlig offert",
-          "Restvärde, service och reparationsreserv är modellberäknade"
-        ]
-      },
-      "brand": "Peugeot",
-      "economics": {
-        "total36Sek": 121089,
-        "monthlyEconomicSek": 3364,
-        "stressTotal36Sek": 135620,
-        "stressMonthlySek": 3767,
-        "upfrontSek": 15549,
-        "residual36Sek": 1000,
-        "tradeIn36Sek": 1000,
-        "debt36Sek": 0,
-        "loanPrincipalSek": 1996,
-        "loanRatePercent": 6.1,
-        "cashPaid36Sek": 133840,
-        "breakdown": [
-          {
-            "key": "price",
-            "label": "Bilens annonspris",
-            "amountSek": 2495,
-            "evidence": {
-              "status": "verified",
-              "sourceUrl": "https://www.wayke.se/objekt/704a4957-62ea-402d-949c-2ab80c5efe67",
-              "note": null
-            }
-          },
-          {
-            "key": "winter",
-            "label": "Vinterhjul, inköp",
-            "amountSek": 14500,
-            "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://www.wayke.se/objekt/704a4957-62ea-402d-949c-2ab80c5efe67",
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
-            }
-          },
-          {
-            "key": "winterValue",
-            "label": "Vinterhjulens värde månad 36",
-            "amountSek": -4000,
-            "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
-            }
-          },
-          {
-            "key": "residual",
-            "label": "Bilens privata restvärde månad 36",
-            "amountSek": -1000,
-            "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Försiktig modell utifrån ålder, miltal, märke och dagens annonspris; jämförbara försäljningar återstår."
-            }
-          },
-          {
-            "key": "interest",
-            "label": "Låneränta och uppläggningsavgift",
-            "amountSek": 738,
-            "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://www.swedbank.se/privat/rantor-priser-och-kurser/lanetjanster.html",
-              "note": "Riktmärke 6,1 % nominell rörlig ränta, 20 % kontantinsats, rak amortering över 36 månader. Effektiv ränta och individuella villkor kan avvika."
-            }
-          },
-          {
-            "key": "fuel",
-            "label": "Bränsle, 4 500 mil",
-            "amountSek": 51218,
-            "evidence": {
-              "status": "modelled",
-              "sourceUrl": "https://drivkraftsverige.se/fakta-statistik/priser/",
-              "note": "6.4 l/100 km × 14.82 kr/l."
-            }
-          },
-          {
-            "key": "tax",
-            "label": "Fordonsskatt, 3 år",
-            "amountSek": 3390,
-            "evidence": {
-              "status": "observed",
-              "sourceUrl": "https://www.wayke.se/objekt/704a4957-62ea-402d-949c-2ab80c5efe67",
-              "note": "Annonsuppgift; exakt registerkontroll återstår."
-            }
-          },
-          {
-            "key": "insurance",
-            "label": "Försäkring",
-            "amountSek": 20016,
-            "evidence": {
-              "status": "estimated",
-              "sourceUrl": "https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring",
-              "checkedAt": "2026-09-19T11:02:43.897Z",
-              "note": "Hedvigs offentliga snitt för helförsäkring: 556 kr/mån (Peugeot). Inte personlig offert."
-            }
-          },
-          {
-            "key": "service",
-            "label": "Planerad service",
-            "amountSek": 15500,
-            "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Årlig schablon per bilklass; verkstadsoffert och servicebok återstår."
-            }
-          },
-          {
-            "key": "tyres",
-            "label": "Däckslitage och byten",
-            "amountSek": 4000,
-            "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Separat komplett hjulpaket är modellberäknat; exakt dimension och offert återstår."
-            }
-          },
-          {
-            "key": "repair",
-            "label": "Modellspecifik reparationsreserv",
-            "amountSek": 13200,
-            "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "Reserv utifrån märke, biltyp och 3150 mil; är sparande, inte en säker utgift."
-            }
-          },
-          {
-            "key": "inspection",
-            "label": "Besiktning",
-            "amountSek": 700,
-            "evidence": {
-              "status": "estimated",
-              "sourceUrl": "https://opus.se/priser/",
-              "note": "Preliminärt en kontrollbesiktning. När Transportstyrelsens datum finns ersätts raden med 700 kr per planerat tillfälle inom perioden."
-            }
-          },
-          {
-            "key": "travel",
-            "label": "Hämtresa",
-            "amountSek": 300,
-            "evidence": {
-              "status": "estimated",
-              "sourceUrl": "https://www.wayke.se/objekt/704a4957-62ea-402d-949c-2ab80c5efe67",
-              "note": null
-            }
-          },
-          {
-            "key": "capital",
-            "label": "Kapitalets alternativkostnad",
-            "amountSek": 32,
-            "evidence": {
-              "status": "modelled",
-              "sourceUrl": null,
-              "note": "2 % årlig nettoalternativränta på bundet eget kapital."
-            }
-          }
-        ],
-        "monthlyPlan": [
-          {
-            "month": 0,
-            "items": [
-              {
-                "label": "Kontantinsats 20 %",
-                "amountSek": 499
-              },
-              {
-                "label": "Uppläggningsavgift",
-                "amountSek": 550
-              },
-              {
-                "label": "Vinterhjul",
-                "amountSek": 14500
-              }
-            ],
-            "totalSek": 15549
-          },
-          {
-            "month": 1,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 10
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              },
-              {
-                "label": "Fordonsskatt",
-                "amountSek": 1130
-              }
-            ],
-            "totalSek": 3785
-          },
-          {
-            "month": 2,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 10
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2655
-          },
-          {
-            "month": 3,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 10
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2654
-          },
-          {
-            "month": 4,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 9
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2654
-          },
-          {
-            "month": 5,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 9
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2654
-          },
-          {
-            "month": 6,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 9
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2654
-          },
-          {
-            "month": 7,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 8
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2653
-          },
-          {
-            "month": 8,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 8
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2653
-          },
-          {
-            "month": 9,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 8
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2653
-          },
-          {
-            "month": 10,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 8
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2652
-          },
-          {
-            "month": 11,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 7
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2652
-          },
-          {
-            "month": 12,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 7
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              },
-              {
-                "label": "Årsservice",
-                "amountSek": 4200
-              }
-            ],
-            "totalSek": 6852
-          },
-          {
-            "month": 13,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 7
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              },
-              {
-                "label": "Fordonsskatt",
-                "amountSek": 1130
-              }
-            ],
-            "totalSek": 3782
-          },
-          {
-            "month": 14,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 6
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2651
-          },
-          {
-            "month": 15,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 6
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2651
-          },
-          {
-            "month": 16,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 6
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2651
-          },
-          {
-            "month": 17,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 6
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2650
-          },
-          {
-            "month": 18,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 5
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2650
-          },
-          {
-            "month": 19,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 5
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2650
-          },
-          {
-            "month": 20,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 5
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2650
-          },
-          {
-            "month": 21,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 5
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2649
-          },
-          {
-            "month": 22,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 4
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2649
-          },
-          {
-            "month": 23,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 4
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2649
-          },
-          {
-            "month": 24,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 4
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              },
-              {
-                "label": "Större service",
-                "amountSek": 6500
-              }
-            ],
-            "totalSek": 9148
-          },
-          {
-            "month": 25,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 3
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              },
-              {
-                "label": "Fordonsskatt",
-                "amountSek": 1130
-              }
-            ],
-            "totalSek": 3778
-          },
-          {
-            "month": 26,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 3
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2648
-          },
-          {
-            "month": 27,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 3
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2648
-          },
-          {
-            "month": 28,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 3
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2647
-          },
-          {
-            "month": 29,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 2
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2647
-          },
-          {
-            "month": 30,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 2
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              },
-              {
-                "label": "Däckreserv",
-                "amountSek": 4000
-              }
-            ],
-            "totalSek": 6647
-          },
-          {
-            "month": 31,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 2
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2647
-          },
-          {
-            "month": 32,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 1
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2646
-          },
-          {
-            "month": 33,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 1
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2646
-          },
-          {
-            "month": 34,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 1
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2646
-          },
-          {
-            "month": 35,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 1
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2645
-          },
-          {
-            "month": 36,
-            "items": [
-              {
-                "label": "Amortering",
-                "amountSek": 55
-              },
-              {
-                "label": "Låneränta",
-                "amountSek": 0
-              },
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              },
-              {
-                "label": "Årsservice",
-                "amountSek": 4800
-              }
-            ],
-            "totalSek": 7445
-          },
-          {
-            "month": 37,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              },
-              {
-                "label": "Fordonsskatt",
-                "amountSek": 1130
-              }
-            ],
-            "totalSek": 3719
-          },
-          {
-            "month": 38,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 39,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 40,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 41,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 42,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 43,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 44,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 45,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 46,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 47,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 48,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              },
-              {
-                "label": "Service efter lånet",
-                "amountSek": 5200
-              }
-            ],
-            "totalSek": 7789
-          },
-          {
-            "month": 49,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              },
-              {
-                "label": "Fordonsskatt",
-                "amountSek": 1130
-              }
-            ],
-            "totalSek": 3719
-          },
-          {
-            "month": 50,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 51,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 52,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 53,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 54,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 55,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 56,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 57,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 58,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 59,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              }
-            ],
-            "totalSek": 2589
-          },
-          {
-            "month": 60,
-            "items": [
-              {
-                "label": "Bränsle",
-                "amountSek": 1423
-              },
-              {
-                "label": "Försäkring",
-                "amountSek": 800
-              },
-              {
-                "label": "Reparationsreserv",
-                "amountSek": 367
-              },
-              {
-                "label": "Större service efter lånet",
-                "amountSek": 7600
-              }
-            ],
-            "totalSek": 10189
-          }
-        ],
-        "events": [
-          {
-            "month": 12,
-            "type": "service",
-            "label": "Årsservice",
-            "amountSek": 4200,
-            "certainty": "modelled"
-          },
-          {
-            "month": 24,
-            "type": "service",
-            "label": "Större service",
-            "amountSek": 6500,
-            "certainty": "modelled"
-          },
-          {
-            "month": 30,
-            "type": "tyres",
-            "label": "Däckreserv",
-            "amountSek": 4000,
-            "certainty": "modelled"
-          },
-          {
-            "month": 36,
-            "type": "service",
-            "label": "Årsservice",
-            "amountSek": 4800,
-            "certainty": "modelled"
-          },
-          {
-            "month": 48,
-            "type": "service",
-            "label": "Service efter lånet",
-            "amountSek": 5200,
-            "certainty": "modelled"
-          },
-          {
-            "month": 60,
-            "type": "service",
-            "label": "Större service efter lånet",
-            "amountSek": 7600,
-            "certainty": "modelled"
-          },
-          {
-            "month": 36,
-            "type": "loan",
-            "label": "Lånet slutbetalt",
-            "amountSek": 0,
-            "certainty": "verified"
-          },
-          {
-            "month": 36,
-            "type": "value",
-            "label": "Privat restvärde 1 000 kr",
-            "amountSek": 0,
-            "certainty": "modelled"
-          }
-        ]
-      },
-      "rank": 1,
-      "reliability": {
-        "status": "partially_verified",
-        "checkedAt": "2026-09-10",
-        "heading": "Medelstarkt stoppresultat – drivlinan är avgörande",
-        "summary": "Peugeot 3008 från 2021 redovisas med 13,0 vägassistansstopp per 1 000 bilar hos ADAC. Det placerar modellen bakom flera av de starkaste alternativen i Bilradarns urval. För bilar med 1.2 PureTech är dokumenterad service och kontroll av kamrem särskilt viktig; den risken gäller inte automatiskt andra motorer.",
-        "comparisons": [
-          {
-            "source": "ADAC Pannenstatistik",
-            "result": "13,0 stopp per 1 000 bilar",
-            "context": "Registreringsår 2021; högre än T-Roc 3,8, Ceed 7,1 och Golf 9,6 men lägre än Focus 16,0.",
-            "sourceUrl": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/"
-          }
-        ],
-        "knownIssues": [
-          {
-            "title": "1.2 PureTech: kamrem och oljeförbrukning",
-            "description": "Stellantis har en särskild kompensationspolicy för tidigare PureTech 1.0/1.2-motorer avseende förtida kamremsnedbrytning och överdriven oljeförbrukning. Kontrollera motorvariant, serviceintervall och dokumentation.",
-            "repairCost": "Ingen generell svensk kostnad kan anges; kontroll och offert krävs."
-          }
-        ],
-        "limitations": [
-          "PureTech-risken ska endast visas som relevant när annonsens motor matchar.",
-          "ADAC-siffran omfattar modellserien, inte en enskild drivlina."
-        ],
-        "sources": [
-          {
-            "name": "ADAC – Peugeot 3008",
-            "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/3008/",
-            "note": "Tysk vägassistansstatistik."
-          },
-          {
-            "name": "Stellantis PureTech policy",
-            "url": "https://www.stellantis.com/en/contacts/puretech-compensation-platform",
-            "note": "Tillverkarens information om berörda PureTech-problem."
-          }
-        ]
-      },
-      "maintenance": {
-        "service": null
-      },
-      "enrichment": {
-        "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
-        "findingSource": "https://www.wayke.se/objekt/704a4957-62ea-402d-949c-2ab80c5efe67"
-      }
-    },
     {
       "id": "kamux:KLJ821",
       "kind": "buy",
@@ -3699,7 +1821,7 @@
           }
         ]
       },
-      "rank": 2,
+      "rank": 1,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -5487,11 +3609,11 @@
           }
         ]
       },
-      "rank": 3,
+      "rank": 2,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -7264,11 +5386,11 @@
           }
         ]
       },
-      "rank": 4,
+      "rank": 3,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -9023,11 +7145,11 @@
           }
         ]
       },
-      "rank": 5,
+      "rank": 4,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -10783,11 +8905,11 @@
           }
         ]
       },
-      "rank": 6,
+      "rank": 5,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -12801,11 +10923,11 @@
           }
         ]
       },
-      "rank": 7,
+      "rank": 6,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -14577,11 +12699,11 @@
           }
         ]
       },
-      "rank": 8,
+      "rank": 7,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -16332,14 +14454,14 @@
           }
         ]
       },
-      "rank": 9,
+      "rank": 8,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.bilia.se/bilar/sok-bil/ford/focus/cym15h/"
       }
     },
@@ -18175,7 +16297,7 @@
           }
         ]
       },
-      "rank": 10,
+      "rank": 9,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -20036,11 +18158,11 @@
           }
         ]
       },
-      "rank": 11,
+      "rank": 10,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -21820,11 +19942,11 @@
           }
         ]
       },
-      "rank": 12,
+      "rank": 11,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -23808,14 +21930,14 @@
           }
         ]
       },
-      "rank": 13,
+      "rank": 12,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/seat/ogu25h/"
       }
     },
@@ -25793,11 +23915,11 @@
           }
         ]
       },
-      "rank": 14,
+      "rank": 13,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -27611,7 +25733,7 @@
           }
         ]
       },
-      "rank": 15,
+      "rank": 14,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -29612,11 +27734,11 @@
           }
         ]
       },
-      "rank": 16,
+      "rank": 15,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -31372,11 +29494,11 @@
           }
         ]
       },
-      "rank": 17,
+      "rank": 16,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -33363,11 +31485,11 @@
           }
         ]
       },
-      "rank": 18,
+      "rank": 17,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -35162,11 +33284,11 @@
           }
         ]
       },
-      "rank": 19,
+      "rank": 18,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -36993,7 +35115,7 @@
           }
         ]
       },
-      "rank": 20,
+      "rank": 19,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -38985,14 +37107,14 @@
           }
         ]
       },
-      "rank": 21,
+      "rank": 20,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/opel/pej95g/"
       }
     },
@@ -40966,11 +39088,11 @@
           }
         ]
       },
-      "rank": 22,
+      "rank": 21,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -42726,11 +40848,11 @@
           }
         ]
       },
-      "rank": 23,
+      "rank": 22,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -44557,7 +42679,7 @@
           }
         ]
       },
-      "rank": 24,
+      "rank": 23,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -46410,7 +44532,7 @@
           }
         ]
       },
-      "rank": 25,
+      "rank": 24,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -46448,7 +44570,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.wayke.se/objekt/6507a3c8-2232-4084-882b-01d2e027cca1"
       }
     },
@@ -48205,11 +46327,11 @@
           }
         ]
       },
-      "rank": 26,
+      "rank": 25,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -48497,7 +46619,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://opus.se/priser/",
-              "checkedAt": "2026-09-19T15:34:27.616Z",
+              "checkedAt": "2026-09-19T15:51:07.097Z",
               "note": "2 planerade besiktningar inom 36 månader. 700 kr per planerad kontrollbesiktning. Riktmärket är avrundat från Opus publicerade pris från 699 kr för personbil upp till 3 500 kg; faktiskt pris varierar med station, dag och tid."
             }
           },
@@ -50029,7 +48151,7 @@
           }
         ]
       },
-      "rank": 27,
+      "rank": 26,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -50067,7 +48189,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.wayke.se/objekt/ee939a1f-5d49-43f9-b536-29856cce626e"
       }
     },
@@ -51881,7 +50003,7 @@
           }
         ]
       },
-      "rank": 28,
+      "rank": 27,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -53964,14 +52086,14 @@
           }
         ]
       },
-      "rank": 29,
+      "rank": 28,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/seat/tye987/"
       }
     },
@@ -56003,11 +54125,11 @@
           }
         ]
       },
-      "rank": 30,
+      "rank": 29,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -57974,11 +56096,11 @@
           }
         ]
       },
-      "rank": 31,
+      "rank": 30,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -59848,11 +57970,11 @@
           }
         ]
       },
-      "rank": 32,
+      "rank": 31,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -61605,14 +59727,14 @@
           }
         ]
       },
-      "rank": 33,
+      "rank": 32,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.bilia.se/bilar/sok-bil/seat/leon/wnx60j/"
       }
     },
@@ -63473,7 +61595,7 @@
           }
         ]
       },
-      "rank": 34,
+      "rank": 33,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -65319,7 +63441,7 @@
           }
         ]
       },
-      "rank": 35,
+      "rank": 34,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -67362,14 +65484,14 @@
           }
         ]
       },
-      "rank": 36,
+      "rank": 35,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.niemibil.se/objekt/dacia-duster-1-3-tce-drag-sov-dack-p-sens-back-kamera/"
       }
     },
@@ -69370,14 +67492,14 @@
           }
         ]
       },
-      "rank": 37,
+      "rank": 36,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/volkswagen/cmr854/"
       }
     },
@@ -71218,7 +69340,7 @@
           }
         ]
       },
-      "rank": 38,
+      "rank": 37,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -73018,11 +71140,11 @@
           }
         ]
       },
-      "rank": 39,
+      "rank": 38,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -74839,7 +72961,7 @@
           }
         ]
       },
-      "rank": 40,
+      "rank": 39,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -76845,14 +74967,14 @@
           }
         ]
       },
-      "rank": 41,
+      "rank": 40,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/seat/fsy47f/"
       }
     },
@@ -78635,11 +76757,11 @@
           }
         ]
       },
-      "rank": 42,
+      "rank": 41,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -80463,14 +78585,14 @@
           }
         ]
       },
-      "rank": 43,
+      "rank": 42,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/308/BFP12K"
       }
     },
@@ -82289,11 +80411,11 @@
           }
         ]
       },
-      "rank": 44,
+      "rank": 43,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -84129,7 +82251,7 @@
           }
         ]
       },
-      "rank": 45,
+      "rank": 44,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -84172,7 +82294,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/3008/UJA47J"
       }
     },
@@ -85953,14 +84075,14 @@
           }
         ]
       },
-      "rank": 46,
+      "rank": 45,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://hedinautomotive.se/bilar/kop-bil/250092/pc-uc-renault-arkana-2023"
       }
     },
@@ -87818,14 +85940,14 @@
           }
         ]
       },
-      "rank": 47,
+      "rank": 46,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/citroen/c5-aircross/KMR26P"
       }
     },
@@ -89654,7 +87776,7 @@
           }
         ]
       },
-      "rank": 48,
+      "rank": 47,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -91432,14 +89554,14 @@
           }
         ]
       },
-      "rank": 49,
+      "rank": 48,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.bilia.se/bilar/sok-bil/kia/niro/cfm74m/"
       }
     },
@@ -93241,11 +91363,11 @@
           }
         ]
       },
-      "rank": 50,
+      "rank": 49,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -95262,11 +93384,11 @@
           }
         ]
       },
-      "rank": 51,
+      "rank": 50,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -97042,14 +95164,14 @@
           }
         ]
       },
-      "rank": 52,
+      "rank": 51,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/citroen/c5-aircross/UPP99Z"
       }
     },
@@ -98870,7 +96992,7 @@
           }
         ]
       },
-      "rank": 53,
+      "rank": 52,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -98902,7 +97024,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.wayke.se/objekt/066059ef-c113-4b3f-94c2-6da8226b0ec8"
       }
     },
@@ -100921,14 +99043,14 @@
           }
         ]
       },
-      "rank": 54,
+      "rank": 53,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/peugeot/osl06w/"
       }
     },
@@ -102948,11 +101070,11 @@
           }
         ]
       },
-      "rank": 55,
+      "rank": 54,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -104945,11 +103067,11 @@
           }
         ]
       },
-      "rank": 56,
+      "rank": 55,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -106926,14 +105048,14 @@
           }
         ]
       },
-      "rank": 57,
+      "rank": 56,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/citro%C3%ABn/ara38s/"
       }
     },
@@ -108895,14 +107017,14 @@
           }
         ]
       },
-      "rank": 58,
+      "rank": 57,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/suzuki/fde87f/"
       }
     },
@@ -110738,7 +108860,7 @@
           }
         ]
       },
-      "rank": 59,
+      "rank": 58,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -110781,7 +108903,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.wayke.se/objekt/fff16efb-a4f3-4ad2-bcfe-83f231eeefa1"
       }
     },
@@ -112808,11 +110930,11 @@
           }
         ]
       },
-      "rank": 60,
+      "rank": 59,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -114651,7 +112773,7 @@
           }
         ]
       },
-      "rank": 61,
+      "rank": 60,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -114694,7 +112816,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/3008/YRX96K"
       }
     },
@@ -116480,11 +114602,11 @@
           }
         ]
       },
-      "rank": 62,
+      "rank": 61,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -118517,11 +116639,11 @@
           }
         ]
       },
-      "rank": 63,
+      "rank": 62,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -120374,7 +118496,7 @@
           }
         ]
       },
-      "rank": 64,
+      "rank": 63,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -120417,7 +118539,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/3008/PAE14S"
       }
     },
@@ -120707,7 +118829,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://opus.se/priser/",
-              "checkedAt": "2026-09-19T15:34:27.616Z",
+              "checkedAt": "2026-09-19T15:51:07.097Z",
               "note": "2 planerade besiktningar inom 36 månader. 700 kr per planerad kontrollbesiktning. Riktmärket är avrundat från Opus publicerade pris från 699 kr för personbil upp till 3 500 kg; faktiskt pris varierar med station, dag och tid."
             }
           },
@@ -122235,7 +120357,7 @@
           }
         ]
       },
-      "rank": 65,
+      "rank": 64,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -122278,7 +120400,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.wayke.se/objekt/9173151c-a4a3-4cdd-b54b-2a88153d7051"
       }
     },
@@ -124068,11 +122190,11 @@
           }
         ]
       },
-      "rank": 66,
+      "rank": 65,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -126113,11 +124235,11 @@
           }
         ]
       },
-      "rank": 67,
+      "rank": 66,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -126639,7 +124761,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://opus.se/priser/",
-              "checkedAt": "2026-09-19T15:34:27.616Z",
+              "checkedAt": "2026-09-19T15:51:07.097Z",
               "note": "2 planerade besiktningar inom 36 månader. 700 kr per planerad kontrollbesiktning. Riktmärket är avrundat från Opus publicerade pris från 699 kr för personbil upp till 3 500 kg; faktiskt pris varierar med station, dag och tid."
             }
           },
@@ -128167,14 +126289,14 @@
           }
         ]
       },
-      "rank": 68,
+      "rank": 67,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/peugeot/nem59a/"
       }
     },
@@ -129945,7 +128067,7 @@
           }
         ]
       },
-      "rank": 69,
+      "rank": 68,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -129988,7 +128110,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/3008/UUJ01C"
       }
     },
@@ -131861,7 +129983,7 @@
           }
         ]
       },
-      "rank": 70,
+      "rank": 69,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -131904,7 +130026,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/3008/DOD40R"
       }
     },
@@ -133778,7 +131900,7 @@
           }
         ]
       },
-      "rank": 71,
+      "rank": 70,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -133821,7 +131943,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/3008/TSN78Y"
       }
     },
@@ -135653,7 +133775,7 @@
           }
         ]
       },
-      "rank": 72,
+      "rank": 71,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -135696,7 +133818,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/3008/YCL06J"
       }
     },
@@ -136041,7 +134163,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://opus.se/priser/",
-              "checkedAt": "2026-09-19T15:34:27.616Z",
+              "checkedAt": "2026-09-19T15:51:07.097Z",
               "note": "1 planerade besiktningar inom 36 månader. 700 kr per planerad kontrollbesiktning. Riktmärket är avrundat från Opus publicerade pris från 699 kr för personbil upp till 3 500 kg; faktiskt pris varierar med station, dag och tid."
             }
           },
@@ -137569,7 +135691,7 @@
           }
         ]
       },
-      "rank": 73,
+      "rank": 72,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -137612,7 +135734,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/3008/JAH85F"
       }
     },
@@ -139474,7 +137596,7 @@
           }
         ]
       },
-      "rank": 74,
+      "rank": 73,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -139517,7 +137639,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/3008/YDX97L"
       }
     },
@@ -141396,7 +139518,7 @@
           }
         ]
       },
-      "rank": 75,
+      "rank": 74,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -141439,7 +139561,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/3008/DAX87D"
       }
     },
@@ -143275,11 +141397,11 @@
           }
         ]
       },
-      "rank": 76,
+      "rank": 75,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -145110,14 +143232,14 @@
           }
         ]
       },
-      "rank": 77,
+      "rank": 76,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/citroen/c5-aircross/STN876"
       }
     },
@@ -147126,14 +145248,14 @@
           }
         ]
       },
-      "rank": 78,
+      "rank": 77,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/renault/waf99x/"
       }
     },
@@ -149157,11 +147279,11 @@
           }
         ]
       },
-      "rank": 79,
+      "rank": 78,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -150966,7 +149088,7 @@
           }
         ]
       },
-      "rank": 80,
+      "rank": 79,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -151009,7 +149131,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.wayke.se/objekt/91386249-51d6-46b7-8887-db7304548dcb"
       }
     },
@@ -152824,7 +150946,7 @@
           }
         ]
       },
-      "rank": 81,
+      "rank": 80,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -154848,14 +152970,14 @@
           }
         ]
       },
-      "rank": 82,
+      "rank": 81,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/volkswagen/xtg91k/"
       }
     },
@@ -156655,11 +154777,11 @@
           }
         ]
       },
-      "rank": 83,
+      "rank": 82,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -158440,11 +156562,11 @@
           }
         ]
       },
-      "rank": 84,
+      "rank": 83,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -160462,11 +158584,11 @@
           }
         ]
       },
-      "rank": 85,
+      "rank": 84,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -162442,14 +160564,14 @@
           }
         ]
       },
-      "rank": 86,
+      "rank": 85,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/peugeot/otj60t/"
       }
     },
@@ -164243,11 +162365,11 @@
           }
         ]
       },
-      "rank": 87,
+      "rank": 86,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -166079,7 +164201,7 @@
           }
         ]
       },
-      "rank": 88,
+      "rank": 87,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -166122,7 +164244,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/3008/MJA30L"
       }
     },
@@ -167961,7 +166083,7 @@
           }
         ]
       },
-      "rank": 89,
+      "rank": 88,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -168004,7 +166126,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/3008/WAT71U"
       }
     },
@@ -168496,7 +166618,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://opus.se/priser/",
-              "checkedAt": "2026-09-19T15:34:27.616Z",
+              "checkedAt": "2026-09-19T15:51:07.097Z",
               "note": "3 planerade besiktningar inom 36 månader. 700 kr per planerad kontrollbesiktning. Riktmärket är avrundat från Opus publicerade pris från 699 kr för personbil upp till 3 500 kg; faktiskt pris varierar med station, dag och tid."
             }
           },
@@ -170028,11 +168150,11 @@
           }
         ]
       },
-      "rank": 90,
+      "rank": 89,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -171857,7 +169979,7 @@
           }
         ]
       },
-      "rank": 91,
+      "rank": 90,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -173722,7 +171844,7 @@
           }
         ]
       },
-      "rank": 92,
+      "rank": 91,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -173760,7 +171882,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.wayke.se/objekt/1ea61c4d-853d-4cf9-94b6-097198500572"
       }
     },
@@ -175748,11 +173870,11 @@
           }
         ]
       },
-      "rank": 93,
+      "rank": 92,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -177590,14 +175712,14 @@
           }
         ]
       },
-      "rank": 94,
+      "rank": 93,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/suzuki/vitara/NAH74B"
       }
     },
@@ -179462,14 +177584,14 @@
           }
         ]
       },
-      "rank": 95,
+      "rank": 94,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/citroen/c5-aircross/RAN396"
       }
     },
@@ -181468,14 +179590,14 @@
           }
         ]
       },
-      "rank": 96,
+      "rank": 95,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/opel/ssj27a/"
       }
     },
@@ -181801,7 +179923,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://opus.se/priser/",
-              "checkedAt": "2026-09-19T15:34:27.616Z",
+              "checkedAt": "2026-09-19T15:51:07.097Z",
               "note": "2 planerade besiktningar inom 36 månader. 700 kr per planerad kontrollbesiktning. Riktmärket är avrundat från Opus publicerade pris från 699 kr för personbil upp till 3 500 kg; faktiskt pris varierar med station, dag och tid."
             }
           },
@@ -183329,7 +181451,7 @@
           }
         ]
       },
-      "rank": 97,
+      "rank": 96,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -183372,7 +181494,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.wayke.se/objekt/be0a004e-23b1-4d83-9fd1-1cbd2d1aa5bd"
       }
     },
@@ -185417,14 +183539,14 @@
           }
         ]
       },
-      "rank": 98,
+      "rank": 97,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/opel/dcj56k/"
       }
     },
@@ -187251,7 +185373,7 @@
           }
         ]
       },
-      "rank": 99,
+      "rank": 98,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -189295,11 +187417,11 @@
           }
         ]
       },
-      "rank": 100,
+      "rank": 99,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -191054,11 +189176,11 @@
           }
         ]
       },
-      "rank": 101,
+      "rank": 100,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -192813,11 +190935,11 @@
           }
         ]
       },
-      "rank": 102,
+      "rank": 101,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -194596,11 +192718,11 @@
           }
         ]
       },
-      "rank": 103,
+      "rank": 102,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -196543,11 +194665,11 @@
           }
         ]
       },
-      "rank": 104,
+      "rank": 103,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -198378,14 +196500,14 @@
           }
         ]
       },
-      "rank": 105,
+      "rank": 104,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/citroen/c5-aircross/SOD88A"
       }
     },
@@ -200379,14 +198501,14 @@
           }
         ]
       },
-      "rank": 106,
+      "rank": 105,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.riddermarkbil.se/kopa-bil/citro%C3%ABn/raz234/"
       }
     },
@@ -200627,7 +198749,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://opus.se/priser/",
-              "checkedAt": "2026-09-19T15:34:27.616Z",
+              "checkedAt": "2026-09-19T15:51:07.097Z",
               "note": "2 planerade besiktningar inom 36 månader. 700 kr per planerad kontrollbesiktning. Riktmärket är avrundat från Opus publicerade pris från 699 kr för personbil upp till 3 500 kg; faktiskt pris varierar med station, dag och tid."
             }
           },
@@ -202159,11 +200281,11 @@
           }
         ]
       },
-      "rank": 107,
+      "rank": 106,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -202448,7 +200570,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://opus.se/priser/",
-              "checkedAt": "2026-09-19T15:34:27.616Z",
+              "checkedAt": "2026-09-19T15:51:07.097Z",
               "note": "2 planerade besiktningar inom 36 månader. 700 kr per planerad kontrollbesiktning. Riktmärket är avrundat från Opus publicerade pris från 699 kr för personbil upp till 3 500 kg; faktiskt pris varierar med station, dag och tid."
             }
           },
@@ -203980,7 +202102,7 @@
           }
         ]
       },
-      "rank": 108,
+      "rank": 107,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -204023,7 +202145,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.wayke.se/objekt/9b8f0f9c-6c29-428e-8127-2d5c66527369"
       }
     },
@@ -205961,11 +204083,11 @@
           }
         ]
       },
-      "rank": 109,
+      "rank": 108,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -207972,11 +206094,11 @@
           }
         ]
       },
-      "rank": 110,
+      "rank": 109,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -210035,11 +208157,11 @@
           }
         ]
       },
-      "rank": 111,
+      "rank": 110,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -212057,11 +210179,11 @@
           }
         ]
       },
-      "rank": 112,
+      "rank": 111,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -213889,7 +212011,7 @@
           }
         ]
       },
-      "rank": 113,
+      "rank": 112,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -215916,14 +214038,14 @@
           }
         ]
       },
-      "rank": 114,
+      "rank": 113,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.niemibil.se/objekt/suzuki-vitara-hybrid-allgrip-inclusivesv-keyless-mvarm-backkamera-bt/"
       }
     },
@@ -217753,7 +215875,7 @@
           }
         ]
       },
-      "rank": 115,
+      "rank": 114,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -219537,14 +217659,14 @@
           }
         ]
       },
-      "rank": 116,
+      "rank": 115,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.bilia.se/bilar/sok-bil/cupra/leon/haw00w/"
       }
     },
@@ -221608,11 +219730,11 @@
           }
         ]
       },
-      "rank": 117,
+      "rank": 116,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -223655,11 +221777,11 @@
           }
         ]
       },
-      "rank": 118,
+      "rank": 117,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -225457,11 +223579,11 @@
           }
         ]
       },
-      "rank": 119,
+      "rank": 118,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -227242,11 +225364,11 @@
           }
         ]
       },
-      "rank": 120,
+      "rank": 119,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -229003,11 +227125,11 @@
           }
         ]
       },
-      "rank": 121,
+      "rank": 120,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -230763,11 +228885,11 @@
           }
         ]
       },
-      "rank": 122,
+      "rank": 121,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -232619,11 +230741,11 @@
           }
         ]
       },
-      "rank": 123,
+      "rank": 122,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -232918,7 +231040,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://opus.se/priser/",
-              "checkedAt": "2026-09-19T15:34:27.616Z",
+              "checkedAt": "2026-09-19T15:51:07.097Z",
               "note": "3 planerade besiktningar inom 36 månader. 700 kr per planerad kontrollbesiktning. Riktmärket är avrundat från Opus publicerade pris från 699 kr för personbil upp till 3 500 kg; faktiskt pris varierar med station, dag och tid."
             }
           },
@@ -234454,11 +232576,11 @@
           }
         ]
       },
-      "rank": 124,
+      "rank": 123,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -236237,14 +234359,14 @@
           }
         ]
       },
-      "rank": 125,
+      "rank": 124,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://hedinautomotive.se/bilar/kop-bil/241340/pc-uc-nissan-qashqai-2022"
       }
     },
@@ -238050,14 +236172,14 @@
           }
         ]
       },
-      "rank": 126,
+      "rank": 125,
       "reliability": null,
       "maintenance": {
         "service": null
       },
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://hedinautomotive.se/bilar/kop-bil/246760/pc-uc-nissan-qashqai-2022"
       }
     },
@@ -238365,7 +236487,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://opus.se/priser/",
-              "checkedAt": "2026-09-19T15:34:27.616Z",
+              "checkedAt": "2026-09-19T15:51:07.097Z",
               "note": "3 planerade besiktningar inom 36 månader. 700 kr per planerad kontrollbesiktning. Riktmärket är avrundat från Opus publicerade pris från 699 kr för personbil upp till 3 500 kg; faktiskt pris varierar med station, dag och tid."
             }
           },
@@ -239897,7 +238019,7 @@
           }
         ]
       },
-      "rank": 127,
+      "rank": 126,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -239935,7 +238057,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/5008/GSH80G"
       }
     },
@@ -241803,7 +239925,7 @@
           }
         ]
       },
-      "rank": 128,
+      "rank": 127,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -241841,7 +239963,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.kamux.se/cars/peugeot/5008/JAJ29D"
       }
     },
@@ -243597,11 +241719,11 @@
           }
         ]
       },
-      "rank": 129,
+      "rank": 128,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -245611,11 +243733,11 @@
           }
         ]
       },
-      "rank": 130,
+      "rank": 129,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -247421,7 +245543,7 @@
           }
         ]
       },
-      "rank": 131,
+      "rank": 130,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -247728,7 +245850,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://opus.se/priser/",
-              "checkedAt": "2026-09-19T15:34:27.616Z",
+              "checkedAt": "2026-09-19T15:51:07.097Z",
               "note": "3 planerade besiktningar inom 36 månader. 700 kr per planerad kontrollbesiktning. Riktmärket är avrundat från Opus publicerade pris från 699 kr för personbil upp till 3 500 kg; faktiskt pris varierar med station, dag och tid."
             }
           },
@@ -249260,11 +247382,11 @@
           }
         ]
       },
-      "rank": 132,
+      "rank": 131,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -251227,11 +249349,11 @@
           }
         ]
       },
-      "rank": 133,
+      "rank": 132,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -251561,7 +249683,7 @@
             "evidence": {
               "status": "estimated",
               "sourceUrl": "https://opus.se/priser/",
-              "checkedAt": "2026-09-19T15:34:27.616Z",
+              "checkedAt": "2026-09-19T15:51:07.097Z",
               "note": "3 planerade besiktningar inom 36 månader. 700 kr per planerad kontrollbesiktning. Riktmärket är avrundat från Opus publicerade pris från 699 kr för personbil upp till 3 500 kg; faktiskt pris varierar med station, dag och tid."
             }
           },
@@ -253093,7 +251215,7 @@
           }
         ]
       },
-      "rank": 134,
+      "rank": 133,
       "reliability": {
         "status": "partially_verified",
         "checkedAt": "2026-09-10",
@@ -253125,7 +251247,7 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.volkswagen.se/sv/verkstad-service.html"
       }
     },
@@ -255113,11 +253235,11 @@
           }
         ]
       },
-      "rank": 135,
+      "rank": 134,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -257171,11 +255293,11 @@
           }
         ]
       },
-      "rank": 136,
+      "rank": 135,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -259214,11 +257336,11 @@
           }
         ]
       },
-      "rank": 137,
+      "rank": 136,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -261062,11 +259184,11 @@
           }
         ]
       },
-      "rank": 138,
+      "rank": 137,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -263080,11 +261202,11 @@
           }
         ]
       },
-      "rank": 139,
+      "rank": 138,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -264840,11 +262962,11 @@
           }
         ]
       },
-      "rank": 140,
+      "rank": 139,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -266599,11 +264721,11 @@
           }
         ]
       },
-      "rank": 141,
+      "rank": 140,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -268602,11 +266724,11 @@
           }
         ]
       },
-      "rank": 142,
+      "rank": 141,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -270362,11 +268484,11 @@
           }
         ]
       },
-      "rank": 143,
+      "rank": 142,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -272190,11 +270312,11 @@
           }
         ]
       },
-      "rank": 144,
+      "rank": 143,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     },
     {
@@ -274193,11 +272315,11 @@
           }
         ]
       },
-      "rank": 145,
+      "rank": 144,
       "reliability": null,
       "enrichment": {
         "status": "pending-reliability",
-        "checkedAt": "2026-09-19T15:34:27.616Z"
+        "checkedAt": "2026-09-19T15:51:07.097Z"
       }
     }
   ],
@@ -275448,12 +273570,28 @@
       },
       "enrichment": {
         "status": "partially-verified",
-        "checkedAt": "2026-09-19T15:34:27.616Z",
+        "checkedAt": "2026-09-19T15:51:07.097Z",
         "findingSource": "https://www.toyota.se/bilar/corolla-touring-sports.Corolla-TS.040.22bf22a9-6cdc-4afd-bc6c-19c4a9bac93d"
       }
     }
   ],
   "excludedPurchases": [
+    {
+      "id": "wayke:704a4957-62ea-402d-949c-2ab80c5efe67",
+      "title": "Peugeot 3008",
+      "sourceUrl": "https://www.wayke.se/objekt/704a4957-62ea-402d-949c-2ab80c5efe67",
+      "missingRequirements": [],
+      "selection": {
+        "included": false,
+        "lane": "rejected",
+        "rejectReasons": [
+          "kontantpris under 50 000 kr",
+          "annonsens månadsbelopp har lagts in som kontantpris"
+        ],
+        "exceptionReasons": [],
+        "verificationReasons": []
+      }
+    },
     {
       "id": "dinbil:UOK79K",
       "title": "Volkswagen T-Roc",

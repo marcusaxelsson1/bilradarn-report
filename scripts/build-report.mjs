@@ -2,6 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createEconomicsEngine } from "./lib/economics-engine.mjs";
+import { evaluateCandidate, passesListingFilters } from "./lib/filters.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const PURCHASE_INPUT = resolve(ROOT, "src/data/live-offers.json");
@@ -166,15 +167,23 @@ const economics = createEconomicsEngine({ purchase: purchaseEconomics, lease: le
 
 export async function buildReport() {
   const [purchaseFeed, leaseFeed] = await Promise.all([readFile(PURCHASE_INPUT, "utf8").then(JSON.parse), readFile(LEASE_INPUT, "utf8").then(JSON.parse)]);
+  const purchaseOffers = purchaseFeed.offers.map((offer) => ({
+    ...offer,
+    quality: {
+      ...offer.quality,
+      passesListingFilters: passesListingFilters(offer),
+      selection: evaluateCandidate(offer),
+    },
+  }));
   const isSharpCandidate = (offer) => {
     const selection = offer.quality?.selection;
     return offer.live
       && offer.quality?.passesRequiredEquipment
       && (!selection || (selection.included && selection.verificationReasons?.length === 0));
   };
-  const purchases = purchaseFeed.offers.filter(isSharpCandidate).map(economics.purchase).sort((a, b) => a.economics.total36Sek - b.economics.total36Sek).map((x, i) => ({ ...x, rank: i + 1 }));
+  const purchases = purchaseOffers.filter(isSharpCandidate).map(economics.purchase).sort((a, b) => a.economics.total36Sek - b.economics.total36Sek).map((x, i) => ({ ...x, rank: i + 1 }));
   const leases = leaseFeed.offers.map(economics.lease).sort((a, b) => a.economics.total36Sek - b.economics.total36Sek).map((x, i) => ({ ...x, rank: i + 1 }));
-  const report = { schemaVersion: 1, generatedAt: new Date().toISOString(), mode: "live", parameters: { horizonMonths: 36, annualMileageMil: ANNUAL_MILEAGE_MIL, downPaymentPercent: 20, fuelPriceSekPerLitre: FUEL_PRICE, loanRatePercent: LOAN_RATE * 100 }, sourceRuns: { purchase: purchaseFeed.generatedAt, lease: leaseFeed.generatedAt }, purchases, leases, excludedPurchases: purchaseFeed.offers.filter((x) => !isSharpCandidate(x)).map(({ id, title, sourceUrl, missingRequirements, quality }) => ({ id, title, sourceUrl, missingRequirements, selection: quality?.selection ?? null })), changes: purchaseFeed.changes ?? [], sources: Object.values(sources) };
+  const report = { schemaVersion: 1, generatedAt: new Date().toISOString(), mode: "live", parameters: { horizonMonths: 36, annualMileageMil: ANNUAL_MILEAGE_MIL, downPaymentPercent: 20, fuelPriceSekPerLitre: FUEL_PRICE, loanRatePercent: LOAN_RATE * 100 }, sourceRuns: { purchase: purchaseFeed.generatedAt, lease: leaseFeed.generatedAt }, purchases, leases, excludedPurchases: purchaseOffers.filter((x) => !isSharpCandidate(x)).map(({ id, title, sourceUrl, missingRequirements, quality }) => ({ id, title, sourceUrl, missingRequirements, selection: quality?.selection ?? null })), changes: purchaseFeed.changes ?? [], sources: Object.values(sources) };
   await writeFile(OUTPUT, `${JSON.stringify(report, null, 2)}\n`, "utf8");
   return report;
 }

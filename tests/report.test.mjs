@@ -10,6 +10,7 @@ test("report is live-only and contains no electric drivetrains", () => {
   assert.ok(report.purchases.length > 0);
   assert.ok(report.leases.length > 0);
   for (const offer of [...report.purchases, ...report.leases]) assert.doesNotMatch(`${offer.title} ${offer.variant} ${offer.fuelType}`, /electric|elbil|plug-in|laddhybrid/i);
+  for (const offer of report.purchases) assert.ok(offer.priceSek >= 50000, `${offer.registrationNumber} har ett orimligt lågt kontantpris`);
 });
 
 test("every ranked offer reconciles breakdown and monthly horizon", () => {

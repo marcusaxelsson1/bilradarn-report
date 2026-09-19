@@ -87,6 +87,7 @@ test("equipmentChecks scans labels and marketing text", () => {
 
 test("passesListingFilters honours price, year and mileage bounds", () => {
   assert.equal(passesListingFilters({ priceSek: 200000, modelYear: 2022, mileageMil: 4000 }), true);
+  assert.equal(passesListingFilters({ priceSek: 2495, modelYear: 2023, mileageMil: 3150 }), false);
   assert.equal(passesListingFilters({ priceSek: 300000, modelYear: 2022, mileageMil: 4000 }), false);
   assert.equal(passesListingFilters({ priceSek: 200000, modelYear: 2018, mileageMil: 4000 }), false);
   assert.equal(passesListingFilters({ priceSek: 95000, modelYear: 2020, mileageMil: 9000 }), true);
@@ -100,6 +101,21 @@ test("candidate evaluation separates standard cars from soft exceptions", () => 
   const exception = evaluateCandidate({ title: "Skoda Octavia Kombi", priceSek: 110000, modelYear: 2020, mileageMil: 9000, fuelType: "Diesel", transmission: "Manuell", bodyType: "Kombi" });
   assert.equal(exception.included, true);
   assert.deepEqual(exception.exceptionReasons, ["årsmodell utanför normalspannet", "miltal över normaltaket 7 500 mil", "manuell växellåda"]);
+});
+
+test("candidate evaluation blocks monthly payments masquerading as cash prices", () => {
+  const decision = evaluateCandidate({
+    title: "Peugeot 3008",
+    variant: "2495kr/mån GT 1.2/Aut",
+    priceSek: 2495,
+    modelYear: 2023,
+    mileageMil: 3150,
+    fuelType: "Bensin",
+    transmission: "Automat",
+    bodyType: "SUV",
+  });
+  assert.equal(decision.included, false);
+  assert.ok(decision.rejectReasons.includes("annonsens månadsbelopp har lagts in som kontantpris"));
 });
 
 test("passesFamilyGate combines family match with numeric bounds", () => {
